@@ -1,0 +1,102 @@
+<html><body>
+
+
+<table width=300>
+	<tr>
+		<td fixwidth=20></td>
+		<td align=center><img src="l2ui_ch3.herotower_deco" width=256 height=32>	</td>
+		<td fixwidth=20></td>
+	</tr>
+</table>
+<br>
+<table border="0" width="320" bgcolor="000000">
+<tr>
+
+<td align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+<td  align=center> <font color=ff0019>Tournament (4x4)</font></td>
+<td  align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+</tr>
+</table>
+<br>
+
+
+<table width=320 bgcolor=000000>
+	<tr>
+		<td fixwidth=5></td>
+		<td align=center>
+			<font color=LEVEL>Players Registered: </font>%teamsRegF4X4%<br>
+		</td>
+		<td fixwidth=5></td>
+	</tr>
+	<tr>
+		<td fixwidth=5>
+		</td>
+		<td align=center>
+			<font color=LEVEL>Active Fights: </font>%activeFightsF4X4%<br>
+		</td>
+	</tr>
+	<tr>
+		<td fixwidth=5>
+		</td>
+		<td align=center>
+			<font color=LEVEL>Total Fights: </font>%allTimeFights%<br>
+		</td>
+	</tr>
+</table>
+
+<br>
+<table width=300 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="Register" action="bypass -h bp_registerTournament4x4" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+
+<table width=300 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="Leave" action="bypass -h bp_removeTournamentParticipation" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+<table width=300 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="DeleteTeam" action="bypass -h bp_deleteTournamentTeam" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+
+<table width=300>
+	<tr>
+		<td align=center >Type the name of your partner or use command: <br1><font color=994992>".tournamentinvite playername"</font></td>
+		
+	</tr>
+</table>
+
+<table width=280>
+		<tr>
+			<td align=center>Player Name:</td>
+			<td align=left><edit var="playerName" width=120 height=10></td>
+			<td align=center><button value="Invite" action="bypass -h bp_inviteTournamentMember $playerName" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+		</tr>
+	</table>
+
+<br>
+
+
+<table width=330 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center>* Your Team *</td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+<center>
+%memberslist%
+</center>
+</body></html>

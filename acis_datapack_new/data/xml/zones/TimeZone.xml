@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+
+    <zone shape="Cylinder" minZ="-4000" maxZ="-1000" rad="10000"><!-- Playground Time Restrictions -->
+        <stat name="time" val="16:00,20:00;00:00"/>//no , i can do it  , i prefer manually
+        <spawn type="NORMAL" x="-116059" y="-251145" z="-2992"/>
+        <spawn type="NORMAL" x="-116126" y="-251135" z="-2992"/>
+        <spawn type="NORMAL" x="-116050" y="-251210" z="-2992"/>
+        <spawn type="NORMAL" x="-116049" y="-251082" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116059" y="-251145" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116126" y="-251135" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116050" y="-251210" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116049" y="-251082" z="-2992"/>
+    </zone>
+<!--    <zone shape="NPoly" minZ="-3596" maxZ="-3396">&lt;!&ndash; Time Zone &ndash;&gt;
+        <stat name="time" val="01:00,03:00,05:00"/>
+        <node x="-49572" y="-251426"/>
+        <node x="-115745" y="-251426"/>
+        <node x="-115745" y="-250840"/>
+        <node x="-116296" y="-250840"/>
+        <spawn type="NORMAL" x="-116059" y="-251145" z="-2992"/>
+        <spawn type="NORMAL" x="-116126" y="-251135" z="-2992"/>
+        <spawn type="NORMAL" x="-116050" y="-251210" z="-2992"/>
+        <spawn type="NORMAL" x="-116049" y="-251082" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116059" y="-251145" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116126" y="-251135" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116050" y="-251210" z="-2992"/>
+        <spawn type="CHAOTIC" x="-116049" y="-251082" z="-2992"/>
+    </zone>-->
+</list>

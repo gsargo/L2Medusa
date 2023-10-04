@@ -1,0 +1,33 @@
+package c1c0s.VoteManagerAPI;
+
+public enum VoteSites
+{
+	
+	L2TOPCO("L2TOPCO"),
+	L2NETWORK("L2NETWORK"),
+	L2JBRASIL("L2JBRASIL"),
+	L2TOPZONE("L2TOPZONE"),
+	L2HOPZONE("L2HOPZONE"),
+	L2TOPSERVERS("L2TOPSERVERS"),
+	L2TOPGAMESERVER("L2TOPGAMESERVER"),
+	L2VOTESCOM("L2VOTESCOM"),
+	L2SERVERSCOM("L2SERVERSCOM"),
+	L2ITOPZ("L2ITOPZ"),
+	L2JTOPCOM("L2JTOPCOM"),
+	GAMETOPSEU("GAMETOPSEU"),
+	TOP100ARENA("TOP100ARENA"),
+	L2NET("L2NET"),
+	L2TOPEU("L2TOPEU");
+	
+	private final String _name;
+	
+	VoteSites(String name)
+	{
+		_name = name;
+	}
+	
+	public String getName()
+	{
+		return _name;
+	}
+}

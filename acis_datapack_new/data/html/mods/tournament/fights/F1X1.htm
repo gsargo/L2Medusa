@@ -1,0 +1,82 @@
+<html><body>
+
+
+<table width=300>
+	<tr>
+		<td fixwidth=20></td>
+		<td align=center><img src="l2ui_ch3.herotower_deco" width=256 height=32>	</td>
+		<td fixwidth=20></td>
+	</tr>
+</table>
+<br>
+<table border="0" width="320" bgcolor="000000">
+<tr>
+
+<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+<td width=99 align=center> <font color=ff0019>Tournament (1x1)</font></td>
+<td width=50 align=center> <img src="L2UI.bbs_boardmaster" width=16 height=16></td>
+</tr>
+</table>
+<br>
+
+
+<table width=315  bgcolor=000000>
+	<tr>
+		<td fixwidth=5>
+		</td>
+		<td align=center>
+			<font color=LEVEL>Players Registered: </font>%teamsRegF1X1%<br>
+		</td>
+	</tr>
+	<tr>
+		<td fixwidth=5>
+		</td>
+		<td align=center>
+			<font color=LEVEL>Active Fights: </font>%activeFightsF1X1%<br>
+		</td>
+	</tr>
+	<tr>
+		<td fixwidth=5>
+		</td>
+		<td align=center>
+			<font color=LEVEL>Total Fights: </font>%allTimeFights%<br>
+		</td>
+	</tr>
+</table>
+
+<br>
+<table width=315 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="Register" action="bypass -h bp_registerTournament1x1" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+<table width=315 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="Leave" action="bypass -h bp_removeTournamentParticipation" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+<table width=315 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center><button value="DeleteTeam" action="bypass -h bp_deleteTournamentTeam" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+
+<table width=330 bgcolor=000000>
+	<tr>
+		<td fixwidth=50></td>
+		<td align=center>* Your Team *</td>
+		<td fixwidth=50></td>
+	</tr>
+</table>
+<center>
+%memberslist%
+</center>
+</body></html>
