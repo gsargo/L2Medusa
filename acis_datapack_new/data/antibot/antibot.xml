@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>	
+	<!-- ZoneId = the zone to set the captcha -->
+	<!-- monsterKillCount = how many monsters to kill for captcha to appear  -->
+	<!-- captchaTimer = the duration of captcha in seconds -->
+	<!-- punishment = punishment to give to player <> 1 = jail <> 2 = ban acc <> 3 = kick -->
+	<!-- punishDuration = duration of jail in minutes  -->
+	<abot zoneId = "FARM" monsterKillCount = "500" captchaTimer = "60" punishment = "1" punishDuration = "15"/>
+</list>
