@@ -44,17 +44,40 @@ public final class RequestMagicSkillUse extends L2GameClientPacket
 			return;
 		}
 		
-			/*if (player.getSiegeState()>0)
+		
+	     //Restrict Summon Friend on RB Zones
+				if (player.isInsideMyRBZone() )
+		           {
+		               if (skill.getId() == 1255 || skill.getId() == 1403 || skill.getId() == 1429)
+		               {
+		                   player.sendMessage("Summoning a party member is forbidden!");
+		                   player.sendPacket(ActionFailed.STATIC_PACKET);
+		                   return;
+		                }
+		           }
+		
+        //Restrict Party Recall on Party dungeon and tournament
+			if (player.isInsidePartyDungeonZone() || player.isInTournamentMatch())
 	           {
-	               //Restrict Res on Siege
-	               if (skill.getId() == 1016 || skill.getId() == 1254)
+	               if (skill.getId() == 1255 )
 	               {
-	                   player.sendMessage("Resurrection is forbidden during siege!");
+	                   player.sendMessage("Party Recall is forbidden!");
 	                   player.sendPacket(ActionFailed.STATIC_PACKET);
 	                   return;
 	                }
 	           }
-		*/
+			
+			//Restrict Res on Party dungeon and tournament
+			if (player.isInsidePartyDungeonZone() || player.isInTournamentMatch())
+	           {
+	               if (skill.getId() == 1016 || skill.getId() == 1254)
+	               {
+	                   player.sendMessage("Resurrection is forbidden!");
+	                   player.sendPacket(ActionFailed.STATIC_PACKET);
+	                   return;
+	                }
+	           }
+		
 		// Check if the skill is active
 		if (skill.isPassive())
 		{

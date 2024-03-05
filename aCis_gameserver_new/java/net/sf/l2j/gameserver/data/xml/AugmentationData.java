@@ -171,7 +171,7 @@ public class AugmentationData implements IXmlReader
 		});
 	}
 	
-	public Augmentation generateRandomAugmentation(int lifeStoneLevel, int lifeStoneGrade)
+	public Augmentation generateRandomAugmentation(Player player, int lifeStoneLevel, int lifeStoneGrade)
 	{
 		// Note that stat12 stands for stat 1 AND 2 (same for stat34 ;p )
 		// this is because a value can contain up to 2 stat modifications
@@ -192,79 +192,80 @@ public class AugmentationData implements IXmlReader
 		switch (lifeStoneGrade)
 		{
 			case AbstractRefinePacket.GRADE_NONE:
-				for (Player player : World.getInstance().getPlayers())
-					if (player.isVIP())
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_SKILL_CHANCE_FORVIP)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_GLOW_CHANCE_FORVIP)
-							generateGlow = true;
-					}
-					else
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_SKILL_CHANCE)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_GLOW_CHANCE)
-							generateGlow = true;
-					}
+				if (player.isVIP())
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_SKILL_CHANCE_FORVIP)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_GLOW_CHANCE_FORVIP)
+						generateGlow = true;
+				}
+				else
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_SKILL_CHANCE)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_NG_GLOW_CHANCE)
+						generateGlow = true;
+				}
 				break;
 			case AbstractRefinePacket.GRADE_MID:
-				for (Player player : World.getInstance().getPlayers())
-					if (player.isVIP())
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_SKILL_CHANCE_FORVIP)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_GLOW_CHANCE_FORVIP)
-							generateGlow = true;
-					}
-					else
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_SKILL_CHANCE)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_GLOW_CHANCE)
-							generateGlow = true;
-					}
+
+				if (player.isVIP())
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_SKILL_CHANCE_FORVIP)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_GLOW_CHANCE_FORVIP)
+						generateGlow = true;
+				}
+				else
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_SKILL_CHANCE)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_MID_GLOW_CHANCE)
+						generateGlow = true;
+				}
 				break;
 			case AbstractRefinePacket.GRADE_HIGH:
-				for (Player player : World.getInstance().getPlayers())
-					if (player.isVIP())
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_SKILL_CHANCE_FORVIP)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_GLOW_CHANCE_FORVIP)
-							generateGlow = true;
-					}
-					else
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_SKILL_CHANCE)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_GLOW_CHANCE)
-							generateGlow = true;
-					}
+
+				if (player.isVIP())
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_SKILL_CHANCE_FORVIP)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_GLOW_CHANCE_FORVIP)
+						generateGlow = true;
+				}
+				else
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_SKILL_CHANCE)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_HIGH_GLOW_CHANCE)
+						generateGlow = true;
+				}
 				break;
 			case AbstractRefinePacket.GRADE_TOP:
-				for (Player player : World.getInstance().getPlayers())
-					if (player.isVIP())
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_SKILL_CHANCE_FORVIP)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_GLOW_CHANCE_FORVIP)
-							generateGlow = true;
-					}
-					else
-					{
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_SKILL_CHANCE)
-							generateSkill = true;
-						if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_GLOW_CHANCE)
-							generateGlow = true;
-					}
+				//it try get chance as many times as you have players on server
+				// if you have 500 players, it try 500 times to get skill if it gets, then you get skill;
+				// oh my god.... do u think we can make it work properly?
+				if (player.isVIP())
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_SKILL_CHANCE_FORVIP)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_GLOW_CHANCE_FORVIP)
+						generateGlow = true;
+				}
+				else
+				{
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_SKILL_CHANCE)
+						generateSkill = true;
+					if (Rnd.get(1, 100) <= Config.AUGMENTATION_TOP_GLOW_CHANCE)
+						generateGlow = true;
+				}
 				break;
 		}
 		
 		if (!generateSkill && Rnd.get(1, 100) <= Config.AUGMENTATION_BASESTAT_CHANCE)
 			stat34 = Rnd.get(BASESTAT_STR, BASESTAT_MEN);
 			
-		// Second: decide which grade the augmentation result is going to have:
+		// Second: decide which grade the augmentation result is going to have: live is the gameserver-last , gameserver_new is the test
 		// 0:yellow, 1:blue, 2:purple, 3:red
 		// The chances used here are most likely custom,
 		// whats known is: you cant have yellow with skill(or baseStatModifier)

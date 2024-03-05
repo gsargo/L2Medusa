@@ -106,7 +106,10 @@ public class PlayerCast extends PlayableCast<Player>
 		if (reuseDelay > 10)
 			_actor.disableSkill(skill, reuseDelay);
 		
-		_actor.broadcastPacket(new MagicSkillUse(_actor, _actor, skill.getId(), skill.getLevel(), 0, 0));
+		if (skill.getId() != 9954) 
+		{
+			_actor.broadcastPacket(new MagicSkillUse(_actor, _actor, skill.getId(), skill.getLevel(), 0, 0));
+		}
 		
 		_actor.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.USE_S1).addSkillName(skill));
 		

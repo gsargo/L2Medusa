@@ -21,6 +21,8 @@ import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
 import net.sf.l2j.gameserver.enums.skills.PlayerState;
 import net.sf.l2j.gameserver.enums.skills.SkillType;
 import net.sf.l2j.gameserver.enums.skills.Stats;
+import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.actor.status.PlayerStatus;
 import net.sf.l2j.gameserver.model.item.kind.Item;
 import net.sf.l2j.gameserver.skills.ChanceCondition;
 import net.sf.l2j.gameserver.skills.L2Skill;
@@ -40,6 +42,7 @@ import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerHasClanHall;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerHp;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerInvSize;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerIsHero;
+import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerIsInClan;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerLevel;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerMp;
 import net.sf.l2j.gameserver.skills.conditions.ConditionPlayerPkCount;
@@ -545,6 +548,12 @@ abstract class DocumentBase
 			{
 				ElementSeeds[4] = Integer.decode(getValue(a.getNodeValue(), null));
 			}
+			else if ("isinclan".equalsIgnoreCase(a.getNodeName()))
+			{
+				boolean val = Boolean.valueOf(a.getNodeValue());
+				cond = joinAnd(cond, new ConditionPlayerIsInClan(val));
+			}
+
 		}
 		
 		// Elemental seed condition processing

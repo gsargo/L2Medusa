@@ -26,6 +26,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.commons.math.MathUtil;
@@ -138,6 +139,7 @@ import net.sf.l2j.gameserver.model.entity.Duel.DuelState;
 import net.sf.l2j.gameserver.model.entity.Tournament.TournamentManager;
 import net.sf.l2j.gameserver.model.entity.Tournament.enums.TournamentFightType;
 import net.sf.l2j.gameserver.model.entity.Tournament.model.TournamentTeam;
+import net.sf.l2j.gameserver.model.entity.instance.Instance;
 import net.sf.l2j.gameserver.model.group.CommandChannel;
 import net.sf.l2j.gameserver.model.group.Party;
 import net.sf.l2j.gameserver.model.group.PartyMatchRoom;
@@ -412,6 +414,10 @@ public final class Player extends Playable
 	
 	private Folk _currentFolk;
 	
+	//Auto Pots
+	private Map<Integer, Future<?>> _autoPotTasks = new HashMap<>();
+	
+	
 	private final PlayerMemo _memos = new PlayerMemo(getObjectId());
 	private final PlayerMemo1 _memos1 = new PlayerMemo1(getObjectId());
 	
@@ -527,6 +533,10 @@ public final class Player extends Playable
 	
 	private Set<CancelSkillHolder> _restore = ConcurrentHashMap.newKeySet(); // mycode
 	
+	private final int[] _isdarkpanther = {14799,14800,14801,14802,14803,14804,14805,14806,14807,14808,14809,14810,14811,14812,14813,14814,14815,14816,
+		14817,14818,14819,14820,14821,14822,14823,14824,14825,14826,14827,14828,14829,14830,14831,14832,14833,14834,14835};
+	
+	boolean _contains;
 	/**
 	 * Constructor of Player (use Creature constructor).
 	 * <ul>
@@ -613,6 +623,25 @@ public final class Player extends Playable
 	   }
 	*/
 	
+	public boolean isAutoPot(int id)
+	{
+		return _autoPotTasks.keySet().contains(id);
+	}
+
+	 
+
+	public void setAutoPot(int id,Future<?> task, boolean add)
+	{
+		if (add)
+			_autoPotTasks.put(id, task);
+		else
+	  	{
+			_autoPotTasks.get(id).cancel(true);
+			_autoPotTasks.remove(id);
+	  	}
+	}
+
+
 	public Set<CancelSkillHolder> getBuffToRestore()
 	{
 		return _restore;
@@ -1360,11 +1389,14 @@ public final class Player extends Playable
 		if (item.getItem() instanceof Weapon)
 			item.unChargeAllShots();
 		
-		if (isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(this) && (item.getEnchantLevel() > 6 || (item.getItem().getCrystalType() == CrystalType.S))) // Custom Code Oly +6 restriction
+		if (getOlympiadGameId() != -1 ||  isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(this) ) // Custom Code Oly Restriction +6 A grade . 
 			//|| getActingPlayer().isOlympiadStart()
 		{
-			sendMessage("You are not allowed to use an item of this grade or enchant level on the Olympiad!");
-			return;
+			if(item.getEnchantLevel() > 6 || (item.getItem().getCrystalType() == CrystalType.S))
+			{
+				sendMessage("You are not allowed to use an item of this grade or enchant level on the Olympiad!");
+				return;
+			}
 		}
 		
 		if (isEquipped)
@@ -2314,10 +2346,29 @@ public final class Player extends Playable
 		
 		if (count > item.getCount())
 			return null;
-		
+
 		// Pet is summoned and not the item that summoned the pet AND not the buggle from strider you're mounting
 		if (_summon != null && _summon.getControlItemId() == objectId || _mountObjectId == objectId)
 			return null;
+		
+		var agathion = World.getInstance().getAgat(this.getObjectId());
+
+		// Agathion whom item you try to manipulate is summoned/mounted.
+		if (agathion != null && agathion.getControlItemId() == objectId)
+			return null;
+		
+		//Check Dressme
+		if (item.getItem().getTemplate() && getCostumeitemObjId() == objectId)
+		{
+			return null;
+		}
+		//new is the live server , last is the one that will be live , we make changes on last? on _new
+		//Check Dressme Hair
+		if (item.getItem().isTemplateHair() && getCostumeHeaditemObjId() == objectId)
+		{
+			return null;
+		}
+		
 		
 		if (getActiveEnchantItem() != null && getActiveEnchantItem().getObjectId() == objectId)
 			return null;
@@ -2976,18 +3027,18 @@ public final class Player extends Playable
 			// Killing Spree System
 			if (PLAYER_KILLS >= 4)
 			{
-				World.announceToOnlinePlayers(killer.getName() + " has shut down " + getName(), true);
+				World.announceToOnlinePlayers(killer.getName() + " has shut down " + getName());
 				//stopSkillEffects(9911);
 			}
 			PLAYER_KILLS = 0; // initialize killing spree back to 0 after a player dies.
 			
-			if(killer.isInsidePvPZone()) // Killer panel if player is inside pvp or clan war zone
+			if(killer.isInsidePvPZone() || isInsidePvPZone()) // Killer panel if player or killer is inside pvp or clan war zone
 				killerpanel(killer);
 			
-			if(isInsideClanwarZone() && killer.getActingPlayer().getClan()!= null && ( killer.getActingPlayer().getClan() != getClan())) // if player is killed by a player of another clan
+			if(isInsideClanwarZone() && getClan()!=null && killer.getActingPlayer().getClan()!= null && ( killer.getActingPlayer().getClan() != getClan())) // if player is killed by a player of another clan
 			{
-				getClan().takeReputationScore(3);
-				sendMessage("You have been killed by a rival. 3 reputation points have been deducted by your clan!");
+				//getClan().takeReputationScore(3);
+				sendMessage("You have been killed by a rival.");
 			}
 				
 			
@@ -3009,6 +3060,11 @@ public final class Player extends Playable
 		calculateDeathPenaltyBuffLevel(killer);
 		
 		WaterTaskManager.getInstance().remove(this);
+		
+		if (getDungeon() != null) 
+		{
+			getDungeon().onPlayerDeath(this);
+		}
 		
 		if (isPhoenixBlessed())
 			reviveRequest(this, null, false);
@@ -3138,6 +3194,20 @@ public final class Player extends Playable
 		if (targetPlayer == null || targetPlayer == this)
 			return;
 			
+		Pet agathion = World.getInstance().getAgat(getObjectId()); 
+		
+
+		if(agathion!=null) //Restore 550 CP on PvP kill if killer has agathion. 
+			{	
+			
+			//1305 Honor of Paagrio Effect? ?
+			MagicSkillUse mgc = new MagicSkillUse(agathion,this, 1305, 1, 0, 0);// (Creature cha, int skillId, int skillLevel, int hitTime, int reuseDelay)
+			//MagicSkillUse mgc2 = new MagicSkillUse(this, 9976, 1, 5, 0);// (Creature cha, int skillId, int skillLevel, int hitTime, int reuseDelay)
+			sendPacket(mgc);
+			getStatus().setCp(getStatus().getCp() + 550);
+			}
+		
+		
 		// Killing Spree System
 		// isInsideZone(ZoneId.PVP)
 		if (isInsidePvPZone())
@@ -5688,6 +5758,22 @@ public final class Player extends Playable
 			return true;
 		}
 		
+		if (isAutoPot(728))
+		{
+			sendPacket(new ExAutoSoulShot(728, 0));
+			setAutoPot(728, null, false);
+		}
+		if (isAutoPot(1539))
+		{
+			sendPacket(new ExAutoSoulShot(1539, 0));
+			setAutoPot(1539, null, false);
+		}
+		if (isAutoPot(5592))
+		{
+			sendPacket(new ExAutoSoulShot(5592, 0));
+			setAutoPot(5592, null, false);
+		}
+		
 		return false;
 	}
 	
@@ -5774,9 +5860,28 @@ public final class Player extends Playable
 		super.teleportTo(x, y, z, randomOffset);
 	}
 	
+	public final boolean isDarkPanther(int _npcid) 
+	{
+		_contains = IntStream.of(_isdarkpanther).anyMatch(x -> x == _npcid);
+		if(_contains)		
+			return true;
+		
+		return false;
+	}
+	
+	
 	/**
 	 * Unsummon all types of summons : pets, cubics, normal summons and trained beasts.
 	 */
+	
+	public void dropAllAgathions()
+	{
+
+		Pet agathion = World.getInstance().getAgat(getObjectId());
+		if (agathion != null)
+			agathion.unSummon(this);
+	}
+	
 	public void dropAllSummons()
 	{
 		// Delete summons and pets
@@ -5786,6 +5891,20 @@ public final class Player extends Playable
 		Pet agathion = World.getInstance().getAgat(getObjectId());
 		if (agathion != null)
 			agathion.unSummon(this);
+		
+		// Delete trained beasts
+		if (_tamedBeast != null)
+			_tamedBeast.deleteMe();
+		
+		// Delete any form of cubics
+		_cubicList.stopCubics(true);
+	}
+	
+	public void dropAllSummonsExceptAgathions()
+	{
+		// Delete summons and pets
+		if (_summon != null)
+			_summon.unSummon(this);
 		
 		// Delete trained beasts
 		if (_tamedBeast != null)
@@ -6543,6 +6662,7 @@ public final class Player extends Playable
 		sendSiegeInfo();
 		 	
 		
+		/* HANDLED BY EnterWorld.java
 		/// Buff for clan members, owning a castle (castle buff)
 		if (getClan() != null && getClan().hasCastle())
 		{
@@ -6562,7 +6682,7 @@ public final class Player extends Playable
 		{
 			stopSkillEffects(7095);
 		}
-		
+		*/
 		revalidateZone(true);
 		notifyFriends(true);
 		
@@ -6713,17 +6833,24 @@ public final class Player extends Playable
 			setSpawnProtection(true);
 		
 		// Modify the position of the tamed beast if necessary
-		if (_tamedBeast != null)
+		if (_tamedBeast != null) 
+		{
+			_tamedBeast.setInstanceId(getInstanceId());
 			_tamedBeast.teleportTo(getPosition(), 0);
+		}
 		
 		// Modify the position of the pet if necessary
-		if (_summon != null)
+		if (_summon != null) 
+		{
+			_summon.setInstanceId(getInstanceId());
 			_summon.teleportTo(getPosition(), 0);
+		}
 		
 		// Teleport Agathion to the player's position
 		Pet agathion = World.getInstance().getAgat(getObjectId());
 		if (agathion != null)
 		{
+			agathion.setInstanceId(getInstanceId());
 			agathion.teleportTo(getPosition(), 0);
 		}
 		
@@ -6812,6 +6939,26 @@ public final class Player extends Playable
 		// Pet whom item you try to manipulate is summoned/mounted.
 		if (_summon != null && _summon.getControlItemId() == objectId || _mountObjectId == objectId)
 			return null;
+		
+		var agathion = World.getInstance().getAgat(this.getObjectId());
+
+		// Agathion whom item you try to manipulate is summoned/mounted.
+		if (agathion != null && agathion.getControlItemId() == objectId)
+			return null;
+		
+		
+		//Check Dressme
+		if (item.getItem().getTemplate() && getCostumeitemObjId() == objectId) 
+		{
+			return null;
+		}
+		
+		//Check Dressme Hair
+		if (item.getItem().isTemplateHair() && getCostumeHeaditemObjId() == objectId)
+		{
+			return null;
+		}
+		
 		
 		// Item is under enchant process.
 		if (getActiveEnchantItem() != null && getActiveEnchantItem().getObjectId() == objectId)
@@ -8007,6 +8154,25 @@ public final class Player extends Playable
 			summon.setInstanceId(instanceId);
 	}
 	
+	@Override
+	public void setInstance(Instance instance, boolean silent)
+	{
+		super.setInstance(instance, silent);
+		
+		final Summon summon = getSummon();
+		if (summon != null)
+			summon.setInstance(instance, silent);
+		
+		Pet agathion = World.getInstance().getAgat(getObjectId());
+		if (agathion != null)
+			agathion.setInstance(instance, silent);
+		
+		// Delete trained beasts
+		if (_tamedBeast != null)
+			_tamedBeast.setInstance(instance, silent);
+	}
+	
+	
 	public final int getInstanceJoins(InstanceType instanceType)
 	{
 		return getMemos().getInteger("instance_joins_" + instanceType.toString(), 0);
@@ -8450,6 +8616,18 @@ public final class Player extends Playable
 	private int _legsTepmlate = 0;
 	private int _glovesTepmlate = 0;
 	private int _feetTepmlate = 0;
+	private int _costumeItemObjId = 0;
+	private int _costumeHeadItemObjId = 0;
+	
+	public int getCostumeitemObjId()
+	{
+		return _costumeItemObjId;
+	}
+	
+	public int getCostumeHeaditemObjId()
+	{
+		return _costumeHeadItemObjId;
+	}
 	
 	public int getTempHair()
 	{
@@ -8510,6 +8688,17 @@ public final class Player extends Playable
 	{
 		_feetTepmlate = itemId;
 	}
+	
+	public void setCostumeitemObjId(int itemObjId)
+	{
+		_costumeItemObjId = itemObjId;
+	}
+	
+	public void setCostumeHeaditemObjId(int HeaditemObjId)
+	{
+		_costumeHeadItemObjId = HeaditemObjId;
+	}
+	
 	
 	boolean autoLoot = false;
 	
@@ -9302,7 +9491,7 @@ public final class Player extends Playable
 			if(castle.getCastleId() == 5 || castle.getCastleId() == 3 || castle.getCastleId() == 1)
 			{
 				//sendPacket(new CreatureSay(0, SayType.ALLIANCE, "[Siege System]" ,castle.getName() +" Castle siege on: "+DateFormat.getDateTimeInstance().format(castle.getSiegeDate().getTime())));
-	    		sendPacket(new CreatureSay(0, SayType.ALLIANCE, "["+ castle.getName() +"]" ," Castle siege on: "+formatTime(castle.getSiegeDate().getTime(),timeZone)+" GMT +2"));
+	    		sendPacket(new CreatureSay(0, SayType.ALLIANCE, "["+ castle.getName() +"]" ," Castle siege on: "+formatTime(castle.getSiegeDate().getTime(),timeZone)+ " GMT+3"));
 	    		   //sendMessage(String.format("%s Castle siege on: %s", castle.getName(), castle.getSiegeDate().getTime())); 	 
 			}       
 	}

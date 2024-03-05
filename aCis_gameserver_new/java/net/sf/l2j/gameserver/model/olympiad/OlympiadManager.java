@@ -12,6 +12,7 @@ import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.enums.OlympiadType;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.entity.Tournament.TournamentManager;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
@@ -37,7 +38,8 @@ public class OlympiadManager
 	
 	protected final boolean hasEnoughNonClassBasedParticipants()
 	{
-		return _nonClassBasedParticipants.size() >= Config.OLY_NONCLASSED;
+		//return _nonClassBasedParticipants.size() >= Config.OLY_NONCLASSED; //DEFAULT
+		return _nonClassBasedParticipants.size() >= 1;
 	}
 	
 	protected final List<List<Integer>> hasEnoughClassBasedParticipants()
@@ -120,11 +122,32 @@ public class OlympiadManager
 	
 	public final boolean registerNoble(Npc npc, Player player, OlympiadType type)
 	{
-		if (player.getPvpKills() < 50) // At least 50 PvP to register in oly.
+		/*if (player.getPvpKills() < 50) // At least 50 PvP to register in oly.
 		{
 			player.sendMessage("You need at least 50 PvP to register in Olympiad Games.");
 			return false;
 		}
+		*/
+		if(player.getDungeon()!=null)
+		{
+			player.sendMessage("You can not register in Olympiad Games while participating in a dungeon.");
+			return false;
+		}
+		
+		if(player.getTournamentTeam()!=null) //player in tournament team
+		{
+			player.sendMessage("You can not register in Olympiad Games while participating in Battle Arena.");
+			return false;
+		}
+		
+		if(player.isInTournamentMode()) //team registered for tournament
+		{
+			player.sendMessage("You can not register in Olympiad Games while participating in Battle Arena.");
+			return false;
+		}
+		
+		if(player.isInTournamentMatch())
+			return false;
 		
 		if (!Olympiad.getInstance().isInCompPeriod())
 		{
@@ -241,11 +264,11 @@ public class OlympiadManager
 			return false;
 		}
 		
-		if (player.getStatus().isOverburden())
+		/*if (player.getStatus().isOverburden())
 		{
 			player.sendPacket(SystemMessageId.SINCE_80_PERCENT_OR_MORE_OF_YOUR_INVENTORY_SLOTS_ARE_FULL_YOU_CANNOT_PARTICIPATE_IN_THE_OLYMPIAD);
 			return false;
-		}
+		}*/
 		
 		if (isRegistered(player, true))
 			return false;

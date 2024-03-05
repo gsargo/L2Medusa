@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.skills;
 
+import java.util.stream.IntStream;
+
 import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.commons.logging.CLogger;
 import net.sf.l2j.commons.math.MathUtil;
@@ -84,6 +86,8 @@ public final class Formulas
 	
 	protected static final double[] SQRT_MEN_BONUS = new double[MAX_STAT_VALUE];
 	protected static final double[] SQRT_CON_BONUS = new double[MAX_STAT_VALUE];
+	
+
 	
 	static
 	{
@@ -215,41 +219,88 @@ public final class Formulas
 			return;
 		
 		// If the target is invulnerable, related to RaidBoss or a Door/SiegeFlag, return.
-		if (target.isInvul() || target.isRaidRelated() || target instanceof Door || target instanceof SiegeFlag)
+		if (target.isInvul() || target.isRaidRelated() || target instanceof Door || target instanceof SiegeFlag ||target.isInsidePartyDungeonZone())
 			return;
 		
-		// If one of following IDs is found, return (Tyrannosaurus x 3, Headquarters).
-		if (target instanceof Npc)
-		{
-			switch (((Npc) target).getNpcId())
-			{
-				case 22215:
-				case 22216:
-				case 22217:
-				case 35062:
-					return;
-			}
-		}
+
 		
-		// Second lethal effect (hp to 1 for npc, cp/hp to 1 for player).
-		if (skill.getLethalChance2() > 0 && calcLethalRate(attacker, target, skill.getLethalChance2(), skill.getMagicLevel()))
-		{
-			if (target instanceof Npc)
-				target.reduceCurrentHp(target.getStatus().getHp() - 1, attacker, skill);
-			else if (target instanceof Player)
-			{
-				final Player targetPlayer = (Player) target;
-				targetPlayer.getStatus().setHp(1, false);
-				targetPlayer.getStatus().setCp(1);
-				targetPlayer.sendPacket(SystemMessageId.LETHAL_STRIKE);
-			}
-			attacker.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.LETHAL_STRIKE_SUCCESSFUL));
-		}
-		// First lethal effect (hp/2 for npc, cp to 1 for player).
+		// If one of following IDs is found, return (Tyrannosaurus x 3, Headquarters).
+				if (target instanceof Npc)
+				{
+					switch (((Npc) target).getNpcId())
+					{
+						case 10031://Bovine Brute
+						case 60006://Empusa
+						case 35664://Erymanthian Boar
+						case 22216:
+						case 22217:
+						case 35062:
+						case 60053: //gigantosaurus
+						case 62371: //Pteranodon
+							return;
+					}
+				}
+				
+				// Third lethal effect (custom for mobs only).
+				if (skill.getLethalChance3() > 0 && calcLethalRate(attacker, target, skill.getLethalChance3(), 90) &&  target instanceof Npc )
+				//if (skill.getLethalChance2() > 0 )
+				{
+						if(((Npc)target).getNpcId() == 10035 || ((Npc)target).getNpcId() == 10009 ) 
+						{
+							int numb = Rnd.get(15,18);
+							//target.getStatus().setHp(target.getStatus().getHp() - numb); //25K damage on  Primordial Mammal or Echmus 
+							target.reduceCurrentHp(target.getStatus().getHp() / numb , attacker, skill);
+							
+							attacker.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.LETHAL_STRIKE_SUCCESSFUL));
+							System.out.println("Damage = " +numb);
+						}
+						else if(((Npc)target).getNpcId() == 22215  || ((Npc)target).getNpcId() == 62347 || ((Npc)target).getNpcId() == 62378) 
+						{
+							target.getStatus().setHp(target.getStatus().getHp() - 7000); //7K damage on Camptosaurus or Phobetor
+							attacker.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.LETHAL_STRIKE_SUCCESSFUL));
+				
+						}
+				}
+				
+				// Excluse Echmus, Primordial, Chimera and Phobetor from lethal type 1 and 2
+				if (target instanceof Npc)
+				{
+					switch (((Npc) target).getNpcId())
+					{
+						case 10009://Echmus
+						case 10035://Primordial
+						case 62378://Chimera
+						case 62347://Phobetor
+							return;
+					}
+				}
+
+				// Second lethal effect (hp /3.2 for npc, cp/hp to 1 for player).
+				if (skill.getLethalChance2() > 0 && calcLethalRate(attacker, target, skill.getLethalChance2(), skill.getMagicLevel()))
+				//if (skill.getLethalChance2() > 0 )
+				{
+					if (target instanceof Npc)
+						target.reduceCurrentHp(target.getStatus().getHp() / 3.2 , attacker, skill);
+						
+					else if (target instanceof Player)
+					{
+						final Player targetPlayer = (Player) target;					
+						
+						targetPlayer.getStatus().setHp(1, false);
+						targetPlayer.getStatus().setCp(1);
+						targetPlayer.sendPacket(SystemMessageId.LETHAL_STRIKE);
+					}
+					attacker.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.LETHAL_STRIKE_SUCCESSFUL));
+				}
+				
+
+				
+				
+		// First lethal effect (hp/4 for npc, cp to 1 for player).
 		else if (skill.getLethalChance1() > 0 && calcLethalRate(attacker, target, skill.getLethalChance1(), skill.getMagicLevel()))
 		{
 			if (target instanceof Npc)
-				target.reduceCurrentHp(target.getStatus().getHp() / 2, attacker, skill);
+				target.reduceCurrentHp(target.getStatus().getHp() / 4, attacker, skill);
 			else if (target instanceof Player)
 			{
 				final Player targetPlayer = (Player) target;
@@ -884,10 +935,14 @@ public final class Formulas
 				break;
 			
 			case MUTE:
-				multiplier = target.getStatus().calcStat(Stats.SLEEP_VULN, multiplier, target, null);
+				multiplier = 0.1;
+				//multiplier = target.getStatus().calcStat(Stats.SLEEP_VULN, multiplier, target, null);
+				break;
 				
 			case FEAR:
-				multiplier = target.getStatus().calcStat(Stats.SLEEP_VULN, multiplier, target, null);
+				multiplier = 0.15;
+				break;
+				//multiplier = target.getStatus().calcStat(Stats.SLEEP_VULN, multiplier, target, null);
 				
 			case BETRAY:
 			

@@ -16,6 +16,7 @@ import net.sf.l2j.gameserver.communitybbs.manager.ClanBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.ClanBossBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.FavoriteBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.FriendsBBSManager;
+import net.sf.l2j.gameserver.communitybbs.manager.GameplayInfoBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.HomeBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.MailBBSManager;
 import net.sf.l2j.gameserver.communitybbs.manager.PostBBSManager;
@@ -126,8 +127,9 @@ public class CommunityBoard
 		else if (command.startsWith("_bbsmail") || command.equals("_maillist_0_1_0_"))// old mail (now server info)
 			ServerInfoBBSManager.getInstance().parseCmd(command, player);
 			//MailBBSManager.getInstance().parseCmd(command, player);
-		else if (command.startsWith("_friend") || command.startsWith("_block"))
-			FriendsBBSManager.getInstance().parseCmd(command, player);
+		else if (command.startsWith("_friend") || command.startsWith("_block") || command.startsWith("_friendlist_0_"))
+			GameplayInfoBBSManager.getInstance().parseCmd(command, player);
+			//FriendsBBSManager.getInstance().parseCmd(command, player); // old Friends	
 		else if (command.startsWith("_bbstopics"))
 			TopicBBSManager.getInstance().parseCmd(command, player);
 		else if (command.startsWith("_bbsposts"))

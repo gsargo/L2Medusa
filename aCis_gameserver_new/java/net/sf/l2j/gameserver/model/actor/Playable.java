@@ -121,7 +121,7 @@ public abstract class Playable extends Creature
 				stopCharmOfLuck(null);
 		}
 		else 
-			if(!isInsidePvPZone())//do not remove buffs in pvp zone
+			if(!isInsidePvPZone() && !isInsideTournamentZone())//do not remove buffs in pvp zone or in tournament
 				stopAllEffectsExceptThoseThatLastThroughDeath();
 		
 		// Send the Server->Client packet StatusUpdate with current HP and MP to all other Player to inform
@@ -523,11 +523,14 @@ public abstract class Playable extends Creature
 		if (target == null)
 			return false;
 		
-		if (target instanceof Playable)
+		boolean autoatk = false;
+		
+		if (target instanceof Playable || target instanceof Monster)
 		{
 			final Player targetPlayer = target.getActingPlayer();
 			
-			// Karma players can be kept attacked.
+			/*
+			// Karma players can be kept attacked. (NOT NEEDED)
 			if (targetPlayer.getKarma() > 0)
 				return true;
 			
@@ -538,18 +541,25 @@ public abstract class Playable extends Creature
 			// Playables in Duel can be kept attacked.
 			if (getActingPlayer().getDuelState() == DuelState.DUELLING && getActingPlayer().getDuelId() == targetPlayer.getDuelId())
 				return true;
+			*/
 			
 			// Playables in a PVP area can be kept attacked.
-			if (isInsideZone(ZoneId.PVP) && target.isInsideZone(ZoneId.PVP))
-				return true;
+			//if (isInsideZone(ZoneId.PVP) && target.isInsideZone(ZoneId.PVP) )
+			if(isInsideTownZone() || target.isInsideTownZone()) // do not auto attack in town (e.g training dummies)
+			{
+				autoatk=false;
+			}
 			
 			// Betrayer Summon will continue the attack.
 			if (this instanceof Summon && isBetrayed())
-				return true;
+			{
+				autoatk = true;
+			}
 			
-			return false;
+			autoatk=true;
+			return autoatk;
 		}
-		return true;
+		return autoatk;
 	}
 	
 	@Override

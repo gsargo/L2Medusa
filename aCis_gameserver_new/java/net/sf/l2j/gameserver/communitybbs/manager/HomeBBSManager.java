@@ -33,7 +33,8 @@ public class HomeBBSManager extends BaseBBSManager
     	_news.add(Config.News_8);
     	_news.add(Config.News_9);
     	_news.add(Config.News_10);
-    	
+    	_news.add(Config.News_11);
+    	_news.add(Config.News_12);
     }
     
    /* @Override

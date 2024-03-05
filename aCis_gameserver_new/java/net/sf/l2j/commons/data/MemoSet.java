@@ -1,5 +1,6 @@
 package net.sf.l2j.commons.data;
 
+
 import java.util.concurrent.ConcurrentHashMap;
 
 /**

@@ -29,6 +29,7 @@ import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
 import net.sf.l2j.gameserver.scripting.QuestState;
 
+import Base.Dungeon.DungeonManager;
 import Base.Dungeon.InstanceManager1;
 import c1c0s.VoteManagerAPI.L2HOPZONE;
 import c1c0s.VoteManagerAPI.L2JBRASIL;
@@ -104,17 +105,7 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			
 			ach.useAdminCommand(_command, player);
 		}
-		else if (_command.startsWith("bp_"))
-		{
-			String command = _command.split(" ")[0];
-			IBypassHandler bh = BypassHandler.getInstance().getBypassHandler(command);
-			if (bh == null)
-			{
-				GMAUDIT_LOG.warning("No handler registered for bypass '" + command + "'");
-				return;
-			}
-			bh.handleBypass(_command, player);
-		}
+
 		else if (_command.startsWith("player_help "))
 		{
 			final String path = _command.substring(12);
@@ -141,9 +132,13 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			html.disableValidation();
 			player.sendPacket(html);
 		}
-		if (_command.startsWith("bp_reward"))
+		else if (_command.startsWith("bp_reward"))
 		{
-			int type = Integer.parseInt(_command.substring(10));
+			
+			StringTokenizer st = new StringTokenizer(_command, ";");
+			st.nextToken();
+			
+			int type = Integer.parseInt(st.nextToken());
 			int itemId = 0;
 			int count = 1;
 			
@@ -151,26 +146,26 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			{
 				case 0:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL0; //Pandora's Box x15
+					itemId = Config.DUNGEON_ITEM_RENEWAL0; //
 					count=15;
 					break;
 				}
 				case 1:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL1; //Fossils x10
+					itemId = Config.DUNGEON_ITEM_RENEWAL1; //books of giants x10
 					count=10;
 					break;
 				}
 				case 2:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL2; //Top grade Lf x3
-					count=3;
+					itemId = Config.DUNGEON_ITEM_RENEWAL2; //top lf x5
+					count=5;
 					break;
 				}
 				case 3:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL3;//High grade Lf x5
-					count=5;
+					itemId = Config.DUNGEON_ITEM_RENEWAL3;//High grade Lf x7
+					count=7;
 					break;
 				}
 				case 4:
@@ -181,14 +176,14 @@ public final class RequestBypassToServer extends L2GameClientPacket
 				}
 				case 5:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL5; //Kykeon x40
-					count=40;
+					itemId = Config.DUNGEON_ITEM_RENEWAL5; //Kykeon x100
+					count=100;
 					break;
 				}
 				case 6:
 				{
-					itemId = Config.DUNGEON_ITEM_RENEWAL6;
-					
+					itemId = Config.DUNGEON_ITEM_RENEWAL6; // 
+					count=3;
 					break;
 				}
 				case 7:
@@ -249,25 +244,33 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			
 			if (itemId == 0)
 			{
-				System.out.println(player.getName() + " tried to send custom id on dungeon solo rewards.");
+				System.out.println(player.getName() + " tried to get a custom id item, on dungeon solo rewards.");
 				return;
 			}
 			
 			if (player.getDungeon() != null)
 			{
 				ItemInstance item = player.addItem("dungeon reward", itemId, count, null, true);
-				item.setEnchantLevel(25);
 				player.getInventory().equipItemAndRecord(item);
-				PlayerMemo1.setVar(player, "delete_temp_item_" + item.getObjectId(), item.getObjectId(), System.currentTimeMillis() + (1000 * 60 * 60 * 5));
-				InstanceManager1.getInstance().getInstance1(0);
-				player.setDungeon(null);
-				player.teleportTo(Config.DUNGEON_SPAWN_X, Config.DUNGEON_SPAWN_Y, Config.DUNGEON_SPAWN_Z, Config.DUNGEON_SPAWN_RND);
+				PlayerMemo1.setVar(player, "add_dungeon_item_" + item.getObjectId(), item.getObjectId(), System.currentTimeMillis() + (1000 * 60 * 60 * 5));
+				player.getDungeon().onRewardTaken(player);
 			}
 			else
 			{
-				player.sendMessage("You can not get rewarded");
+				player.sendMessage("You can not be rewarded.");
 			}
 			
+		}
+		else if (_command.startsWith("bp_"))
+		{
+			String command = _command.split(" ")[0];
+			IBypassHandler bh = BypassHandler.getInstance().getBypassHandler(command);
+			if (bh == null)
+			{
+				GMAUDIT_LOG.warning("No handler registered for bypass '" + command + "'");
+				return;
+			}
+			bh.handleBypass(_command, player);
 		}
 		else if (_command.startsWith("npc_"))
 		{

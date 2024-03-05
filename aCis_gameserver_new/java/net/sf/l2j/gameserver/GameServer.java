@@ -14,7 +14,7 @@ import net.sf.l2j.commons.pool.ConnectionPool;
 import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.commons.util.SysUtil;
 
-import net.GUI;
+//import net.GUI;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
 import net.sf.l2j.gameserver.data.SkillTable;
@@ -129,8 +129,12 @@ import c1c0s.AutoReward.ServerTop;
 import c1c0s.AutoReward.Topzone;
 import c1c0s.AutoReward.TopzoneAPI;
 import c1c0s.AutoReward.itopz;
-
+import extensions.Agathions_RestoreCp;
+import extensions.InactiveDungeon_Manager;
 import extensions.ItemDeliveryManager;
+import extensions.Pet_BuffFighter;
+import extensions.Pet_BuffMage;
+import extensions.Pet_RestoreHpMp;
 import extensions.PvPZone_DeadPlayersManager;
 
 public class GameServer
@@ -283,6 +287,12 @@ public class GameServer
 		
 		ItemDeliveryManager.getInstance();
 		PvPZone_DeadPlayersManager.getInstance();
+		InactiveDungeon_Manager.getInstance();
+		Agathions_RestoreCp.getInstance();
+		Pet_RestoreHpMp.getInstance();
+		Pet_BuffFighter.getInstance();
+		Pet_BuffMage.getInstance();
+	
 		
 		AntibotProtection.getInstance();
 		
@@ -352,7 +362,7 @@ public class GameServer
 		StringUtil.printSection("System");
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		
-		GUI.main(null);
+		//GUI.main(null);
 		
 		if (Config.DEADLOCK_DETECTOR)
 		{

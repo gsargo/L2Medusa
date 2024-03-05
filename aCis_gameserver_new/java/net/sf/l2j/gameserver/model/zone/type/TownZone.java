@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.model.zone.type;
 
+import net.sf.l2j.commons.pool.ThreadPool;
+
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.enums.ZoneId;
 import net.sf.l2j.gameserver.model.actor.Creature;
@@ -44,6 +46,8 @@ public class TownZone extends SpawnZoneType
 			character.setInsideZone(ZoneId.PEACE, true);
 		
 		character.setInsideZone(ZoneId.TOWN, true);
+		
+		
 	}
 	
 	@Override

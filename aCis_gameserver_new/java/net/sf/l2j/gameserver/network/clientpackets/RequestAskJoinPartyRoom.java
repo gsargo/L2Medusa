@@ -23,6 +23,10 @@ public class RequestAskJoinPartyRoom extends L2GameClientPacket
 		if (player == null)
 			return;
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		// Send invite request with player name to the target.
 		final Player target = World.getInstance().getPlayer(_targetName);
 		if (target != null)

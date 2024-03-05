@@ -25,6 +25,10 @@ public final class RequestOustPledgeMember extends L2GameClientPacket
 		if (player == null)
 			return;
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		final Clan clan = player.getClan();
 		if (clan == null)
 		{
@@ -53,6 +57,7 @@ public final class RequestOustPledgeMember extends L2GameClientPacket
 			player.sendPacket(SystemMessageId.CLAN_MEMBER_CANNOT_BE_DISMISSED_DURING_COMBAT);
 			return;
 		}
+		
 		
 		// this also updates the database
 		clan.removeClanMember(member.getObjectId(), System.currentTimeMillis() + Config.CLAN_JOIN_DAYS * 86400000L);

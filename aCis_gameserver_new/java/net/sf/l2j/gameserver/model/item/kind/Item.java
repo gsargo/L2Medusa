@@ -530,7 +530,7 @@ public abstract class Item
 			creature.getActingPlayer().sendMessage("The use of that item is prohibited for your class!!!.");
 			return false;
 		}
-		else if (isFighterRestrictedItem() && (creature.getActingPlayer().isMageClass()))
+		/*else if (isFighterRestrictedItem() && (creature.getActingPlayer().isMageClass()))
 		{
 			creature.getActingPlayer().sendMessage("The use of that item is prohibited for your class.");
 			return false;
@@ -713,6 +713,12 @@ public abstract class Item
 	public boolean getTemplate()
 	{
 		return _tepmlate;
+	}
+	
+	
+	public boolean isTemplateHair() 
+	{
+		return _tepmlate_hair;
 	}
 	
 	public int getTempHair()

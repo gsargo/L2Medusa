@@ -8,11 +8,13 @@ public final class BuffSkillHolder extends IntIntHolder
 	private final int _price;
 	private final String _type;
 	private final String _description;
+	private final String _icon;
 	
-	public BuffSkillHolder(int id, int level, int price, String type, String description)
+	public BuffSkillHolder(int id, int level, int price, String type, String description, String icon)
 	{
 		super(id, level);
 		
+		_icon = icon;
 		_price = price;
 		_type = type;
 		_description = description;
@@ -33,6 +35,12 @@ public final class BuffSkillHolder extends IntIntHolder
 	{
 		return _type;
 	}
+	
+	public final String getIcon()
+	{
+		return _icon;
+	}
+	
 	
 	public final String getDescription()
 	{

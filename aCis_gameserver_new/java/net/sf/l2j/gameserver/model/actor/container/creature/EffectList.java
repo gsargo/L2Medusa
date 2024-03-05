@@ -269,9 +269,11 @@ public class EffectList
 		
 		int buffCount = 0;
 		for (AbstractEffect e : _buffs)
-		{
-			if (e != null && e.getTemplate().showIcon() && !e.getSkill().is7Signs() && !e.getSkill().isCustomBuff())
-			{
+		{		
+			//if (e != null && e.getTemplate().showIcon() && !e.getSkill().is7Signs()) //retail code
+			
+			if (e != null && e.getTemplate().showIcon())
+			{					
 				switch (e.getSkill().getSkillType())
 				{
 					case BUFF:
@@ -280,7 +282,8 @@ public class EffectList
 					case HEAL_PERCENT:
 					case HEAL_STATIC:
 					case MANAHEAL_PERCENT:
-						buffCount++;
+						if(!e.getSkill().isCustomBuff(e.getSkill().getId()))
+							buffCount++;
 				}
 				
 				// if(e.getSkill().getEffectId() == 7096 || e.getSkill().getEffectId() == 7095 || e.getSkill().getEffectId() == 7094) //Exclude Custom Buffs
@@ -645,7 +648,8 @@ public class EffectList
 			}
 			
 			// Remove first buff when buff list is full
-			if (!doesStack(newSkill) && !newSkill.is7Signs())
+			//if (!doesStack(newSkill) && !newSkill.is7Signs())
+			if (!doesStack(newSkill) && !newSkill.isCustomBuff(newSkill.getId())) //if new skill is Custom , do not remove a buff
 			{
 				int effectsToRemove = getBuffCount() - _owner.getMaxBuffCount();
 				if (effectsToRemove >= 0)
@@ -661,6 +665,9 @@ public class EffectList
 							for (AbstractEffect e : _buffs)
 							{
 								if (e == null)
+									continue;
+								
+								if(e.getSkill().getId() == 7095 || e.getSkill().getId() ==7096 || e.getSkill().getId()==1323) //do not remove 7095 (leader's aegis) or 7096 (castle buff) or noblesse
 									continue;
 								
 								switch (e.getSkill().getSkillType())

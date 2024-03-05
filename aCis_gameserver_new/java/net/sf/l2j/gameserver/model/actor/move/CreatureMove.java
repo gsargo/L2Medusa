@@ -518,7 +518,10 @@ public class CreatureMove<T extends Creature>
 		}
 		
 		// Create and Launch an AI Follow Task to execute every 1s
-		_followTask = ThreadPool.scheduleAtFixedRate(() -> friendlyFollowTask(pawn, offset), 5, FOLLOW_INTERVAL);
+		if(pawn.isAgathion())
+			_followTask = ThreadPool.scheduleAtFixedRate(() -> friendlyFollowTask(pawn, 0), 5, FOLLOW_INTERVAL);
+		else
+			_followTask = ThreadPool.scheduleAtFixedRate(() -> friendlyFollowTask(pawn, offset), 5, FOLLOW_INTERVAL);
 	}
 	
 	/**

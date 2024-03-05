@@ -46,7 +46,7 @@ public class Network
 	
 	private Network()
 	{
-		_log.info("Auto Reward Manager: NETWORK Loaded Successfully");
+		_log.info("Auto Reward Manager: L2NETWORK Loaded Successfully");
 		if (network)
 		{
 			int network_votes = getNetworkVotes();
@@ -88,7 +88,7 @@ public class Network
 						
 						setNetworkVoteCount(network_votes);
 					}
-					World.toAllOnlinePlayers(new CreatureSay(0, SayType.PARTYROOM_ALL, "NETWORK", "votes now " + network_votes + ".  Next reward at " + (getNetworkVoteCount() + Config.VOTES_FOR_REWARDNETWORK) + ""));
+					World.toAllOnlinePlayers(new CreatureSay(0, SayType.PARTYROOM_ALL, "L2NETWORK", "votes now " + network_votes + ".  Next reward at " + (getNetworkVoteCount() + Config.VOTES_FOR_REWARDNETWORK) + ""));
 				}
 			}
 		}

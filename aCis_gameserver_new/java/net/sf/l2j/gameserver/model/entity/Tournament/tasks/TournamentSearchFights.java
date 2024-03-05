@@ -39,42 +39,30 @@ public class TournamentSearchFights implements Runnable
 				{
 					TournamentManager.getInstance().debugInfo("Tournament is Searching for " + fightType.name() + " fights.");
 				}
-				boolean found = false;
-				// Search teams for a new fight
-				List<TournamentTeam> searchList = teams;
-				int teamOneIndex = Rnd.get(searchList.size());
-				TournamentTeam teamOne = searchList.get(teamOneIndex);
-				searchList.remove(teamOneIndex);
-				int teamTwoIndex = Rnd.get(searchList.size());
-				TournamentTeam teamTwo = searchList.get(teamTwoIndex);
-				searchList.clear();
-				if (teamOne != teamTwo)
-				{
-					found = true;
-				}
 				
-				// Create a new tournament fight
-				if (found)
+				var teamOneIndex = Rnd.get(teams.size());
+				var teamOne = teams.remove(teamOneIndex);
+				
+				var teamTwoIndex = Rnd.get(teams.size());
+				var teamTwo = teams.remove(teamTwoIndex);
+				
+				// remove teams from registered list
+				TournamentManager.getInstance().getRegisteredTournamentTeams().remove(teamOne);
+				TournamentManager.getInstance().getRegisteredTournamentTeams().remove(teamTwo);
+				
+				// Select an arena properly
+				TournamentArena arena = TournamentArenaParser.getInstance().getRandomArenaForType(fightType);
+				// Create a instance to run the match
+				Instance instance = InstanceManager.getInstance().createInstance();
+				
+				int fightId = IdFactory.getInstance().getNextId();
+				if (arena != null)
 				{
-					// remove teams from registered list
-					TournamentManager.getInstance().getRegisteredTournamentTeams().remove(teamOne);
-					TournamentManager.getInstance().getRegisteredTournamentTeams().remove(teamTwo);
+					TournamentFight fight = new TournamentFight(fightId, fightType, instance, teamOne, teamTwo, arena);
 					
-					// Select an arena properly
-					TournamentArena arena = TournamentArenaParser.getInstance().getRandomArenaForType(fightType);
-					// Create a instance to run the match
-					Instance instance = InstanceManager.getInstance().createInstance();
-					
-					int fightId = IdFactory.getInstance().getNextId();
-					if (arena != null)
+					if (Config.TOURNAMENT_DEBUG)
 					{
-						TournamentFight fight = new TournamentFight(fightId, fightType, instance, teamOne, teamTwo, arena);
-						
-						if (Config.TOURNAMENT_DEBUG)
-						{
-							TournamentManager.getInstance().debugInfo("A new fight (ID: " + fight.getId() + ") [" + fightType.name() + "] started: " + teamOne.getName() + " vs " + teamTwo.getName());
-						}
-						
+						TournamentManager.getInstance().debugInfo("A new fight (ID: " + fight.getId() + ") [" + fightType.name() + "] started: " + teamOne.getName() + " vs " + teamTwo.getName());
 					}
 					
 				}

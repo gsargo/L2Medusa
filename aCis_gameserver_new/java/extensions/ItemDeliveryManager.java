@@ -48,7 +48,7 @@ public class ItemDeliveryManager
 		///////////////
 		 try (Connection con = ConnectionPool.getConnection())
 		    {
-		        try(PreparedStatement stm = con.prepareStatement(SELECT); // PVP QUERY
+		        try(PreparedStatement stm = con.prepareStatement(SELECT); 
 		    		ResultSet rset = stm.executeQuery())
 					{
 						while (rset.next())

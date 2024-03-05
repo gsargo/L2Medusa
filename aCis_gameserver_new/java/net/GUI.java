@@ -1,4 +1,4 @@
-package net;
+/*package net;
 
 import java.awt.EventQueue;
 import java.awt.FlowLayout;
@@ -61,3 +61,4 @@ public class GUI extends JFrame
 	}
 	
 }
+*/

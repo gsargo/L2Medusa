@@ -28,23 +28,44 @@ public class TournamentZone extends SpawnZone
 	@Override
 	protected void onEnter(Creature character)
 	{
+		Player player = character.getActingPlayer();
+		if (player != null)
+		{
+			player.setIsInsideTournamentZone(true);
+			player.setInsideZone(ZoneId.TOURNAMENT, true);
+			player.setInsideZone(ZoneId.PVP, true);
+			//player.setInsideZone(ZoneId.NO_SUMMON_FRIEND, true);
+		}
+		/*
 		character.setInsideZone(ZoneId.TOURNAMENT, true);
 		if (character instanceof Player)
 			((Player) character).sendPacket(SystemMessageId.ENTERED_COMBAT_ZONE);
 		
 		character.setInsideZone(ZoneId.PVP, true);
 		character.setInsideZone(ZoneId.NO_SUMMON_FRIEND, true);
+		*/
+		
 	}
 	
 	@Override
 	protected void onExit(Creature character)
 	{
+		Player player = character.getActingPlayer();
+		if (player != null)
+		{
+			player.setIsInsideTournamentZone(false);
+			player.setInsideZone(ZoneId.TOURNAMENT, false);
+			player.setInsideZone(ZoneId.PVP, false);
+			//player.setInsideZone(ZoneId.NO_SUMMON_FRIEND, false);
+		}
+		/*
 		character.setInsideZone(ZoneId.TOURNAMENT, false);
 		character.setInsideZone(ZoneId.PVP, false);
 		character.setInsideZone(ZoneId.NO_SUMMON_FRIEND, false);
 		
 		if (character instanceof Player)
 			((Player) character).sendPacket(SystemMessageId.LEFT_COMBAT_ZONE);
+			*/
 		
 	}
 	

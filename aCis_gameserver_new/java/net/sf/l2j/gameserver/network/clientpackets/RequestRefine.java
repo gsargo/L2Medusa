@@ -109,7 +109,7 @@ public final class RequestRefine extends AbstractRefinePacket
 			return;
 		}
 		
-		final Augmentation aug = AugmentationData.getInstance().generateRandomAugmentation(ls.getLevel(), ls.getGrade());
+		final Augmentation aug = AugmentationData.getInstance().generateRandomAugmentation(player, ls.getLevel(), ls.getGrade());
 		targetItem.setAugmentation(aug);
 		
 		final int stat12 = 0x0000FFFF & aug.getId();

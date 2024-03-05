@@ -35,6 +35,10 @@ public final class RequestGMCommand extends L2GameClientPacket
 		if (!player.isGM() || !player.getAccessLevel().allowAltG())
 			return;
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		final Player target = World.getInstance().getPlayer(_targetName);
 		final Clan clan = ClanTable.getInstance().getClanByName(_targetName);
 		

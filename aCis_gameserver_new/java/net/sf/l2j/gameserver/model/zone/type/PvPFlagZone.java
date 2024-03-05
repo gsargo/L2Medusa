@@ -175,37 +175,38 @@ public class PvPFlagZone  extends ZoneType
 		
 	}
 	
-
-	
 	@Override
 	protected void onEnter(Creature character)
 	{
+		
+		if (character.isAgathion())
+			return;
+		
 		Player player = character.getActingPlayer();
 		
 		if (player != null)
 		{
+			player.setIsInsidePvPZone(true);
+			
 			if(player.hasPet()) //summon check
-				player.dropAllSummons();
+				player.dropAllSummonsExceptAgathions();
 			
 			if (player.getStatus().getLevel() <= 75)
 			{
-				((Player) character).sendMessage("You are not ready for a fight yet, raise your level!");
+				((Player) character).sendMessage("You should be at least 76 level in order to enter PvP area!");
 				int x = 83290;
 				int y = 148027;
 				int z = -3400;
 				character.teleportTo(x, y, z, 50); // Teleport to nearest town if lvl < 75
 			}	
 			
-			if(player.isInParty()) //disperse party on enter
+			if(player.isInParty() && !player.isInsideClanwarZone()) //disperse party on enter
 			{
-				if(player.getParty().isLeader(player))
-					player.getParty().removePartyMember(player, null);
+				//if(player.getParty().isLeader(player))
+					//player.getParty().removePartyMember(player, null);
 				
 				player.getParty().removePartyMember(player, null);
 			}
-			
-			player.setIsInsidePvPZone(true);
-			
 			
 			if (!_forbiddenItems.isEmpty())
 				checkForbiddenItems(player);
@@ -261,6 +262,9 @@ public class PvPFlagZone  extends ZoneType
 	@Override
 	protected void onExit(Creature character)
 	{
+		if (character.isAgathion())
+			return;
+		
 		Player player = character.getActingPlayer();
 		
 		if (player != null)

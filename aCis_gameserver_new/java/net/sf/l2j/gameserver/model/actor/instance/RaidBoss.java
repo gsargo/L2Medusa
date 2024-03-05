@@ -1,6 +1,7 @@
 package net.sf.l2j.gameserver.model.actor.instance;
 
 import java.util.concurrent.ScheduledFuture;
+import java.util.stream.IntStream;
 
 import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.commons.random.Rnd;
@@ -42,7 +43,7 @@ public class RaidBoss extends Monster
 		setRaid(true);
 	}
 	
-	/*final int[] bosses_id =
+	final int[] my_bosses_id =
 	{
 		60010,
 		25325,
@@ -51,25 +52,54 @@ public class RaidBoss extends Monster
 		25163,
 		25019,
 		25126,
-		60050
-	}; // desired ids to announce //
-	*/
-	private static boolean is_my_CustomRB(int npc_id)
+		60050,
+		62359
+	}; // desired rb_ids to announce //
+	
+	final int[] my_clan_bosses_id =
 	{
-		if (npc_id == 60010 || npc_id == 25325 || npc_id == 60036 || npc_id == 60007 || npc_id == 25163 || npc_id == 25019 || npc_id == 25126 || npc_id==60050 || npc_id==62359)
+		62354,
+		62358,
+		60034,
+		62342,
+		60005,
+		62348,
+		60008,
+		10012,
+		10016,
+		10013
+	}; // desired clan_rb_ids to announce //
+	
+	private boolean rb_contains = false;
+	private boolean clan_rb_contains = false;
+	
+	
+	private  boolean is_my_CustomRB(int npc_id)
+	{
+		/*if (npc_id == 60010 || npc_id == 25325 || npc_id == 60036 || npc_id == 60007 || npc_id == 25163 || npc_id == 25019 || npc_id == 25126 || npc_id==60050 || npc_id==62359)
 		{
 			return true;
-		}
+		}*/
+		
+		//my_bosses_id = desired rb list 
+		rb_contains = IntStream.of(my_bosses_id).anyMatch(x -> x == npc_id);
+		if(rb_contains)		
+			return true;
 		// else
 		return false;
 	}
 	
-	private static boolean is_my_clanRB(int npc_id)
+	private  boolean is_my_clanRB(int npc_id)
 	{
-		if (npc_id == 62354 || npc_id == 62358 || npc_id == 60034 || npc_id == 62342 || npc_id == 60005 || npc_id == 62348  || npc_id == 60008  || npc_id== 10012 || npc_id== 10016 || npc_id == 10013)
+		/*if (npc_id == 62354 || npc_id == 62358 || npc_id == 60034 || npc_id == 62342 || npc_id == 60005 || npc_id == 62348  || npc_id == 60008  || npc_id== 10012 || npc_id== 10016 || npc_id == 10013)
 		{
 			return true;
 		}
+		*/
+		clan_rb_contains = IntStream.of(my_clan_bosses_id).anyMatch(x -> x == npc_id);
+		if(clan_rb_contains)		
+			return true;
+		
 		// else
 		return false;
 	}
@@ -164,9 +194,9 @@ public class RaidBoss extends Monster
 				if (is_my_CustomRB(getNpcId()))
 				{
 					if (player.getClan() != null)
-						World.announceToOnlinePlayers("[Raid Boss]: " +getName() + " has been killed by "+player.getClan().getName() +" Clan");
+						World.announceToOnlinePlayers("[Raid Boss]: " +getName() + " has been killed by "+player.getClan().getName() +" Clan",true);
 					else
-						World.announceToOnlinePlayers("[Raid Boss]: " +getName() + " has been killed by " +player.getName() +"!");
+						World.announceToOnlinePlayers("[Raid Boss]: " +getName() + " has been killed by " +player.getName() +"!",true);
 					
 				}
 				else if (is_my_clanRB(getNpcId()))

@@ -25,6 +25,10 @@ public final class RequestOustPartyMember extends L2GameClientPacket
 		if (party == null || !party.isLeader(player))
 			return;
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		party.removePartyMember(_targetName, MessageType.EXPELLED);
 	}
 }

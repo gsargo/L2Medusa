@@ -14,10 +14,12 @@ import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.instance.DungeonMob;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import net.sf.l2j.gameserver.model.entity.Tournament.TournamentManager;
 import net.sf.l2j.gameserver.model.entity.instance.Instance;
 import net.sf.l2j.gameserver.model.entity.instance.InstanceManager;
 import net.sf.l2j.gameserver.model.location.Location;
 import net.sf.l2j.gameserver.model.memo.PlayerMemo1;
+import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 import net.sf.l2j.gameserver.model.spawn.Spawn;
 import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
 import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage.SMPOS;
@@ -42,10 +44,14 @@ public class Dungeon
 		this.players = players;
 		instance = InstanceManager.getInstance().createInstance();
 		
+		
 		for (Player player : players)
-			player.setDungeon(this);
+		{
+			player.setDungeon(this);	
+		}
 		
 		beginTeleport();
+		
 	}
 	
 	public void onPlayerDeath(Player player)
@@ -54,9 +60,48 @@ public class Dungeon
 			return;
 		
 		if (players.size() == 1)
+		{
 			ThreadPool.schedule(() -> cancelDungeon(), 5*1000);
+		}
 		else
-			player.sendMessage("You will be ressurected if your team completes this stage.");
+		{
+			if(isAnyPlayerAlive())
+			{
+				player.sendMessage("You will be ressurected if your team completes this stage.");
+			}
+			else
+			{
+				ThreadPool.schedule(() ->cancelDungeon(),2*1000);
+			}
+				
+		}
+	}
+	
+	private void teleportDeadPlayersToTown()
+	{
+		for (Player player : players)
+		{
+			if (!player.isOnline() || player.getClient().isDetached())
+				return;
+			
+			DungeonManager.getInstance().getDungeonParticipants().remove(new Integer(player.getObjectId()));
+			player.setDungeon(null);
+			player.sendMessage("Your team has failed to complete the dungeon");
+			player.setInstance(InstanceManager.getInstance().getInstance(0), true);
+			player.teleportTo(82635, 148798, -3464, 25);
+			player.doRevive(0.7);
+			
+		}
+	} 
+	
+	private boolean isAnyPlayerAlive()
+	{
+	    for (Player player : players)
+	    {
+	        if (!player.isDead())
+	            return true;
+	    }
+	    return false;
 	}
 	
 	public synchronized void onMobKill(DungeonMob mob)
@@ -79,14 +124,16 @@ public class Dungeon
 				if (player.isDead())
 					player.doRevive();
 			
-			getNextStage();
+			
+			getNextStage();	
+			
 			if (currentStage == null) // No more stages
-			{
-				rewardPlayers();
+			{	
+				rewardPlayers();		
 				if (template.getRewardHtm().equals("NULL"))
 				{
-					broadcastScreenMessage("You have completed the dungeon", 5);
-					teleToTown();
+					broadcastScreenMessage("Congratulations! You have successfully completed the dungeon!", 15);
+					
 				}
 				else
 				{
@@ -98,10 +145,20 @@ public class Dungeon
 			}
 			else
 			{
-				broadcastScreenMessage("You have completed stage "+(currentStage.getOrder()-1)+" Next stage begins in 10 seconds", 5);
-				ThreadPool.schedule(() -> teleToStage(), 5*1000);
+				broadcastScreenMessage("You have completed stage "+(currentStage.getOrder()-1)+"."+" Next stage begins in 10 seconds", 10);
+				ThreadPool.schedule(() -> teleToStage(), 8*1000);
 				nextTask = ThreadPool.schedule(() -> beginStage(), 10*1000);
+				HealPlayers();
+				
 			}
+		}
+	}
+	
+	public void onRewardTaken(Player player) 
+	{
+		if (player != null) 
+		{
+			teleportPlayerToTown(player);
 		}
 	}
 	
@@ -127,10 +184,19 @@ public class Dungeon
 		{
 			for (Player player : players)
 			{
+				//player.setInstance(instance, true);
+				ThreadPool.schedule(() -> teleportPlayerToTown(player), 100*1000); // Teleport players to town in 120 seconds when in party dungeon
+			}
+		}
+		/*else
+		{ //add delay on teleport to town
+			for (Player player : players)
+			{
 				player.setInstance(instance, true);
 				player.teleportTo(82635, 148798, -3464, 25);
 			}
 		}
+		*/
 	}
 	
 	private void teleToStage()
@@ -142,19 +208,24 @@ public class Dungeon
 			player.teleportTo(currentStage.getLocation(), 25);
 	}
 	
-	private void teleToTown()
+	private void teleportPlayersToTown()
 	{
 		for (Player player : players)
 		{
-			if (!player.isOnline() || player.getClient().isDetached())
-				continue;
-			
-			DungeonManager.getInstance().getDungeonParticipants().remove(new Integer(player.getObjectId()));
-			player.setDungeon(null);
-			player.setInstance(InstanceManager.getInstance().getInstance(0), true);
-			player.teleportTo(82635, 148798, -3464, 25);
+			teleportPlayerToTown(player);
 		}
 	}
+	
+	private void teleportPlayerToTown(Player player)
+	{
+		if (!player.isOnline() || player.getClient().isDetached())
+			return;
+		
+		DungeonManager.getInstance().getDungeonParticipants().remove(new Integer(player.getObjectId()));
+		player.setDungeon(null);
+		player.setInstance(InstanceManager.getInstance().getInstance(0), true);
+		player.teleportTo(82635, 148798, -3464, 25);
+	} 
 	
 	private void cancelDungeon()
 	{
@@ -166,10 +237,11 @@ public class Dungeon
 		}
 		for (DungeonMob mob : mobs)
 			deleteMob(mob);
-		broadcastScreenMessage("You have failed to complete the dungeon You will be teleported back in 5 seconds", 5);
-		ThreadPool.schedule(() -> teleToTown(), 5*1000);
+		
 		InstanceManager1.getInstance().deleteInstance(instance.getId());
 		DungeonManager.getInstance().removeDungeon(this);
+		ThreadPool.schedule(() -> teleportPlayersToTown(), 5*1000);
+		broadcastScreenMessage("You have failed to complete the dungeon. You will be teleported back to town in 5 seconds", 5);
 		
 		if (nextTask != null)
 			nextTask.cancel(true);
@@ -199,7 +271,7 @@ public class Dungeon
 		timerTask = ThreadPool.scheduleAtFixedRate(() -> broadcastTimer(), 5*1000, 1000);
 		nextTask = null;
 		dungeonCancelTask = ThreadPool.schedule(() -> cancelDungeon(), 1000*60*currentStage.getMinutes());
-		broadcastScreenMessage("You have "+currentStage.getMinutes()+" minutes to finish stage "+currentStage.getOrder()+"", 5);
+		broadcastScreenMessage("You have "+currentStage.getMinutes()+" minutes to finish stage "+currentStage.getOrder()+"", 8);
 	}
 	
 	private void spawnMob(int mobId, List<Location> locations)
@@ -237,7 +309,7 @@ public class Dungeon
 		
 		teleToStage();
 		
-		broadcastScreenMessage("Stage "+currentStage.getOrder()+" begins in 10 seconds", 5);
+		broadcastScreenMessage("Stage "+currentStage.getOrder()+" begins in 10 seconds", 7);
 		
 		nextTask = ThreadPool.schedule(() -> beginStage(), 10*1000);
 	}
@@ -247,8 +319,8 @@ public class Dungeon
 		getNextStage();
 		for (Player player : players)
 		{
-			player.broadcastPacket(new MagicSkillUse(player, 1050, 1, 10000, 10000));
-			broadcastScreenMessage("You will be teleported in 10 seconds", 3);
+			player.broadcastPacket(new MagicSkillUse(player, 7083, 1, 10000, 10000));
+			broadcastScreenMessage("You are being teleported to: Mansion of Nyx", 5);
 		}
 		
 		nextTask = ThreadPool.schedule(() -> teleportPlayers(), 10*1000);
@@ -274,6 +346,16 @@ public class Dungeon
 		ExShowScreenMessage packet = new ExShowScreenMessage(msg, seconds*1000, SMPOS.TOP_CENTER, false);
 		for (Player player : players)
 			player.sendPacket(packet);
+	}
+	
+	private void HealPlayers()// heal players each time they complete a stage
+	{
+	for (Player player : players)
+		if(!player.isDead()) 
+		{
+			player.getStatus().setHp(player.getStatus().getMaxHp());
+			player.getStatus().setMp(player.getStatus().getMaxMp());
+		}
 	}
 	
 	public List<Player> getPlayers()

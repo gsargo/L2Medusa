@@ -92,7 +92,7 @@ public class TournamentTeam
 		for (Player player : getMembers())
 		{
 			
-			player.sendPacket(new ExShowScreenMessage("[Tournament]: " + text, 4000));
+			player.sendPacket(new ExShowScreenMessage("[Tournament]: " + text, 8000));
 			
 		}
 	}
@@ -269,6 +269,11 @@ public class TournamentTeam
 			for (RewardHolder reward : winner ? Config.TOURNAMENT_FIGHT_REWARD_WINNER : Config.TOURNAMENT_FIGHT_REWARD_LOOSER)
 			{
 				player.addItem("TournamentReward", reward.getItemId(), reward.getCount(), player, true);
+				
+				if(player.getParty()==null)
+					player.setTournamentTeam(null);
+				
+				
 			}
 		}
 		
@@ -391,7 +396,7 @@ public class TournamentTeam
 			member.setTournamentTeamBeingInvited(false);
 			member.sendMessage("Your tournament Team has dispersed.");
 		}
-		if (getParty() != null)
+		if (getParty() != null) 
 			getParty().disband();
 		setParty(null);
 	}

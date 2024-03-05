@@ -29,6 +29,20 @@ public final class RequestWithdrawPartyRoom extends L2GameClientPacket
 		if (room == null)
 			return;
 		
+		if(player.getDungeon()!=null && player.isInsidePartyDungeonZone())
+		{
+			player.sendMessage("You can not withdraw from your party while participating in a dungeon!");
+			return;
+		}
+
+		
+		if(player.isInTournamentMatch())
+		{
+			player.sendMessage("You can not withdraw from your party while participating in Battle Arena!");
+			return;
+		}
+		
+		
 		if (player.isInParty() && room.getLeader().isInParty() && player.getParty().getLeaderObjectId() == room.getLeader().getParty().getLeaderObjectId())
 		{
 			// If user is in party with Room Owner is not removed from Room

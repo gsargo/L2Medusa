@@ -229,6 +229,11 @@ public class VillageMaster extends Folk
 				return;
 			
 			final Clan clan = player.getClan();
+			
+			//remove symbol "*" from player name
+			if (cmdParams.endsWith("*"))
+				cmdParams.replace("*", "");
+				
 			final ClanMember member = clan.getClanMember(cmdParams);
 			
 			if (member == null)
@@ -510,7 +515,7 @@ public class VillageMaster extends Folk
 						player.stopAllEffects(); // remove buffs on subclass change.
 						
 						if (player.getParty() != null) // leave party on subclass change
-							player.getParty().disband();
+							player.getParty().removePartyMember(player, null);
 						
 						/// Buff for clan members, owning a castle (castle buff)
 						if (player.getClan() != null && player.getClan().hasCastle())
@@ -543,7 +548,7 @@ public class VillageMaster extends Folk
 					
 					if (player.getClassIndex() == paramOne)
 					{
-						System.out.println("ClassIndex() is " + player.getClassIndex() + " paramOne is " + paramOne);
+						//System.out.println("ClassIndex() is " + player.getClassIndex() + " paramOne is " + paramOne);
 						html.setFile("data/html/villagemaster/SubClass_Current.htm");
 						break;
 					}
@@ -565,7 +570,7 @@ public class VillageMaster extends Folk
 					player.stopAllEffects(); // remove buffs on subclass change.
 					
 					if (player.getParty() != null) // leave party on subclass change
-						player.getParty().disband();
+						player.getParty().removePartyMember(player, null);
 					
 					/// Buff for clan members, owning a castle (castle buff)
 					if (player.getClan() != null && player.getClan().hasCastle())
@@ -654,7 +659,7 @@ public class VillageMaster extends Folk
 						player.getInventory().unequipItemInBodySlot(Item.SLOT_FACE); //disarm wings
 						
 						if (player.getParty() != null) // leave party on subclass change
-							player.getParty().disband();
+							player.getParty().removePartyMember(player, null);
 						
 						player.stopAllEffects(); // remove buffs on subclass change.
 						

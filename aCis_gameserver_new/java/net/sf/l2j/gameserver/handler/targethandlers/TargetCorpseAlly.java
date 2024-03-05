@@ -27,14 +27,15 @@ public class TargetCorpseAlly implements ITargetHandler
 		final List<Player> list = new ArrayList<>();
 		if (caster instanceof Player)
 		{
-			final boolean castInsideBossZone = Baium.BAIUM_LAIR.isInsideZone(caster);
-			
+			//final boolean castInsideBossZone = Baium.BAIUM_LAIR.isInsideZone(caster);
+	
 			final Player player = caster.getActingPlayer();
 			if (player.getClan() != null)
 			{
 				for (Player targetPlayer : player.getKnownTypeInRadius(Player.class, skill.getSkillRadius()))
 				{
-					if (!targetPlayer.isDead() || targetPlayer.getClan() == null || castInsideBossZone != Baium.BAIUM_LAIR.isInsideZone(targetPlayer))
+					//if (!targetPlayer.isDead() || targetPlayer.getClan() == null || castInsideBossZone != Baium.BAIUM_LAIR.isInsideZone(targetPlayer))
+					if (!targetPlayer.isDead() || targetPlayer.getClan() == null )
 						continue;
 					
 					// Avoid select player that are not in same clan.

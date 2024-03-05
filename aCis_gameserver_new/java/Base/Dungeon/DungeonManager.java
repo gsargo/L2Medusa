@@ -12,13 +12,11 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import net.sf.l2j.commons.pool.ConnectionPool;
 import net.sf.l2j.commons.pool.ThreadPool;
-
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.location.Location;
-
+import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -27,20 +25,37 @@ import Base.XML.XMLDocumentFactory;
 
 public class DungeonManager
 {
+	private enum RestrictionType
+	{
+		HWID,
+		IP,
+		PLAYER_ID
+	}
+	
+	private static final String INSERT_DUNGEON = "INSERT INTO dungeon VALUES (?,?,?,?,?)";
+	private static final String DELETE_DUNGEON = "DELETE FROM dungeon";
+	private static final String RESTORE_DUNGEON = "	SELECT * FROM dungeon";
+
+	
 	private static Logger log = Logger.getLogger(DungeonManager.class.getName());
 	
 	private Map<Integer, DungeonTemplate> templates;
 	private List<Dungeon> running;
 	private List<Integer> dungeonParticipants;
 	private boolean reloading = false;
-	private Map<String, Long[]> dungeonPlayerData;
+	private Map<String, Long[]> _hwidRestrictions;
+	private Map<String, Long[]> _ipRestrictions;
+	private Map<Integer, Long[]> _playerIdRestrictions;
+	
 	
 	protected DungeonManager()
 	{
 		templates = new ConcurrentHashMap<>();
 		running = new CopyOnWriteArrayList<>();
 		dungeonParticipants = new CopyOnWriteArrayList<>();
-		dungeonPlayerData = new ConcurrentHashMap<>();
+		_hwidRestrictions = new ConcurrentHashMap<>();
+		_playerIdRestrictions = new ConcurrentHashMap<>();
+		_ipRestrictions = new ConcurrentHashMap<>();
 		
 		load();
 		// ThreadPool.scheduleAtFixedRate(() -> updateDatabase(), 1000*60*30, 1000*60*60);
@@ -53,21 +68,56 @@ public class DungeonManager
 	{
 		try (Connection con = ConnectionPool.getConnection())
 		{
-			PreparedStatement stm = con.prepareStatement("DELETE FROM dungeon");
+			
+			PreparedStatement stm = con.prepareStatement(DELETE_DUNGEON);
 			stm.execute();
 			
-			for (String ip : dungeonPlayerData.keySet())
+			
+			try (PreparedStatement ps = con.prepareStatement(INSERT_DUNGEON))
 			{
-				for (int i = 1; i < dungeonPlayerData.get(ip).length; i++)
+				
+				for (String hwid : _hwidRestrictions.keySet())
 				{
-					PreparedStatement stm2 = con.prepareStatement("INSERT INTO dungeon VALUES (?,?,?)");
-					stm2.setInt(1, i);
-					stm2.setString(2, ip);
-					stm2.setLong(3, dungeonPlayerData.get(ip)[i]);
-					stm2.execute();
-					stm2.close();
+					for (int i = 1; i < _hwidRestrictions.get(hwid).length; i++)
+					{
+						ps.setInt(1, i);
+						ps.setString(2, hwid);
+						ps.setLong(3, _hwidRestrictions.get(hwid)[i]);
+						ps.setLong(4, 0);
+						ps.setInt(5, RestrictionType.HWID.ordinal());
+						ps.addBatch();
+					}
 				}
+				
+				for (String ip : _ipRestrictions.keySet())
+				{
+					for (int i = 1; i < _ipRestrictions.get(ip).length; i++)
+					{
+						ps.setInt(1, i);
+						ps.setString(2, ip);
+						ps.setLong(3, _ipRestrictions.get(ip)[i]);
+						ps.setLong(4, 0);
+						ps.setInt(5, RestrictionType.IP.ordinal());
+						ps.addBatch();
+					}
+				}
+				
+				for (Integer id : _playerIdRestrictions.keySet())
+				{
+					for (int i = 1; i < _playerIdRestrictions.get(id).length; i++)
+					{
+						ps.setInt(1, i);
+						ps.setString(2, "");
+						ps.setLong(3, _playerIdRestrictions.get(id)[i]);
+						ps.setLong(4, id);
+						ps.setInt(5, RestrictionType.PLAYER_ID.ordinal());
+						ps.addBatch();
+					}
+				}
+				
+				ps.executeBatch();
 			}
+			
 			
 			stm.close();
 		}
@@ -172,7 +222,7 @@ public class DungeonManager
 		
 		try (Connection con = ConnectionPool.getConnection())
 		{
-			PreparedStatement stm = con.prepareStatement("SELECT * FROM dungeon");
+			PreparedStatement stm = con.prepareStatement(RESTORE_DUNGEON);
 			ResultSet rset = stm.executeQuery();
 			
 			while (rset.next())
@@ -180,18 +230,53 @@ public class DungeonManager
 				int dungid = rset.getInt("dungid");
 				String ipaddr = rset.getString("ipaddr");
 				long lastjoin = rset.getLong("lastjoin");
+				int playerId = rset.getInt("playerId");
+				int restriction = rset.getInt("restriction");
 				
-				if (!dungeonPlayerData.containsKey(ipaddr))
+				var restrictionType = RestrictionType.values()[restriction];
+				
+				if (restrictionType == RestrictionType.HWID)
 				{
-					Long[] times = new Long[templates.size() + 1];
-					for (int i = 0; i < times.length; i++)
-						times[i] = 0L;
-					times[dungid] = lastjoin;
-					
-					dungeonPlayerData.put(ipaddr, times);
+					if (!_hwidRestrictions.containsKey(ipaddr))
+					{
+						Long[] times = new Long[templates.size() + 1];
+						for (int i = 0; i < times.length; i++)
+							times[i] = 0L;
+						times[dungid] = lastjoin;
+						
+						_hwidRestrictions.put(ipaddr, times);
+					}
+					else
+						_hwidRestrictions.get(ipaddr)[dungid] = lastjoin;
 				}
-				else
-					dungeonPlayerData.get(ipaddr)[dungid] = lastjoin;
+				else if (restrictionType == RestrictionType.IP) 
+				{
+					if (!_ipRestrictions.containsKey(ipaddr))
+					{
+						Long[] times = new Long[templates.size() + 1];
+						for (int i = 0; i < times.length; i++)
+							times[i] = 0L;
+						times[dungid] = lastjoin;
+						
+						_ipRestrictions.put(ipaddr, times);
+					}
+					else
+						_ipRestrictions.get(ipaddr)[dungid] = lastjoin;
+				}
+				else if (restrictionType == RestrictionType.PLAYER_ID) 
+				{
+					if (!_playerIdRestrictions.containsKey(playerId))
+					{
+						Long[] times = new Long[templates.size() + 1];
+						for (int i = 0; i < times.length; i++)
+							times[i] = 0L;
+						times[dungid] = lastjoin;
+						
+						_playerIdRestrictions.put(playerId, times);
+					}
+					else
+						_playerIdRestrictions.get(playerId)[dungid] = lastjoin;
+				}
 			}
 			
 			rset.close();
@@ -216,6 +301,137 @@ public class DungeonManager
 		}
 	}
 	
+	
+	public boolean validateSoloDungeon(Player player, int templateId) 
+	{
+		var template = templates.get(templateId);
+		return validateSoloDungeon(player, template);
+	}
+	
+	public boolean validateSoloDungeon(Player player, DungeonTemplate template)
+	{
+		if (player.isInParty())
+		{
+			player.getParty().disband();
+		}
+		
+		 //Uncomment when players will piss you off !!
+		  
+		// ----- Checking: IP ------
+		String playerIP = player.getIP();
+		if (_ipRestrictions.containsKey(playerIP) && (System.currentTimeMillis() - _ipRestrictions.get(playerIP)[template.getId()] < 1000 * 60 * 60 * 12))
+		{
+			player.sendMessage("12 hours have not passed since you last entered this Dungeon.");
+			//return false;
+		} 
+		
+		
+		// ----- Checking: HWID ------
+		/*String playerHWID = player.getHWID();
+		if (_hwidRestrictions.containsKey(playerHWID) && (System.currentTimeMillis() - _hwidRestrictions.get(playerHWID)[template.getId()] < 1000 * 60 * 60 * 12))
+		{
+			player.sendMessage("12 hours have not passed since you last entered this Dungeon.");
+			return false;
+		} 
+		*/
+		
+		
+		// ----- Checking: Player ID ------
+		if (_playerIdRestrictions.containsKey(player.getObjectId()) && (System.currentTimeMillis() - _playerIdRestrictions.get(player.getObjectId())[template.getId()] < 1000 * 60 * 60 * 12))
+		{
+			player.sendMessage("12 hours have not passed since you last entered this Dungeon.");
+			//return false;
+		} 
+		
+		
+		if (player.getStatus().getLevel() < 76)
+		{
+			player.sendMessage("Your level is less than 76.");
+			//return false;
+		}
+		
+		if (player.isInTournamentMatch() || player.isInTournamentMode()|| player.getTournamentTeam() != null) 
+		{
+			player.sendMessage("You are already participating in tournament.");
+			return false;
+		} 
+
+		if(player.getOlympiadGameId() != -1 || player.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(player))
+		{
+			player.sendMessage("You can not proceed because you are participating in Olympiad Games!");
+			return false;
+		}
+		
+		
+		return true;
+	}
+	
+	public boolean validatePartyDungeon(Player player, DungeonTemplate template) 
+	{
+		if (!player.isInParty() || player.getParty().getMembersCount() < template.getPlayers())
+		{
+			player.sendMessage("You need a party of " + template.getPlayers() + " or more players to enter this Dungeon.");
+			//return false;
+		}
+		
+		if (!player.getParty().isLeader(player))
+		{
+			player.sendMessage("The party leader can only apply entrance.");
+			//return false;
+		}
+		
+		for (Player pm : player.getParty().getMembers())
+		{
+			if (pm.getStatus().getLevel() < 76)
+			{
+				player.sendMessage("Player " + pm.getName() + " level is less than 76.");
+				//return false;
+			}
+			
+			if (pm.isInTournamentMatch() || pm.isInTournamentMode() || pm.getTournamentTeam() != null) 
+			{
+				player.sendMessage("Player "+ pm.getName() + " is participating in tournament.");
+				return false;
+			} 
+
+			if(pm.getOlympiadGameId() != -1 ||pm.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pm))
+			{
+				player.sendMessage("You can not participate because player "  + pm.getName() + " of your team is participating in Olympiad Games!");
+				return false;
+			}
+			
+
+			
+			// ----- Checking: Party Member IP ------
+			String partyMemberIP = pm.getIP();
+			if (_ipRestrictions.containsKey(partyMemberIP) && (System.currentTimeMillis() - _ipRestrictions.get(partyMemberIP)[template.getId()] < 1000 * 60 * 60 * 12))
+			{
+				player.sendMessage("Player " + pm.getName() + " cannot join this Dungeon because 12 hours have not passed since he last joined.");
+				//return false;
+			} 
+			
+
+			// ----- Checking: Party Member HWID ------
+			/*String partyMemeberHWID = pm.getHWID();
+			if (_hwidRestrictions.containsKey(partyMemeberHWID) && (System.currentTimeMillis() - _hwidRestrictions.get(partyMemeberHWID)[template.getId()] < 1000 * 60 * 60 * 12))
+			{
+				player.sendMessage("Player " + pm.getName() + " cannot join this Dungeon because 12 hours have not passed since he last joined.");
+				return false;
+			} 
+			*/
+			// ----- Checking: Party Member ID ------
+			if (_playerIdRestrictions.containsKey(pm.getObjectId()) && (System.currentTimeMillis() - _playerIdRestrictions.get(pm.getObjectId())[template.getId()] < 1000 * 60 * 60 * 12))
+			{
+				player.sendMessage("Player " + pm.getName() + " cannot join this Dungeon because 12 hours have not passed since he last joined.");
+				//return false;
+			} 
+		}
+		
+
+		
+		return true;
+	}
+	
 	public synchronized void enterDungeon(int id, Player player)
 	{
 		if (reloading)
@@ -224,80 +440,123 @@ public class DungeonManager
 			return;
 		}
 		
+		
 		DungeonTemplate template = templates.get(id);
-		if (template.getPlayers() > 1 && (!player.isInParty() || player.getParty().getMembersCount() != template.getPlayers()))
+		
+		if (template == null)
+			return; //should never happen
+		
+		var canProceed = false;
+		
+		if (template.getPlayers() == 1) 
 		{
-			player.sendMessage("You need a party of " + template.getPlayers() + " players to enter this Dungeon.");
-			return;
+			canProceed = validateSoloDungeon(player, template);
 		}
-		else if (template.getPlayers() > 1 && !player.getParty().isLeader(player))
+		else 
 		{
-			player.sendMessage("The party leader can only apply entrance.");
-			return;
+			canProceed = validatePartyDungeon(player, template);
 		}
 		
-		else if (template.getPlayers() == 1 && player.isInParty())
-		{
-			player.sendMessage("You can only enter this Dungeon solo.");
+		
+		if (!canProceed) 
 			return;
-		}
-		else if (template.getPlayers() == 1 && player.getStatus().getLevel() < 76)
-		{
-			player.sendMessage("Players above level 76 can apply entrance.");
-			return;
-		}
 		
 		List<Player> players = new ArrayList<>();
 		if (player.isInParty())
 		{
 			for (Player pm : player.getParty().getMembers())
 			{
-				String pmip = pm.getIP();
-				if (dungeonPlayerData.containsKey(pmip) && (System.currentTimeMillis() - dungeonPlayerData.get(pmip)[template.getId()] < 1000 * 60 * 60 * 12))
-				{
-					player.sendMessage("One of your party members cannot join this Dungeon because 12 hours have not passed since they last joined.");
-					return;
-				}
-			}
-			
-			for (Player pm : player.getParty().getMembers())
-			{
-				String pmip = pm.getIP();
+				String pmIP = pm.getIP();
+				String pmHWID = pm.getHWID();
 				
 				dungeonParticipants.add(pm.getObjectId());
 				players.add(pm);
-				if (dungeonPlayerData.containsKey(pmip))
-					dungeonPlayerData.get(pmip)[template.getId()] = System.currentTimeMillis();
+				
+				//------ Player ID -------
+				if (_playerIdRestrictions.containsKey(pm.getObjectId())) 
+				{
+					_playerIdRestrictions.get(pm.getObjectId())[template.getId()] = System.currentTimeMillis(); 
+				}
+				else 
+				{
+					Long[] times = new Long[templates.size() + 1];
+					for (int i = 0; i < times.length; i++)
+						times[i] = 0L;
+					times[template.getId()] = System.currentTimeMillis();
+					_playerIdRestrictions.put(pm.getObjectId(), times);
+				}
+				
+				//------ HWID -------
+				if (_hwidRestrictions.containsKey(pmHWID)) 
+				{
+					_hwidRestrictions.get(pmHWID)[template.getId()] = System.currentTimeMillis();
+				}
 				else
 				{
 					Long[] times = new Long[templates.size() + 1];
 					for (int i = 0; i < times.length; i++)
 						times[i] = 0L;
 					times[template.getId()] = System.currentTimeMillis();
-					dungeonPlayerData.put(pmip, times);
+					_hwidRestrictions.put(pmHWID, times);
+				}
+				
+				//------ IP -------
+				if (_ipRestrictions.containsKey(pmIP)) 
+				{
+					_ipRestrictions.get(pmIP)[template.getId()] = System.currentTimeMillis();
+				}
+				else
+				{
+					Long[] times = new Long[templates.size() + 1];
+					for (int i = 0; i < times.length; i++)
+						times[i] = 0L;
+					times[template.getId()] = System.currentTimeMillis();
+					_ipRestrictions.put(pmIP, times);
 				}
 			}
 		}
 		else
 		{
-			String pmip = player.getIP();
-			/*if (dungeonPlayerData.containsKey(pmip) && (System.currentTimeMillis() - dungeonPlayerData.get(pmip)[template.getId()] < 1000 * 60 * 60 * 12))
-			{
-				player.sendMessage("12 hours have not passed since you last entered this Dungeon.");
-				return;
-			} */ // 12 Hours check
-			
+			String pIP = player.getIP();
+			String pHwid = player.getHWID();
+
 			dungeonParticipants.add(player.getObjectId());
 			players.add(player);
-			if (dungeonPlayerData.containsKey(pmip))
-				dungeonPlayerData.get(pmip)[template.getId()] = System.currentTimeMillis();
+			
+			//------ Player ID -------
+			if (_playerIdRestrictions.containsKey(player.getObjectId()))
+				_playerIdRestrictions.get(player.getObjectId())[template.getId()] = System.currentTimeMillis();
 			else
 			{
 				Long[] times = new Long[templates.size() + 1];
 				for (int i = 0; i < times.length; i++)
 					times[i] = 0L;
 				times[template.getId()] = System.currentTimeMillis();
-				dungeonPlayerData.put(pmip, times);
+				_playerIdRestrictions.put(player.getObjectId(), times);
+			}
+			
+			//------ IP -------
+			if (_ipRestrictions.containsKey(pIP))
+				_ipRestrictions.get(pIP)[template.getId()] = System.currentTimeMillis();
+			else
+			{
+				Long[] times = new Long[templates.size() + 1];
+				for (int i = 0; i < times.length; i++)
+					times[i] = 0L;
+				times[template.getId()] = System.currentTimeMillis();
+				_ipRestrictions.put(pIP, times);
+			}
+			
+			//------ HWID -------
+			if (_hwidRestrictions.containsKey(pHwid))
+				_hwidRestrictions.get(pHwid)[template.getId()] = System.currentTimeMillis();
+			else
+			{
+				Long[] times = new Long[templates.size() + 1];
+				for (int i = 0; i < times.length; i++)
+					times[i] = 0L;
+				times[template.getId()] = System.currentTimeMillis();
+				_hwidRestrictions.put(pHwid, times);
 			}
 		}
 		
@@ -321,7 +580,7 @@ public class DungeonManager
 	
 	public Map<String, Long[]> getPlayerData()
 	{
-		return dungeonPlayerData;
+		return _hwidRestrictions;
 	}
 	
 	public List<Integer> getDungeonParticipants()

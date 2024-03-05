@@ -36,7 +36,8 @@ import net.sf.l2j.gameserver.skills.L2Skill;
 
 public class AttackableAI extends CreatureAI implements Runnable
 {
-	protected static final int MAX_ATTACK_TIMEOUT = 90000; // 1m30
+	//protected static final int MAX_ATTACK_TIMEOUT = 90000; // 1m30
+	protected static final int MAX_ATTACK_TIMEOUT = 180000; // 3m
 	
 	private final Set<Creature> _seenCreatures = ConcurrentHashMap.newKeySet();
 	

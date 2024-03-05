@@ -350,11 +350,7 @@ public class Clan
 		final ClanMember exMember = getLeader();
 		final Player exLeader = exMember.getPlayerInstance();
 		
-		if (_leader.getPlayerInstance().getSiegeState()>0)
-		{
-			_leader.getPlayerInstance().sendMessage("Leadership cannot change while your clan participates on an active siege!");
-			return;
-		}
+
 		
 		if (exLeader != null)
 		{
@@ -2083,17 +2079,17 @@ public class Clan
 				}
 				break;
 			
-			case 5: // upgrade to 6 - reputation + 25 vote coins
-				if (_reputationScore >= 20000 && player.destroyItemByItemId("ClanLvl", 12573, 25, player.getTarget(), true))
+			case 5: // upgrade to 6 - reputation  + 10 votes
+				if (_reputationScore >= 20000 && player.destroyItemByItemId("ClanLvl", 12573, 10, player.getTarget(), true))
 				{
-					takeReputationScore(10000);
+					takeReputationScore(20000);
 					player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_DEDUCTED_FROM_CLAN_REP).addNumber(20000));
 					increaseClanLevel = true;
 				}
 				break;
 			
-			case 6:// upgrade to 7 - reputation + 1000 pvp trophies
-				if (_reputationScore >= 40000 && player.destroyItemByItemId("ClanLvl", 12549, 500, player.getTarget(), true))
+			case 6:// upgrade to 7 - reputation + 20 votes
+				if (_reputationScore >= 40000 && player.destroyItemByItemId("ClanLvl", 12573, 20, player.getTarget(), true))
 				{
 					takeReputationScore(40000);
 					player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_DEDUCTED_FROM_CLAN_REP).addNumber(40000));
@@ -2101,8 +2097,8 @@ public class Clan
 				}
 				break;
 			
-			case 7:// upgrade to 8 - reputation + 3000 pvp trophies
-				if (_reputationScore >= 80000 && player.destroyItemByItemId("ClanLvl", 12549, 1000, player.getTarget(), true))
+			case 7:// upgrade to 8 - reputation +30 votes
+				if (_reputationScore >= 80000 && player.destroyItemByItemId("ClanLvl", 12573, 30, player.getTarget(), true))
 				{
 					takeReputationScore(80000);
 					player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_DEDUCTED_FROM_CLAN_REP).addNumber(80000));

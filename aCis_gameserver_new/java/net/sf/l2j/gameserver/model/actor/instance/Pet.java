@@ -47,6 +47,11 @@ import net.sf.l2j.gameserver.skills.Formulas;
 import net.sf.l2j.gameserver.skills.L2Skill;
 import net.sf.l2j.gameserver.taskmanager.DecayTaskManager;
 
+import extensions.Agathions_RestoreCp;
+import extensions.Pet_BuffFighter;
+import extensions.Pet_BuffMage;
+import extensions.Pet_RestoreHpMp;
+
 /**
  * A pet is a instance extending {@link Summon}, linked to a {@link Player}. A pet is different than a Servitor in multiple ways:
  * <ul>
@@ -342,11 +347,22 @@ public class Pet extends Summon
 		if (!isDead())
 		{
 			if (isAgathion())
+			{
 				World.getInstance().removeAgat(owner.getObjectId());
+				Agathions_RestoreCp.getInstance().stopTask(owner);
+			
+			}
 			else
+			{
 				World.getInstance().removePet(owner.getObjectId());
+				Pet_RestoreHpMp.getInstance().stopTask(owner);
+				Pet_BuffFighter.getInstance().stopTask(owner);
+				Pet_BuffMage.getInstance().stopTask(owner);
+			}
+			
 		}
-		owner.setAutoLoot(false);
+		//if(isAgathion())
+			//owner.setAutoLoot(false);
 	}
 	
 	@Override

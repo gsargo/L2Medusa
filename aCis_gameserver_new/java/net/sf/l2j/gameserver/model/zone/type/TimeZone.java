@@ -230,6 +230,8 @@ import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.location.Location;
 import net.sf.l2j.gameserver.model.zone.type.subtype.ZoneType;
+import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage.SMPOS;
 
 /**
  * A zone extending {@link ZoneType} which works on defined times.
@@ -239,8 +241,13 @@ public class TimeZone extends ZoneType
 	private final Set<Player> _players = ConcurrentHashMap.newKeySet();
 	
 	private static final Location DEFAULT_LOCATION = new Location(83290, 148027, -3400);
-	private static final long ZONE_CLOSE_DELAY = TimeUnit.HOURS.toMillis(2);
+	private static final long ZONE_CLOSE_DELAY = TimeUnit.MINUTES.toMillis(119);
+	//private static final long ZONE_CLOSE_DELAY = TimeUnit.MINUTES.toMillis(5);
+	private static final long ONE_MIN_BEFORE_AREA_CLOSING = TimeUnit.MINUTES.toMillis(118);
+	//private static final long ONE_MIN_BEFORE_AREA_CLOSING = TimeUnit.MINUTES.toMillis(4);
 	
+	ExShowScreenMessage _packet = new ExShowScreenMessage("This area is closing in 60 seconds!", 12*1000, SMPOS.TOP_CENTER, false);
+
 	private ScheduledFuture<?> _task;
 	
 	private String zoneName = "Area"; // will be set from xml
@@ -249,11 +256,14 @@ public class TimeZone extends ZoneType
 	
 	public boolean _isopen = false;
 	
+	
+	
 	public TimeZone(int id)
 	{
 		super(id);
 		LOGGER.info("TIME ZONE LOADED");
 	}
+	
 	
 	@Override
 	public void setParameter(String name, String value)
@@ -302,8 +312,14 @@ public class TimeZone extends ZoneType
 		World.announceToOnlinePlayers(zoneName + " is now open!");
 		
 		//if (_task == null)
-			ThreadPool.schedule(this::closeAndScheduleReopening, ZONE_CLOSE_DELAY);
+			ThreadPool.schedule(this::closeAndScheduleReopening, ZONE_CLOSE_DELAY); //calculate duration
+			ThreadPool.schedule(() ->announce1MinBeforeClosing(),ONE_MIN_BEFORE_AREA_CLOSING);//show message on screen, 1 minute before closing
 			//_task = ThreadPool.schedule(this::closeAndScheduleReopening, ZONE_CLOSE_DELAY);
+	}
+	
+	public void announce1MinBeforeClosing()
+	{
+		_players.stream().filter(Objects::nonNull).filter(Player::isOnline).forEach(player -> player.sendPacket(_packet));
 	}
 	
 	private synchronized void closeAndScheduleReopening()
@@ -311,6 +327,12 @@ public class TimeZone extends ZoneType
 		World.announceToOnlinePlayers(zoneName + " is now closed!");
 		scheduleOpening();
 		
+		for(Player player : _players) //kick players when zone is closed
+		{
+			kickPlayer(player);
+		}
+		
+		_zoneOpen = false;
 		_isopen=false;
 	}
 	
@@ -324,10 +346,17 @@ public class TimeZone extends ZoneType
 		if (player == null)
 			return;
 		
+		player.sendMessage("You have entered a time zone");
+		
 		if (_zoneOpen)
+		{
 			_players.add(player);
+			//player.setIsInsideTimeZone(true);
+		}
 		else
+		{
 			kickPlayer(player);
+		}
 	}
 	
 	private void kickPlayer(Player player)
@@ -335,9 +364,10 @@ public class TimeZone extends ZoneType
 		Objects.requireNonNull(player, "Player cannot be null");
 		
 		removePlayer(player);
+		player.setIsInsideTimeZone(false);
 		
 		player.teleportTo(DEFAULT_LOCATION, 50);
-		player.sendMessage("Zone closed,try again later");
+		player.sendMessage("Zone closed,try again later.");
 	}
 	
 	private void removePlayer(Player player)
@@ -355,6 +385,7 @@ public class TimeZone extends ZoneType
 			return;
 		
 		removePlayer(player);
+		//player.setIsInsideTimeZone(false);
 	}
 	
 	private long loadStartTime()

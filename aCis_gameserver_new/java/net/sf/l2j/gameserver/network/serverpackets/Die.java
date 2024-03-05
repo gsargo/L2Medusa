@@ -27,7 +27,7 @@ public class Die extends L2GameServerPacket
 	private Clan _clan;
 	
 	private boolean _canTeleport ;
-
+	final NpcHtmlMessage html_3 = new NpcHtmlMessage(0);
 	
 	public Die(Creature creature)
 	{
@@ -38,11 +38,16 @@ public class Die extends L2GameServerPacket
 		if (creature instanceof Player)
 		{
 			
-			_canTeleport = !creature.getActingPlayer().isInTournamentMatch() && !creature.getActingPlayer().isInsidePvPZone();
+			_canTeleport = !creature.getActingPlayer().isInTournamentMatch() && !creature.getActingPlayer().isInsidePvPZone() && creature.getActingPlayer().getDungeon()==null;
 			Player player = (Player) creature;
 			_allowFixedRes = player.getAccessLevel().allowFixedRes();
 			_clan = player.getClan();
 			
+			if(player.isInsideSharkZone())
+			{
+				html_3.setFile("data/html/ondie/pvparea_no_killer.htm");
+				player.sendPacket(html_3);
+			}
 			
 		}
 		else if (creature instanceof Monster)
@@ -62,7 +67,7 @@ public class Die extends L2GameServerPacket
 		writeD(_canTeleport ? 0x01 : 0x00); // to nearest village
 		// writeD(0x01); // to nearest village
 		
-		if(_creature instanceof Player && _creature.isInsidePvPZone())
+		if(_creature instanceof Player && (_creature.isInsidePvPZone() || _creature.getActingPlayer().getDungeon()!=null))
 			return;
 		
 		if (_clan != null)
@@ -96,6 +101,7 @@ public class Die extends L2GameServerPacket
 		}
 		else
 		{
+			
 			writeD(0x00); // to clanhall
 			writeD(0x00); // to castle
 			writeD(0x00); // to siege HQ

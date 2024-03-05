@@ -40,6 +40,12 @@ public final class RequestWithdrawPledge extends L2GameClientPacket
 			return;
 		}
 		
+		if (player.isInsideClanwarZone())
+		{
+			player.sendMessage("You can not withdraw from your clan while you are inside a Clan Arena.");
+			return;
+		}
+		
 		clan.removeClanMember(player.getObjectId(), System.currentTimeMillis() + Config.CLAN_JOIN_DAYS * 86400000L);
 		clan.broadcastToMembers(SystemMessage.getSystemMessage(SystemMessageId.S1_HAS_WITHDRAWN_FROM_THE_CLAN).addCharName(player));
 		

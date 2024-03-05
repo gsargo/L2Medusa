@@ -53,6 +53,7 @@ import net.sf.l2j.gameserver.handler.itemhandlers.TitleColorItemPvPShop5;
 import net.sf.l2j.gameserver.handler.itemhandlers.VipCoin1;
 import net.sf.l2j.gameserver.handler.itemhandlers.VipCoin2;
 import net.sf.l2j.gameserver.handler.itemhandlers.VipCoin3;
+import net.sf.l2j.gameserver.handler.itemhandlers.VipCoin4;
 import net.sf.l2j.gameserver.handler.itemhandlers.XPItem;
 import net.sf.l2j.gameserver.model.item.kind.EtcItem;
 
@@ -110,6 +111,7 @@ public class ItemHandler
 		registerHandler(new VipCoin1());
 		registerHandler(new VipCoin2());
 		registerHandler(new VipCoin3());
+		registerHandler(new VipCoin4());
 		registerHandler(new CustomDoorKey());
 		registerHandler(new CustomDoorKey_Asphodel());
 		registerHandler(new HtmlMap());

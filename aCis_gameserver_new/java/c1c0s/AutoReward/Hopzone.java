@@ -54,12 +54,12 @@ public class Hopzone
 			{
 				hopzone_votes = 0;
 			}
-			
-			setHopZoneVoteCount(hopzone_votes);
 		}
 		
 		ThreadPool.scheduleAtFixedRate(new AutoReward(), Config.VOTES_SYSTEM_INITIAL_DELAYHOPZONE, Config.VOTES_SYSTEM_STEP_DELAYHOPZONE);
+		_log.info("hopzone: votes:"+getHopZoneVotes());
 	}
+	
 	
 	protected class AutoReward implements Runnable
 	{
@@ -87,7 +87,7 @@ public class Hopzone
 						
 						setHopZoneVoteCount(hopzone_votes);
 					}
-					World.toAllOnlinePlayers(new CreatureSay(0, SayType.PARTYROOM_ALL, "HOPZONE", "votes now " + hopzone_votes + ".  Next reward at " + (getHopZoneVoteCount() + Config.VOTES_FOR_REWARDHOPZONE) + ""));
+					World.toAllOnlinePlayers(new CreatureSay(0, SayType.SHOUT, "HOPZONE", "votes now " + hopzone_votes + ".  Next reward at " + (getHopZoneVoteCount() + Config.VOTES_FOR_REWARDHOPZONE) + ""));
 				}
 			}
 		}
@@ -127,11 +127,11 @@ public class Hopzone
 					
 					while ((inputLine = in.readLine()) != null)
 					{
-						if (inputLine.contains(":server-votes=\""))
-						{
-							votes = Integer.parseInt(inputLine.split(":server-votes=\"")[1].split("\"")[0]);
-							break;
-						}
+						if (inputLine.contains("totalvotes\":\"")) {
+						votes = Integer.parseInt(inputLine.split("totalvotes\":\"")[1].split("\",")[0]);
+						break;
+					}
+						
 					}
 				}
 			}

@@ -25,7 +25,7 @@ public class L2ClanWarZone extends ZoneType
 			if (activeChar.getClan() != null && activeChar.getStatus().getLevel() >= 75)
 			{
 				activeChar.setIsInsideClanwarZone(true);
-				activeChar.sendMessage("You have entered a Clan War Zone. Prepare for fight.");
+				activeChar.sendMessage("You have entered a Clan War Zone. Prepare for fight!");
 			}
 			else
 			{

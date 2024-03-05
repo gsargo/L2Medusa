@@ -43,6 +43,8 @@ public class SummonAI extends PlayableAI
 	@Override
 	protected void thinkActive()
 	{
+		
+			
 		if (_nextIntention.isBlank())
 		{
 			if (_followOwner)

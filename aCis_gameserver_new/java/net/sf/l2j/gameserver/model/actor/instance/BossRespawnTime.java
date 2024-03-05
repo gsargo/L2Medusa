@@ -48,7 +48,7 @@ public final class BossRespawnTime extends Gatekeeper
 		
 		switch (_bossid)
 		{
-			case 60010:// Hydra teleport id from teleports.xml
+			case 60010:// Medusa teleport id from teleports.xml
 				return 38;
 			
 			case 25325:// Barakiel teleport id from teleports.xml
@@ -124,10 +124,20 @@ public final class BossRespawnTime extends Gatekeeper
 				final String name = NpcData.getInstance().getTemplate(boss).getName();
 				// System.out.println("String value for ID: " + boss + "= " + name + ", time= " + time);
 				
-				if (status == BossStatus.ALIVE)					
-					StringUtil.append(sb, "<table  align=\"center\" width=295 height=28 border=0  >" + "<tr>" + "<td align=\"left\" width=145><font color=\"b09979\">     " + name + "</font>" + "<font color=\"81b287\">" + " is alive!" + "</font> </td>" + "<td valign=top align=\"left\" width=40 >" + " <button value=\" \" action=\"bypass -h npc_%objectId%_teleport " + get_tele(boss) + "\"" + " width=28 height=28 back=\"CustomIconPack02.select3\" fore=\"CustomIconPack02.select3\"> </td>" +
-				"</tr></table><br1><font color=\"353535\">_________________________________________________</font>");
-				else
+				if (status == BossStatus.ALIVE)		
+					{
+						if(bs.getBoss().getNpcId() == 25126) // minotaur's case (choose between south and north)
+						{
+							StringUtil.append(sb, "<table  align=\"center\" width=295 height=28 border=0  >" + "<tr>" + "<td align=\"left\" width=145><font color=\"b09979\">     " + name + "</font>" + "<font color=\"81b287\">" + " is alive!" + "</font> </td>" + "<td valign=top align=\"left\" width=40 >" + " <button value=\" \" action=\"bypass -h npc_%objectId%_Chat 4" +  "\"" + " width=28 height=28 back=\"CustomIconPack02.select3\" fore=\"CustomIconPack02.select3\"> </td>" +
+								"</tr></table><br1><font color=\"353535\">_________________________________________________</font>");	
+						}
+						else
+						{
+						StringUtil.append(sb, "<table  align=\"center\" width=295 height=28 border=0  >" + "<tr>" + "<td align=\"left\" width=145><font color=\"b09979\">     " + name + "</font>" + "<font color=\"81b287\">" + " is alive!" + "</font> </td>" + "<td valign=top align=\"left\" width=40 >" + " <button value=\" \" action=\"bypass -h npc_%objectId%_teleport " + get_tele(boss) + "\"" + " width=28 height=28 back=\"CustomIconPack02.select3\" fore=\"CustomIconPack02.select3\"> </td>" +
+							"</tr></table><br1><font color=\"353535\">_________________________________________________</font>");
+						}
+					}
+					else
 					sb.append("<table align=\"center\" width=305 height=28 >" + "<tr><td align=\"left\" width=140>" + "<font color=\"b09979\">" +"    "+ name + "</font> " + bs.getTimeLeft() + " <font color=\"b09979\">time left to spawn.</font></td></tr></table><br1><br1><font color=\"353535\">_________________________________________________</font>");	
 				
 				
@@ -149,11 +159,7 @@ public final class BossRespawnTime extends Gatekeeper
 		
 		if (currentCommand.startsWith("mansion"))
 		{
-			if(player.isInCombat())
-			{
-				player.sendMessage("You can not use the Tesseract while being in combat");
-				return;
-			}
+
 			final StringBuilder sb2 = new StringBuilder(); // hades + cerberus
 			// teleport_counter=37;
 			for (int boss : mansion_bosses_id) // if boss id exists on the desired list.

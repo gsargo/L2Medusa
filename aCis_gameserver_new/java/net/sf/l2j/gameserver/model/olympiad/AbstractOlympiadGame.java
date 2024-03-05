@@ -375,6 +375,14 @@ public abstract class AbstractOlympiadGame
 			if (skill != null)
 				skill.getEffects(player, player);
 		}
+		
+		else 
+		{
+			skill = SkillTable.getInstance().getInfo(1085,1); // Acumen for mages lvl 1
+			if (skill != null)
+				skill.getEffects(player, player);
+			
+		}
 	}
 	
 	/**

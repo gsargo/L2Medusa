@@ -10,6 +10,7 @@ import net.sf.l2j.gameserver.model.actor.instance.Pet;
 import net.sf.l2j.gameserver.model.holder.IntIntHolder;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.network.SystemMessageId;
+import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.skills.L2Skill;
 
@@ -52,6 +53,14 @@ public class ScrollsOfResurrection implements IItemHandler
 						playable.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANNOT_BE_RESURRECTED_DURING_SIEGE));
 						return;
 					}
+					
+					//Restrict Res on Party dungeon and tournament
+					if (targetPlayer.isInsidePartyDungeonZone() || targetPlayer.isInsideTournamentZone())
+			           {            
+							player.sendMessage("Resurrection is forbidden!");
+			            	player.sendPacket(ActionFailed.STATIC_PACKET);
+			                return;
+			           }
 					
 					// Check if the target is in a festival.
 					if (targetPlayer.isFestivalParticipant())

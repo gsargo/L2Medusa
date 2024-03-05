@@ -94,7 +94,7 @@ public class SummonMove extends CreatureMove<Summon>
 		// targetLoc.setLocationMinusOffset(target.getPosition(),(int) (offset + target.getCollisionRadius() + 1));
 		// }
 		// else
-		targetLoc.setLocationMinusOffset(target.getPosition(), (int) (offset + target.getCollisionRadius() + _actor.getCollisionRadius()));
+			targetLoc.setLocationMinusOffset(target.getPosition(), (int) (offset + target.getCollisionRadius() + _actor.getCollisionRadius()));
 		
 		// Don't bother moving if already in radius.
 		if (getMoveType() == MoveType.GROUND ? _actor.isIn2DRadius(targetLoc, offset) : _actor.isIn3DRadius(targetLoc, offset))

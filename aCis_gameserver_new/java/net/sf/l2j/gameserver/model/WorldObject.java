@@ -551,6 +551,9 @@ public abstract class WorldObject
 				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true))
 					continue;
 				
+				if (obj.getInstance().getId() != getInstance().getId() && !(obj instanceof Fence))
+					continue;
+				
 				result.add((A) obj);
 			}
 		}
@@ -582,6 +585,9 @@ public abstract class WorldObject
 				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true) || !predicate.test((A) obj))
 					continue;
 				
+				if (obj.getInstance().getId() != getInstance().getId() && !(obj instanceof Fence))
+					continue;
+				
 				result.add((A) obj);
 			}
 		}
@@ -603,6 +609,9 @@ public abstract class WorldObject
 			for (WorldObject obj : reg.getObjects())
 			{
 				if (obj == this)
+					continue;
+				
+				if (obj.getInstance().getId() != getInstance().getId() && !(obj instanceof Fence))
 					continue;
 				
 				obj.addKnownObject(this);
@@ -811,8 +820,7 @@ public abstract class WorldObject
 	}
 	
 	// Instance
-	private Instance _instance = InstanceManager.getInstance().getInstance(0); // tournament (works)
-	
+	private Instance _instance = InstanceManager.getInstance().getInstance(0); 
 	public void setInstance(Instance instance, boolean silent)
 	{
 		_instance = instance;

@@ -881,8 +881,8 @@ public class Siege implements Siegable
 				break;
 		}
 		
-		// Set next siege date if siege has passed ; add 14 days (2 weeks).
-		siegeDate.add(Calendar.WEEK_OF_YEAR, 2);
+		// Set next siege date if siege has passed ; add 7 days (1 weeks).
+		siegeDate.add(Calendar.WEEK_OF_YEAR, 1);
 		
 		// Set default hour to 18:00. This can be changed - only once - by the castle leader via the chamberlain.
 		/*siegeDate.set(Calendar.HOUR_OF_DAY, 20);

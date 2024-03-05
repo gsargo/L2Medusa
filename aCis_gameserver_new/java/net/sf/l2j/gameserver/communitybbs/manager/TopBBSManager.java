@@ -68,7 +68,7 @@ public class TopBBSManager extends BaseBBSManager
 						    int pvpKills = rSet.getInt("pvpkills");						                    						    
 						    String Vip_status = vip == 1 ? "<img src=CustomIconPack01.premium-member-extra-mini width=16 height=16>" : "<font color=B09878>"+ "-" +"</font>";  					    					    
 						    int online = rSet.getInt("online");             
-						    String status = online == 1 ? "<img src=CustomIconPack01.active_status32x32 width=8 height=29>" : "<img src=CustomIconPack01.deactive_status32 width=8 height=29>";
+						    String status = online == 1 ? "<img src=CustomIconPack01.active_status32 width=8 height=29>" : "<img src=CustomIconPack01.deactive_status32 width=8 height=29>";
 						    
 						  	_pvp.append("<tr><td align=\"center\" width=15>"+ board_getColor(index) +"</font>" +"</td>"+"<td align=\"center\" width=120>"+ board_getRankColor(pvpKills)+pl+"</font>"+"</td>"+ "<td align=\"center\" width=25>"+pvpKills+"</td>" + "<td align=\"center\" width=30>" + getRank_miniicons(pvpKills) + " " + "</td>" + "<td align=\"center\" width=20>" + Vip_status+" " +"</td>" +"<td align=\"center\" width=20>" + status+"</td></tr>");
 						    index++;

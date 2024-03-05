@@ -65,6 +65,8 @@ public class Monster extends Attackable
 	private boolean _isRaid;
 	private boolean _isMinion;
 	
+	private boolean _isDungeonMob;
+	
 	public Monster(int objectId, NpcTemplate template)
 	{
 		super(objectId, template);
@@ -367,6 +369,17 @@ public class Monster extends Attackable
 	{
 		return _isMinion;
 	}
+	
+	public void setDungeonMob(boolean isDunMob)
+	{
+		_isDungeonMob = isDunMob;
+	}
+	
+	public boolean isDungeonMob()
+	{
+		return _isDungeonMob;
+	}
+	
 	
 	/**
 	 * Set this {@link Monster} as a minion instance.
@@ -898,7 +911,8 @@ public class Monster extends Attackable
 		if (isRegularItem)
 		{
 			// Check Config.
-			if (((isRaidBoss() && Config.AUTO_LOOT_RAID) || (!isRaidBoss() && Config.AUTO_LOOT) || player.getAutoLoot()) && player.getInventory().validateCapacityByItemId(holder))
+			//Exclude solo & party dungeon from auto loot
+			if (((isRaidBoss() && Config.AUTO_LOOT_RAID) || (!isRaidBoss() && !player.isInsidePartyDungeonZone() && Config.AUTO_LOOT) && (!isRaidBoss() && !player.isInsideSoloDungeonZone() && Config.AUTO_LOOT) || player.getAutoLoot()) && player.getInventory().validateCapacityByItemId(holder))
 			{
 				if (player.isInParty())
 					player.getParty().distributeItem(player, holder, false, this);

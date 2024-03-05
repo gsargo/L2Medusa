@@ -22,6 +22,7 @@ public class L2JBRASIL extends VoteRewardSite
 	protected boolean hasVoted(Player player)
 	{
 		final String L2JBRASIL_API_URL = "https://top.l2jbrasil.com/votesystem/index.php?username=%s&ip=%s&type=json";
+
 		
 		try
 		{

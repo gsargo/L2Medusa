@@ -31,7 +31,7 @@ public final class RequestRestart extends L2GameClientPacket
 			return;
 		}
 		
-		if (player.isInsideZone(ZoneId.NO_RESTART) || player.logoutnPenalty)
+		if (player.isInsideZone(ZoneId.NO_RESTART) || player.logoutnPenalty || player.getDungeon()!=null)
 		{
 			player.sendPacket(SystemMessageId.NO_RESTART_HERE);
 			sendPacket(RestartResponse.valueOf(false));

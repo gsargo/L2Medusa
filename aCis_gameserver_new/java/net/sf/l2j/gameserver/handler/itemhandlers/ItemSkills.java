@@ -22,8 +22,11 @@ public class ItemSkills implements IItemHandler
 	{
 		2031, // Lesser Healing Potion
 		2032, // Healing potion
-		2037 // Greater Healing Potion
-	};
+		//2037,// Greater Healing Potion retail
+
+	}; 
+	
+
 	
 	@Override
 	public void useItem(Playable playable, ItemInstance item, boolean forceUse)
@@ -83,12 +86,13 @@ public class ItemSkills implements IItemHandler
 			{
 				// Buff icon for healing potions.
 				final int skillId = skillInfo.getId();
-				if (ArraysUtil.contains(HP_POTION_SKILL_IDS, skillId) && skillId >= player.getShortBuffTaskSkillId())
+				
+				if (ArraysUtil.contains(HP_POTION_SKILL_IDS, skillId) && skillId >= player.getShortBuffTaskSkillId()) 
 				{
 					final EffectTemplate template = itemSkill.getEffectTemplates().get(0);
 					if (template != null)
 					{
-						player.shortBuffStatusUpdate(skillId, skillInfo.getValue(), template.getCounter() * template.getPeriod());
+						//player.shortBuffStatusUpdate(skillId, skillInfo.getValue(), template.getCounter() * template.getPeriod());
 					}
 				}
 			}

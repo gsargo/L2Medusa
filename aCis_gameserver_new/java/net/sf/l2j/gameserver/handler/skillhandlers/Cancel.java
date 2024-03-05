@@ -62,7 +62,7 @@ public class Cancel implements ISkillHandler
 			for (AbstractEffect effect : list)
 			{
 				// Don't cancel toggles or debuffs.
-				if (effect.getSkill().isToggle() || effect.getSkill().isDebuff() || effect.getSkill().isCustomBuff())
+				if (effect.getSkill().isToggle() || effect.getSkill().isDebuff() || effect.getSkill().isCustomBuff(effect.getSkill().getId()))
 					continue;
 				
 				// Don't cancel specific EffectTypes.
@@ -95,9 +95,12 @@ public class Cancel implements ISkillHandler
 				if (calcCancelSuccess(effect.getPeriod(), diffLevel, skillPower, skillVuln, minRate, maxRate))
 				{
 					if (player != null)
+					{
 						player.addBuffToRestore(effect.getSkill());
+						SkillTable.getInstance().getInfo(7094, 1).getEffects(player, player); // display cancel as debuff
+					}
 					effect.exit();
-					SkillTable.getInstance().getInfo(7094, 1).getEffects(player, player); // display cancel as debuff
+					
 				}
 				
 				// Remove 1 to the stack of buffs to remove.

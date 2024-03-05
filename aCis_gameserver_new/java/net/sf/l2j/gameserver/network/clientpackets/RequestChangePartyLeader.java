@@ -28,6 +28,10 @@ public final class RequestChangePartyLeader extends L2GameClientPacket
 			return;
 		}
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		party.changePartyLeader(_targetName);
 	}
 }

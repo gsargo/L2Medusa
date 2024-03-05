@@ -32,7 +32,7 @@ public class PvPZone_DeadPlayersManager
 	protected PvPZone_DeadPlayersManager()
 	{
 		
-			ThreadPool.scheduleAtFixedRate(() -> start(), 65000, 65000);		
+			ThreadPool.scheduleAtFixedRate(() -> start(), 400000, 400000);		//every 6-7 minutes
 		_log.info("PvP Zone - To Village Manager: started.");
 		
 	}

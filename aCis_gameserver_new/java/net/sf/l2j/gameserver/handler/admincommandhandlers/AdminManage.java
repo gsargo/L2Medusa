@@ -96,6 +96,11 @@ public class AdminManage implements IAdminCommandHandler
 		}
 		else if (command.startsWith("admin_kill"))
 		{
+			if(targetCreature.isGM())
+			{
+				player.sendMessage("You can not kill a Game Master");
+				return;
+			}
 			if (radius > 0)
 			{
 				kill(targetCreature, player);

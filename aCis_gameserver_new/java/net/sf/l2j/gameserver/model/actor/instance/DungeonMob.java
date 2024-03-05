@@ -14,6 +14,8 @@ public class DungeonMob extends Monster
 	public DungeonMob(int objectId, NpcTemplate template)
 	{
 		super(objectId, template);
+		
+		setDungeonMob(true);
 	}
 	
 	@Override

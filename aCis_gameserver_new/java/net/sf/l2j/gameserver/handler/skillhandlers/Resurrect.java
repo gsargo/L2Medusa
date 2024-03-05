@@ -7,6 +7,7 @@ import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.instance.Pet;
+import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.skills.Formulas;
 import net.sf.l2j.gameserver.skills.L2Skill;
 import net.sf.l2j.gameserver.taskmanager.DecayTaskManager;
@@ -27,7 +28,16 @@ public class Resurrect implements ISkillHandler
 			if (activeChar instanceof Player)
 			{
 				if (cha instanceof Player)
+				{
+					//Restrict Res on Party dungeon and tournament
+					if (activeChar.isInsidePartyDungeonZone() || activeChar.isInsideTournamentZone())
+			           {            
+							activeChar.sendMessage("Resurrection is forbidden!");
+							activeChar.sendPacket(ActionFailed.STATIC_PACKET);
+			                return;
+			           }
 					((Player) cha).reviveRequest((Player) activeChar, skill, false);
+				}
 				else if (cha instanceof Pet)
 				{
 					if (((Pet) cha).getOwner() == activeChar)

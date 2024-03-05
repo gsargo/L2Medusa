@@ -18,7 +18,7 @@ public class VoiceTournament implements IVoicedCommandHandler
 	@Override
 	public boolean useVoicedCommand(String command, Player player, String params)
 	{
-		StringTokenizer st = new StringTokenizer(command, " ");
+		StringTokenizer st = new StringTokenizer(params, " ");
 		st.nextToken();
 		TournamentTeam team = player.getTournamentTeam();
 		if (command.startsWith("mytour"))
@@ -34,7 +34,7 @@ public class VoiceTournament implements IVoicedCommandHandler
 			}
 			if (TournamentManager.getInstance().isTournamentTeleporting())
 			{
-				player.sendMessage("Battle Arena is teleportind players, wait 30 seconds to invite someone.");
+				player.sendMessage("Battle Arena is teleporting players, wait 30 seconds before inviting someone.");
 				return false;
 			}
 			String nextMemberName = st.nextToken();
@@ -73,6 +73,35 @@ public class VoiceTournament implements IVoicedCommandHandler
 				return false;
 			}
 		}
+		
+		if(command.startsWith("arenaleave"))
+		{
+			if (team != null)
+			{
+				if(team.getMembers().size()<=2)
+					team.disbandTeam();
+				else
+					team.removeMember(player);
+			}
+			else
+			{
+				player.sendMessage("You do not belong in a team.");
+			}
+		}
+		
+		if(command.startsWith("arenadismiss"))
+		{
+			if (team != null)
+			{
+				team.disbandTeam();
+			}
+			else
+			{
+				player.sendMessage("You do not have a Battle Arena team.");
+			}
+			TournamentManager.getInstance().showHtml(player, "main", TournamentFightType.NONE);
+		}
+			
 		return false;
 	}
 	

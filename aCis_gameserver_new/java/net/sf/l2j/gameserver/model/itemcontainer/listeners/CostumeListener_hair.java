@@ -24,6 +24,7 @@ public class CostumeListener_hair implements OnEquipListener
 			actor.getActingPlayer().setTempLegs(item.getItem().getTempLegs());
 			actor.getActingPlayer().setTempGloves(item.getItem().getTempGloves());
 			actor.getActingPlayer().setTempFeet(item.getItem().getTempFeet());
+			actor.getActingPlayer().setCostumeHeaditemObjId(item.getObjectId());
 		}
 	}
 	
@@ -38,6 +39,7 @@ public class CostumeListener_hair implements OnEquipListener
 			actor.getActingPlayer().setTempLegs(0);
 			actor.getActingPlayer().setTempGloves(0);
 			actor.getActingPlayer().setTempFeet(0);
+			actor.getActingPlayer().setCostumeHeaditemObjId(0);
 		}
 	}
 }

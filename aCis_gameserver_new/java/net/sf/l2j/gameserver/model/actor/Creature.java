@@ -88,6 +88,13 @@ public abstract class Creature extends WorldObject
 	
 	private boolean _isInsideClanwarZone = false;
 	private boolean _isInsidePvPZone = false;
+	private boolean _isInsideSoloDungeonZone = false;
+	private boolean _isInsidePartyDungeonZone = false;
+	private boolean _isInsideTownZone = false;
+	private boolean _isInsideTimeZone = false;
+	private boolean _isInsideTournamentZone = false;
+	private boolean _isInsideMyRBZone = false;
+	private boolean _isInsideSharkZone = false;
 	
 	protected volatile CreatureAI _ai;
 	
@@ -2002,6 +2009,80 @@ public abstract class Creature extends WorldObject
 		this._isInsidePvPZone = _isInsidePvPZone;
 	}
 	
+	public boolean isInsideSoloDungeonZone()
+	{
+		return _isInsideSoloDungeonZone;
+	}
+	
+	public void setIsInsideSoloDungeonZone(boolean _isInsideSoloDungeonZone)
+	{
+		this._isInsideSoloDungeonZone = _isInsideSoloDungeonZone;
+	}
+	
+	
+	public boolean isInsidePartyDungeonZone()
+	{
+		return _isInsidePartyDungeonZone;
+	}
+	
+	public void setIsInsidePartyDungeonZone(boolean _isInsidePartyDungeonZone)
+	{
+		this._isInsidePartyDungeonZone = _isInsidePartyDungeonZone;
+	}
+	
+	public boolean isInsideTownZone()
+	{
+		return _isInsideTownZone;
+	}
+	
+	public void setIsInsideTownZone(boolean _isInsideTownZone)
+	{
+		this._isInsideTownZone = _isInsideTownZone;
+	}
+	
+	public boolean isInsideTimeZone()
+	{
+		return _isInsideTimeZone;
+	}
+	
+	public void setIsInsideTimeZone(boolean _isInsideTimeZone)
+	{
+		this._isInsideTimeZone = _isInsideTimeZone;
+	}
+	
+	public boolean isInsideTournamentZone()
+	{
+		return _isInsideTournamentZone;
+	}
+	
+	public void setIsInsideTournamentZone(boolean _isInsideTournamentZone)
+	{
+		this._isInsideTournamentZone = _isInsideTournamentZone;
+	}
+	
+	public boolean isInsideMyRBZone()
+	{
+		return _isInsideMyRBZone;
+	}
+	
+	public void setisInsideMyRBZone(boolean _isSharkZone)
+	{
+		this._isInsideMyRBZone = _isSharkZone;
+	}
+	
+	public boolean isInsideSharkZone()
+	{
+		return _isInsideSharkZone;
+	}
+	
+	public void setisInsideSharkZone(boolean _isSharkZone)
+	{
+		this._isInsideSharkZone = _isSharkZone;
+	}
+	
+	
+	
+
 	/**
 	 * @return True if this {@link Creature} can be healed, false otherwise.
 	 */

@@ -1,8 +1,6 @@
 package net.sf.l2j.gameserver.mods.antibot;
 
 import java.awt.Color;
-import java.awt.MouseInfo;
-import java.awt.Point;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.Map;
@@ -34,7 +32,6 @@ public class Captcha implements Runnable
 	int _boxNumbers = 3;
 	private final AtomicInteger _boxCounter = new AtomicInteger();
 	int _checkedBoxs = 0;
-	Point _prevMouseLoc = null;
 	
 	private static final String UPDATE_JAIL = "UPDATE characters SET x=-114356, y=-249645, z=-2984, punish_level=?, punish_timer=? WHERE char_name=?";
 	
@@ -52,7 +49,6 @@ public class Captcha implements Runnable
 	{
 		this._countdown = timer;
 		this._player = player;
-		_prevMouseLoc = MouseInfo.getPointerInfo().getLocation();
 		feedBoxs();
 		generateBoxs();
 		startCaptcha();
@@ -73,7 +69,7 @@ public class Captcha implements Runnable
 	
 	private void results()
 	{
-		if (_checkedBoxs == _boxNumbers && isMouseMoving())
+		if (_checkedBoxs == _boxNumbers)
 			_currentState = State.PASSED;
 		else
 			punishment();
@@ -221,16 +217,6 @@ public class Captcha implements Runnable
 			tempHolder = "Passed.";
 		
 		return tempHolder;
-	}
-	
-	private boolean isMouseMoving()
-	{
-		boolean tempHold = false;
-		if (_prevMouseLoc.getLocation().equals(MouseInfo.getPointerInfo().getLocation()))
-			tempHold = false;
-		else
-			tempHold = true;
-		return tempHold;
 	}
 	
 	@Override

@@ -103,7 +103,7 @@ public class BufferManager implements IXmlReader
 				{
 					final NamedNodeMap attrs = buffNode.getAttributes();
 					final int skillId = parseInteger(attrs, "id");
-					_availableBuffs.put(skillId, new BuffSkillHolder(skillId, parseInteger(attrs, "level", SkillTable.getInstance().getMaxLevel(skillId)), parseInteger(attrs, "price", 0), category, parseString(attrs, "desc", "")));
+					_availableBuffs.put(skillId, new BuffSkillHolder(skillId, parseInteger(attrs, "level", SkillTable.getInstance().getMaxLevel(skillId)), parseInteger(attrs, "price", 0), category, parseString(attrs, "desc", ""),parseString(attrs, "icon", "")));
 				});
 			});
 			forEach(listNode, "scheme", schemeNode ->
@@ -114,7 +114,7 @@ public class BufferManager implements IXmlReader
 				{
 					final NamedNodeMap attrs = buffNode.getAttributes();
 					final int skillId = parseInteger(attrs, "id");
-					skillHolder.add(new BuffSkillHolder(skillId, parseInteger(attrs, "level", SkillTable.getInstance().getMaxLevel(skillId)), parseInteger(attrs, "price", 0), scheme, ""));
+					skillHolder.add(new BuffSkillHolder(skillId, parseInteger(attrs, "level", SkillTable.getInstance().getMaxLevel(skillId)), parseInteger(attrs, "price", 0), scheme, "",parseString(attrs, "icon", "")));
 				});
 				_availableSchemes.put(BufferSchemeType.valueOf(scheme), skillHolder);
 			});
@@ -244,13 +244,13 @@ public class BufferManager implements IXmlReader
 	 * @param groupType : The {@link String} group type of skill ids to return.
 	 * @return a {@link List} of skill ids based on the given {@link String} groupType.
 	 */
-	public List<Integer> getSkillsIdsByType(String groupType)
+	public List<BuffSkillHolder> getSkillsIdsByType(String groupType)
 	{
-		final List<Integer> skills = new ArrayList<>();
+		final List<BuffSkillHolder> skills = new ArrayList<>();
 		for (BuffSkillHolder holder : _availableBuffs.values())
 		{
 			if (holder.getType().equalsIgnoreCase(groupType))
-				skills.add(holder.getId());
+				skills.add(holder);
 		}
 		return skills;
 	}

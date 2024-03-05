@@ -36,6 +36,7 @@ import net.sf.l2j.gameserver.network.serverpackets.PetStatusUpdate;
 import net.sf.l2j.gameserver.network.serverpackets.RelationChanged;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.skills.L2Skill;
+import net.sf.l2j.gameserver.model.actor.instance.Servitor;  
 
 public abstract class Summon extends Playable
 {
@@ -62,8 +63,8 @@ public abstract class Summon extends Playable
 		_isAgathion = Config.AGATHION_NPC_ID.contains(template.getNpcId());
 		
 		// add extra stats when pet is summoned (Pet Boosting)
-		if (!_isAgathion)
-			SkillTable.getInstance().getInfo(7089, 1).getEffects(owner, owner);
+		//if (!_isAgathion && !(this instanceof Servitor))
+			//SkillTable.getInstance().getInfo(7089, 1).getEffects(owner, owner);
 		
 	}
 	
@@ -293,7 +294,7 @@ public abstract class Summon extends Playable
 			// remove player's extra stats (Pet Boosting)
 			if (!_isAgathion)
 			{
-				owner.stopSkillEffects(7089);
+				//owner.stopSkillEffects(7089);
 				owner.setSummon(null);
 				owner.sendPacket(new PetDelete(getSummonType(), getObjectId()));
 			}

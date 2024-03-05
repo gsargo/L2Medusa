@@ -37,8 +37,9 @@ public class ValidatePosition extends L2GameClientPacket
 		if (player == null || player.isTeleporting() || player.isInObserverMode())
 			return;
 		
-		if (player.getMove().getMoveType() == MoveType.SWIM)// fix swimming bug
+		if (player.isInWater() || player.getMove().getMoveType() == MoveType.SWIM)// fix swimming bug
 			return;
+		
 		// Disable validation for CameraMode.
 		if (player.getTeleportMode() == TeleportMode.CAMERA_MODE)
 		{

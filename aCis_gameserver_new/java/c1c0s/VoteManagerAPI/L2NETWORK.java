@@ -22,6 +22,9 @@ public class L2NETWORK extends VoteRewardSite
 	protected boolean hasVoted(Player player)
 	{
 		final String L2NETWORK_API_URL = "https://l2network.eu/index.php?a=in&u=%s&ipc=%s";
+		//https://l2network.eu/index.php?a=in&u=%s&id=%s
+		
+		
 		
 		try
 		{

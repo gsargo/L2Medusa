@@ -20,14 +20,24 @@ public abstract class AbstractEnchantPacket extends L2GameClientPacket
 		protected final boolean _isWeapon;
 		protected final CrystalType _grade;
 		private final boolean _isBlessed;
+		private final boolean _isBlessed75;
 		private final boolean _isCrystal;
+		private final boolean _isImprovedNormal70;
+		private final boolean _isImprovedNormal75;
+		private final boolean _isImprovedNormal80;
+		private final boolean _isImprovedBlessed;
 		
-		public EnchantScroll(boolean wep, boolean bless, boolean crystal, CrystalType type)
+		public EnchantScroll(boolean wep, boolean bless, boolean bless75, boolean improvednormal70, boolean improvednormal75, boolean improvednormal80, boolean improvedbless, boolean crystal, CrystalType type)
 		{
 			_isWeapon = wep;
 			_grade = type;
 			_isBlessed = bless;
+			_isBlessed75 = bless75;
 			_isCrystal = crystal;
+			_isImprovedNormal70 =  improvednormal70;
+			_isImprovedNormal75 =  improvednormal75;
+			_isImprovedNormal80 =  improvednormal80;
+			_isImprovedBlessed =  improvedbless;
 		}
 		
 		/**
@@ -70,6 +80,31 @@ public abstract class AbstractEnchantPacket extends L2GameClientPacket
 		public final boolean isBlessed()
 		{
 			return _isBlessed;
+		}
+		
+		public final boolean isBlessed75()
+		{
+			return _isBlessed75;
+		}
+		
+		public final boolean isImprovedBlessed()
+		{
+			return _isImprovedBlessed;
+		}
+		
+		public final boolean isNormal70()
+		{
+			return _isImprovedNormal70;
+		}
+		
+		public final boolean isNormal75()
+		{
+			return _isImprovedNormal75;
+		}
+		
+		public final boolean isNormal80()
+		{
+			return _isImprovedNormal80;
 		}
 		
 		/**
@@ -121,115 +156,293 @@ public abstract class AbstractEnchantPacket extends L2GameClientPacket
 			// Armor formula : 0.66^(current-2), chance is lower and lower for each enchant.
 			if (enchantItem.isArmor()) //Chances for Armor Enchant
 			{
-				if(enchantItem.getEnchantLevel() <=12)
-					chance = Config.ENCHANT_CHANCE_ARMOR;
-				//default : chance = Math.pow(Config.ENCHANT_CHANCE_ARMOR, (enchantItem.getEnchantLevel() - 2));
-				else if (enchantItem.getEnchantLevel() >12 && enchantItem.getEnchantLevel() <16)
-				chance = Config.ENCHANT_CHANCE_ARMOR_12PLUS;
-				else
-				chance = Config.ENCHANT_CHANCE_ARMOR_16PLUS;
-			}
-			
-			else if (enchantItem.isWeapon() && !isCrystal() && !isBlessed()) // calculate chance for normal and blessed weapons
-			{
-				/*if (((Weapon) enchantItem.getItem()).isMagical())
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_MAGIC_12PLUS : Config.ENCHANT_CHANCE_WEAPON_MAGIC;
-				else
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_NONMAGIC_12PLUS : Config.ENCHANT_CHANCE_WEAPON_NONMAGIC;
-					*/
-				switch(enchantItem.getEnchantLevel())
+				if (isBlessed()) // custom , calculate chance for blessed.
 				{
-					case 3:
-					case 4:
-					case 5:
-					case 6:
-					case 7:
-					case 8:
-					case 9:
-					case 10:
-						chance = Config.ENCHANT_CHANCE_WEAPON;
-					case 11:
-					case 12:
-						chance = Config.ENCHANT_CHANCE_WEAPON_10PLUS;
-					case 13:					
-					case 14:
-					case 15:
-						chance = Config.ENCHANT_CHANCE_WEAPON_13PLUS;
-					case 16:
-					case 17:
-					case 18:
-					case 19:
-						chance = Config.ENCHANT_CHANCE_WEAPON_16PLUS;
-				}
-		
-			}
-			
-			else if (enchantItem.isWeapon() && isBlessed()) // custom , calculate chance for crystal.
-			{
-				switch(enchantItem.getEnchantLevel())
-				{
-					case 3:
-					case 4:
-					case 5:
-					case 6:
-					case 7:
-					case 8:
-					case 9:
-					case 10:
-						chance = Config.ENCHANT_CHANCE_WEAPON_BLESSED;
-					case 11:
-					case 12:
-						chance = Config.ENCHANT_CHANCE_WEAPON_BLESSED_10PLUS;
-					case 13:
-					case 14:
-					case 15:
-						chance = Config.ENCHANT_CHANCE_WEAPON_BLESSED_13PLUS;
-					case 16:
-					case 17:
-					case 18:
-					case 19:
-						chance = Config.ENCHANT_CHANCE_WEAPON_BLESSED_16PLUS;
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED_ARMOR;
+							break;
+						}
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED_ARMOR - 0.02;
+							break;
+						}
+					}	
 				}
 				
-				/*if (((Weapon) enchantItem.getItem()).isMagical())
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_12PLUS : Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
-				else
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_12PLUS : Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
-					*/
+				else if ( isBlessed75()) // custom , calculate chance for blessed 75%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED75_ARMOR;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED75_ARMOR - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				else if ( isImprovedBlessed()) // custom , calculate chance for improved blessed%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_IMPROVEDBLESSED_ARMOR;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal70()) // custom , calculate chance for normal 70%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL70_ARMOR;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL70_ARMOR - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal75()) // custom , calculate chance for normal 75%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL75_ARMOR;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL75_ARMOR - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal80()) // custom , calculate chance for normal 80%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL80_ARMOR;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL80_ARMOR - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				else if ( isCrystal()) // custom , calculate chance for crystal.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19:
+	
+						{
+							chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
+							break;
+						}
+						
+					}
+					
+				}
+				
+				
+				else // calculate chance for normal
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL_ARMOR;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL_ARMOR - 0.02;
+							break;
+						}
+					}
+			
+				}
 			}
 			
-			else if (enchantItem.isWeapon() && isCrystal()) // custom , calculate chance for crystal.
+			else // isWeapon
 			{
-				switch(enchantItem.getEnchantLevel())
+				if (isBlessed()) // custom , calculate chance for blessed.
 				{
-					case 3:
-					case 4:
-					case 5:
-					case 6:
-					case 7:
-					case 8:
-					case 9:
-					case 10:
-						chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
-					case 11:
-					case 12:
-						chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_10PLUS;
-					case 13:
-					case 14:
-					case 15:
-						chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_13PLUS;
-					case 16:
-					case 17:
-					case 18:
-					case 19:
-						chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_16PLUS;
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED_WEAPON;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED_WEAPON - 0.02;
+							break;
+						}
+					}	
 				}
-				/*if (((Weapon) enchantItem.getItem()).isMagical())
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_12PLUS : Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
-				else
-					chance = (enchantItem.getEnchantLevel() > 11) ? Config.ENCHANT_CHANCE_WEAPON_CRYSTAL_12PLUS : Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
-					*/
-			}
+				
+				else if ( isBlessed75()) // custom , calculate chance for blessed 75%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED75_WEAPON;
+							
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_BLESSED75_WEAPON - 0.02;
+							
+							break;
+						}
+					}	
+				}
+				
+				else if ( isImprovedBlessed()) // custom , calculate chance for improved blessed%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_IMPROVEDBLESSED_WEAPON;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal70()) // custom , calculate chance for normal 70%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL70_WEAPON;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL70_WEAPON - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal75()) // custom , calculate chance for normal 75%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL75_WEAPON;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL75_WEAPON - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				
+				else if (isNormal80()) // custom , calculate chance for normal 80%.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL80_WEAPON;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL80_WEAPON - 0.02;
+							break;
+						}
+					}	
+				}
+				
+				else if ( isCrystal()) // custom , calculate chance for crystal.
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19:
+	
+						{
+							chance = Config.ENCHANT_CHANCE_WEAPON_CRYSTAL;
+							break;
+						}
+						
+					}
+					
+				}
+				
+				
+				else // calculate chance for normal
+				{
+					switch(enchantItem.getEnchantLevel())
+					{
+						case 3,4,5,6,7,8,9,10,11,12,13,14:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL_WEAPON;
+							break;
+						}
+						
+						case 15,16,17,18,19:
+						{
+							chance = Config.ENCHANT_CHANCE_NORMAL_WEAPON - 0.02;
+							break;
+						}
+					}
+			
+				}
+		}
+
+			
+		System.out.println("Chance is "+chance);
 			
 			return chance;
 		}
@@ -242,46 +455,92 @@ public abstract class AbstractEnchantPacket extends L2GameClientPacket
 	static
 	{
 		// Scrolls: Enchant Weapon
-		_scrolls.put(729, new EnchantScroll(true, false, false, CrystalType.A));
-		_scrolls.put(947, new EnchantScroll(true, false, false, CrystalType.B));
-		_scrolls.put(951, new EnchantScroll(true, false, false, CrystalType.C));
-		_scrolls.put(955, new EnchantScroll(true, false, false, CrystalType.D));
-		_scrolls.put(959, new EnchantScroll(true, false, false, CrystalType.S));
+		_scrolls.put(729, new EnchantScroll(true, false, false, false, false, false, false, false, CrystalType.A));
+		_scrolls.put(947, new EnchantScroll(true, false, false, false, false, false, false, false, CrystalType.B));
+		_scrolls.put(951, new EnchantScroll(true, false, false, false, false, false, false, false, CrystalType.C));
+		_scrolls.put(955, new EnchantScroll(true, false, false, false, false, false, false, false, CrystalType.D));
+		_scrolls.put(959, new EnchantScroll(true, false, false, false, false, false, false, false, CrystalType.S));
+		
+		
 		
 		// Scrolls: Enchant Armor
-		_scrolls.put(730, new EnchantScroll(false, false, false, CrystalType.A));
-		_scrolls.put(948, new EnchantScroll(false, false, false, CrystalType.B));
-		_scrolls.put(952, new EnchantScroll(false, false, false, CrystalType.C));
-		_scrolls.put(956, new EnchantScroll(false, false, false, CrystalType.D));
-		_scrolls.put(960, new EnchantScroll(false, false, false, CrystalType.S));
+		_scrolls.put(730, new EnchantScroll(false, false, false, false, false, false, false, false, CrystalType.A));
+		_scrolls.put(948, new EnchantScroll(false, false, false, false, false, false, false, false, CrystalType.B));
+		_scrolls.put(952, new EnchantScroll(false, false, false, false, false, false, false, false, CrystalType.C));
+		_scrolls.put(956, new EnchantScroll(false, false, false, false, false, false, false, false, CrystalType.D));
+		_scrolls.put(960, new EnchantScroll(false, false, false, false, false, false, false, false, CrystalType.S));
+		
+		//Custom Normal Scroll 70% : Enchant Weapon
+		_scrolls.put(12603, new EnchantScroll(true, false, false, true, false, false, false, false, CrystalType.A)); //Custom 70% Scroll
+		_scrolls.put(12593, new EnchantScroll(true, false, false, true, false, false, false, false, CrystalType.S)); //Custom 70% Scroll
+		
+		
+		//Custom Normal Scroll 70%: Enchant Armor
+		_scrolls.put(12604, new EnchantScroll(false, false, false, true ,false, false ,false, false, CrystalType.A)); //Custom 70% Scroll
+		_scrolls.put(12594, new EnchantScroll(false, false, false, true ,false, false ,false, false, CrystalType.S)); //Custom 70% Scroll
+		
+		
+		//Custom Normal Scroll 75% : Enchant Weapon
+		_scrolls.put(12605, new EnchantScroll(true, false, false, false, true, false, false, false, CrystalType.A)); //Custom 75% Scroll
+		_scrolls.put(12597, new EnchantScroll(true, false, false, false, true, false, false, false, CrystalType.S)); //Custom 75% Scroll
+		
+		//Custom Normal Scrolls 75%: Enchant Armor
+		_scrolls.put(12606, new EnchantScroll(false, false, false, false ,true, false ,false, false, CrystalType.A)); //Custom 75% Scroll
+		_scrolls.put(12598, new EnchantScroll(false, false, false, false ,true, false ,false, false, CrystalType.S)); //Custom 75% Scroll
+		
+		//Custom Normal Scroll 80% : Enchant Weapon
+		_scrolls.put(12607, new EnchantScroll(true, false, false, false, false, true, false, false, CrystalType.A)); //Custom 80% Scroll
+		_scrolls.put(12599, new EnchantScroll(true, false, false, false, false, true, false, false, CrystalType.S)); //Custom 80% Scroll
+		
+		//Custom Normal Scrolls 80%: Enchant Armor
+		_scrolls.put(12608, new EnchantScroll(false, false, false, false ,false, true ,false, false, CrystalType.A)); //Custom 80% Scroll
+		_scrolls.put(12600, new EnchantScroll(false, false, false, false ,false, true ,false, false, CrystalType.S)); //Custom 80% Scroll
 		
 		// Blessed Scrolls: Enchant Weapon
-		_scrolls.put(6569, new EnchantScroll(true, true, false, CrystalType.A));
-		_scrolls.put(6571, new EnchantScroll(true, true, false, CrystalType.B));
-		_scrolls.put(6573, new EnchantScroll(true, true, false, CrystalType.C));
-		_scrolls.put(6575, new EnchantScroll(true, true, false, CrystalType.D));
-		_scrolls.put(6577, new EnchantScroll(true, true, false, CrystalType.S));
+		_scrolls.put(6569, new EnchantScroll(true, true, false, false, false, false, false, false, CrystalType.A));
+		_scrolls.put(6571, new EnchantScroll(true, true, false, false, false, false, false, false, CrystalType.B));
+		_scrolls.put(6573, new EnchantScroll(true, true, false, false, false, false, false, false, CrystalType.C));
+		_scrolls.put(6575, new EnchantScroll(true, true, false, false, false, false, false, false, CrystalType.D));
+		_scrolls.put(6577, new EnchantScroll(true, true, false, false, false, false, false, false, CrystalType.S));
+
 		
 		// Blessed Scrolls: Enchant Armor
-		_scrolls.put(6570, new EnchantScroll(false, true, false, CrystalType.A));
-		_scrolls.put(6572, new EnchantScroll(false, true, false, CrystalType.B));
-		_scrolls.put(6574, new EnchantScroll(false, true, false, CrystalType.C));
-		_scrolls.put(6576, new EnchantScroll(false, true, false, CrystalType.D));
-		_scrolls.put(6578, new EnchantScroll(false, true, false, CrystalType.S));
+		_scrolls.put(6570, new EnchantScroll(false, true, false, false, false, false, false, false, CrystalType.A));
+		_scrolls.put(6572, new EnchantScroll(false, true, false, false, false, false, false, false, CrystalType.B));
+		_scrolls.put(6574, new EnchantScroll(false, true, false, false, false, false, false, false, CrystalType.C));
+		_scrolls.put(6576, new EnchantScroll(false, true, false, false, false, false, false, false, CrystalType.D));
+		_scrolls.put(6578, new EnchantScroll(false, true, false, false, false, false, false, false, CrystalType.S));
+		
+		//Custom Blessed Scroll 75% : Enchant Weapon
+		_scrolls.put(12609, new EnchantScroll(true, false, false, false, true, false, false, false, CrystalType.A)); //Custom Blessed 75% Scroll
+		_scrolls.put(12601, new EnchantScroll(true, false, false, false, true, false, false, false, CrystalType.S)); //Custom Blessed 75% Scroll
+		
+		//Custom Blessed Scrolls 75%: Enchant Armor
+		_scrolls.put(12610, new EnchantScroll(false, false, false, false ,true, false ,false, false, CrystalType.A)); //Custom Blessed 75% Scroll
+		_scrolls.put(12602, new EnchantScroll(false, false, false, false ,true, false ,false, false, CrystalType.S)); //Custom Blessed 75% Scroll
+		
+		//Improved Blessed Scrolls : Enchant Weapon
+		_scrolls.put(12611, new EnchantScroll(true, false, false, false, false, false, true, false, CrystalType.A)); //Custom Improved Blessed 70% Scroll
+		_scrolls.put(12595, new EnchantScroll(true, false, false, false, false, false, true, false, CrystalType.S)); //Custom Improved Blessed 70% Scroll
+				
+		//Improved Blessed Scrolls: Enchant Armor
+		_scrolls.put(12612, new EnchantScroll(false, false, false, false, false, false ,true, false, CrystalType.A)); //Custom Improved Blessed 70% Scroll
+		_scrolls.put(12596, new EnchantScroll(false, false, false, false, false, false ,true, false, CrystalType.S)); //Custom Improved Blessed 70% Scroll
+		
 		
 		// Crystal Scrolls: Enchant Weapon
-		_scrolls.put(731, new EnchantScroll(true, false, true, CrystalType.A));
-		_scrolls.put(949, new EnchantScroll(true, false, true, CrystalType.B));
-		_scrolls.put(953, new EnchantScroll(true, false, true, CrystalType.C));
-		_scrolls.put(957, new EnchantScroll(true, false, true, CrystalType.D));
-		_scrolls.put(961, new EnchantScroll(true, false, true, CrystalType.S));
+		_scrolls.put(731, new EnchantScroll(true, false, false, false, false, false, false, true, CrystalType.A));
+		_scrolls.put(949, new EnchantScroll(true, false, false, false, false, false, false, true, CrystalType.B));
+		_scrolls.put(953, new EnchantScroll(true, false, false, false, false, false, false, true, CrystalType.C));
+		_scrolls.put(957, new EnchantScroll(true, false, false, false, false, false, false, true, CrystalType.D));
+		_scrolls.put(961, new EnchantScroll(true, false, false, false, false, false, false, true, CrystalType.S));
 		
 		// Crystal Scrolls: Enchant Armor
-		_scrolls.put(732, new EnchantScroll(false, false, true, CrystalType.A));
-		_scrolls.put(950, new EnchantScroll(false, false, true, CrystalType.B));
-		_scrolls.put(954, new EnchantScroll(false, false, true, CrystalType.C));
-		_scrolls.put(958, new EnchantScroll(false, false, true, CrystalType.D));
-		_scrolls.put(962, new EnchantScroll(false, false, true, CrystalType.S));
+		_scrolls.put(732, new EnchantScroll(false, false, false, false, false, false, false, true, CrystalType.A));
+		_scrolls.put(950, new EnchantScroll(false, false, false, false, false, false, false, true, CrystalType.B));
+		_scrolls.put(954, new EnchantScroll(false, false, false, false, false, false, false, true, CrystalType.C));
+		_scrolls.put(958, new EnchantScroll(false, false, false, false, false, false, false, true, CrystalType.D));
+		_scrolls.put(962, new EnchantScroll(false, false, false, false, false, false, false, true, CrystalType.S));
 	}
 	
 	/**

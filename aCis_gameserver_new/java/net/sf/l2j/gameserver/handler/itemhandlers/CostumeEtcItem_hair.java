@@ -23,6 +23,7 @@ public class CostumeEtcItem_hair implements IItemHandler
 		{
 			
 			activeChar.setTempHair(0);
+			activeChar.setCostumeHeaditemObjId(0); 
 			activeChar.broadcastUserInfo();
 			activeChar.sendMessage("Skin: Unequiped.");
 			return;
@@ -30,7 +31,9 @@ public class CostumeEtcItem_hair implements IItemHandler
 		Item costume = item.getItem();
 		int hair = costume.getTempHair();
 		
+		
 		activeChar.setTempHair(hair);
+		activeChar.setCostumeHeaditemObjId(item.getObjectId());
 		
 		activeChar.broadcastUserInfo();
 		activeChar.sendMessage("Skin: Equiped.");

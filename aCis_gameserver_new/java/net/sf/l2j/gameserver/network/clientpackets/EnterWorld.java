@@ -1,6 +1,10 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.TimeZone;
 import java.util.Map.Entry;
 
 import net.sf.l2j.commons.pool.ThreadPool;
@@ -94,6 +98,9 @@ public class EnterWorld extends L2GameClientPacket
 		getClient().setState(GameClientState.IN_GAME);
 		
 		final int objectId = player.getObjectId();
+		
+
+		
 		
 		if (player.isGM())
 		{
@@ -370,6 +377,21 @@ public class EnterWorld extends L2GameClientPacket
 		{
 			player.stopSkillEffects(7095);
 		}
+		
+		/// Buff for clan members, owning a castle (castle buff)
+		if (player.getClan() != null && player.getClan().hasCastle())
+		{
+			SkillTable.getInstance().getInfo(7096, 1).getEffects(player, player);
+		}
+		else
+		{
+			player.stopSkillEffects(7096);
+		}
+		
+		//Inform about current server time
+		player.sendMessage("Server Local Time: "+FormatDate(System.currentTimeMillis()));
+		
+		
 		// If player has item X in inventory , set him hero
 		/*
 		 * if(player.getInventory().hasItems(12572) && !player.isHero()) { player.setHero(true); World.announceToOnlinePlayers("Hero " + player.getName()+" is now online"); }
@@ -381,6 +403,31 @@ public class EnterWorld extends L2GameClientPacket
 		
 		player.sendPacket(ActionFailed.STATIC_PACKET);
 	}
+	
+	private String FormatDate(long timeInMilis)
+    {
+        String lastPostDate = "-";
+
+        if (timeInMilis!=0)
+        {
+            Calendar currentDate = Calendar.getInstance();
+            Calendar topicDate = Calendar.getInstance();
+            topicDate.setTimeInMillis(timeInMilis);
+
+            if (currentDate.get(Calendar.YEAR)==topicDate.get(Calendar.YEAR) && 
+                    currentDate.get(Calendar.DAY_OF_YEAR)==topicDate.get(Calendar.DAY_OF_YEAR))
+            {
+                SimpleDateFormat format1 = new SimpleDateFormat("HH:mm");
+                lastPostDate = format1.format(topicDate.getTime());
+            }
+            else
+            {
+                SimpleDateFormat format1 = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+                lastPostDate = format1.format(topicDate.getTime());
+            }
+        }
+        return lastPostDate;
+    }
 	
 	private static void onEnterNewChar(Player activeChar)
 	{

@@ -39,6 +39,7 @@ import net.sf.l2j.gameserver.model.entity.Tournament.model.TournamentTeam;
 import net.sf.l2j.gameserver.model.entity.Tournament.tasks.TournamentFight;
 import net.sf.l2j.gameserver.model.entity.Tournament.tasks.TournamentSearchFights;
 import net.sf.l2j.gameserver.model.location.Location;
+import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 import net.sf.l2j.gameserver.model.spawn.Spawn;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.ConfirmDlg;
@@ -187,13 +188,14 @@ public class TournamentManager
 	
 	public void finishEvent()
 	{
+		startCalculationOfNextEventTime();
 		_log.info("----------------------------------------------------------------------------");
 		_log.info("[Event]: Battle Arena Event has been finished.");
 		_log.info("----------------------------------------------------------------------------");
 		announceToAllOnlinePlayers("[Event]: Battle Arena Event has just finished");
 		announceToAllOnlinePlayers("[Event]: Thank you for participating!");
 		// announceToAllOnlinePlayers("[Event]: All fights have been stored");
-		announceToAllOnlinePlayers("[Event]: Next event: " + formatTime(nextEvent.getTime(),timeZone)+" GMT +2");
+		announceToAllOnlinePlayers("[Event]: Next event: " + formatTime(nextEvent.getTime(),timeZone)+" GMT +3"); // this is not working correctly (it prints the last running time)
 		// announceToAllOnlinePlayers("[Event]: Next event: " + getNextTime());
 		unspawnNpc();
 		setRunning(false);
@@ -202,7 +204,12 @@ public class TournamentManager
 			getFinishEventTask().cancel(true);
 			finishEventTask = null;
 		}
+		
+		//new method or with a for? 
+		//Unregister players
+		registeredTournamentTeams.clear();
 	}
+	
 	
 	public void startEvent()
 	{
@@ -218,7 +225,11 @@ public class TournamentManager
 		setFinishEventTask(ThreadPool.schedule(new FinishEventTask(), Config.TOURNAMENT_EVENT_DURATION * 60 * 1000));
 		for (Player player : World.getInstance().getPlayers())
 		{
-			askTeleport(player);
+			
+			if(player.getDungeon()!=null || player.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(player) || player.getOlympiadGameId() != -1)
+				return;
+				
+				askTeleport(player);
 		}
 	}
 	
@@ -563,6 +574,8 @@ public class TournamentManager
 		}
 	}
 	
+	
+	
 	public String generateMemberList(TournamentTeam team)
 	{
 		StringBuilder sb = new StringBuilder();
@@ -571,8 +584,7 @@ public class TournamentManager
 		{
 			sb.append("<table width=315 bgcolor=000000");
 			sb.append("<tr>");
-			sb.append("<td width=300 align=center>"+member.getRankColor()+member.getName()+"</font>,</td>");
-			sb.append("</td>");
+			sb.append("<td width=300 align=center>"+member.getRankColor()+member.getName()+"</font></td>");
 			sb.append("</tr>");
 			sb.append("</table>");
 		

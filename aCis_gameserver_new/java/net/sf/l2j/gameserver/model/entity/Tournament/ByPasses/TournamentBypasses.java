@@ -15,6 +15,7 @@ import net.sf.l2j.gameserver.model.entity.Tournament.matches.TournamentMatch4x4;
 import net.sf.l2j.gameserver.model.entity.Tournament.matches.TournamentMatch5x5;
 import net.sf.l2j.gameserver.model.entity.Tournament.matches.TournamentMatch9x9;
 import net.sf.l2j.gameserver.model.entity.Tournament.model.TournamentTeam;
+import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 
 public class TournamentBypasses implements IBypassHandler
 {
@@ -39,13 +40,20 @@ public class TournamentBypasses implements IBypassHandler
 		}
 		if (bypass.startsWith("bp_leaveTournamentTeam"))
 		{
-			if (team != null)
+			
+			if (team != null && !player.isInTournamentMatch()) //if team is null or the fight is about to start
 			{
-				team.removeMember(player);
+				if(team.getMembers().size()<=2)
+					team.disbandTeam();
+				else
+					team.removeMember(player);
 			}
 			else
 			{
-				player.sendMessage("You do not have a Team.");
+				if(player.isInTournamentMatch())
+					player.sendMessage("You can not unregister while the fight is about to begin!");
+				else
+					player.sendMessage("Please join a team before applying.");
 			}
 		}
 		if (bypass.startsWith("bp_registerTournament1x1"))
@@ -53,10 +61,23 @@ public class TournamentBypasses implements IBypassHandler
 			TournamentManager.getInstance().showHtml(player, "fights/F1X1", TournamentFightType.F1X1);
 			if (!TournamentManager.getInstance().isRunning())
 			{
-				player.sendMessage("Battle Arena isn't Running!");
+				player.sendMessage("Battle Arena isn't running!");
 				return false;
 			}
-			if (!player.isInTournamentTeam())
+			
+			if(player.getDungeon()!=null)
+			{
+				player.sendMessage("You can not participate while you are registered to participate in a dungeon!");
+				return false;
+			}
+			
+			if(player.getOlympiadGameId() != -1 || player.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(player))
+			{
+				player.sendMessage("You can not participate while you are registered to participate in Olympiad Games!!");
+				return false;
+			}
+			
+			if (!player.isInTournamentTeam() && !player.isInTournamentMatch())
 			{
 				team = new TournamentTeam(player, null);
 			}
@@ -73,7 +94,7 @@ public class TournamentBypasses implements IBypassHandler
 			
 			if (team==null || team.getLeader() != player)
 			{
-				player.sendMessage("Only Leaders can register.");
+				player.sendMessage("Only team leaders can apply for registration.");
 				return false;
 			}
 			
@@ -86,6 +107,8 @@ public class TournamentBypasses implements IBypassHandler
 		}
 		if (bypass.startsWith("bp_registerTournament2x2"))
 		{
+	
+			
 			if (!TournamentManager.getInstance().isRunning())
 			{
 				player.sendMessage("Battle Arena isn't Running!");
@@ -97,7 +120,7 @@ public class TournamentBypasses implements IBypassHandler
 			}
 			else
 			{
-				if (!TournamentMatch2x2.getInstance().checkConditions(team))
+				if (!TournamentMatch2x2.getInstance().checkConditions(team) )
 				{
 					return false;
 				}
@@ -109,7 +132,7 @@ public class TournamentBypasses implements IBypassHandler
 				
 				if (team == null || team.getLeader() != player)
 				{
-					player.sendMessage("Only Leaders can register.");
+					player.sendMessage("Only team leaders can apply for registration.");
 					return false;
 				}
 				
@@ -118,6 +141,23 @@ public class TournamentBypasses implements IBypassHandler
 					team.sendMessage("Your team is on the 2x2 waiting list. ");
 					return true;
 				}
+				
+				for (Player pl : team.getMembers())
+				{
+					if(pl.getDungeon()!=null)
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in a dungeon!");
+						return false;
+					}
+					
+					if(pl.getOlympiadGameId() != -1 || pl.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pl))
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in Olympiad Games!!");
+						return false;
+					}
+				}
+				
+			
 			}
 			TournamentManager.getInstance().showHtml(player, "fights/F2X2", TournamentFightType.F2X2);
 			
@@ -147,7 +187,7 @@ public class TournamentBypasses implements IBypassHandler
 				
 				if (team == null || team.getLeader() != player)
 				{
-					player.sendMessage("Only Leaders can register.");
+					player.sendMessage("Only team leaders can apply for registration.");
 					return false;
 				}
 				
@@ -155,6 +195,21 @@ public class TournamentBypasses implements IBypassHandler
 				{
 					team.sendMessage("Your team is on the 3x3 waiting list. ");
 					return true;
+				}
+				
+				for (Player pl : team.getMembers())
+				{
+					if(pl.getDungeon()!=null)
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in a dungeon!");
+						return false;
+					}
+					
+					if(pl.getOlympiadGameId() != -1 || pl.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pl))
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in Olympiad Games!!");
+						return false;
+					}
 				}
 				
 			}
@@ -187,7 +242,7 @@ public class TournamentBypasses implements IBypassHandler
 				
 				if (team == null || team.getLeader() != player)
 				{
-					player.sendMessage("Only Leaders can register.");
+					player.sendMessage("Only team leaders can apply for registration.");
 					return false;
 				}
 				
@@ -195,6 +250,21 @@ public class TournamentBypasses implements IBypassHandler
 				{
 					team.sendMessage("Your team is on the 4x4 waiting list. ");
 					return true;
+				}
+				
+				for (Player pl : team.getMembers())
+				{
+					if(pl.getDungeon()!=null)
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in a dungeon!");
+						return false;
+					}
+					
+					if(pl.getOlympiadGameId() != -1 || pl.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pl))
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in Olympiad Games!!");
+						return false;
+					}
 				}
 			}
 			TournamentManager.getInstance().showHtml(player, "fights/F4X4", TournamentFightType.F4X4);
@@ -226,7 +296,7 @@ public class TournamentBypasses implements IBypassHandler
 				
 				if (team == null || team.getLeader() != player)
 				{
-					player.sendMessage("Only Leaders can register.");
+					player.sendMessage("Only team leaders can apply for registration.");
 					return false;
 				}
 				
@@ -234,6 +304,21 @@ public class TournamentBypasses implements IBypassHandler
 				{
 					team.sendMessage("Your team is on the 5x5 waiting list. ");
 					return true;
+				}
+				
+				for (Player pl : team.getMembers())
+				{
+					if(pl.getDungeon()!=null)
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in a dungeon!");
+						return false;
+					}
+					
+					if(pl.getOlympiadGameId() != -1 || pl.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pl))
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in Olympiad Games!!");
+						return false;
+					}
 				}
 			}
 			TournamentManager.getInstance().showHtml(player, "fights/F5X5", TournamentFightType.F5X5);
@@ -265,7 +350,7 @@ public class TournamentBypasses implements IBypassHandler
 				
 				if (team == null ||team.getLeader() != player)
 				{
-					player.sendMessage("Only Leaders can register.");
+					player.sendMessage("Only team leaders can apply for registration.");
 					return false;
 				}
 				
@@ -274,6 +359,21 @@ public class TournamentBypasses implements IBypassHandler
 					team.sendMessage("Your team is on the 9x9 waiting list. ");
 					return true;
 				}
+				
+				for (Player pl : team.getMembers())
+				{
+					if(pl.getDungeon()!=null)
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in a dungeon!");
+						return false;
+					}
+					
+					if(pl.getOlympiadGameId() != -1 || pl.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(pl))
+					{
+						player.sendMessage("You can not participate while a player of your team is registered to participate in Olympiad Games!!");
+						return false;
+					}
+				}
 			}
 			TournamentManager.getInstance().showHtml(player, "fights/F9X9", TournamentFightType.F9X9);
 			
@@ -281,13 +381,16 @@ public class TournamentBypasses implements IBypassHandler
 		if (bypass.startsWith("bp_deleteTournamentTeam"))
 		{
 			
-			if (team != null)
+			if (team != null && !player.isInTournamentMatch()) // if team is null or the fight is about to start
 			{
 				team.disbandTeam();
 			}
 			else
 			{
-				player.sendMessage("You do not have a Battle Arena team.");
+				if(player.isInTournamentMatch())
+					player.sendMessage("You can not unregister while the fight is about to begin!");
+				else
+					player.sendMessage("Please join a team before applying.");
 			}
 			TournamentManager.getInstance().showHtml(player, "main", TournamentFightType.NONE);
 		}

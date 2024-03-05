@@ -28,8 +28,13 @@ public final class RequestJoinParty extends L2GameClientPacket
 		if (requestor == null)
 			return;
 		
+		//VIP names ends with * symbol
+		if (_targetName != null && _targetName.endsWith("*"))
+			_targetName = _targetName.replace("*", "");
+		
 		final Player target = World.getInstance().getPlayer(_targetName);
-		if (target == null || requestor.alonePenalty || target.alonePenalty)
+		
+		if ((target == null || requestor.alonePenalty || target.alonePenalty ))
 		{
 			requestor.sendPacket(SystemMessageId.FIRST_SELECT_USER_TO_INVITE_TO_PARTY);
 			return;
@@ -65,9 +70,21 @@ public final class RequestJoinParty extends L2GameClientPacket
 			return;
 		}
 		
-		if (requestor.isInTournamentMatch())
+		if (requestor.isInTournamentMatch() || target.isInTournamentMatch())
 		{
-			requestor.sendMessage("You can't invite players in Tournament.");
+			requestor.sendMessage("You can't invite players participating in Battle Arena.");
+			return;
+		}
+		
+		if(target.isInsideSoloDungeonZone() || target.isInsidePartyDungeonZone())
+		{
+			requestor.sendMessage("You can't invite players participating in a dungeon.");
+			return;
+		}
+		
+		if(requestor.isInsideSoloDungeonZone() || requestor.isInsidePartyDungeonZone())
+		{
+			requestor.sendMessage("You can't invite players while you are a participant in a dungeon.");
 			return;
 		}
 		
@@ -125,7 +142,7 @@ public final class RequestJoinParty extends L2GameClientPacket
 				return;
 			}
 			
-			if (party.getMembers().stream().filter(k -> k.getClassId() == (ClassId.TITAN)).count() >= 2) // MAX 2 TITAN ON PARTY
+			if (party.getMembers().stream().filter(k -> k.getClassId() == (ClassId.TITAN)).count() >= 3) // MAX 3 TITAN ON PARTY
 			{
 				requestor.sendMessage("The maximum ammount of titans in the party, has been reached!."); // Failed to add
 				return;

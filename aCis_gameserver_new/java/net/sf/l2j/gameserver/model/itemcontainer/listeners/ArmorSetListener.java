@@ -80,6 +80,21 @@ public class ArmorSetListener implements OnEquipListener
 						}
 					}
 				}
+				
+				if (armorSet.isEnchanted12(player)) // has all parts of set enchanted to 6 or more
+				{
+					int skillId = armorSet.getEnchant12skillId();
+					if (skillId > 0)
+					{
+						L2Skill skille = SkillTable.getInstance().getInfo(skillId, 1);
+						if (skille != null)
+						{
+							player.addSkill(skille, false);
+							player.sendSkillList();
+						}
+					}
+				}
+				
 			}
 		}
 		else if (armorSet.containsShield(item.getItemId()))
@@ -112,6 +127,7 @@ public class ArmorSetListener implements OnEquipListener
 		int removeSkillId1 = 0; // set skill
 		int removeSkillId2 = 0; // shield skill
 		int removeSkillId3 = 0; // enchant +6 skill
+		int removeSkillId4 = 0; // enchant +12 skill
 		
 		if (slot == Paperdoll.CHEST)
 		{
@@ -123,6 +139,7 @@ public class ArmorSetListener implements OnEquipListener
 			removeSkillId1 = armorSet.getSkillId();
 			removeSkillId2 = armorSet.getShieldSkillId();
 			removeSkillId3 = armorSet.getEnchant6skillId();
+			removeSkillId4 = armorSet.getEnchant12skillId();
 		}
 		else
 		{
@@ -143,6 +160,7 @@ public class ArmorSetListener implements OnEquipListener
 				removeSkillId1 = armorSet.getSkillId();
 				removeSkillId2 = armorSet.getShieldSkillId();
 				removeSkillId3 = armorSet.getEnchant6skillId();
+				removeSkillId4 = armorSet.getEnchant12skillId();
 			}
 			else if (armorSet.containsShield(item.getItemId())) // removed shield
 			{
@@ -164,6 +182,9 @@ public class ArmorSetListener implements OnEquipListener
 			
 			if (removeSkillId3 != 0)
 				player.removeSkill(removeSkillId3, false);
+			
+			if (removeSkillId4 != 0)
+				player.removeSkill(removeSkillId4, false);
 			
 			player.sendSkillList();
 		}

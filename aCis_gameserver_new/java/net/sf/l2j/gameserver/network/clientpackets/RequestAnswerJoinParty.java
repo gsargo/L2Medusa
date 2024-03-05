@@ -27,8 +27,15 @@ public final class RequestAnswerJoinParty extends L2GameClientPacket
 		final Player requestor = player.getActiveRequester();
 		if (requestor == null)
 			return;
-		
+
+		if(requestor.isInTournamentTeam() || player.isInTournamentTeam())
+		{
+			requestor.sendMessage("Please use .arenainvite 'name', in order to invite a player to join your Battle Arena team!");
+			return;
+		}
+			
 		requestor.sendPacket(new JoinParty(_response));
+		
 		
 		Party party = requestor.getParty();
 		if (_response == 1)

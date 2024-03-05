@@ -75,7 +75,7 @@ public class Blow implements ISkillHandler
 				
 				double damage = (int) Formulas.calcBlowDamage(activeChar, target, skill, sDef, ss);
 				if (isCrit)
-					damage *= 2;
+					damage *= 1.8; //default damage *2
 				
 				target.reduceCurrentHp(damage, activeChar, skill);
 				

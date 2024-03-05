@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
+import java.util.stream.IntStream;
 
 import net.sf.l2j.commons.data.StatSet;
 import net.sf.l2j.commons.logging.CLogger;
@@ -55,6 +56,7 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	public static final int SKILL_CRYSTALLIZE = 248;
 	public static final int SKILL_DIVINE_INSPIRATION = 1405;
 	public static final int SKILL_NPC_RACE = 4416;
+	
 	
 	private final int _id;
 	private final int _level;
@@ -154,6 +156,7 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	private final int _baseCritRate; // percent of success for skill critical hit (especially for PDAM & BLOW - they're not affected by rCrit values or buffs). Default loads -1 for all other skills but 0 to PDAM & BLOW
 	private final int _lethalEffect1; // percent of success for lethal 1st effect (hit cp to 1 or if mob hp to 50%) (only for PDAM skills)
 	private final int _lethalEffect2; // percent of success for lethal 2nd effect (hit cp,hp to 1 or if mob hp to 1) (only for PDAM skills)
+	private final int _lethalEffect3; //custom lethal for mobs only
 	private final boolean _directHpDmg; // If true then dmg is being make directly
 	private final boolean _isDance; // If true then casting more dances will cost more MP
 	private final int _nextDanceCost;
@@ -181,6 +184,15 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	private final boolean _simultaneousCast;
 	
 	private ExtractableSkill _extractableItems = null;
+	
+	
+	private final int[] _customBuff = {4,8,50,75,76,78,80,82,83,86,87,88,94,99,104,109,110,111,112,121,130,139,131,176,221,282,287,292,297,298,313,317,321,350,351,355,356,357,359,360,368,369,
+										406,410,413,414,415,416,417,420,421,423,425,440,442,443,445,446,451,1229,1256,1323,1374,1335,1418,2286,3124,3125,3126,3127,3128,3129,3130,3131,3132,3133,3134,3135,3136,
+										3137,3138,3139,3140,3141,3142,3143,3144,3145,3146,3147,3148,3158,7080,7081,7082,7083,7084,7085,7086,7087,7088,
+										7089,7090,7091,7092,7093,7094,7095,7096,2279,6010,6011,9911,9943,9952,9954,9969,9976,9978,9979};
+	
+	boolean contains;
+	
 	
 	protected L2Skill(StatSet set)
 	{
@@ -362,6 +374,7 @@ public abstract class L2Skill implements IChanceSkillTrigger
 		_baseCritRate = set.getInteger("baseCritRate", (_skillType == SkillType.PDAM || _skillType == SkillType.BLOW) ? 0 : -1);
 		_lethalEffect1 = set.getInteger("lethal1", 0);
 		_lethalEffect2 = set.getInteger("lethal2", 0);
+		_lethalEffect3 = set.getInteger("lethal3", 0);
 		
 		_directHpDmg = set.getBool("dmgDirectlyToHp", false);
 		_isDance = set.getBool("isDance", false);
@@ -931,11 +944,15 @@ public abstract class L2Skill implements IChanceSkillTrigger
 		return _chanceCondition;
 	}
 	
-	public final boolean isCustomBuff() // touch of berserker , vote buff , clan leader buff , clan castle buff etc or noblesse , mana/healing pot , dash ,ultimate defence
+	public final boolean isCustomBuff(int _buff) // touch of berserker , vote buff , clan leader buff , clan castle buff etc or noblesse , mana/healing pot , dash ,ultimate defence
 	//zealot,war cry,rapid shot,focus death/chance/power
 	{
-		return (_id >= 7080 && _id <= 7096) || _id == 1323 || _id == 9911 || _id == 9943 || _id == 9952 || _id == 2279 || _id == 9954 || _id == 4 || _id == 110 
-			|| _id == 420 || _id == 78 || _id == 99 || (_id >= 355 && _id<=357);
+		// _customBuff = table containing excluded buffs IDs
+		contains = IntStream.of(_customBuff).anyMatch(x -> x == _buff);
+		if(contains)		
+			return true;
+		
+		return false;
 	}
 	
 	public final boolean is7Signs()
@@ -977,6 +994,12 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	{
 		return _lethalEffect2;
 	}
+	
+	public final int getLethalChance3()
+	{
+		return _lethalEffect3;
+	}
+	
 	
 	public final boolean getDmgDirectlyToHP()
 	{

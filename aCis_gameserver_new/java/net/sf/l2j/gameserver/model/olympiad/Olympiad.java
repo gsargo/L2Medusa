@@ -48,6 +48,7 @@ public class Olympiad
 	
 	private static final String SELECT_CLASSIFIED_NOBLES = "SELECT char_id from olympiad_nobles_eom WHERE competitions_done >= ? ORDER BY olympiad_points DESC, competitions_done DESC, competitions_won DESC";
 	private static final String SELECT_CLASS_LEADER = "SELECT characters.char_name from olympiad_nobles_eom, characters WHERE characters.obj_Id = olympiad_nobles_eom.char_id AND olympiad_nobles_eom.class_id = ? AND olympiad_nobles_eom.competitions_done >= ? ORDER BY olympiad_nobles_eom.olympiad_points DESC, olympiad_nobles_eom.competitions_done DESC, olympiad_nobles_eom.competitions_won DESC LIMIT 10";
+	//private static final String SELECT_CLASS_LEADER = "SELECT characters.char_name from olympiad_nobles, characters WHERE characters.obj_Id = olympiad_nobles.char_id AND olympiad_nobles.class_id = ? AND olympiad_nobles.competitions_done >= ? ORDER BY olympiad_nobles.olympiad_points DESC, olympiad_nobles.competitions_done DESC, olympiad_nobles.competitions_won DESC LIMIT 10";
 	
 	private static final String SELECT_MONTH_OLYMPIAD_POINTS = "SELECT olympiad_points FROM olympiad_nobles_eom WHERE char_id = ?";
 	private static final String INSERT_MONTH_OLYMPIAD = "INSERT INTO olympiad_nobles_eom SELECT char_id, class_id, olympiad_points, competitions_done, competitions_won, competitions_lost, competitions_drawn FROM olympiad_nobles";

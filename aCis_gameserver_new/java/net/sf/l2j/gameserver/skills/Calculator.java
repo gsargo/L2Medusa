@@ -119,12 +119,10 @@ public final class Calculator
 		for (Func func : _functions)
 		{
 			value = func.calc(caster, target, skill, base, value);
-			
 			// FuncSet is overriding the base value, other functions just update the value.
 			if (func instanceof FuncSet)
 				base = value;
 		}
-		
 		return value;
 	}
 }

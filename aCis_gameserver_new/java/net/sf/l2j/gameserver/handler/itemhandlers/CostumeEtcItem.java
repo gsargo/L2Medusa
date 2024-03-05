@@ -27,6 +27,7 @@ public class CostumeEtcItem implements IItemHandler
 			activeChar.setTempFeet(0);
 			activeChar.setTempHair(0);
 			activeChar.setTempFace(0);
+			activeChar.setCostumeitemObjId(0);
 			activeChar.broadcastUserInfo();
 			activeChar.sendMessage("Skin: Equiped.");
 			return;
@@ -44,6 +45,7 @@ public class CostumeEtcItem implements IItemHandler
 		activeChar.setTempFeet(feet);
 		activeChar.setTempHair(hair);
 		activeChar.setTempFace(face);
+		activeChar.setCostumeitemObjId(item.getObjectId());
 		activeChar.broadcastUserInfo();
 		activeChar.sendMessage("Skin: Unequiped.");
 	}

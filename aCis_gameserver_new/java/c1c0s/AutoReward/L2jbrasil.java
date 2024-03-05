@@ -129,7 +129,7 @@ public class L2jbrasil
 					{
 						if (inputLine.contains("Entradas(Total):"))
 						{
-							votes = Integer.parseInt(inputLine.split("</b> ")[1].split("<br />")[0]);
+							votes = Integer.parseInt(inputLine.split("</b> ")[1].split("<br/><br/>")[0]);
 							break;
 						}
 					}

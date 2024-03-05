@@ -57,7 +57,7 @@ public class ClanBossBBSManager extends BaseBBSManager
 			}
 			
 			final BossStatus status = bs.getStatus();
-			String boss_status_icon = status == BossStatus.ALIVE ? "<img src=\"CustomIconPack01.boss-alive\" width=20 height=20>" : "<img src=\"CustomIconPack01.deactive_status\" width=8 height=8>";
+			String boss_status_icon = status == BossStatus.ALIVE ? "<img src=\"CustomIconPack01.boss-alive\" width=20 height=20>" : "<img src=\"UpdUI.fishing_clockicon\" width=16 height=16>";
 				
 						
 			final String name = NpcData.getInstance().getTemplate(boss).getName();
@@ -136,6 +136,8 @@ public class ClanBossBBSManager extends BaseBBSManager
             case 10012:
             case 60008:
                 return "<font color=B6D7A8>"+"Parnassus";
+            case 60034:
+            	return "<font color=B6D7A8>"+"Elysian Fields";
             case 62354:
                 return "<font color=B6D7A8>"+"Asphodel Meadows";
             default:

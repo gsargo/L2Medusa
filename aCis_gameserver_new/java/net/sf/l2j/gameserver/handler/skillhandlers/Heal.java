@@ -33,7 +33,9 @@ public class Heal implements ISkillHandler
 		if (handler != null)
 			handler.useSkill(activeChar, skill, targets);
 		
-		double power = skill.getPower() + activeChar.getStatus().calcStat(Stats.HEAL_PROFICIENCY, 0, null, null);
+		//double power = skill.getPower() + activeChar.getStatus().calcStat(Stats.HEAL_PROFICIENCY, 0, null, null);
+
+		double power =  activeChar.getStatus().calcStat(Stats.HEAL_PROFICIENCY, skill.getPower(), null, null);
 		
 		if (skill.getSkillType() != SkillType.HEAL_STATIC)
 		{
@@ -85,6 +87,7 @@ public class Heal implements ISkillHandler
 			if (!target.canBeHealed())
 				continue;
 			
+			//show me the calculator please
 			/* hp received = divided by count of party healers */
 			// {
 			// double amount ;
@@ -95,7 +98,7 @@ public class Heal implements ISkillHandler
 			// if (amount < 0)
 			// amount = 0;
 			// }
-			// ends here
+			// ends here/ THIS IS THE GIVEHP CONFIG 
 			
 			double amount = target.getStatus().addHp(power * target.getStatus().calcStat(Stats.HEAL_EFFECTIVNESS, 100, null, null) / 100.); //Divide Efficience by 2 if two cardinals on a party
 			//amount = amount / (activeChar.getParty() != null ? activeChar.getParty().getMembers().parallelStream().filter((player) -> player.getClassId().getId() == 97).count() : 1);

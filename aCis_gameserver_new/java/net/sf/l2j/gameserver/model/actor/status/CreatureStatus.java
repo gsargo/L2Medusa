@@ -37,6 +37,7 @@ public class CreatureStatus<T extends Creature>
 	private static final byte REGEN_FLAG_HP = 1;
 	private static final byte REGEN_FLAG_MP = 2;
 	
+	protected double _Cp = .0;
 	protected double _hp = .0;
 	protected double _mp = .0;
 	
@@ -185,6 +186,28 @@ public class CreatureStatus<T extends Creature>
 		setHp(_hp + value);
 		return value;
 	}
+	
+	public double addCp(double value) //custom addCp method
+	{
+		// Bypass set to avoid to send pointless packet.
+		if (value == 0)
+			return value;
+		
+		final double maxCp = getMaxCp();
+		if (_Cp + value > maxCp)
+		{
+			value = maxCp - _Cp;
+			
+			// Bypass set to avoid to send pointless packet.
+			if (value == 0)
+				return value;
+		}
+		
+		setHp(_Cp + value);
+		return value;
+	}
+	
+	
 	
 	/**
 	 * Reduce the current HP of the Creature and launch the doDie Task if necessary.

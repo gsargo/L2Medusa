@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import java.util.stream.IntStream;
+
 import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
@@ -31,10 +33,22 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 	private int _objectId;
 	String find_gender;
 	
+	private final int [] tattoos = {11380,11381,11382,11383,11384,11385,11386,11387,11388,11389};
+	private boolean contains;
+	
 	@Override
 	protected void readImpl()
 	{
 		_objectId = readD();
+	}
+	
+	public final boolean isTattoo(int _itemId) 
+	{
+		contains = IntStream.of(tattoos).anyMatch(x -> x == _itemId);
+		if(contains)		
+			return true;
+		
+		return false;
 	}
 	
 	@Override
@@ -50,6 +64,9 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 			return;
 		}
 		
+
+		
+		
 		if (player.isProcessingTransaction() || player.isOperating())
 		{
 			player.sendPacket(SystemMessageId.CANNOT_ENCHANT_WHILE_STORE);
@@ -61,7 +78,7 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 		final ItemInstance item = player.getInventory().getItemByObjectId(_objectId);
 		ItemInstance scroll = player.getActiveEnchantItem();
 		
-		if (item == null || scroll == null)
+		if (item == null || scroll == null ) 
 		{
 			player.setActiveEnchantItem(null);
 			player.sendPacket(SystemMessageId.ENCHANT_SCROLL_CANCELLED);
@@ -69,13 +86,14 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 			return;
 		}
 		
+		
 		// template for scroll
 		final EnchantScroll scrollTemplate = getEnchantScroll(scroll);
 		if (scrollTemplate == null)
 			return;
 		
 		// first validation check
-		if (!scrollTemplate.isValid(item) || !isEnchantable(item))
+		if (!scrollTemplate.isValid(item) || !isEnchantable(item) || isTattoo(item.getItemId()))// do not allow tattoos to be enchanted
 		{
 			player.sendPacket(SystemMessageId.INAPPROPRIATE_ENCHANT_CONDITION);
 			player.setActiveEnchantItem(null);
@@ -139,6 +157,7 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 					sm = SystemMessage.getSystemMessage(SystemMessageId.S1_S2_SUCCESSFULLY_ENCHANTED);
 					sm.addNumber(item.getEnchantLevel());
 					sm.addItemName(item.getItemId());
+					player.sendPacket(sm);
 					
 					sm2 = player.getName() + " has successfully enchanted " + find_gender + " +" + item.getEnchantLevel() +" " + item.getName() + " with a " +scrollTemplate.ScrollType() +"!";
 					World.toAllOnlinePlayers(new CreatureSay(0, SayType.TRADE,"[Enchant System]",sm2));
@@ -192,19 +211,46 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 							}
 						}
 					}
+					
+					else if (it instanceof Armor && item.getEnchantLevel() == 12)
+					{
+						// Checks if player is wearing a chest item
+						final int chestId = player.getInventory().getItemIdFrom(Paperdoll.CHEST);
+						if (chestId != 0)
+						{
+							final ArmorSet armorSet = ArmorSetData.getInstance().getSet(chestId);
+							if (armorSet != null && armorSet.isEnchanted12(player)) // has all parts of set enchanted to 12 or more
+							{
+								final int skillId_2 = armorSet.getEnchant12skillId();
+								if (skillId_2 > 0)
+								{
+									final L2Skill skill = SkillTable.getInstance().getInfo(skillId_2, 1);
+									if (skill != null)
+									{
+										player.addSkill(skill, false);
+										player.sendSkillList();
+									}
+								}
+							}
+						}
+					}
 				}
 				player.sendPacket(EnchantResult.SUCCESS);
 			}
 			else
 			{
+				int numb = Rnd.get(1,3); //used for Improved Blessed Scrolls 
 				// Drop passive skills from items.
 				if (item.isEquipped())
 				{
 					final Item it = item.getItem();
 					
 					// Remove skill bestowed by +4 duals.
-					if (it instanceof Weapon && item.getEnchantLevel() >= 4 && !scrollTemplate.isCrystal())
+					if (it instanceof Weapon && item.getEnchantLevel() >= 4 && !scrollTemplate.isCrystal() && !scrollTemplate.isImprovedBlessed())
 					{
+						 if(scrollTemplate.isImprovedBlessed() &&  item.getEnchantLevel() - numb >= 4) //Do not remove skill for improvedBlessed if weapon enchant - numb is greater than 4
+							 return;
+						 
 						final L2Skill enchant4Skill = ((Weapon) it).getEnchant4Skill();
 						if (enchant4Skill != null)
 						{
@@ -212,9 +258,12 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 							player.sendSkillList();
 						}
 					}
-					// Add skill bestowed by +6 armorset.
-					else if (it instanceof Armor && item.getEnchantLevel() >= 6 && !scrollTemplate.isCrystal())
+					// Remove skill bestowed by +6 armorset.
+					 if (it instanceof Armor && item.getEnchantLevel() >= 6 && !scrollTemplate.isCrystal())
 					{
+						 if(scrollTemplate.isImprovedBlessed() &&  item.getEnchantLevel() - numb >= 6) //Do not remove skill for improvedBlessed if armor part -numb is greater than 6
+							 return;
+						 
 						// Checks if player is wearing a chest item
 						final int chestId = player.getInventory().getItemIdFrom(Paperdoll.CHEST);
 						if (chestId != 0)
@@ -231,9 +280,31 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 							}
 						}
 					}
+					
+					// Remove skill bestowed by +12 armorset.
+					 if (it instanceof Armor && item.getEnchantLevel() >= 12 && !scrollTemplate.isCrystal())
+					{
+						 if(scrollTemplate.isImprovedBlessed() &&  item.getEnchantLevel() - numb >= 12) //Do not remove skill for improvedBlessed if armor part -numb is greater than 12
+							 return;
+						// Checks if player is wearing a chest item
+						final int chestId = player.getInventory().getItemIdFrom(Paperdoll.CHEST);
+						if (chestId != 0)
+						{
+							final ArmorSet armorSet = ArmorSetData.getInstance().getSet(chestId);
+							if (armorSet != null && armorSet.isEnchanted12(player)) // has all parts of set enchanted to 12 or more
+							{
+								final int skillId_2 = armorSet.getEnchant12skillId();
+								if (skillId_2 > 0)
+								{
+									player.removeSkill(skillId_2, false);
+									player.sendSkillList();
+								}
+							}
+						}
+					}
 				}
 				
-				if (scrollTemplate.isBlessed())
+				if (scrollTemplate.isBlessed() || scrollTemplate.isBlessed75())
 				{
 					int item_ench_lvl= item.getEnchantLevel(); //store enchant value before it fails
 					String item_name = item.getName(); //store item name before it fails
@@ -247,6 +318,25 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 					if(item_ench_lvl>=16)				
 						World.toAllOnlinePlayers(new CreatureSay(0, SayType.TRADE,"[Enchant System]", player.getName() + " has failed to enchant " + find_gender +" +" + item_ench_lvl +" " +item_name+ " with a " +scrollTemplate.ScrollType() +"."));
 						
+				}
+				
+				
+				else if (scrollTemplate.isImprovedBlessed())
+				{
+					
+					int item_ench_lvl= item.getEnchantLevel(); //store enchant value before it fails
+					String item_name = item.getName(); //store item name before it fails
+					
+					player.sendMessage(" Failed in Improved Blessed Enchant. The enchant value of the item has been decreased by "+numb );
+					player.sendPacket(EnchantResult.UNSUCCESS);
+					
+					
+					item.setEnchantLevel(item_ench_lvl - numb);
+					item.updateDatabase();
+
+					
+					if(item_ench_lvl>=16)				
+						World.toAllOnlinePlayers(new CreatureSay(0, SayType.TRADE,"[Enchant System]", player.getName() + " has failed to enchant "+ find_gender + " +" + item_ench_lvl +" " +item_name+ " with a " +scrollTemplate.ScrollType()+"."));
 				}
 				
 				else if (scrollTemplate.isCrystal())

@@ -16,6 +16,7 @@ public final class ArmorSet
 	private final int _shield;
 	private final int _shieldSkillId;
 	private final int _enchant6Skill;
+	private final int _enchant12Skill;
 	
 	public ArmorSet(StatSet set)
 	{
@@ -31,6 +32,8 @@ public final class ArmorSet
 		_shield = set.getInteger("shield");
 		_shieldSkillId = set.getInteger("shieldSkillId");
 		_enchant6Skill = set.getInteger("enchant6Skill");
+		_enchant12Skill = set.getInteger("enchant12Skill",173); //if enchant12skill doesnt exist, give acrobatics
+		
 	}
 	
 	@Override
@@ -63,6 +66,11 @@ public final class ArmorSet
 	public int getEnchant6skillId()
 	{
 		return _enchant6Skill;
+	}
+	
+	public int getEnchant12skillId()
+	{
+		return _enchant12Skill;
 	}
 	
 	/**
@@ -185,4 +193,46 @@ public final class ArmorSet
 		
 		return true;
 	}
+	
+	public boolean isEnchanted12(Player player)
+	{
+		final ItemInstance chestItem = player.getInventory().getItemFrom(Paperdoll.CHEST);
+		if (chestItem.getEnchantLevel() < 12)
+			return false;
+		
+		int legs = 0;
+		final ItemInstance legsItem = player.getInventory().getItemFrom(Paperdoll.LEGS);
+		if (legsItem != null && legsItem.getEnchantLevel() > 11)
+			legs = legsItem.getItemId();
+		
+		if (_set[1] != 0 && _set[1] != legs)
+			return false;
+		
+		int head = 0;
+		final ItemInstance headItem = player.getInventory().getItemFrom(Paperdoll.HEAD);
+		if (headItem != null && headItem.getEnchantLevel() > 11)
+			head = headItem.getItemId();
+		
+		if (_set[2] != 0 && _set[2] != head)
+			return false;
+		
+		int gloves = 0;
+		final ItemInstance glovesItem = player.getInventory().getItemFrom(Paperdoll.GLOVES);
+		if (glovesItem != null && glovesItem.getEnchantLevel() > 11)
+			gloves = glovesItem.getItemId();
+		
+		if (_set[3] != 0 && _set[3] != gloves)
+			return false;
+		
+		int feet = 0;
+		final ItemInstance feetItem = player.getInventory().getItemFrom(Paperdoll.FEET);
+		if (feetItem != null && feetItem.getEnchantLevel() > 11)
+			feet = feetItem.getItemId();
+		
+		if (_set[4] != 0 && _set[4] != feet)
+			return false;
+		
+		return true;
+	}
+	
 }

@@ -1,6 +1,7 @@
 package net.sf.l2j.gameserver.handler.itemhandlers;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.xml.NpcData;
@@ -22,11 +23,19 @@ import net.sf.l2j.gameserver.model.spawn.Spawn;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 
+import extensions.Agathions_RestoreCp;
+import extensions.Pet_BuffFighter;
+import extensions.Pet_BuffMage;
+import extensions.Pet_RestoreHpMp;
+
 public class SummonItems implements IItemHandler
 {
+
+	
 	@Override
 	public void useItem(Playable playable, ItemInstance item, boolean forceUse)
 	{
+		
 		if (!(playable instanceof Player))
 			return;
 		
@@ -34,12 +43,8 @@ public class SummonItems implements IItemHandler
 		
 		final Player player = (Player) playable;
 		
-		if(player.isInsidePvPZone())
-		{
-			//player.sendMessage("You can not use a summon inside PvP Zone");
-			return;
-		}
-			
+		
+
 		
 		if (player.isSitting())
 		{
@@ -54,6 +59,12 @@ public class SummonItems implements IItemHandler
 			return;
 		
 		final IntIntHolder sitem = SummonItemData.getInstance().getSummonItem(item.getItemId());
+		
+		if((player.isInsidePvPZone() && sitem.getValue()!=3 ) || (player.isInsideSoloDungeonZone()  ) || player.isInsidePartyDungeonZone() )
+		{
+			//player.sendMessage("You can not use a summon inside PvP Zone");
+			return;
+		}
 		
 		if ((player.getSummon() != null || player.isMounted()) && sitem.getValue() > 0 && sitem.getValue() != 3)
 		{
@@ -105,6 +116,9 @@ public class SummonItems implements IItemHandler
 			case 1: // summon pet through an item
 				player.getAI().tryToCast(player, SkillTable.getInstance().getInfo(2046, 1), false, false, item.getObjectId());
 				player.sendPacket(SystemMessageId.SUMMON_A_PET);
+				Pet_RestoreHpMp.getInstance().startTask(player);
+				Pet_BuffFighter.getInstance().startTask(player);
+				Pet_BuffMage.getInstance().startTask(player);
 				break;
 			
 			case 2: // wyvern
@@ -142,7 +156,8 @@ public class SummonItems implements IItemHandler
 					return;
 				
 				World.getInstance().addAgat(player.getObjectId(), pet);
-				
+				Agathions_RestoreCp.getInstance().startTask(player);
+		
 				// player.setSummon(pet);
 				
 				pet.forceRunStance();
@@ -157,7 +172,7 @@ public class SummonItems implements IItemHandler
 				
 				pet.spawnMe(spawnLoc);
 				pet.getAI().setFollowStatus(true);
-				player.setAutoLoot(true);
+				//player.setAutoLoot(true);
 		}
 	}
 }

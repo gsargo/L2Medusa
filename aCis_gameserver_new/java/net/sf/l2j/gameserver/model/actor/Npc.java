@@ -958,6 +958,11 @@ public class Npc extends Creature
 		}
 		else if (command.startsWith("teleport"))
 		{
+			if(player.isInCombat() && ( getNpcId()==35686 || getNpcId() == 35687 || getNpcId() == 35689 || getNpcId() == 35690))
+			{
+				player.sendMessage("You can not use the Tesseract while being in combat!");
+				return;
+			}
 			try
 			{
 				final StringTokenizer st = new StringTokenizer(command, " ");

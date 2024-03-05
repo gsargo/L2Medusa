@@ -53,11 +53,11 @@ public class DungeonManagerNpc extends Folk
 						int seconds = (int) ((total / 1000) - (hours * 60 * 60 + minutes * 60));
 						
 						player.sendMessage("You need to wait " + String.format("%02d:%02d:%02d", hours, minutes, seconds) + " to enter the dungeon again.");
-						return;
+						//return;
 					}
 				}
 				
-				if (player.getInventory().getItemByItemId(Config.DUNGEON_COIN_ID) == null)
+				if (player.getInventory().getItemByItemId(Config.DUNGEON_COIN_ID) == null)//item for solo dungeon
 				{
 					DungeonManagerNpc.mainHtml(player, 0);
 					return;
@@ -68,17 +68,17 @@ public class DungeonManagerNpc extends Folk
 			}
 			else if (dungeonId == 2)
 			{
-				if (player.getParty() == null || player.getParty().getMembersCount() < 2)
+				/*if (player.getParty() == null || player.getParty().getMembersCount() < 2)
 				{
 					player.sendMessage("You need to be in a party with " + 2 + " or more members to enter this Dungeon.");
-					return;
+					//return;
 				}
-				else if (!player.getParty().isLeader(player))
+				/*else if (!player.getParty().isLeader(player))
 				{
 					player.sendMessage("The party leader can only apply entrance.");
 					return;
 				}
-				
+				*/
 				String ip = player.getIP(); // Is ip or hwid?
 				if (DungeonManager.getInstance().getPlayerData().containsKey(ip) && DungeonManager.getInstance().getPlayerData().get(ip)[dungeonId] > 0)
 				{
@@ -90,17 +90,17 @@ public class DungeonManagerNpc extends Folk
 						int minutes = (int) ((total / 1000 / 60) - hours * 60);
 						int seconds = (int) ((total / 1000) - (hours * 60 * 60 + minutes * 60));
 						
-						player.sendMessage("You need to wait " + String.format("%02d:%02d:%02d", hours, minutes, seconds) + " to enter the dungeon again.");
-						return;
+						player.sendMessage("You need to wait " + String.format("%02d:%02d:%02d", hours, minutes, seconds) + " to enter the dungeon.");
+						//return;
 					}
 				}
 				
-				if (player.getInventory().getItemByItemId(Config.DUNGEON_COIN_ID) == null)
+				if (player.getInventory().getItemByItemId(Config.PARTY_DUNGEON_COIN_ID) == null) // item for party dungeon
 				{
 					DungeonManagerNpc.mainHtml(player, 0);
 					return;
 				}
-				player.destroyItemByItemId("Quest", Config.DUNGEON_COIN_ID, Config.CONT_DUNGEON_ITEM, player, true);
+				player.destroyItemByItemId("Quest", Config.PARTY_DUNGEON_COIN_ID, Config.CONT_DUNGEON_ITEM, player, true);
 				DungeonManager.getInstance().enterDungeon(dungeonId, player);
 			}
 		}
@@ -139,7 +139,7 @@ public class DungeonManagerNpc extends Folk
 						int seconds = (int) ((total / 1000) - (hours * 60 * 60 + minutes * 60));
 						
 						player.sendMessage("You need to wait " + String.format("%02d:%02d:%02d", hours, minutes, seconds) + " to enter the dungeon again.");
-						return;
+						//return;
 					}
 				}
 				
@@ -150,7 +150,7 @@ public class DungeonManagerNpc extends Folk
 				if (player.getParty() == null || player.getParty().getMembersCount() < 2)
 				{
 					player.sendMessage("You need to be in a party with " + 2 + " or more members to enter this Dungeon.");
-					return;
+					//return;
 				}
 				else if (!player.getParty().isLeader(player))
 				{
@@ -170,7 +170,7 @@ public class DungeonManagerNpc extends Folk
 						int seconds = (int) ((total / 1000) - (hours * 60 * 60 + minutes * 60));
 						
 						player.sendMessage("You need to wait " + String.format("%02d:%02d:%02d", hours, minutes, seconds) + " to enter the dungeon again.");
-						return;
+						//return;
 					}
 				}
 				DungeonManager.getInstance().enterDungeon(dungeonId, player);
@@ -184,10 +184,11 @@ public class DungeonManagerNpc extends Folk
 		{
 			NpcHtmlMessage nhm = new NpcHtmlMessage(5);
 			StringBuilder html1 = new StringBuilder("");
-			html1.append("<html><head><title>Dungeon</title></head><body><center>");
+			html1.append("<html><head><title>Dungeon</title></head><body>");
 			html1.append("<br>");
-			html1.append("Your character Cont Item.");
-			html1.append("</center>");
+			html1.append("<font color=\"LEVEL\">Grimoire of Darkness</font> is required to enter the solo dungeon.");
+			html1.append("<br>");
+			html1.append("<font color=\"LEVEL\">True Grimoire of Darkness</font> is required by the party leader, to enter the party dungeon.");
 			html1.append("</body></html>");
 			nhm.setHtml(html1.toString());
 			activeChar.sendPacket(nhm);

@@ -61,6 +61,7 @@ public final class Config
 	public static int AUGMENTATION_TOP_GLOW_CHANCE_FORVIP;
 	
 	public static int DUNGEON_COIN_ID;
+	public static int PARTY_DUNGEON_COIN_ID;
 	public static int CONT_DUNGEON_ITEM;
 	public static int DUNGEON_SPAWN_X;
 	public static int DUNGEON_SPAWN_Y;
@@ -231,6 +232,11 @@ public final class Config
 	public static String News_8;
 	public static String News_9;
 	public static String News_10;
+	public static String News_11;
+	public static String News_12;
+	public static String News_13;
+	public static String News_14;
+	public static String News_15;
 	/** Tournament */
 	public static final boolean DEBUG = false;
 	
@@ -595,6 +601,26 @@ public final class Config
 	public static int FREIGHT_PRICE;
 	
 	/** Enchant */
+	public static double ENCHANT_CHANCE_NORMAL_WEAPON;
+	public static double ENCHANT_CHANCE_NORMAL70_WEAPON;
+	public static double ENCHANT_CHANCE_NORMAL75_WEAPON;
+	public static double ENCHANT_CHANCE_NORMAL80_WEAPON;
+	
+	public static double ENCHANT_CHANCE_NORMAL_ARMOR;
+	public static double ENCHANT_CHANCE_NORMAL70_ARMOR;
+	public static double ENCHANT_CHANCE_NORMAL75_ARMOR;
+	public static double ENCHANT_CHANCE_NORMAL80_ARMOR;
+	
+	public static double ENCHANT_CHANCE_BLESSED_WEAPON;
+	public static double ENCHANT_CHANCE_BLESSED75_WEAPON;
+	
+	public static double ENCHANT_CHANCE_BLESSED_ARMOR;
+	public static double ENCHANT_CHANCE_BLESSED75_ARMOR;
+	
+	public static double ENCHANT_CHANCE_IMPROVEDBLESSED_WEAPON;
+	public static double ENCHANT_CHANCE_IMPROVEDBLESSED_ARMOR;
+	
+	
 	public static double ENCHANT_CHANCE_WEAPON;
 	public static double ENCHANT_CHANCE_WEAPON_10PLUS;
 	public static double ENCHANT_CHANCE_WEAPON_13PLUS;
@@ -736,6 +762,7 @@ public final class Config
 	public static boolean AUTO_LOOT;
 	public static boolean AUTO_LOOT_HERBS;
 	public static boolean AUTO_LOOT_RAID;
+	public static boolean AUTO_LOOT_DUNGEON;
 	
 	/** Items Management */
 	public static boolean ALLOW_DISCARDITEM;
@@ -1391,6 +1418,7 @@ public final class Config
 		ExProperties SafeDungeon = initProperties(DUNGEON_REWARD_FILE);
 		
 		DUNGEON_COIN_ID = SafeDungeon.getProperty("DungeonCoinId", 57);
+		PARTY_DUNGEON_COIN_ID = SafeDungeon.getProperty("PartyDungeonCoinId", 57);
 		CONT_DUNGEON_ITEM = SafeDungeon.getProperty("DungeonContItem", 1);
 		DUNGEON_SPAWN_X = SafeDungeon.getProperty("DungeonSpawnX", 82635);
 		DUNGEON_SPAWN_Y = SafeDungeon.getProperty("DungeonSpawnY", 148798);
@@ -1419,13 +1447,13 @@ public final class Config
 	private static final void loadPremiumSystem()
 	{
 		final ExProperties premiumsystem = initProperties(Premium_System);
-		AUGMENTATION_NG_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationNGSkillChanceFORVIP", 15);
+		AUGMENTATION_NG_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationNGSkillChanceFORVIP", 1);
 		AUGMENTATION_NG_GLOW_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationNGGlowChanceFORVIP", 0);
-		AUGMENTATION_MID_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationMidSkillChanceFORVIP", 30);
+		AUGMENTATION_MID_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationMidSkillChanceFORVIP", 2);
 		AUGMENTATION_MID_GLOW_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationMidGlowChanceFORVIP", 40);
-		AUGMENTATION_HIGH_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationHighSkillChanceFORVIP", 45);
+		AUGMENTATION_HIGH_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationHighSkillChanceFORVIP", 5);
 		AUGMENTATION_HIGH_GLOW_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationHighGlowChanceFORVIP", 70);
-		AUGMENTATION_TOP_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationTopSkillChanceFORVIP", 60);
+		AUGMENTATION_TOP_SKILL_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationTopSkillChanceFORVIP", 8);
 		AUGMENTATION_TOP_GLOW_CHANCE_FORVIP = premiumsystem.getProperty("AugmentationTopGlowChanceFORVIP", 100);
 	}
 	// c1c0s premium system end
@@ -1471,6 +1499,25 @@ public final class Config
 		ENCHANT_CHANCE_WEAPON_10PLUS = players.getProperty("EnchantChanceWeapon10Plus", 0.55);
 		ENCHANT_CHANCE_WEAPON_13PLUS = players.getProperty("EnchantChanceWeapon13Plus", 0.50);
 		ENCHANT_CHANCE_WEAPON_16PLUS = players.getProperty("EnchantChanceWeapon16Plus", 0.45);
+		
+		 ENCHANT_CHANCE_NORMAL_WEAPON = players.getProperty("EnchantChanceNormalWeapon", 0.65);
+		 ENCHANT_CHANCE_NORMAL70_WEAPON = players.getProperty("EnchantChanceNormal70Weapon", 0.70);
+		 ENCHANT_CHANCE_NORMAL75_WEAPON = players.getProperty("EnchantChanceNormal75Weapon", 0.75);
+		 ENCHANT_CHANCE_NORMAL80_WEAPON = players.getProperty("EnchantChanceNormal80Weapon", 0.80);
+		
+		 ENCHANT_CHANCE_NORMAL_ARMOR  = players.getProperty("EnchantChanceNormalArmor", 0.65);
+		 ENCHANT_CHANCE_NORMAL70_ARMOR = players.getProperty("EnchantChanceNormal70Armor", 0.70);
+		 ENCHANT_CHANCE_NORMAL75_ARMOR = players.getProperty("EnchantChanceNormal75Armor", 0.75);
+		 ENCHANT_CHANCE_NORMAL80_ARMOR = players.getProperty("EnchantChanceNormal80Armor", 0.80);
+		
+		 ENCHANT_CHANCE_BLESSED_WEAPON   = players.getProperty("EnchantChanceBlessedWeapon", 0.70);
+		 ENCHANT_CHANCE_BLESSED75_WEAPON = players.getProperty("EnchantChanceNormal75Weapon", 0.75);
+		
+		 ENCHANT_CHANCE_BLESSED_ARMOR   = players.getProperty("EnchantChanceBlessedArmor", 0.70);
+		 ENCHANT_CHANCE_BLESSED75_ARMOR = players.getProperty("EnchantChanceNormal75Armor", 0.75);
+		
+		 ENCHANT_CHANCE_IMPROVEDBLESSED_WEAPON = players.getProperty("EnchantChanceImprovedBlessedWeapon", 0.70);
+		 ENCHANT_CHANCE_IMPROVEDBLESSED_ARMOR  = players.getProperty("EnchantChanceImprovedBlessedArmor", 0.70);
 		
 		ENCHANT_CHANCE_WEAPON_BLESSED = players.getProperty("EnchantChanceBlessed", 0.65);
 		ENCHANT_CHANCE_WEAPON_BLESSED_10PLUS = players.getProperty("EnchantChanceBlessed10Plus", 0.6);
@@ -1608,6 +1655,11 @@ public final class Config
 		News_8 = myNews.getProperty("News_8","");
 		News_9 = myNews.getProperty("News_9","");
 		News_10 = myNews.getProperty("News_10","");
+		News_11 = myNews.getProperty("News_11","");
+		News_12 = myNews.getProperty("News_12","");
+		News_13 = myNews.getProperty("News_13","");
+		News_14 = myNews.getProperty("News_14","");
+		News_15 = myNews.getProperty("News_15","");
 		
 	}
 	
@@ -1923,6 +1975,8 @@ public final class Config
 		AUTO_LOOT = server.getProperty("AutoLoot", false);
 		AUTO_LOOT_HERBS = server.getProperty("AutoLootHerbs", false);
 		AUTO_LOOT_RAID = server.getProperty("AutoLootRaid", false);
+		AUTO_LOOT_DUNGEON = server.getProperty("AutoLootDungeon", false);
+		
 		
 		ALLOW_DISCARDITEM = server.getProperty("AllowDiscardItem", true);
 		MULTIPLE_ITEM_DROP = server.getProperty("MultipleItemDrop", true);

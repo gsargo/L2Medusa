@@ -226,7 +226,7 @@ public class PlayerStatus extends PlayableStatus<Player>
 			}
 			setHp(value);
 		}
-		if (_actor.getTempChest() != 0 || _actor.getTempFace() != 0 || _actor.getTempFeet() != 0 || _actor.getTempHair() != 0 || _actor.getTempGloves() != 0 || _actor.getTempLegs() != 0)
+		/*if (_actor.getTempChest() != 0 || _actor.getTempFace() != 0 || _actor.getTempFeet() != 0 || _actor.getTempHair() != 0 || _actor.getTempGloves() != 0 || _actor.getTempLegs() != 0)
 		{
 			if (System.currentTimeMillis() > _actor._costumeInterval && _hp <= (getMaxHp() * 30 / 100f))
 			{
@@ -240,7 +240,7 @@ public class PlayerStatus extends PlayableStatus<Player>
 				_actor.broadcastUserInfo();
 				_actor.sendMessage("[Costume System]: Minimum HP reached, costume removed");
 			}
-		}
+		}*/
 		
 		// Handle die process if value is too low.
 		if (_hp < 0.5)
