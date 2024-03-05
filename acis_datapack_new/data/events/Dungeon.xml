@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+     <dungeon id="1" name="Solo Story Mode" players="1" rewards="" rewardHtm="data/html/mods/dungeon/solo_rewards.htm">
+	 <!-- for linux data\html\mods\dungeon\solo_rewards.htm -->
+	 
+       <stage order="1" loc="-111811,-49539,-10624" teleport="true" minutes="10">
+           <mob npcId="60029" locs="-112669,-49375,-10624;-112687,-49767,-10624;-113464,-49758,-10624;-113459,-49313,-10624"/>
+		    <mob npcId="60057" locs="-113089,-49541,-10624" /> <!-- Lethe -->  
+       </stage>
+	   
+       <stage order="2" loc="-114404,-49081,-10624" teleport="false" minutes="10">
+		   <mob npcId="62357" locs="-114404,-49081,-10624;-114404,-49979,-10624;-115284,-49993,-10624;-115305,-49075,-10624;" />
+		    <mob npcId="10010" locs="-114851,-49533,-10624" /> <!-- Porous -->
+       </stage>
+	   
+	    <stage order="3" loc="-118065,-49542,-10624" teleport="false" minutes="10">
+           <mob npcId="22215" locs="-114845,-49532,-10624"/> <!-- Camptosaurus -->
+       </stage>
+	   
+       <stage order="4" loc="-115946,-49419,-10624" teleport="false" minutes="10">
+			<mob npcId="60023" locs="-115946,-49419,-10624;-115960,-49662,-10624"/> <!-- Cursed Knight -->
+            <mob npcId="62378" locs="-116615,-49538,-10624"/> <!-- Chimera -->
+       </stage>
+	   
+	    <stage order="5" loc="-117441,-49530,-10624" teleport="false" minutes="20">
+           <mob npcId="62347" locs="-117867,-49535,-10624"/> <!-- Phobetor -->
+		   <mob npcId="60020" locs="-117441,-49530,-10624;-117881,-49242,-10624;-117883,-49831,-10624" /><!-- x3 omen -->
+       </stage>
+   </dungeon>
+   
+  <dungeon id="2" name="Quatro Hard Mode" players="2" rewards="12592,1" rewardHtm="NULL"> <!-- pandora's key shard -->
+   
+       <stage order="1" loc="-76424,-185543,-11000" teleport="true" minutes="8">
+           <mob npcId="35671" locs="-77773,-185543,-11008"/>
+			<mob npcId="60037" locs="-77715,-185632,-11008"/><!-- minion -->
+			<mob npcId="60065" locs="-77720,-185458,-11008"/><!-- minion -->
+       </stage>
+	   
+	    <stage order="2" loc="-80083,-185546,-10744" teleport="true" minutes="8">
+              <mob npcId="60041" locs="-80083,-185546,-10744"/><!-- Moros -->
+       </stage>
+	   
+	   	<stage order="3" loc="-82448,-185541,-10480" teleport="true" minutes="8">
+               <mob npcId="35676" locs="-82448,-185541,-10480"/> <!-- Hypnos -->   
+       </stage>
+	
+       <stage order="4" loc="-83552,-185545,-10464" teleport="false" minutes="35">
+           <mob npcId="35662" locs="-86242,-185530,-10040"/>
+			<mob npcId="10007" locs="-86230,-185269,-10056"/><!-- minion -->
+			<mob npcId="10509" locs="-86024,-185724,-10056"/><!-- minion -->
+       </stage>
+       
+   </dungeon>
+</list>
