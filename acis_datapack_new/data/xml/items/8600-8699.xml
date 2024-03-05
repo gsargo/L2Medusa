@@ -38,7 +38,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2279-2" />
+		<set name="item_skill" val="2279-5" />
 	</item>
 	<item id="8605" type="EtcItem" name="Superior Herb of Mana">
 		<set name="material" val="PAPER" />
@@ -137,23 +137,56 @@
 		<set name="weight" val="120" />
 	</item>
 	<item id="8618" type="EtcItem" name="Ancient Book - Divine Inspiration (Modern Language Version)">
-		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
-	</item>
-	<item id="8619" type="EtcItem" name="Ancient Book - Divine Inspiration (Original Language Version)">
-		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
-	</item>
-	<item id="8620" type="EtcItem" name="Ancient Book - Divine Inspiration (Manuscript)">
-		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
-	</item>
-	<item id="8621" type="EtcItem" name="Ancient Book - Divine Inspiration (Original Version)">
-		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
-		<set name="is_tradable" val="false" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="DivineInspiration1" />
+	</item>
+	<item id="8619" type="EtcItem" name="Ancient Book - Divine Inspiration (Original Language Version)">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="DivineInspiration2" />
+	</item>
+	<item id="8620" type="EtcItem" name="Ancient Book - Divine Inspiration (Manuscript)">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="DivineInspiration3" />
+	</item>
+	<item id="8621" type="EtcItem" name="Ancient Book - Divine Inspiration (Original Version)">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="DivineInspiration4" />
 	</item>
 	<item id="8622" type="EtcItem" name="Elixir of Life (No Grade)">
 		<set name="default_action" val="skill_reduce" />
@@ -896,6 +929,7 @@
 	</item>
 	<item id="8684" type="Weapon" name="Shyeed's Bow">
 		<set name="default_action" val="equip" />
+		<set name="is_bow_restricted" val="true" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />

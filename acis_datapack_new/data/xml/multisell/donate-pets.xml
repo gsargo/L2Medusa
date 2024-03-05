@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<!-- Donate Shop -->
+<!-- Premium status 14 days -->
+
+  
+       <!-- Winged Princess Agathion -->
+  <item id="14">
+  <ingredient id="12535" count="5"/>
+	 <production id="18013" count="1"/>
+  </item>
+  
+  <!-- Three Headed Agathion -->
+  <item id="15">
+  <ingredient id="12535" count="5"/>
+	 <production id="18029" count="1"/>
+  </item>
+  
+       <!-- Flying Nest Agathion -->
+   <item id="19">
+	<ingredient id="12535" count="5"/>
+	 <production id="18028" count="1"/>
+  </item>
+  
+  
+           <!-- Bee Agathion -->
+  <item id="20">
+ <ingredient id="12535" count="10"/>
+	 <production id="18018" count="1"/>
+  </item>
+  
+       <!-- Panda Agathion -->
+   <item id="21">
+	<ingredient id="12535" count="10"/>
+	 <production id="18025" count="1"/>
+  </item>
+  
+             <!-- Moon Agathion -->
+  <item id="22">
+ <ingredient id="12535" count="10"/>
+	 <production id="18020" count="1"/>
+  </item>
+  
+               <!-- Cat Agathion -->
+  <item id="23">
+ <ingredient id="12535" count="10"/>
+	 <production id="18021" count="1"/>
+  </item>
+  
+  <!-- Pegasus Agathion -->
+   <item id="24">
+	<ingredient id="12535" count="10"/>
+	 <production id="18023" count="1"/>
+  </item>
+  
+                   <!-- Phoenix Agathion -->
+  <item id="25">
+	<ingredient id="12535" count="10"/>
+	 <production id="18022" count="1"/>
+  </item>
+  
+   <!-- Baby Bear Agathion -->
+   <item id="26">
+	<ingredient id="12535" count="10"/>
+	 <production id="18016" count="1"/>
+  </item>
+  
+   <!-- Bat Agathion -->
+   <item id="27">
+	<ingredient id="12535" count="12"/>
+	 <production id="18026" count="1"/>
+  </item>
+  
+  <!-- Baby Minotaur Agathion -->
+   <item id="28">
+	<ingredient id="12535" count="12"/>
+	 <production id="18014" count="1"/>
+  </item>
+  
+<!-- Elephant Agathion -->
+   <item id="29">
+	<ingredient id="12535" count="12"/>
+	 <production id="18015" count="1"/>
+  </item>
+
+  <!-- Aeolus -->
+  <item id="30">
+    <ingredient id="12535" count="15"/>
+    <production id="12526" count="1"/>
+  </item>
+  
+             <!-- Griffin -->
+  <item id="31">
+	<ingredient id="12535" count="10"/>
+	 <production id="18012" count="1"/>
+  </item>
+  
+			<!-- Fox -->
+   <item id="32">
+	<ingredient id="12535" count="10"/>
+	 <production id="18011" count="1"/>
+  </item>
+  
+  			<!-- Pindus Bison -->
+   <item id="33">
+	<ingredient id="12535" count="5"/>
+	 <production id="18002" count="1"/>
+  </item>
+  
+  
+
+   
+  
+</list>
+

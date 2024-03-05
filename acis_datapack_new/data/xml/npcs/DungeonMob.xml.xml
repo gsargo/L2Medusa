@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+   <npc id="65515" idTemplate="20620" name="Dungeon Monster" title="Event">
+       <set name="usingServerSideName" val="true"/>
+       <set name="usingServerSideTitle" val="true"/>
+       <set name="level" val="78"/>
+       <set name="radius" val="21"/>
+       <set name="height" val="35"/>
+       <set name="rHand" val="0"/>
+       <set name="lHand" val="0"/>
+       <set name="type" val="DungeonMob"/>
+       <set name="exp" val="18299"/>
+       <set name="sp" val="2212"/>
+       <set name="hp" val="3010.8929976"/>
+       <set name="mp" val="1777.86"/>
+       <set name="hpRegen" val="8.772"/>
+       <set name="mpRegen" val="3.1008"/>
+       <set name="pAtk" val="961.93701102"/>
+       <set name="pDef" val="361.0859925"/>
+       <set name="mAtk" val="677.644106544"/>
+       <set name="mDef" val="246.330714"/>
+       <set name="crit" val="4"/>
+       <set name="atkSpd" val="253"/>
+       <set name="str" val="40"/>
+       <set name="int" val="21"/>
+       <set name="dex" val="30"/>
+       <set name="wit" val="20"/>
+       <set name="con" val="43"/>
+       <set name="men" val="20"/>
+       <set name="corpseTime" val="7"/>
+       <set name="walkSpd" val="45"/>
+       <set name="runSpd" val="175"/>
+       <set name="dropHerbGroup" val="1"/>
+       <set name="attackRange" val="40"/>
+       <ai type="DEFAULT" ssCount="100" ssRate="10" spsCount="100" spsRate="5" aggro="500" canMove="true" seedable="true"/>
+   <skills>
+   <skill id="4028" level="3"/>
+   <skill id="4408" level="11"/>
+   <skill id="4410" level="12"/>
+   <skill id="4411" level="12"/>
+   <skill id="4412" level="10"/>
+   <skill id="4413" level="10"/>
+   <skill id="4416" level="11"/>
+   </skills>
+   
+   <drops>
+   <category id="0">
+   <drop itemid="57" min="10000" max="15000" chance="1000000"/>
+   </category>
+   </drops>
+   
+   </npc>
+</list>

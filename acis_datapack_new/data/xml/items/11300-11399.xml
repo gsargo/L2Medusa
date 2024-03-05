@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="11307" type="EtcItem" name="Skin Oath Wizard's">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9674" />
+		<set name="temp_legs" val="9675" />
+		<set name="temp_gloves" val="9676" />
+		<set name="temp_feet" val="9677" />
+	</item>
+	
+	<item id="11308" type="EtcItem" name="Skin Oath Raider's">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9669" />
+		<set name="temp_legs" val="9670" />
+		<set name="temp_gloves" val="9671" />
+		<set name="temp_feet" val="9672" />
+	</item>
+	
+	
+	<item id="11309" type="EtcItem" name="Skin Oath Knight's">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9664" />
+		<set name="temp_legs" val="9665" />
+		<set name="temp_gloves" val="9666" />
+		<set name="temp_feet" val="9667" />
+	</item>
+	
+		<item id="11310" type="EtcItem" name="Shadow: Skin Oath Wizard">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="bodypart" val="face" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9674" />
+		<set name="temp_legs" val="9675" />
+		<set name="temp_gloves" val="9676" />
+		<set name="temp_feet" val="9677" />
+		<set name="duration" val="180" />
+	</item>
+	
+		<item id="11311" type="EtcItem" name="Shadow: Skin Oath Knight">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="bodypart" val="face" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9664" />
+		<set name="temp_legs" val="9665" />
+		<set name="temp_gloves" val="9666" />
+		<set name="temp_feet" val="9667" />
+		<set name="duration" val="180" />
+	</item>
+	
+	<item id="11312" type="EtcItem" name="Vampire Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25300" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />
+		
+	</item>
+	
+		<item id="11313" type="EtcItem" name="Cowboy Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25301" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11314" type="EtcItem" name="Red Zaken Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25302" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11315" type="EtcItem" name="Blue Zaken Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25303" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11316" type="EtcItem" name="Dark Nobless Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25304" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11317" type="EtcItem" name="White Nobless Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25305" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11318" type="EtcItem" name="Green Artemis Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25306" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+
+		<item id="11319" type="EtcItem" name="Barbarian Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25307" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11320" type="EtcItem" name="Talos Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25308" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11321" type="EtcItem" name="Red Artemis Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25309" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11322" type="EtcItem" name="Dragon Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25310" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11323" type="EtcItem" name="Sorcerer's Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25311" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11324" type="EtcItem" name="Hoplite' Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25312" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11325" type="EtcItem" name="Marauder's Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25313" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11326" type="EtcItem" name="Skullshot Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25319" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11327" type="EtcItem" name="Cowboy Costume Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15043" /> 
+	
+	</item>
+	
+	<item id="11328" type="EtcItem" name="Red Zaken Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15027" /> 	
+	</item>
+	
+	<item id="11329" type="EtcItem" name="Blue Zaken Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15029" /> 
+
+	</item>
+	
+	<item id="11330" type="EtcItem" name="Dark Noblesse Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15019" /> 
+
+	</item>
+	
+	<item id="11331" type="EtcItem" name="White Noblesse Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15021" /> 
+	</item>
+	
+	<item id="11332" type="EtcItem" name="Green Artemis Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15003" /> 
+
+	</item>
+	
+	
+	<item id="11333" type="EtcItem" name="Red Artemis Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15001" /> 
+
+	</item>
+	
+	<item id="11334" type="EtcItem" name="Viking Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15045" /> 
+
+	</item>
+	
+	<item id="11335" type="EtcItem" name="Talos Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15041" /> 
+
+	</item>
+	
+	<item id="11336" type="EtcItem" name="Dragon's Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15047" /> 
+	
+	</item>
+	
+	<item id="11337" type="EtcItem" name="Sorcerer's Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15013" /> 
+	
+	</item>
+	
+	<item id="11338" type="EtcItem" name="Hoplite Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="15015" /> 
+
+	</item>
+	
+	
+	<item id="11339" type="EtcItem" name="Marauder's Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25314" /> 
+	
+	</item>
+	
+	<item id="11340" type="EtcItem" name="Crackskull's Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25320" /> 
+
+	</item>
+	
+	<item id="11341" type="EtcItem" name="Red Muskeeter Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25327" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11342" type="EtcItem" name="Red Muskeeter Costume Hat Skin">
+	<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+
+	</item>
+	
+	<item id="11343" type="EtcItem" name="Blue Muskeeter Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25329" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11344" type="EtcItem" name="Blue Muskeeter Costume Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25330" /> 
+
+	</item>
+	
+	<item id="11345" type="EtcItem" name="Black Assasin Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25331" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11346" type="EtcItem" name="Black Assasin Costume Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25332" /> 
+	</item>
+	
+	<item id="11347" type="EtcItem" name="Modern Vampire Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25333" /> 
+	</item>
+	
+	<item id="11348" type="EtcItem" name="Poseidon Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25334" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11349" type="EtcItem" name="Poseidon Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25335" /> 
+	</item>
+	
+	<item id="11350" type="EtcItem" name="Typhon's Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25336" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11351" type="EtcItem" name="Typhon's Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25337" /> 
+	</item>
+	
+	<item id="11352" type="EtcItem" name="Night Terror Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25338" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11353" type="EtcItem" name="Night Terror Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25339" /> 
+	</item>
+	
+	<item id="11354" type="EtcItem" name="Helios' Follower Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25340" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11355" type="EtcItem" name="Helios' Follower Hat Skin">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25341" /> 
+	</item>
+	
+	<item id="11356" type="EtcItem" name="Dark Legacy Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9656" />
+		<set name="temp_legs" val="9657" />
+		<set name="temp_gloves" val="9658" />
+		<set name="temp_feet" val="9659" />	
+	</item>
+	
+	<item id="11357" type="EtcItem" name="Shadow: Dark Legacy Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="bodypart" val="face" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="25346" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9656" />
+		<set name="temp_legs" val="9657" />
+		<set name="temp_gloves" val="9658" />
+		<set name="temp_feet" val="9659" />	
+		<set name="duration" val="60" />	
+	</item>
+	
+	<item id="11358" type="EtcItem" name="Shadow: Sorcerer's Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="bodypart" val="face" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="15013" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25311" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+		<set name="duration" val="60" />	
+	</item>
+	
+	<item id="11359" type="EtcItem" name="Shark Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="25344" /> 
+		<!-- 25344 makes the hair shorter to match the shark head -->
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25343" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+		<set name="duration" val="60" />	
+	</item>
+	
+	<item id="11360" type="EtcItem" name="Shark Costume Head">
+	<!-- not used in itemgrp -->
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25344" /> 
+	</item>
+	
+	<item id="11361" type="EtcItem" name="Ippocrates Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9922" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11362" type="EtcItem" name="Ippocrates Costume Hat">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="9882" /> 
+	</item>
+	
+	<item id="11363" type="EtcItem" name="Dioscuri Skin/ Armor of the grand lord Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9928" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11364" type="EtcItem" name="Mainland Bandit /Elite Rogue Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="9925" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11365" type="EtcItem" name=" Mainland Bandit/Elite Rogue Costume Hat">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="9936" /> 
+	</item>
+	
+	<item id="11366" type="EtcItem" name="Dioscuri Skin/Armor of the grand lord  Hat">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="9937" /> 
+	</item>
+	
+	<item id="11367" type="EtcItem" name="Primeval Shark Skin/Armor Hat">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="9946" /> 
+	</item>
+	
+	<item id="11368" type="EtcItem" name="Dark Legacy Costume Head">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25346" /> 
+	</item>
+	
+	<item id="11369" type="EtcItem" name="Deer Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25347" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+		<item id="11370" type="EtcItem" name="Deer Costume Head">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25348" /> 
+	</item>
+	
+	<item id="11371" type="EtcItem" name="Shadow:Deer Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="25348" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25347" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+		<set name="duration" val="180" />
+	</item>
+	
+	<item id="11372" type="EtcItem" name="Santa Claus Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25349" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11373" type="EtcItem" name="Shadow: Santa Claus Costume Skin">
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="7836" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25349" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />
+		<set name="duration" val="180" />		
+	</item>
+	
+	<item id="11374" type="EtcItem" name="Tartarus Enforcer Costume Skin">
+	<!-- Violet -->
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25350" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11375" type="EtcItem" name="Tartarus Enforcer Costume Head">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25351" /> 
+	</item>
+	
+	<item id="11376" type="EtcItem" name="Tartarus Raider Costume Skin">
+	<!-- blue -->
+		<set name="default_action" val="costume" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem" />
+		<set name="template" val="true" />
+		<set name="temp_hair" val="0" /> 
+		<set name="temp_face" val="0" />
+		<set name="temp_chest" val="25352" />
+		<set name="temp_legs" val="0" />
+		<set name="temp_gloves" val="0" />
+		<set name="temp_feet" val="0" />	
+	</item>
+	
+	<item id="11377" type="EtcItem" name="Tartarus Raider Costume Head">
+		<set name="default_action" val="costume_hair" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="CostumeEtcItem_hair" />
+		<set name="template_hair" val="true" />
+		<set name="temp_hair" val="25353" /> 
+	</item>
+	
+	<item id="11380" type="Armor" name="Mage Tattoo v1">
+	
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="50" order="0x40" stat='mDef'/>
+			<add val="70" order="0x40" stat='pDef'/>
+	
+			
+			<mul val='1.045' order='0x30' stat='mAtkSpd'/>
+			
+			<mul val='0.70' order='0x30' stat='accCombat'/>
+			<mul val='0.70' order='0x30' stat='pAtkSpd'/>
+			<sub val="4" order="0x40" stat='rEvas' />
+			
+			<add order="0x40" stat="maxCp" val="500"/> 
+			<add order="0x40" stat="maxHp" val="1000"/> 
+			<add order="0x40" stat="maxMp" val="450"/> 
+		
+		</for>
+	</item>
+	
+		<item id="11381" type="Armor" name="Mage Tattoo v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>	
+			<add val="100" order="0x40" stat='mDef'/>
+			<add val="200" order="0x40" stat='pDef'/>
+			
+			
+			
+			<mul val='1.08' order='0x30' stat='mAtkSpd'/>
+			
+			<mul val='0.70' order='0x30' stat='accCombat'/>
+			<mul val='0.70' order='0x30' stat='pAtkSpd'/>
+			<mul val='0.50' order='0x30' stat='pAtk'/>
+			<sub val="4" order="0x40" stat='rEvas' />
+	
+			
+		<add order="0x40" stat="maxCp" val="1000"/> 
+		<add order="0x40" stat="maxHp" val="1500"/> 
+		<add order="0x40" stat="maxMp" val="650"/> 
+	
+		</for>
+	</item>
+
+	<item id="11382" type="Armor" name="Mage Tattoo v3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="crystal_count" val="422" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="100" order="0x40" stat='mDef'/>
+			<add val="200" order="0x40" stat='pDef'/>
+			<add order="0x40" stat="maxMp" val="1200"/> 
+			<add order="0x40" stat="maxCp" val="2000"/> 
+			<add order="0x40" stat="maxHp" val="1000"/> 
+			
+		</for>
+	</item>
+	
+		<item id="11383" type="Armor" name="Fighter Tattoo v1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>		
+		
+			<add val="70" order="0x40" stat='mDef'/>
+			<add val="50" order="0x40" stat='pDef'/>
+			
+			<mul val='1.06' order='0x30' stat='pAtkSpd'/>
+	
+			<mul val='0.85' order='0x30' stat='mAtkSpd'/>
+			<mul val='0.5' order='0x30' stat='mAtk'/>
+			
+			<add order="0x40" stat="maxCp" val="500"/> 
+			<add order="0x40" stat="maxHp" val="1000"/> 
+			<add order="0x40" stat="maxMp" val="450"/> 
+	
+		</for>
+	</item>
+	
+	<item id="11384" type="Armor" name="Fighter Tattoo v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+								
+			<add val="150" order="0x40" stat='mDef'/>
+			<add val="100" order="0x40" stat='pDef'/>
+			<mul val='1.10' order='0x30' stat='pAtkSpd'/>
+			
+			<mul val='0.85' order='0x30' stat='mAtkSpd'/>
+			<mul val='0.5' order='0x30' stat='mAtk'/>
+	 
+			<add order="0x40" stat="maxCp" val="1000"/> 
+			<add order="0x40" stat="maxHp" val="1500"/> 
+			<add order="0x40" stat="maxMp" val="650"/>
+	
+		</for>
+	</item>
+	
+	<item id="11385" type="Armor" name="Fighter Tattoo v3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="150" order="0x40" stat='mDef'/>
+			<add val="100" order="0x40" stat='pDef'/>
+			<mul val='1.13' order='0x30' stat='pAtkSpd'/>
+	
+			<add order="0x40" stat="maxCp" val="2000"/> 
+			<add order="0x40" stat="maxHp" val="2000"/> 
+			<add order="0x40" stat="maxMp" val="1000"/> 
+	
+		</for>
+	</item>
+	
+	<item id="11386" type="Armor" name="Tattoo of Hermes Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add stat="runSpd" val="15"/>					
+	
+		</for>
+	</item>
+	
+	<item id="11387" type="Armor" name="Tattoo of Hermes Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add stat="runSpd" val="20"/>					
+	
+		</for>
+	</item>
+	
+	<item id="11388" type="Armor" name="Tatto of Assasin(Tattoo of dagger) Lv1">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="100" order="0x40" stat='mDef'/>
+			<add val="50" order="0x40" stat='pDef'/>
+			
+			<mul stat="pReuse" val="0.8" />
+			<!-- spells reuse-->
+			<mul val='1.085' order='0x30' stat='cAtk'/>
+			<!-- critical damage +8% -->
+			<sub val='2' order='0x40' stat='STR'/>
+			<!-- str -2 -->
+			<add val='1' order='0x40' stat='DEX'/>
+			<!-- dex +1 -->
+			<add val='1' order='0x40' stat='rEvas'/>
+			<!-- Evasion +1-->
+			<sub val='1' order='0x40' stat='accCombat'/>
+			<!-- Accuracy -1-->
+			
+			<mul val='0.85' order='0x30' stat='mAtkSpd'/>
+			<mul val='0.5' order='0x30' stat='mAtk'/>
+			
+			<add order="0x40" stat="maxCp" val="500"/> 
+			<add order="0x40" stat="maxHp" val="1000"/> 
+			<add order="0x40" stat="maxMp" val="450"/> 
+	
+		</for>
+	</item>
+	
+	<item id="11389" type="Armor" name="Tatto of Assasin(Tattoo of dagger) Lv2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="200" order="0x40" stat='mDef'/>
+			<add val="100" order="0x40" stat='pDef'/>
+			
+			<mul stat="pReuse" val="0.8" /> 
+			<!-- spells reuse-->
+			<mul val='1.14' order='0x30' stat='cAtk'/>
+			<!-- critical damage +8% -->
+			<sub val='2' order='0x40' stat='STR'/>
+			<!-- str -2 -->
+			<add val='1' order='0x40' stat='DEX'/>
+			<!-- evasion +2 -->
+			<add val='2' order='0x40' stat='rEvas'/>
+			<!-- Accuracy -2-->
+			<sub val='2' order='0x40' stat='accCombat'/>
+			
+			<mul val='0.85' order='0x30' stat='mAtkSpd'/>
+			<mul val='0.5' order='0x30' stat='mAtk'/>
+			
+			<add order="0x40" stat="maxCp" val="1000"/> 
+			<add order="0x40" stat="maxHp" val="1500"/> 
+			<add order="0x40" stat="maxMp" val="650"/>
+	
+		</for>
+	</item>
+	
+	<item id="11390" type="Armor" name="Tatto of Assasin(Tattoo of dagger) Lv3">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="underwear" />
+		<set name="crystal_type" val="S" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="5280" />
+		<set name="is_tradable" val="true" /> 
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add val="200" order="0x40" stat='mDef'/>
+			<add val="100" order="0x40" stat='pDef'/>
+			
+			<mul stat="pReuse" val="0.8" /> 
+			<!-- spells reuse-->
+			<mul val='1.16' order='0x30' stat='cAtk'/>
+			<!-- critical damage +10% -->
+			<sub val='2' order='0x40' stat='STR'/>
+			<!-- str -2 -->
+			<add val='1' order='0x40' stat='DEX'/>
+			<!-- DEX +1 -->
+			<add val='2' order='0x40' stat='rEvas'/>
+			<!-- evasion +2 -->
+			<sub val='2' order='0x40' stat='accCombat'/>
+			<!-- Accuracy -2-->
+			
+			<mul val='0.85' order='0x30' stat='mAtkSpd'/>
+			<mul val='0.5' order='0x30' stat='mAtk'/>
+			
+		
+			<add order="0x40" stat="maxCp" val="2000"/> 
+			<add order="0x40" stat="maxHp" val="2000"/> 
+			<add order="0x40" stat="maxMp" val="1000"/> 
+	
+		</for>
+	</item>
+	
+	
+</list>

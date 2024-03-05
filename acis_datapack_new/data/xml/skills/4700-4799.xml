@@ -19,7 +19,7 @@
         <set name="operateType" val="ACTIVE" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_queen_of_cat">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="buff_queen_of_cat">
                 <mul stat="pAtk" val="#pAtk" />
                 <add stat="accCombat" val="#accCombat" />
             </effect>
@@ -62,7 +62,7 @@
         <set name="isMagic" val="true" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
                 <mul stat="regMp" val="#regMp" />
             </effect>
         </for>
@@ -85,7 +85,7 @@
         <set name="isMagic" val="true" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
                 <mul stat="mReuse" val="#mReuse" />
             </effect>
         </for>

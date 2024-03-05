@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<zone shape="NPoly" minZ="-3460" maxZ="1543">  <!-- Medusa Lair -->
+      	<node x="44885" y="158356"/>
+		<node x="50022" y="158383"/>
+		<node x="51488" y="156413"/>	
+		<node x="49191" y="150831"/>
+		<node x="48050" y="149595"/>
+		<node x="41353" y="151985"/>	
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+    </zone> 
+	
+	
+	<zone shape="NPoly" minZ="459" maxZ="15388">  <!-- Hades Palace -->
+		<node x="-233982" y="145104"/>	
+		<node x="-234107" y="146760"/>	
+		<node x="-239883" y="139514"/>
+		<node x="-247269" y="135511"/>
+		<node x="-253603" y="140849"/>
+		<node x="-257691" y="142807"/>
+		<node x="-257889" y="160023"/>
+		<node x="-239194" y="162843"/>
+		<node x="-232571" y="154346"/>
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+    </zone> 
+	
+	<zone shape="NPoly" minZ="-2500" maxZ="2250">  <!-- Typhon -->
+		<node x="5979" y="242867"/>	
+		<node x="11659" y="241858"/>	
+		<node x="24184" y="243280"/>
+		<node x="29295" y="241104"/>
+		<node x="30680" y="242732"/>
+		<node x="27280" y="258469"/>
+		<node x="1308" y="250848"/>
+		<node x="2918" y="246467"/>
+	
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+    </zone> 
+	
+</list>

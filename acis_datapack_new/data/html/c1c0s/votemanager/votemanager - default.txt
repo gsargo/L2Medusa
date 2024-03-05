@@ -1,0 +1,73 @@
+﻿<html>
+<title>Chat</title>
+<body>
+<center>
+<br>
+
+<table width=295>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2JBRASIL%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2NETWORK%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2TOPCO%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2TOPZONE%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2HOPZONE%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2TOPSERVERS%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2TOPGAMESERVER%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2VOTESCOM%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2SERVERSCOM%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2ITOPZ%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2JTOPCOM%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteGAMETOPSEU%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteTOP100ARENA%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2NET%</font></td>
+</tr>
+
+<tr>
+<td align=center><font color="FF0000">%VoteL2TOPEU%</font></td>
+</tr>
+
+</table>
+
+</center>
+</body>
+</html>

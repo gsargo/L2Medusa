@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- icarus shop -->
+
+<list>
+
+<!-- Wings of icarus -->
+  <item id="-1">
+    <ingredient id="12586" count="100" />
+    <production id="25317" count="1"/>
+  </item>
+  
+  <!-- wings of daedalus -->
+  <item id="-2">
+    <ingredient id="12586" count="100" />
+    <production id="25318" count="1"/>
+  </item>
+  
+ 
+  
+</list>

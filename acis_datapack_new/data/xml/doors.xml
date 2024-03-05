@@ -397,25 +397,26 @@
 		</coordinates>
 		<stats hp="126600" pDef="644" mDef="518" height="128" />
 	</door>
+	
 	<door id="24180001" type="DOOR" level="1" name="aden_castle_outter_001">
 		<castle id="5" />
-		<position x="147368" y="8488" z="-464" />
+		<position x="147368" y="9795" z="-464" />
 		<coordinates>
-			<loc x="147277" y="8475" z="-495" />
-			<loc x="147463" y="8475" z="-495" />
-			<loc x="147463" y="8492" z="-495" />
-			<loc x="147278" y="8491" z="-495" />
+			<loc x="147277" y="9786" z="-496" />
+			<loc x="147464" y="9786" z="-496" />
+			<loc x="147464" y="9804" z="-496" />
+			<loc x="147277" y="9804" z="-496" />
 		</coordinates>
 		<stats hp="271536" pDef="837" mDef="674" height="495" />
 	</door>
 	<door id="24180002" type="DOOR" level="1" name="aden_castle_outter_002">
 		<castle id="5" />
-		<position x="147538" y="8482" z="-464" />
+		<position x="147538" y="9795" z="-464" />
 		<coordinates>
-			<loc x="147449" y="8474" z="-495" />
-			<loc x="147635" y="8475" z="-495" />
-			<loc x="147634" y="8492" z="-495" />
-			<loc x="147448" y="8492" z="-495" />
+			<loc x="147448" y="9786" z="-495" />
+			<loc x="147635" y="9786" z="-495" />
+			<loc x="147635" y="9804" z="-495" />
+			<loc x="147448" y="9804" z="-495" />
 		</coordinates>
 		<stats hp="271536" pDef="837" mDef="674" height="495" />
 	</door>
@@ -6066,4 +6067,406 @@
 		<stats hp="67884" pDef="644" mDef="518" height="150" />
 		<function closeTime="60" />
 	</door>
+	
+	<door id="25190013" type="WALL" level="1" name="godad_castle_wall_002"> 
+	<!-- Zeus Wall  -->
+		<castle id="15" />
+		<position x="149366" y="173809" z="-944" />
+		<coordinates>
+			<loc x="149410" y="173826" z="-944" />
+			<loc x="149330" y="173812" z="-944" />
+			<loc x="149369" y="173850" z="-944" />
+			<loc x="149369" y="173806" z="-944" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="460" />
+	</door>
+	
+	<door id="25190014" type="WALL" level="1" name="godad_castle_wall_002"> 
+	<!-- Zeus Wall inside -->
+		<castle id="15" />
+		<position x="149361" y="173912" z="-944" />
+		<coordinates>
+			<loc x="149364" y="173883" z="-944" />
+			<loc x="149361" y="173912" z="-944" />
+			<loc x="149299" y="173904" z="-944" />
+			<loc x="149429" y="173904" z="-944" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="460" />
+	</door>
+	
+	<door id="20250001" type="DOOR" level="3" name="tartarus_wall_001"> 
+	<!-- Tartarus Door -->
+		<castle id="15" />
+		<position x="6020" y="244628" z="-1958" />
+		<coordinates>
+			<loc x="6045" y="244477" z="-1958" />
+            <loc x="6127" y="244531" z="-1958" />
+            <loc x="5997" y="244775" z="-1958" />
+            <loc x="5912" y="244721" z="-1958" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="150" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	
+	<door id="25190016" type="WALL" level="1" name="godad_castle_wall_002"> 
+	<!-- Execution grounds - near statue/teleporter -->
+		<castle id="15" />
+		<position x="51166" y="152022" z="-2408" />
+		<coordinates>
+			<loc x="50917" y="151915" z="-2376" />
+			<loc x="51087" y="151823" z="-2432" />
+			<loc x="51339" y="152192" z="-2432" />
+			<loc x="51160" y="152310" z="-2376" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="460" />
+	</door>
+	
+	<door id="26210041" type="DOOR" level="1" name="Magmell_Field_S.magmell_Field_Genesis_raid01"><!-- Asphodel (Talos Clan RB) -->
+		<position x="214312" y="115264" z="-856"/>
+		<coordinates>
+			<loc x="214341" y="114605" z="-856" />
+			<loc x="214326" y="115890" z="-856" />
+			<loc x="214303" y="115884" z="-856" />
+			<loc x="214317" y="114623" z="-856" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="150" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	<door id="26210042" type="DOOR" level="1" name="Magmell_Field_S.magmell_Field_Genesis_raid02"><!-- Asphodel (Talos Clan RB) -->
+		<position x="213697" y="114643" z="-856"/>
+		<coordinates>
+			<loc x="214309" y="114619" z="-856" />
+			<loc x="213337" y="114594" z="-856" />
+			<loc x="213077" y="114636" z="-856" />
+			<loc x="214317" y="114642" z="-856" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="150" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	<door id="26210043" type="DOOR" level="1" name="Magmell_Field_S.magmell_Field_Genesis_raid03"><!-- Asphodel (Talos Clan RB) -->
+		<position x="213076" y="115238" z="-856"/>
+		<coordinates>
+			<loc x="213058" y="114621" z="-856" />
+			<loc x="213074" y="114628" z="-856" />
+			<loc x="213092" y="114627" z="-856" />
+			<loc x="213075" y="115855" z="-856" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="450" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	
+	<door id="26210044" type="WALL" level="1" name="MMagmell_Field_S.magmell_Field_Genesis_raid04"> <!-- Asphodel (Talos Clan RB) -->
+		<position x="213709" y="115877" z="-856"/>
+		<coordinates>
+			<loc x="213058" y="115883" z="-856" />
+			<loc x="214318" y="115885" z="-856" />
+			<loc x="214316" y="115849" z="-856" />
+			<loc x="213057" y="115856" z="-856" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="850" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	
+	<door id="26210045" type="WALL" level="1" name="Magmell_Field_S.Invisible_Wall_5"> <!-- EXTRA WALL Asphodel 26210045 on Corner (Talos Clan RB) -->
+		<position x="214361" y="114596" z="-856"/>
+		<coordinates>
+			<loc x="214313" y="114566" z="-856" />
+			<loc x="214376" y="114585" z="-856" />
+			<loc x="214378" y="114678" z="-856" />
+			<loc x="214354" y="114672" z="-856" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="850" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	
+		<door id="26210046" type="WALL" level="1" name="Primeval_PvP"> <!-- Primeval PvP Zone Cave WALL -->
+		<position x="12095" y="-21630" z="-3520"/>
+		<coordinates>
+			<loc x="12273" y="-21744" z="-3520" />
+			<loc x="11973" y="-21425" z="-3520" />
+			<loc x="11936" y="-21483" z="-3520" />
+			<loc x="12248" y="-21760" z="-3520" />
+		</coordinates>
+		<stats hp="5543072" pDef="999837" mDef="999674" height="850" />
+		<function openType="CLICK" closeTime="60" />
+	</door>
+	
+	<door id="25190047" type="WALL" level="1" name="execution_grounds_medusa"> <!-- Medusa Lair block (under teleporter ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="51024" y="155204" z="-2750" />
+		<coordinates>
+			<loc x="51339" y="155295" z="-2750" />
+			<loc x="51002" y="154709" z="-2750" />
+			<loc x="50526" y="154847" z="-2750" />
+			<loc x="51052" y="155503" z="-2750" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+		<door id="25190048" type="WALL" level="1" name="execution_grounds_medusa1"> <!-- Medusa Lair block (teleporter's square ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="51688" y="155635" z="-1960" />
+		<coordinates>
+			<loc x="51760" y="156105" z="-1960" />
+			<loc x="51652" y="155216" z="-1960" />	
+			<loc x="51612" y="155268" z="-1960" />
+			<loc x="51737" y="156095" z="-1960" />
+		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+	<door id="25190049" type="WALL" level="1" name="execution_grounds_medusa1"> <!-- Medusa Lair block (teleporter's square ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="51722" y="155593" z="-1972" />
+		<coordinates>
+			<loc x="51664" y="155195" z="-1972" />
+			<loc x="52289" y="154656" z="-1972" />	
+			<loc x="52301" y="154684" z="-1972" />
+			<loc x="51664" y="155189" z="-1972" />
+		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+	
+	
+	<door id="25190050" type="WALL" level="1" name="execution_grounds_medusa3"> <!-- Medusa Lair block (lower ground hill ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="45427" y="148702" z="-3592" />
+		<coordinates>
+			<loc x="45142" y="148934" z="-3592" />
+			<loc x="45701" y="148687" z="-3592" />	
+			<loc x="45626" y="148576" z="-3592" />
+			<loc x="45120" y="148858" z="-3592" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+		<door id="25190051" type="WALL" level="1" name="execution_grounds_medusa4"> <!-- Medusa Lair block (upper ground hill ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="46392" y="150674" z="-2760" />
+		<coordinates>
+			<loc x="46122" y="150751" z="-2760" />
+			<loc x="46655" y="150490" z="-2760" />	
+			<loc x="46655" y="150530" z="-2760" />
+			<loc x="46160" y="150791" z="-2760" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+		<door id="25190052" type="WALL" level="1" name="execution_grounds_medusa5"> <!-- Medusa Lair block (upper mountain block ) -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="50732" y="156301" z="-1700" />
+		<coordinates>
+			<loc x="53244" y="156538" z="-1700" />
+			<loc x="49952" y="156718" z="-1700" />
+			<loc x="49960" y="15696" z="-1700" />			
+			<loc x="53288" y="156493" z="-1700" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="4560" />
+	</door>
+	
+	<door id="25190053" type="WALL" level="1" name="execution_grounds_medusa6"> <!-- Medusa Lair block (upper mountain block ) 2 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="47077" y="159824" z="-2110" />
+		<coordinates>
+			<loc x="47679" y="160160" z="-2110" />
+			<loc x="46464" y="159604" z="-2110" />			
+			<loc x="46467" y="159656" z="-2110" />	
+			<loc x="47687" y="160149" z="-2110" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="560" />
+	</door>
+	
+		<door id="25190054" type="WALL" level="1" name="execution_grounds_medusa6"> <!-- Medusa Lair block (upper mountain block ) 3 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="47077" y="159824" z="-1900" />
+		<coordinates>
+			<loc x="49427" y="161306" z="-1900" />
+			<loc x="51538" y="161197" z="-1900" />			
+			<loc x="51618" y="161238" z="-1900" />	
+			<loc x="49336" y="161426" z="-1900" />
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="660" />
+	</door>
+	
+	<door id="25190055" type="WALL" level="1" name="execution_grounds_medusa7"> <!-- Medusa Lair block (upper mountain block ) 4 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="53273" y="160133" z="-1760" />
+		<coordinates>
+			<loc x="51538" y="161197" z="-1760" />	
+			<loc x="52008" y="160008" z="-1760" />
+			<loc x="51968" y="159904" z="-1760" />		
+			<loc x="51618" y="161238" z="-1760" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2660" />
+	</door>
+	
+		
+	<door id="25190056" type="WALL" level="1" name="execution_grounds_medusa7"> <!-- Medusa Lair block (upper mountain block ) 5 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="51540" y="158997" z="-300" />
+		<coordinates>
+			<loc x="51446" y="158536" z="-300" />	
+			<loc x="51521" y="159348" z="-300" />
+			<loc x="51570" y="159285" z="-300" />		
+			<loc x="51417" y="158478" z="-300" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="1660" />
+	</door>
+	
+	<door id="25190057" type="WALL" level="1" name="execution_grounds_medusa8"> <!-- Medusa Lair block (upper mountain block ) 6 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="43502" y="157426" z="-912" />
+		<coordinates>
+			<loc x="43928" y="157624" z="-912" />	
+			<loc x="42188" y="156262" z="-912" />
+			<loc x="41960" y="156395" z="-912" />		
+			<loc x="43774" y="157926" z="-912" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="1660" />
+	</door>
+	
+
+	<door id="25190058" type="WALL" level="1" name="execution_grounds_medusa9"> <!-- Medusa Lair block (upper mountain block ) 7 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="41700" y="155807" z="-1050" />
+		<coordinates>
+			<loc x="42111" y="156297" z="-1100" />	
+			<loc x="41590" y="155271" z="-1300" />
+			<loc x="41567" y="155370" z="-1300" />		
+			<loc x="42032" y="156335" z="-1100" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="860" />
+	</door>
+	
+		<door id="25190059" type="WALL" level="2" name="execution_grounds_medusa10"> <!-- Medusa Lair block (upper mountain block ) 8 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="41677" y="156046" z="-1260" />
+		<coordinates>
+			<loc x="42000" y="156072" z="-1260" />			
+			<loc x="41514" y="155002" z="-1666" />
+			<loc x="41362" y="155210" z="-1666" />		
+			<loc x="42138" y="156287" z="-1260" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="860" />
+	</door>
+	
+			<door id="25190060" type="WALL" level="1" name="execution_grounds_medusa10"> <!-- Medusa Lair block (upper mountain block ) 9 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="41839" y="155947" z="-920" />
+		<coordinates>
+			<loc x="42000" y="156351" z="-1440" />			
+			<loc x="41215" y="154298" z="-1440" />
+			<loc x="41137" y="154397" z="-1440" />		
+			<loc x="41913" y="156385" z="-1440" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+		<door id="25190061" type="WALL" level="1" name="execution_grounds_medusa10"> <!-- Medusa Lair block (upper mountain block ) 10 -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="41175" y="154741" z="-1992" />
+		<coordinates>
+			<loc x="41343" y="156351" z="-1992" />			
+			<loc x="41215" y="153931" z="-1992" />
+			<loc x="41062" y="154024" z="-1992" />		
+			<loc x="41264" y="155376" z="-1992" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+		<door id="25190062" type="WALL" level="1" name="Primeval_south"> <!-- Primeval South Door Block -->
+	<!-- Execution grounds - near statue/teleporter -->
+		<position x="9587" y="-13864" z="-3744" />
+		<coordinates>
+			<loc x="9580" y="-14016" z="-3744" />			
+			<loc x="9677" y="-13713" z="-3744" />
+			<loc x="9466" y="-13745" z="-3744" />		
+			<loc x="9405" y="-13952" z="-3744" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+		<door id="25190063" type="WALL" level="1" name="Primeval_south"> <!-- Parnassus 1 1/2 -->
+		<position x="150515" y="174027" z="-952" />
+		<coordinates>
+			<loc x="150344" y="174128" z="-952" />
+			<loc x="150656" y="174019" z="-952" />	
+			<loc x="150623" y="173989" z="-952" />		
+			<loc x="150327" y="174095" z="-952" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+		<door id="25190064" type="WALL" level="1" name="Primeval_south"> <!-- Parnassus 1 2/2 -->
+		<position x="150940" y="173915" z="-952" />
+		<coordinates>
+			<loc x="150864" y="173890" z="-952" />
+			<loc x="150993" y="173882" z="-952" />	
+			<loc x="151001" y="173993" z="-952" />		
+			<loc x="150864" y="173963" z="-952" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+	<door id="25190065" type="WALL" level="1" name="Primeval_south"> <!-- Parnassus 2 1/2 -->
+		<position x="148270" y="174058" z="-952" />
+		<coordinates>
+			<loc x="148415" y="174144" z="-952" />
+			<loc x="148073" y="174016" z="-952" />	
+			<loc x="148096" y="173983" z="-952" />		
+			<loc x="148422" y="174095" z="-952" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+
+	<door id="25190066" type="WALL" level="1" name="Primeval_south"> <!-- Parnassus 2 2/2 -->
+		<position x="147781" y="173904" z="-952" />
+		<coordinates>
+			<loc x="147695" y="173971" z="-952" />
+			<loc x="147871" y="173941" z="-952" />	
+			<loc x="147871" y="173893" z="-952" />		
+			<loc x="14698" y="173915" z="-952" />		
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="2860" />
+	</door>
+	
+		<door id="25190067" type="DOOR" level="1" name="Zeus_anti_glitch"> <!-- Zeus-->
+		<position x="175283" y="172660" z="-2256" />
+		<coordinates>
+			<loc x="175545" y="172758" z="-2266" />
+			<loc x="175151" y="172547" z="-2256" />	
+			<loc x="175184" y="172607" z="-2256" />		
+			<loc x="175371" y="172687" z="-2256" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="3860" />
+	</door>
+	
+		<door id="25190068" type="WALL" level="1" name="Zeus_anti_glitch2"> <!-- Zeus-->
+		<position x="175550" y="173043" z="-2224" />
+		<coordinates>
+			<loc x="175355" y="172753" z="-2224" />
+			<loc x="175317" y="172969" z="-2224" />	
+			<loc x="175721" y="173308" z="-2224" />		
+			<loc x="175860" y="173211" z="-2224" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="3860" />
+	</door>
+
+	<door id="25190070" type="WALL" level="1" name="Tartarus_Barakiel_boarders"> <!-- Tartarus barakiel borders-->
+		<position x="-26332" y="250553" z="-2610" />
+		<coordinates>
+			<loc x="-26493" y="250384" z="-2610" />
+			<loc x="-26246" y="250703" z="-2610" />	
+			<loc x="-26201" y="250687" z="-2610" />	
+			<loc x="-26449" y="250401" z="-2610" />	
+		</coordinates>
+		<stats hp="5543072" pDef="99837" mDef="99674" height="3860" />
+	</door>
+	
+
+	
+
 </list>

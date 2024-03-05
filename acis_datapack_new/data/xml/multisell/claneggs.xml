@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+
+  <!-- Clan lv3 Item -->
+  <item id="1">
+    <ingredient id="57" count="1000000" />
+    <production id="1419" count="1"/>
+  </item>
+  
+   <!-- Clan lv4 Item -->
+  <item id="2">
+   <ingredient id="57" count="5000000" />
+    <production id="3874" count="1"/>
+  </item>
+  
+     <!-- Clan lv5 Item -->
+  <item id="3">
+    <ingredient id="12573" count="5" />
+    <production id="3870" count="1"/>
+  </item>
+  
+      <!-- Scroll of reputation -->
+  <item id="4">
+  <ingredient id="12573" count="10" />
+	<production id="12571" count="1" />
+  </item>
+       <!-- Clan oath wizard skin -->
+  <item id="5">
+    <ingredient id="12527" count="15" />
+    <production id="11307" count="1"/>
+  </item>
+  
+         <!-- Clan oath light skin -->
+  <item id="6">
+    <ingredient id="12527" count="15" />
+    <production id="11308" count="1"/>
+  </item>
+  
+         <!-- Clan oath heavy skin  -->
+  <item id="7">
+    <ingredient id="12527" count="15" />
+    <production id="11309" count="1"/>
+  </item>
+  
+         <!-- Ancient Map High Dryad  -->
+  <item id="8">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25630" count="1"/>
+  </item>
+  
+           <!-- Ancient Map Earth Golem -->
+  <item id="9">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25632" count="1"/>
+  </item>
+  
+             <!-- Ancient Map Albion  -->
+  <item id="10">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25633" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Dryad  -->
+  <item id="11">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25634" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Talos  -->
+  <item id="12">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25635" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Magma Golem  -->
+  <item id="13">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25636" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Ocnus  -->
+  <item id="14">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25637" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Blazing Salamander  -->
+  <item id="15">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25638" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Ismenian  -->
+  <item id="16">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25639" count="1"/>
+  </item>
+  
+               <!-- Ancient Map Colchian  -->
+  <item id="17">
+	<ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+    <ingredient id="12573" count="3" />
+    <production id="25640" count="1"/>
+  </item>
+  
+  <!-- Greek Flag Shield -->
+   <item id="18">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19529" count="1"/>
+  </item>
+  
+   <!-- Br Flag Shield -->
+   <item id="19">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19544" count="1"/>
+  </item>
+  
+   <!-- Lt Flag Shield -->
+   <item id="20">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19545" count="1"/>
+  </item>
+  
+   <!-- Ro Flag Shield -->
+   <item id="21">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19546" count="1"/>
+  </item>
+  
+    <!-- Tr Flag Shield -->
+   <item id="22">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19547" count="1"/>
+  </item>
+  
+    <!-- Arg Flag Shield -->
+   <item id="23">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19548" count="1"/>
+  </item>
+  
+     <item id="24">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19528" count="1"/>
+  </item>
+  
+      <item id="25">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19527" count="1"/>
+  </item>
+  
+     <item id="26">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19526" count="1"/>
+  </item>
+  
+  <!-- Bulgarian Flag Shield -->
+     <item id="27">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19525" count="1"/>
+  </item>
+  
+  <!-- Spanish Flag Shield -->
+    <item id="28">
+	<ingredient id="57" count="25000000"/>
+	 <production id="19524" count="1"/>
+  </item>
+  
+
+</list>

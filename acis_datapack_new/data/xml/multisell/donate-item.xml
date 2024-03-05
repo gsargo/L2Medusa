@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<!-- Donate Shop -->
+<!-- Premium status 14 days -->
+  <item id="-28">
+    <ingredient id="12535" count="5"/>
+    <production id="12580" count="1"/>
+  </item>
+
+<!-- Premium status 24 days -->
+  <item id="-27">
+    <ingredient id="12535" count="7"/>
+    <production id="12581" count="1"/>
+  </item>
+  
+  <!-- Legendary Premium status 24 days -->
+  <item id="-26">
+    <ingredient id="12535" count="15"/>
+    <production id="12585" count="1"/>
+	<production id="11363" count="1"/>
+	<production id="11366" count="1"/>
+  </item>
+
+
+ 
+  
+  <!-- fire stone lvl 1 -->
+   <item id="-13">
+    <ingredient id="12535" count="8"/>
+    <production id="5577" count="1"/>
+  </item>
+  
+    <!-- earth stone lvl 1 -->
+   <item id="-12">
+    <ingredient id="12535" count="8"/>
+    <production id="5578" count="1"/>
+  </item>
+  
+    <!-- water stone lvl 1 -->
+   <item id="-11">
+    <ingredient id="12535" count="8"/>
+    <production id="5579" count="1"/>
+  </item>
+  
+    <!-- fire stone lvl 2 -->
+   <item id="-10">
+    <ingredient id="12535" count="12"/>
+    <production id="5580" count="1"/>
+  </item>
+  
+    <!-- earth stone lvl 2 -->
+   <item id="-9">
+    <ingredient id="12535" count="12"/>
+    <production id="5581" count="1"/>
+  </item>
+  
+    <!-- water stone lvl 2 -->
+   <item id="-8">
+    <ingredient id="12535" count="12"/>
+    <production id="5582" count="1"/>
+  </item>
+  
+  <!-- Elemental stones bundle lvl 1 -->
+    <item id="-7">
+    <ingredient id="12535" count="20"/>
+    <production id="25621" count="1"/>
+  </item>
+  
+  
+  <!-- Elemental stones bundle lvl 2 -->
+    <item id="-6">
+    <ingredient id="12535" count="30"/>
+    <production id="25622" count="1"/>
+  </item>
+  
+
+  
+  <!-- Crimson Experimental wings -->
+  <item id="-4">
+    <ingredient id="12535" count="10"/>
+    <production id="25317" count="1"/>
+  </item>
+  
+  <!-- Emerald Experimental wings -->
+  <item id="-3">
+    <ingredient id="12535" count="10"/>
+    <production id="25318" count="1"/>
+  </item>
+  
+  
+  <!-- Olympus valor wings -->
+  <item id="-1">
+    <ingredient id="12535" count="15"/>
+    <production id="25135" count="1"/>
+  </item>
+  
+
+<!-- Hero for 15 days Item -->
+  <item id="1">
+    <ingredient id="12535" count="20"/>
+    <production id="12572" count="1"/>
+  </item>
+
+
+<!-- Clan Scroll Points -->
+  <item id="3">
+    <ingredient id="12535" count="15"/>
+    <production id="12571" count="30"/>
+  </item>
+
+<!-- Noblesse Item -->
+  <item id="4">
+    <ingredient id="12535" count="15"/>
+    <production id="12532" count="1"/>
+  </item>
+  
+  <!-- Name Color Item -->
+  <item id="5">
+    <ingredient id="12535" count="5"/>
+    <production id="12533" count="1"/>
+  </item>
+  
+    <!-- Name Color Item -->
+  <item id="6">
+    <ingredient id="12535" count="5"/>
+    <production id="12540" count="1"/>
+  </item>
+  
+    <!-- Title Color Item -->
+  <item id="7">
+    <ingredient id="12535" count="7"/>
+    <production id="12534" count="1"/>
+  </item>
+  
+
+  <!-- Ancient Book Lv1 -->
+  <item id="10">
+   <ingredient id="12535" count="7"/>
+    <production id="8618" count="1"/>
+	<production id="8619" count="1"/>
+	<production id="8620" count="1"/>
+	<production id="8621" count="1"/>
+  </item>
+  
+  
+   
+  
+   
+  
+</list>
+

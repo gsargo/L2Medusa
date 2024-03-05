@@ -50,42 +50,42 @@
 	<item>
 		<production id="5602" count="1"/>
 		<ingredient id="164" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Elysian - Anger -->
 	<item>
 		<production id="5603" count="1"/>
 		<ingredient id="164" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Elysian - Critical Drain -->
 	<item>
 		<production id="5604" count="1"/>
 		<ingredient id="164" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Branch of Mother Tree - Conversion -->
 	<item>
 		<production id="5605" count="1"/>
 		<ingredient id="213" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Branch of Mother Tree - Magic Damage -->
 	<item>
 		<production id="5606" count="1"/>
 		<ingredient id="213" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Branch of Mother Tree - Acumen -->
 	<item>
 		<production id="5607" count="1"/>
 		<ingredient id="213" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Carnage Bow - Light -->
@@ -113,21 +113,21 @@
 	<item>
 		<production id="5611" count="1"/>
 		<ingredient id="289" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Soul Bow - Quick Recovery -->
 	<item>
 		<production id="5612" count="1"/>
 		<ingredient id="289" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Soul Bow - Critical Poison -->
 	<item>
 		<production id="5613" count="1"/>
 		<ingredient id="289" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Bloody Orchid - Focus -->
@@ -155,21 +155,21 @@
 	<item>
 		<production id="5617" count="1"/>
 		<ingredient id="236" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Soul Separator - Critical Damage -->
 	<item>
 		<production id="5618" count="1"/>
 		<ingredient id="236" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Soul Separator - Rsk. Haste -->
 	<item>
 		<production id="5619" count="1"/>
 		<ingredient id="236" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Blood Tornado - Haste -->
@@ -197,21 +197,21 @@
 	<item>
 		<production id="5623" count="1"/>
 		<ingredient id="270" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Dragon Grinder - Guidance -->
 	<item>
 		<production id="5624" count="1"/>
 		<ingredient id="270" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Dragon Grinder - Health -->
 	<item>
 		<production id="5625" count="1"/>
 		<ingredient id="270" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Halberd - Haste -->
@@ -239,21 +239,21 @@
 	<item>
 		<production id="5632" count="1"/>
 		<ingredient id="305" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Tallum Glaive - Health -->
 	<item>
 		<production id="5633" count="1"/>
 		<ingredient id="305" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Tallum Glaive - Wide Blow -->
 	<item>
 		<production id="5634" count="1"/>
 		<ingredient id="305" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Talum Blade - Critical Poison -->
@@ -302,63 +302,63 @@
 	<item>
 		<production id="5641" count="1"/>
 		<ingredient id="151" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Sword of Miracles - Magic Silence -->
 	<item>
 		<production id="5642" count="1"/>
 		<ingredient id="151" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Sword of Miracles - Acumen -->
 	<item>
 		<production id="5643" count="1"/>
 		<ingredient id="151" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Dragon Slayer - Health -->
 	<item>
 		<production id="5644" count="1"/>
 		<ingredient id="81" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Dragon Slayer - Critical Bleed -->
 	<item>
 		<production id="5645" count="1"/>
 		<ingredient id="81" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="147"/>
 	</item>
 	<!-- Dragon Slayer - Critical Drain -->
 	<item>
 		<production id="5646" count="1"/>
 		<ingredient id="81" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Dark Legion's Edge - Critical Damage -->
 	<item>
 		<production id="5647" count="1"/>
 		<ingredient id="2500" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Dark Legion's Edge - Health -->
 	<item>
 		<production id="5648" count="1"/>
 		<ingredient id="2500" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Dark Legion's Edge - Rsk. Haste -->
 	<item>
 		<production id="5649" count="1"/>
 		<ingredient id="2500" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
 	<!-- Infernal Master - Critical Damage -->
@@ -449,21 +449,21 @@
 	<item>
 		<production id="8150" count="1"/>
 		<ingredient id="7895" count="1"/>
-		<ingredient id="5580" count="1"/>
+		<ingredient id="5577" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Flaming Dragon Skull - Magic Power -->
 	<item>
 		<production id="8151" count="1"/>
 		<ingredient id="7895" count="1"/>
-		<ingredient id="5581" count="1"/>
+		<ingredient id="5578" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Flaming Dragon Skull - Magic Silence -->
 	<item>
 		<production id="8152" count="1"/>
 		<ingredient id="7895" count="1"/>
-		<ingredient id="5582" count="1"/>
+		<ingredient id="5579" count="1"/>
 		<ingredient id="2133" count="140"/>
 	</item>
 	<!-- Sirra's Blade - Haste -->
@@ -697,4 +697,426 @@
 		<ingredient id="5582" count="1"/>
 		<ingredient id="2133" count="157"/>
 	</item>
+
+
+	<!-- Forgotten Blade - Haste  -->
+	<item>
+		<production id="6581" count="1"/>
+		<ingredient id="6364" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Forgotten Blade - Health -->
+	<item>
+		<production id="6582" count="1"/>
+		<ingredient id="6364" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Forgotten Blade - Focus -->
+	<item>
+		<production id="6583" count="1"/>
+		<ingredient id="6364" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Basalt BattleHammer - HP DRAIN  -->
+	<item>
+		<production id="6584" count="1"/>
+		<ingredient id="6365" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Basalt BattleHammer - Health  -->
+	<item>
+		<production id="6585" count="1"/>
+		<ingredient id="6365" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Basalt BattleHammer - HP REGEN  -->
+	<item>
+		<production id="6586" count="1"/>
+		<ingredient id="6365" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Imperial Staff - Empower  -->
+	<item>
+		<production id="6587" count="1"/>
+		<ingredient id="6366" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Imperial Staff - MP REGEN  -->
+	<item>
+		<production id="6588" count="1"/>
+		<ingredient id="6366" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Imperial Staff - Magic Hold  -->
+	<item>
+		<production id="6589" count="1"/>
+		<ingredient id="6366" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Angel Slayer - Critical Damage  -->
+	<item>
+		<production id="6590" count="1"/>
+		<ingredient id="6367" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Angel Slayer - Hp Drain  -->
+	<item>
+		<production id="6591" count="1"/>
+		<ingredient id="6367" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Angel Slayer - Haste  -->
+	<item>
+		<production id="6592" count="1"/>
+		<ingredient id="6367" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Draconic Bow - Cheap Shot  -->
+	<item>
+		<production id="7576" count="1"/>
+		<ingredient id="7575" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Draconic Bow - Focus -->
+	<item>
+		<production id="7577" count="1"/>
+		<ingredient id="7575" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Draconic Bow - Critical Slow -->
+	<item>
+		<production id="7578" count="1"/>
+		<ingredient id="7575" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- DragonHunter Axe - HP REGEN  -->
+	<item>
+		<production id="6596" count="1"/>
+		<ingredient id="6369" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- DragonHunter Axe - HEALTH  -->
+	<item>
+		<production id="6597" count="1"/>
+		<ingredient id="6369" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- DragonHunter Axe - HP DRAIN  -->
+	<item>
+		<production id="6598" count="1"/>
+		<ingredient id="6369" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Saint Spear - Health  -->
+	<item>
+		<production id="6599" count="1"/>
+		<ingredient id="6370" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Saint Spear - Guidance  -->
+	<item>
+		<production id="6600" count="1"/>
+		<ingredient id="6370" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Saint Spear - Haste  -->
+	<item>
+		<production id="6601" count="1"/>
+		<ingredient id="6370" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Demon Splinter - Focus  -->
+	<item>
+		<production id="6602" count="1"/>
+		<ingredient id="6371" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Demon Splinter - Health  -->
+	<item>
+		<production id="6603" count="1"/>
+		<ingredient id="6371" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Demon Splinter - Critical Stun  -->
+	<item>
+		<production id="6604" count="1"/>
+		<ingredient id="6371" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Heavens Divider - Haste  -->
+	<item>
+		<production id="6605" count="1"/>
+		<ingredient id="6372" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Heavens Divider - Health  -->
+	<item>
+		<production id="6606" count="1"/>
+		<ingredient id="6372" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Heavens Divider - Focus  -->
+	<item>
+		<production id="6607" count="1"/>
+		<ingredient id="6372" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Arcana Mace - Acumen  -->
+	<item>
+		<production id="6608" count="1"/>
+		<ingredient id="6579" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Arcana Mace - MP Regeneration  -->
+	<item>
+		<production id="6609" count="1"/>
+		<ingredient id="6579" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Arcana Mace - Mana Up  -->
+	<item>
+		<production id="6610" count="1"/>
+		<ingredient id="6579" count="1"/>
+		<ingredient id="5914" count="1"/>
+		
+	</item>
+	<!-- Shining Bow - Cheap Shot  -->
+	<item>
+		<production id="6593" count="1"/>
+		<ingredient id="6368" count="1"/>
+		<ingredient id="5908" count="1"/>
+		
+	</item>
+	<!-- Shining Bow - Focus -->
+	<item>
+		<production id="6594" count="1"/>
+		<ingredient id="6368" count="1"/>
+		<ingredient id="5911" count="1"/>
+		
+	</item>
+	<!-- Shining Bow - Critical Slow -->
+	<item>
+		<production id="6595" count="1"/>
+		<ingredient id="6368" count="1"/>
+		<ingredient id="5914" count="1"/>	
+	</item>
+	
+		<!-- Soul Twisters - Robust Health -->
+	<item>
+		<production id="26581" count="1"/>
+		<ingredient id="26580" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+	
+		<!-- Soul Twisters - Robust Health/Focus -->
+	<item>
+		<production id="26590" count="1"/>
+		<ingredient id="26581" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+	
+		<!-- Hadesbane - Haste -->
+	<item>
+		<production id="26583" count="1"/>
+		<ingredient id="26582" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+	
+		<!-- Hadesbane - Haste/Health -->
+	<item>
+		<production id="26597" count="1"/>
+		<ingredient id="26583" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+	
+		<!-- Hadesbane - Haste/HP Drain -->
+	<item>
+		<production id="26598" count="1"/>
+		<ingredient id="26583" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hellblaze - Focus -->
+	<item>
+		<production id="26586" count="1"/>
+		<ingredient id="26585" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hellblaze - Focus/Guidance -->
+	<item>
+		<production id="26599" count="1"/>
+		<ingredient id="26586" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+	
+		<!-- Hellblaze - Focus/Ctr Slow -->
+	<item>
+		<production id="26600" count="1"/>
+		<ingredient id="26586" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Deathclaws - Focus -->
+	<item>
+		<production id="26588" count="1"/>
+		<ingredient id="26587" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Deathclaws - Focus/Health -->
+	<item>
+		<production id="26601" count="1"/>
+		<ingredient id="26588" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Deathclaws - Focus/Might -->
+	<item>
+		<production id="26602" count="1"/>
+		<ingredient id="26588" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hydratooth - Ctr Dmg -->
+	<item>
+		<production id="26589" count="1"/>
+		<ingredient id="26584" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hydratooth - Ctr Dmg/Haste -->
+	<item>
+		<production id="26603" count="1"/>
+		<ingredient id="26589" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hydratooth - Ctr Dmg/Mortal Strike -->
+	<item>
+		<production id="26604" count="1"/>
+		<ingredient id="26589" count="1"/>
+		<ingredient id="12575" count="1"/>	
+	</item>
+		<!-- Hypercognition - Acumen -->
+	<item>
+		<production id="26591" count="1"/>
+		<ingredient id="26608" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Hypercognition - Acumen/Empower -->
+	<item>
+		<production id="26605" count="1"/>
+		<ingredient id="26591" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Hypercognition - Acumen/Magic Hold -->
+	<item>
+		<production id="26606" count="1"/>
+		<ingredient id="26591" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Metasentience - Acumen -->
+	<item>
+		<production id="26592" count="1"/>
+		<ingredient id="26609" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Metasentience - Acumen/Heal Empower -->
+	<item>
+		<production id="26610" count="1"/>
+		<ingredient id="26592" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Metasentience - Acumen/Mana Up -->
+	<item>
+		<production id="26611" count="1"/>
+		<ingredient id="26592" count="1"/>
+		<ingredient id="12577" count="1"/>	
+	</item>
+		<!-- Gleamwave - Haste -->
+	<item>
+		<production id="26593" count="1"/>
+		<ingredient id="26612" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Gleamwave - Haste/Health -->
+	<item>
+		<production id="26616" count="1"/>
+		<ingredient id="26593" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Gleamwave - Haste/Focus -->
+	<item>
+		<production id="26617" count="1"/>
+		<ingredient id="26593" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Morningstar - Haste -->
+	<item>
+		<production id="26594" count="1"/>
+		<ingredient id="26613" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Morningstar - Haste/Health -->
+	<item>
+		<production id="26618" count="1"/>
+		<ingredient id="26594" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Morningstar - Haste/Focus -->
+	<item>
+		<production id="26619" count="1"/>
+		<ingredient id="26594" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Dawnbrakers - Robust Health -->
+	<item>
+		<production id="26595" count="1"/>
+		<ingredient id="26614" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Dawnbrakers - Robust Health/Haste -->
+	<item>
+		<production id="26607" count="1"/>
+		<ingredient id="26595" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Starshine - Haste -->
+	<item>
+		<production id="26596" count="1"/>
+		<ingredient id="26615" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+		<!-- Starshine - Haste/Health -->
+	<item>
+		<production id="26620" count="1"/>
+		<ingredient id="26596" count="1"/>
+		<ingredient id="12576" count="1"/>	
+	</item>
+
+
+	
+	
 </list>

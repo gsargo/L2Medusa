@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- santa shop -->
+
+<list>
+
+<!-- Firework -->
+  <item id="2">
+    <ingredient id="57" count="1" />
+    <production id="6407" count="1"/>
+  </item>
+
+<!-- Kykeon-->
+  <item id="3">
+    <ingredient id="12573" count="3" />
+    <production id="25631" count="1000"/>
+  </item>
+
+<!-- Nectar-->
+  <item id="4">
+    <ingredient id="12573" count="3" />
+    <production id="25625" count="1000"/>
+  </item>
+
+<!-- Ambrosia-->
+  <item id="5">
+   <ingredient id="12573" count="3" />
+    <production id="25626" count="1000"/>
+  </item>
+
+<!-- Clan lv3 Item -->
+  <item id="6">
+    <ingredient id="57" count="1" />
+    <production id="1419" count="1"/>
+  </item>
+  
+   <!-- Clan lv4 Item -->
+  <item id="7">
+    <ingredient id="57" count="1" />
+    <production id="3874" count="1"/>
+  </item>
+  
+      <!-- Divine Inspiration lvl 1 -->
+  <item id="22">
+	 <ingredient id="57" count="1" />
+	 <production id="8618" count="1"/>
+  </item>
+  
+           <!-- Color Palette Blue -->
+  <item id="28">
+	 <ingredient id="57" count="1" />
+	 <production id="12545" count="1"/>
+  </item>
+  
+          <!-- Olympus Soe -->
+  <item id="29">
+	 <ingredient id="12573" count="5" />
+	 <production id="25645" count="50"/>
+  </item>
+  
+            <!-- Griffin -->
+  <item id="30">
+	 <ingredient id="12573" count="15" />
+	 <production id="18012" count="1"/>
+  </item>
+           <!-- Fox -->
+  <item id="31">
+	<ingredient id="12573" count="15" />
+	 <production id="18011" count="1"/>
+  </item>
+  
+   <!-- Aeolus -->
+  <item id="32">
+    <ingredient id="12573" count="15"/>
+	<ingredient id="12530" count="500"/>
+    <production id="12526" count="1"/>
+  </item>
+  
+                 <!-- Shadow: Deer's Costume -->
+  <item id="35">
+	 <ingredient id="12573" count="3" />
+	 <production id="11371" count="1"/>
+  </item>
+  
+                   <!-- Shadow: Santa's Costume -->
+  <item id="36">
+	 <ingredient id="12573" count="2" />
+	 <production id="11373" count="1"/>
+  </item>
+  
+  
+  
+  
+</list>

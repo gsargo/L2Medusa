@@ -1,0 +1,104 @@
+package net.sf.l2j.gameserver.communitybbs.manager;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.StringTokenizer;
+ 
+import net.sf.l2j.commons.pool.ConnectionPool;
+import net.sf.l2j.commons.pool.ThreadPool;
+ 
+import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.network.SystemMessageId;
+import net.sf.l2j.gameserver.network.serverpackets.EnchantResult;
+import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+ 
+public class TopBBSManager extends BaseBBSManager
+{
+    private static final String LOAD_PVP_HTML = "SELECT * FROM characters ORDER BY pvpkills DESC LIMIT 15";
+    //private static final String LOAD_PK_HTML = "SELECT * FROM characters ORDER BY pkkills DESC LIMIT 15";
+    StringBuilder _pvp = new StringBuilder();
+    //StringBuilder _pks = new StringBuilder();
+    
+    private long _nextUpdate;
+    
+    protected TopBBSManager()
+    {
+    }
+    
+    @Override
+    public void parseCmd(String command, Player activeChar)
+    {
+        if (command.startsWith("_bbspvp"))
+        {
+            showChatWindow(activeChar, "_bbspvp");
+        }
+    }
+    
+    public void showChatWindow(Player player, String command)
+    {
+    _pvp.append("<html><body><center><br>Top 15 PvP:");
+    
+    if (_nextUpdate < System.currentTimeMillis())
+     {
+     _nextUpdate = System.currentTimeMillis() + (60000L);
+    	   
+		    try (Connection con = ConnectionPool.getConnection())
+		    {
+		       // PreparedStatement stm = con.prepareStatement(LOAD_PVP_HTML);
+		    	try(PreparedStatement stm = con.prepareStatement(LOAD_PVP_HTML))
+			    {
+			        try (ResultSet rSet = stm.executeQuery())
+					{
+						while (rSet.next())
+						{
+						    String pl = rSet.getString("char_name");
+						    int accessLevel = rSet.getInt("accesslevel");
+						    if (accessLevel > 0)
+						    {
+						        continue;
+						    }
+						    int pvpKills = rSet.getInt("pvpkills");
+						    if (pvpKills == 0)
+						    {
+						        continue;
+						    }
+						                    
+						    int vip = rSet.getInt("vip");
+						    if (vip < 0)
+						    {
+						        continue;
+						    }
+						    String Vip_status = vip == 1 ? "<img src=\"CustomIconPack01.premium-member-extra-mini\" width=16 height=16>" : "<font color=\"FF0000\">-</font>";  
+						    
+	   
+						    
+						    int online = rSet.getInt("online");             
+						    String status = online == 1 ? "<img src=\"CustomIconPack01.active_status\" width=8 height=8>" : "<img src=\"CustomIconPack01.deactive_status\" width=8 height=8>";
+						    
+						    _pvp.append("<table  align=\"center\" width=395"+"<tr>"+"<td align=\"center\" width=30>"+"Player: " + "</td>" +"<td align=\"center\" width=30>" + "PvPs: "+ "</td>" +"<td align=\"center\" width=30>" + "Rank: "+ "</td>"  +"<td align=\"center\" width=30>" +"Premium: "+ "</td>" +"<td align=\"center\" width=30>"+ "Status: "+ "</td>"+"</tr>"
+						    +"<tr><td align=\"center\" width=30>"+ "<font color=\"LEVEL\">"+pl+" "+"</font></td>"+ "<td align=\"center\" width=30>"+pvpKills +" "+"</td>" + "<td align=\"center\" width=30>" + player.getRank_miniicons() + " " + "</td>" + "<td align=\"center\" width=30>" + Vip_status+" " +"</td>" +"<td align=\"center\" width=30>" + status+"</td></tr></table>");
+						}
+					}
+		    	}
+		    }
+		    catch (Exception e)
+		    {
+		        System.out.println("Error while selecting top 15 pvp from database.");
+		    }
+	      }
+	    _pvp.append("</body></html>");
+	    separateAndSend(_pvp.toString(), player);
+    }
+    
+    public static TopBBSManager getInstance()
+    {
+        return SingletonHolder.INSTANCE;
+    }
+    
+    private static class SingletonHolder
+    {
+        protected static final TopBBSManager INSTANCE = new TopBBSManager();
+    }
+    
+}

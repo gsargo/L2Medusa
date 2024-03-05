@@ -518,7 +518,8 @@
 	</skill>
 	<skill id="4236" levels="1" name="Decrease Heal">
 		<set name="magicLvl" val="70" />
-		<set name="power" val="51" />
+		<set name="isMagic" val="true" />
+		<set name="power" val="0" />
 		<set name="target" val="AREA" />
 		<set name="skillRadius" val="200" />
 		<set name="element" val="WIND" />
@@ -530,7 +531,7 @@
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<for>
-			<effect name="Debuff" time="120" val="0" effectPower="90" effectType="DEBUFF" stackOrder="1" stackType="heal_effect_down">
+			<effect name="Debuff" time="40" val="0" effectPower="90" effectType="DEBUFF" stackOrder="1" stackType="heal_effect_down">
 				<mul stat="gainHp" val="0.5" />
 			</effect>
 		</for>
@@ -1064,8 +1065,8 @@
 			<subDiv stat="holyRes" val="#holyRes" />
 		</for>
 	</skill>
-	<skill id="4276" levels="5" name="Archery Attack Weak Point">
-		<table name="#bowVuln"> 1.11 1.25 1.43 1.67 2 </table>
+	<skill id="4276" levels="7" name="Archery Attack Weak Point">
+		<table name="#bowVuln"> 1.11 1.25 1.43 1.67 2 1.6 1.31</table>
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Gold Bank -->
+
+<list>
+
+
+<!-- Cirke's Deceit -->
+  <item id="1">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25321" count="1"/>
+  </item>
+
+<!-- Medeas Insight -->
+  <item id="2">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25322" count="1"/>
+  </item>
+
+<!-- Diomedes Prowess -->
+  <item id="3">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25323" count="1"/>
+  </item>
+  
+  <!-- Achilles Might -->
+  <item id="4">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25139" count="1"/>
+  </item>
+  
+    <!-- Krypteia's Shadow -->
+  <item id="5">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25324" count="1"/>
+  </item>
+  
+      <!-- Agamemnon's conquest -->
+  <item id="6">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="9870" count="1"/>
+  </item>
+  
+       <!-- Atalanta's Circlet -->
+  <item id="7">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="20005" count="1"/>
+  </item>
+  
+        <!-- Asclepius gift -->
+  <item id="8">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25325" count="1"/>
+  </item>
+  
+          <!-- Hydra's Skull-->
+  <item id="9">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="20014" count="1"/>
+  </item>
+  
+            <!-- Stayr's Horns-->
+  <item id="10">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25129" count="1"/>
+  </item>
+  
+             <!-- Perseus' Conviction-->
+  <item id="11">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="22022" count="1"/>
+  </item>
+  
+               <!-- Theseus Courage-->
+  <item id="12">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25167" count="1"/>
+  </item>
+  
+               <!-- Orpheus Lamentation-->
+  <item id="13">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="20007" count="1"/>
+  </item>
+               <!-- Ajax Ferocity-->
+  <item id="14">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25326" count="1"/>
+  </item>
+  
+  <!-- Ixion's Greed -->
+   <item id="15">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="25127" count="1"/>
+  </item>
+  
+    <!-- Orion's Wrath -->
+   <item id="16">
+    <ingredient id="12549" count="250"/>
+	<ingredient id="6393" count="25" />
+	<ingredient id="57" count="100000000" />
+    <production id="22026" count="1"/>
+  </item>
+  
+  
+  
+</list>
+

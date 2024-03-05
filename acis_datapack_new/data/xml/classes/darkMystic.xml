@@ -14,12 +14,21 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<items>
-			<item id="425" count="1"/>
-			<item id="461" count="1"/>
-			<item id="6" count="1"/>
+	<item id="1102" count="1"/> <!-- Tunic of Magic -->
+			<item id="1105" count="1"/> <!-- Stockings of Magic -->
+			<item id="8" count="1"/> <!-- willow staff -->
 			<item id="5588" count="1"/>
+			<item id="1539" count="100"/> <!-- greater healing pot -->
+			<item id="728" count="100"/> <!-- mana pot -->
+			<item id="2509" count="1000"/> <!--Spiritshot -->
+			<item id="736" count="15"/><!-- soe -->
+			<item id="25645" count="10"/><!-- olympus soe for newbies -->
+			<item id="57" count="10000000"/>
+	
 		</items>
 		<skills>
+				<!-- AntiBuff Lock -->
+			<skill id="9943" lvl="1" cost="50" minLvl="1"/>
 			<!-- Magician"s Movement -->
 			<skill id="118" lvl="1" cost="0" minLvl="1"/>
 			<!-- Anti Magic -->
@@ -101,12 +110,18 @@
 			<skill id="1322" lvl="1" cost="0" minLvl="1"/>
 		</skills>
 		<spawns>
-			<spawn x="28295" y="11063" z="-4224"/>
+			<!-- <spawn x="28295" y="11063" z="-4224"/>
 			<spawn x="28302" y="11008" z="-4224"/>
 			<spawn x="28377" y="10916" z="-4224"/>
 			<spawn x="28456" y="10997" z="-4224"/>
 			<spawn x="28461" y="11044" z="-4224"/>
-			<spawn x="28395" y="11127" z="-4224"/>
+			<spawn x="28395" y="11127" z="-4224"/> 
+			<spawn x="147564" y="26710" z="-2008"/> -->
+			<spawn x="115439" y="17085" z="8968"/>
+			<spawn x="115669" y="16924" z="8936"/>
+			<spawn x="115192" y="17732" z="9008"/>
+			<spawn x="115894" y="16473" z="9008"/>
+			<spawn x="115455" y="16863" z="9008"/>
 		</spawns>
 	</class>
 	<class><!-- Dark Wizard -->
@@ -290,6 +305,8 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+			<!--Healing Class Combat Mode -->
+			<skill id="9950" lvl="1" cost="1600" minLvl="20"/>
 			<!-- Anti Magic -->
 			<skill id="146" lvl="5" cost="1600" minLvl="20"/>
 			<skill id="146" lvl="6" cost="1600" minLvl="20"/>
@@ -901,8 +918,7 @@
 			<skill id="1297" lvl="5" cost="370000" minLvl="68"/>
 			<skill id="1297" lvl="6" cost="1000000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 			<!-- Aura Flash -->
 			<skill id="1417" lvl="1" cost="105000" minLvl="58"/>
 			<skill id="1417" lvl="2" cost="190000" minLvl="62"/>
@@ -925,6 +941,33 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+			<!-- Summoner Classes Combat Mode -->
+			<skill id="9951" lvl="1" cost="30000" minLvl="40"/>
+			
+						<!-- Rock Blast -->
+			<skill id="9955" lvl="1" cost="30000" minLvl="40"/>
+			<skill id="9955" lvl="2" cost="30000" minLvl="42"/>
+			<skill id="9955" lvl="3" cost="30000" minLvl="60"/>
+			<skill id="9955" lvl="4" cost="30000" minLvl="65"/>
+			<skill id="9955" lvl="5" cost="30000" minLvl="74"/>
+			
+			<!-- Surrender To Earth -->
+			<skill id="1223" lvl="1" cost="19500" minLvl="40"/>
+			<skill id="1223" lvl="2" cost="27000" minLvl="40"/>
+			<skill id="1223" lvl="3" cost="35000" minLvl="44"/>
+			<skill id="1223" lvl="4" cost="57000" minLvl="48"/>
+			<skill id="1223" lvl="5" cost="90000" minLvl="52"/>
+			<skill id="1223" lvl="6" cost="91000" minLvl="56"/>
+			<skill id="1223" lvl="7" cost="110000" minLvl="58"/>
+			<skill id="1223" lvl="8" cost="143000" minLvl="60"/>
+			<skill id="1223" lvl="9" cost="190000" minLvl="62"/>
+			<skill id="1223" lvl="10" cost="240000" minLvl="64"/>
+			<skill id="1223" lvl="11" cost="320000" minLvl="66"/>
+			<skill id="1223" lvl="12" cost="370000" minLvl="68"/>
+ 			<skill id="1223" lvl="13" cost="430000" minLvl="70"/>
+ 			<skill id="1223" lvl="14" cost="750000" minLvl="72"/>
+			<skill id="1223" lvl="15" cost="1000000" minLvl="74"/>
+			
 			<!-- Summon Phantom Cubic -->
 			<skill id="33" lvl="1" cost="30000" minLvl="40"/>
 			<skill id="33" lvl="2" cost="39000" minLvl="44"/>
@@ -1298,8 +1341,7 @@
 			<!-- Summon Friend -->
 			<skill id="1403" lvl="1" cost="105000" minLvl="56"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+	
 		</skills>
 	</class>
 	<class><!-- Shillien Elder -->
@@ -1316,6 +1358,54 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		
+			<!-- Balance Mana -->
+			<skill id="9952" lvl="1" cost="11000" minLvl="40"/>
+			
+			<!-- Turn Undead -->
+			<skill id="1400" lvl="1" cost="63000" minLvl="40"/>
+			<skill id="1400" lvl="2" cost="95000" minLvl="46"/>
+			<skill id="1400" lvl="3" cost="63000" minLvl="50"/>
+			<skill id="1400" lvl="4" cost="95000" minLvl="66"/>
+			<skill id="1400" lvl="5" cost="63000" minLvl="68"/>
+			<skill id="1400" lvl="6" cost="95000" minLvl="70"/>
+			<skill id="1400" lvl="7" cost="63000" minLvl="71"/>
+			<skill id="1400" lvl="8" cost="95000" minLvl="72"/>
+			<skill id="1400" lvl="9" cost="63000" minLvl="74"/>
+			<skill id="1400" lvl="10" cost="95000" minLvl="75"/>
+			
+			<!-- Party Recall -->
+			<skill id="1255" lvl="1" cost="63000" minLvl="48"/>
+			<skill id="1255" lvl="2" cost="95000" minLvl="56"/>
+			
+				<!-- Return -->
+			<skill id="1050" lvl="1" cost="39000" minLvl="44"/>
+			<skill id="1050" lvl="2" cost="95000" minLvl="56"/>
+			
+				<!-- Trance -->
+			<skill id="1394" lvl="1" cost="95000" minLvl="56"/>
+			<skill id="1394" lvl="2" cost="100000" minLvl="58"/>
+			<skill id="1394" lvl="3" cost="140000" minLvl="60"/>
+			<skill id="1394" lvl="4" cost="210000" minLvl="62"/>
+			<skill id="1394" lvl="5" cost="230000" minLvl="64"/>
+			<skill id="1394" lvl="6" cost="320000" minLvl="66"/>
+			<skill id="1394" lvl="7" cost="390000" minLvl="68"/>
+			<skill id="1394" lvl="8" cost="490000" minLvl="70"/>
+			<skill id="1394" lvl="9" cost="710000" minLvl="72"/>
+			<skill id="1394" lvl="10" cost="1050000" minLvl="74"/>
+			
+				<!-- Prayer -->
+			<skill id="1307" lvl="1" cost="280000" minLvl="66"/>
+			<skill id="1307" lvl="2" cost="390000" minLvl="70"/>
+			<skill id="1307" lvl="3" cost="880000" minLvl="74"/>
+			
+			<!-- Fire Bolt -->
+			<skill id="9961" lvl="1" cost="30000" minLvl="40"/>
+			<skill id="9961" lvl="2" cost="30000" minLvl="42"/>
+			<skill id="9961" lvl="3" cost="30000" minLvl="60"/>
+			<skill id="9961" lvl="4" cost="30000" minLvl="65"/>
+			<skill id="9961" lvl="5" cost="30000" minLvl="74"/>
+			
 			<!-- Anti Magic -->
 			<skill id="146" lvl="13" cost="13000" minLvl="40"/>
 			<skill id="146" lvl="14" cost="13000" minLvl="40"/>
@@ -1677,8 +1767,7 @@
 			<skill id="1398" lvl="9" cost="1150000" minLvl="72"/>
 			<skill id="1398" lvl="10" cost="1640000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+	
 			<!-- Invocation -->
 			<skill id="1430" lvl="1" cost="118000" minLvl="56"/>
 			<skill id="1430" lvl="2" cost="200000" minLvl="60"/>
@@ -1720,8 +1809,7 @@
 			<!-- Dark Vortex -->
 			<skill id="1343" lvl="1" cost="10000000" minLvl="76"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+
 			<!-- Cyclone -->
 			<skill id="1420" lvl="1" cost="150000000" minLvl="80"/>
 		</skills>
@@ -1740,6 +1828,7 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+			
 			<!-- Wisdom -->
 			<skill id="328" lvl="1" cost="10000000" minLvl="76"/>
 			<!-- Health -->
@@ -1759,15 +1848,14 @@
 			<!-- Mage Bane -->
 			<skill id="1351" lvl="1" cost="12250000" minLvl="77"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+		
 			<!-- Summon Spectral Lord -->
 			<skill id="1408" lvl="1" cost="80000000" minLvl="79"/>
 			<!-- Anti-Summoning Field -->
 			<skill id="1424" lvl="1" cost="150000000" minLvl="80"/>
 		</skills>
 	</class>
-	<class><!-- Shillen Saint -->
+	<class><!-- Shillien Saint -->
 		<set id="112" baseLvl="76" fists="250"/>
 		<set str="23" con="24" dex="23" int="44" wit="19" men="37"/>
 		<set pAtk="3" pDef="54" mAtk="6" mDef="41" runSpd="122" walkSpd="85" swimSpd="50"/>
@@ -1781,6 +1869,85 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+			<!-- Major Cluster Heal - Custom -->
+			<skill id="7097" lvl="1" cost="10000000" minLvl="76"/>
+			
+			<!--Restore Life - (added ) -->
+			<skill id="1258" lvl="1" cost="10000000" minLvl="76"/>
+			<skill id="1258" lvl="2" cost="10000000" minLvl="76"/>
+			<skill id="1258" lvl="3" cost="10000000" minLvl="76"/>
+			
+			<!-- Curse Disease -->
+			<skill id="1269" lvl="1" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="2" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="3" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="4" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="5" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="6" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="7" cost="10000000" minLvl="76"/>
+			<skill id="1269" lvl="8" cost="10000000" minLvl="77"/>
+			<skill id="1269" lvl="9" cost="10000000" minLvl="78"/>
+			<!-- Mass Root -->
+			<skill id="9971" lvl="1" cost="10000000" minLvl="76"/>
+			
+			<!-- Mass Block Wind Walk -->
+			<skill id="1361" lvl="1" cost="10000000" minLvl="76"/>
+			
+			<!-- Mass Fear -->
+			<skill id="1272" lvl="1" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="2" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="3" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="4" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="5" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="6" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="7" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="8" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="9" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="10" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="11" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="12" cost="10000000" minLvl="76"/>
+			<skill id="1272" lvl="13" cost="10000000" minLvl="76"/>
+			
+			<!-- Slow -->
+			<skill id="1160" lvl="1" cost="34000" minLvl="40"/>
+			<skill id="1160" lvl="2" cost="63000" minLvl="48"/>
+			<skill id="1160" lvl="3" cost="95000" minLvl="56"/>
+			<skill id="1160" lvl="4" cost="230000" minLvl="64"/>
+			<skill id="1160" lvl="5" cost="1050000" minLvl="65"/>
+			<skill id="1160" lvl="6" cost="1050000" minLvl="66"/>
+			<skill id="1160" lvl="7" cost="1050000" minLvl="67"/>
+			<skill id="1160" lvl="8" cost="1050000" minLvl="68"/>
+			<skill id="1160" lvl="9" cost="1050000" minLvl="69"/>
+			<skill id="1160" lvl="10" cost="1050000" minLvl="72"/>
+			<skill id="1160" lvl="11" cost="1050000" minLvl="74"/>
+			<skill id="1160" lvl="12" cost="1050000" minLvl="75"/>
+			<skill id="1160" lvl="13" cost="1050000" minLvl="75"/>
+			
+			<!-- Decrease Accuracy - Curse Chaos -->
+			<skill id="1222" lvl="1" cost="34000" minLvl="40"/>
+			<skill id="1222" lvl="2" cost="63000" minLvl="48"/>
+			<skill id="1222" lvl="3" cost="95000" minLvl="56"/>
+			<skill id="1222" lvl="4" cost="230000" minLvl="64"/>
+			<skill id="1222" lvl="5" cost="1050000" minLvl="65"/>
+			<skill id="1222" lvl="6" cost="1050000" minLvl="66"/>
+			<skill id="1222" lvl="7" cost="1050000" minLvl="67"/>
+			<skill id="1222" lvl="8" cost="1050000" minLvl="68"/>
+			<skill id="1222" lvl="9" cost="1050000" minLvl="69"/>
+			<skill id="1222" lvl="10" cost="1050000" minLvl="72"/>
+			<skill id="1222" lvl="11" cost="1050000" minLvl="74"/>
+			<skill id="1222" lvl="12" cost="1050000" minLvl="75"/>
+			<skill id="1222" lvl="13" cost="1050000" minLvl="76"/>
+			<skill id="1222" lvl="14" cost="1050000" minLvl="77"/>
+			<skill id="1222" lvl="15" cost="1050000" minLvl="78"/>
+			
+			<!-- Resurrection -->
+			<skill id="1016" lvl="3" cost="34000" minLvl="40"/>
+			<skill id="1016" lvl="4" cost="63000" minLvl="48"/>
+			<skill id="1016" lvl="5" cost="95000" minLvl="56"/>
+			<skill id="1016" lvl="6" cost="230000" minLvl="64"/>
+			<skill id="1016" lvl="7" cost="1050000" minLvl="74"/>
+			<skill id="1016" lvl="8" cost="1050000" minLvl="75"/>
+			<skill id="1016" lvl="9" cost="1050000" minLvl="75"/>
 			<!-- Wisdom -->
 			<skill id="328" lvl="1" cost="10000000" minLvl="76"/>
 			<!-- Health -->
@@ -1791,8 +1958,9 @@
 			<skill id="336" lvl="1" cost="21340000" minLvl="78"/>
 			<!-- Spell Force -->
 			<skill id="427" lvl="1" cost="13000000" minLvl="77"/>
-			<!-- Divine Lore -->
-			<skill id="436" lvl="1" cost="21340000" minLvl="78"/>
+			
+			<!-- Divine Lore  ( level 2 just for shillien saints )-->
+			<skill id="436" lvl="2" cost="21340000" minLvl="76"/>
 			<!-- Arcane Protection -->
 			<skill id="1354" lvl="1" cost="10000000" minLvl="76"/>
 			<!-- Prophecy of Wind -->
@@ -1800,8 +1968,7 @@
 			<!-- Block Shield -->
 			<skill id="1358" lvl="1" cost="13000000" minLvl="77"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+		
 			<!-- Mass Recharge -->
 			<skill id="1428" lvl="1" cost="150000000" minLvl="80"/>
 		</skills>

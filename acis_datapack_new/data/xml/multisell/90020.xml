@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- by Stev0 -->
+
+<list maintainEnchantment="true">
+
+  <!-- Caradines letter -->
+  <item id="1">
+    <ingredient id="5572" count="1000"/>
+    <ingredient id="5570" count="1000"/>
+    <ingredient id="5574" count="500"/>
+    <production id="7679" count="1"/>
+  </item>
+
+
+</list>

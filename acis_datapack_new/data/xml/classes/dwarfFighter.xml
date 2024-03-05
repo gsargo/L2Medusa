@@ -14,13 +14,22 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<items>
-			<item id="1147" count="1"/>
-			<item id="1146" count="1"/>
-			<item id="10" count="1" isEquipped="false"/>
-			<item id="2370" count="1"/>
+			<item id="27" count="1"/><!-- Hard Leather Set -->
+			<item id="33" count="1"/> <!-- Hard Leather Gaiters -->
+			<item id="1511" count="1" isEquipped="false"/> <!-- hammer -->
+			<item id="743" count="1"/> <!-- sword of sentinel -->
+			<item id="4223" count="1"/> <!-- ubiquitus shield -->
 			<item id="5588" count="1"/>
+			<item id="1539" count="100"/> <!-- greater healing pot -->
+			<item id="728" count="100"/> <!-- mana pot -->
+			<item id="1835" count="1000"/> <!--Soulshot -->
+			<item id="736" count="15"/><!-- soe -->
+			<item id="25645" count="10"/><!-- olympus soe for newbies -->
+			<item id="57" count="10000000"/>
 		</items>
 		<skills>
+				<!-- AntiBuff Lock -->
+			<skill id="9943" lvl="1" cost="50" minLvl="1"/>
 			<!-- Sweeper -->
 			<skill id="42" lvl="1" cost="1100" minLvl="10"/>
 			<!-- Weapon Mastery -->
@@ -63,12 +72,18 @@
 			<skill id="1322" lvl="1" cost="0" minLvl="1"/>
 		</skills>
 		<spawns>
-			<spawn x="108644" y="-173947" z="-400"/>
+			<!-- <spawn x="108644" y="-173947" z="-400"/>
 			<spawn x="108678" y="-174002" z="-400"/>
 			<spawn x="108505" y="-173964" z="-400"/>
 			<spawn x="108512" y="-174026" z="-400"/>
 			<spawn x="108549" y="-174075" z="-400"/>
-			<spawn x="108576" y="-174122" z="-400"/>
+			<spawn x="108576" y="-174122" z="-400"/> 
+			<spawn x="147564" y="26710" z="-2008"/> -->
+			<spawn x="115439" y="17085" z="8968"/>
+			<spawn x="115669" y="16924" z="8936"/>
+			<spawn x="115192" y="17732" z="9008"/>
+			<spawn x="115894" y="16473" z="9008"/>
+			<spawn x="115455" y="16863" z="9008"/>
 		</spawns>
 	</class>
 	<class><!-- Artisan -->
@@ -155,19 +170,19 @@
 			<skill id="227" lvl="12" cost="11000" minLvl="36"/>
 			<skill id="227" lvl="13" cost="11000" minLvl="36"/>
 			<!-- Heavy Armor Mastery -->
-			<skill id="231" lvl="1" cost="1900" minLvl="20"/>
-			<skill id="231" lvl="2" cost="1900" minLvl="20"/>
-			<skill id="231" lvl="3" cost="3500" minLvl="24"/>
-			<skill id="231" lvl="4" cost="3500" minLvl="24"/>
-			<skill id="231" lvl="5" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="6" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="7" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="8" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="9" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="10" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="11" cost="11000" minLvl="36"/>
-			<skill id="231" lvl="12" cost="11000" minLvl="36"/>
-			<skill id="231" lvl="13" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="1" cost="1900" minLvl="20"/>
+			<skill id="9942" lvl="2" cost="1900" minLvl="20"/>
+			<skill id="9942" lvl="3" cost="3500" minLvl="24"/>
+			<skill id="9942" lvl="4" cost="3500" minLvl="24"/>
+			<skill id="9942" lvl="5" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="6" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="7" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="8" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="9" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="10" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="11" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="12" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="13" cost="11000" minLvl="36"/>
 			<!-- Wild Sweep -->
 			<skill id="245" lvl="1" cost="1200" minLvl="20"/>
 			<skill id="245" lvl="2" cost="1200" minLvl="20"/>
@@ -265,19 +280,19 @@
 			<skill id="227" lvl="12" cost="11000" minLvl="36"/>
 			<skill id="227" lvl="13" cost="11000" minLvl="36"/>
 			<!-- Heavy Armor Mastery -->
-			<skill id="231" lvl="1" cost="1900" minLvl="20"/>
-			<skill id="231" lvl="2" cost="1900" minLvl="20"/>
-			<skill id="231" lvl="3" cost="3900" minLvl="24"/>
-			<skill id="231" lvl="4" cost="3900" minLvl="24"/>
-			<skill id="231" lvl="5" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="6" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="7" cost="4400" minLvl="28"/>
-			<skill id="231" lvl="8" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="9" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="10" cost="8300" minLvl="32"/>
-			<skill id="231" lvl="11" cost="11000" minLvl="36"/>
-			<skill id="231" lvl="12" cost="11000" minLvl="36"/>
-			<skill id="231" lvl="13" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="1" cost="1900" minLvl="20"/>
+			<skill id="9942" lvl="2" cost="1900" minLvl="20"/>
+			<skill id="9942" lvl="3" cost="3900" minLvl="24"/>
+			<skill id="9942" lvl="4" cost="3900" minLvl="24"/>
+			<skill id="9942" lvl="5" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="6" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="7" cost="4400" minLvl="28"/>
+			<skill id="9942" lvl="8" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="9" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="10" cost="8300" minLvl="32"/>
+			<skill id="9942" lvl="11" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="12" cost="11000" minLvl="36"/>
+			<skill id="9942" lvl="13" cost="11000" minLvl="36"/>
 			<!-- Wild Sweep -->
 			<skill id="245" lvl="1" cost="1200" minLvl="20"/>
 			<skill id="245" lvl="2" cost="1200" minLvl="20"/>
@@ -317,8 +332,21 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+			
+			
+			<!-- Hammer Smite -->
+			<skill id="7085" lvl="1" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="2" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="3" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="4" cost="13000" minLvl="43"/>
+			<skill id="7085" lvl="5" cost="13000" minLvl="43"/>
+			
+			<!-- Stun Field -->
+			<skill id="4" lvl="1" cost="11000" minLvl="40"/>
+			
 			<!-- Summon Siege Golem -->
 			<skill id="13" lvl="1" cost="700000" minLvl="49"/>
+			
 			<!-- Summon Mechanic Golem -->
 			<skill id="25" lvl="3" cost="38000" minLvl="43"/>
 			<skill id="25" lvl="4" cost="61000" minLvl="49"/>
@@ -513,43 +541,43 @@
 			<skill id="227" lvl="49" cost="1000000" minLvl="74"/>
 			<skill id="227" lvl="50" cost="1000000" minLvl="74"/>
 			<!-- Heavy Armor Mastery -->
-			<skill id="231" lvl="14" cost="11000" minLvl="40"/>
-			<skill id="231" lvl="15" cost="11000" minLvl="40"/>
-			<skill id="231" lvl="16" cost="11000" minLvl="40"/>
-			<skill id="231" lvl="17" cost="13000" minLvl="43"/>
-			<skill id="231" lvl="18" cost="13000" minLvl="43"/>
-			<skill id="231" lvl="19" cost="13000" minLvl="43"/>
-			<skill id="231" lvl="20" cost="15000" minLvl="46"/>
-			<skill id="231" lvl="21" cost="15000" minLvl="46"/>
-			<skill id="231" lvl="22" cost="15000" minLvl="46"/>
-			<skill id="231" lvl="23" cost="20000" minLvl="49"/>
-			<skill id="231" lvl="24" cost="20000" minLvl="49"/>
-			<skill id="231" lvl="25" cost="20000" minLvl="49"/>
-			<skill id="231" lvl="26" cost="42000" minLvl="52"/>
-			<skill id="231" lvl="27" cost="42000" minLvl="52"/>
-			<skill id="231" lvl="28" cost="42000" minLvl="52"/>
-			<skill id="231" lvl="29" cost="57000" minLvl="55"/>
-			<skill id="231" lvl="30" cost="57000" minLvl="55"/>
-			<skill id="231" lvl="31" cost="57000" minLvl="55"/>
-			<skill id="231" lvl="32" cost="61000" minLvl="58"/>
-			<skill id="231" lvl="33" cost="61000" minLvl="58"/>
-			<skill id="231" lvl="34" cost="61000" minLvl="58"/>
-			<skill id="231" lvl="35" cost="161000" minLvl="60"/>
-			<skill id="231" lvl="36" cost="161000" minLvl="60"/>
-			<skill id="231" lvl="37" cost="180000" minLvl="62"/>
-			<skill id="231" lvl="38" cost="180000" minLvl="62"/>
-			<skill id="231" lvl="39" cost="270000" minLvl="64"/>
-			<skill id="231" lvl="40" cost="270000" minLvl="64"/>
-			<skill id="231" lvl="41" cost="290000" minLvl="66"/>
-			<skill id="231" lvl="42" cost="290000" minLvl="66"/>
-			<skill id="231" lvl="43" cost="350000" minLvl="68"/>
-			<skill id="231" lvl="44" cost="350000" minLvl="68"/>
-			<skill id="231" lvl="45" cost="390000" minLvl="70"/>
-			<skill id="231" lvl="46" cost="390000" minLvl="70"/>
-			<skill id="231" lvl="47" cost="600000" minLvl="72"/>
-			<skill id="231" lvl="48" cost="600000" minLvl="72"/>
-			<skill id="231" lvl="49" cost="1000000" minLvl="74"/>
-			<skill id="231" lvl="50" cost="1000000" minLvl="74"/>
+			<skill id="9942" lvl="14" cost="11000" minLvl="40"/>
+			<skill id="9942" lvl="15" cost="11000" minLvl="40"/>
+			<skill id="9942" lvl="16" cost="11000" minLvl="40"/>
+			<skill id="9942" lvl="17" cost="13000" minLvl="43"/>
+			<skill id="9942" lvl="18" cost="13000" minLvl="43"/>
+			<skill id="9942" lvl="19" cost="13000" minLvl="43"/>
+			<skill id="9942" lvl="20" cost="15000" minLvl="46"/>
+			<skill id="9942" lvl="21" cost="15000" minLvl="46"/>
+			<skill id="9942" lvl="22" cost="15000" minLvl="46"/>
+			<skill id="9942" lvl="23" cost="20000" minLvl="49"/>
+			<skill id="9942" lvl="24" cost="20000" minLvl="49"/>
+			<skill id="9942" lvl="25" cost="20000" minLvl="49"/>
+			<skill id="9942" lvl="26" cost="42000" minLvl="52"/>
+			<skill id="9942" lvl="27" cost="42000" minLvl="52"/>
+			<skill id="9942" lvl="28" cost="42000" minLvl="52"/>
+			<skill id="9942" lvl="29" cost="57000" minLvl="55"/>
+			<skill id="9942" lvl="30" cost="57000" minLvl="55"/>
+			<skill id="9942" lvl="31" cost="57000" minLvl="55"/>
+			<skill id="9942" lvl="32" cost="61000" minLvl="58"/>
+			<skill id="9942" lvl="33" cost="61000" minLvl="58"/>
+			<skill id="9942" lvl="34" cost="61000" minLvl="58"/>
+			<skill id="9942" lvl="35" cost="161000" minLvl="60"/>
+			<skill id="9942" lvl="36" cost="161000" minLvl="60"/>
+			<skill id="9942" lvl="37" cost="180000" minLvl="62"/>
+			<skill id="9942" lvl="38" cost="180000" minLvl="62"/>
+			<skill id="9942" lvl="39" cost="270000" minLvl="64"/>
+			<skill id="9942" lvl="40" cost="270000" minLvl="64"/>
+			<skill id="9942" lvl="41" cost="290000" minLvl="66"/>
+			<skill id="9942" lvl="42" cost="290000" minLvl="66"/>
+			<skill id="9942" lvl="43" cost="350000" minLvl="68"/>
+			<skill id="9942" lvl="44" cost="350000" minLvl="68"/>
+			<skill id="9942" lvl="45" cost="390000" minLvl="70"/>
+			<skill id="9942" lvl="46" cost="390000" minLvl="70"/>
+			<skill id="9942" lvl="47" cost="600000" minLvl="72"/>
+			<skill id="9942" lvl="48" cost="600000" minLvl="72"/>
+			<skill id="9942" lvl="49" cost="1000000" minLvl="74"/>
+			<skill id="9942" lvl="50" cost="1000000" minLvl="74"/>
 			<!-- Crystallize -->
 			<skill id="248" lvl="2" cost="33000" minLvl="40"/>
 			<skill id="248" lvl="3" cost="125000" minLvl="52"/>
@@ -622,9 +650,16 @@
 			<skill id="424" lvl="3" cost="2000000" minLvl="74"/>
 			<!-- Summon Swoop Cannon -->
 			<skill id="448" lvl="1" cost="3300000" minLvl="68"/>
+			
+			<!-- Hammer Smite -->
+			<skill id="7085" lvl="6" cost="13000" minLvl="72"/>
+			<skill id="7085" lvl="7" cost="17000" minLvl="73"/>
+			<skill id="7085" lvl="8" cost="17000" minLvl="74"/>
+			<skill id="7085" lvl="9" cost="17000" minLvl="75"/>
+			<skill id="7085" lvl="10" cost="27000" minLvl="76"/>
+			
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 		</skills>
 	</class>
 	<class><!-- Bounty Hunter -->
@@ -641,6 +676,20 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		
+		<!-- Hammer Smite -->
+			<skill id="7085" lvl="1" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="2" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="3" cost="11000" minLvl="40"/>
+			<skill id="7085" lvl="4" cost="13000" minLvl="43"/>
+			<skill id="7085" lvl="5" cost="13000" minLvl="43"/>
+			
+		<!-- Hammer Fury -->
+			<skill id="7082" lvl="1" cost="11000" minLvl="40"/>
+			
+			<!-- stun field -->
+			<skill id="7084" lvl="1" cost="13000" minLvl="40"/>
+		
 			<!-- Bandage -->
 			<skill id="34" lvl="2" cost="60000" minLvl="46"/>
 			<skill id="34" lvl="3" cost="400000" minLvl="62"/>
@@ -823,43 +872,43 @@
 			<skill id="227" lvl="49" cost="1000000" minLvl="74"/>
 			<skill id="227" lvl="50" cost="1000000" minLvl="74"/>
 			<!-- Heavy Armor Mastery -->
-			<skill id="231" lvl="14" cost="12000" minLvl="40"/>
-			<skill id="231" lvl="15" cost="12000" minLvl="40"/>
-			<skill id="231" lvl="16" cost="12000" minLvl="40"/>
-			<skill id="231" lvl="17" cost="14000" minLvl="43"/>
-			<skill id="231" lvl="18" cost="14000" minLvl="43"/>
-			<skill id="231" lvl="19" cost="14000" minLvl="43"/>
-			<skill id="231" lvl="20" cost="20000" minLvl="46"/>
-			<skill id="231" lvl="21" cost="20000" minLvl="46"/>
-			<skill id="231" lvl="22" cost="20000" minLvl="46"/>
-			<skill id="231" lvl="23" cost="33000" minLvl="49"/>
-			<skill id="231" lvl="24" cost="33000" minLvl="49"/>
-			<skill id="231" lvl="25" cost="33000" minLvl="49"/>
-			<skill id="231" lvl="26" cost="50000" minLvl="52"/>
-			<skill id="231" lvl="27" cost="50000" minLvl="52"/>
-			<skill id="231" lvl="28" cost="50000" minLvl="52"/>
-			<skill id="231" lvl="29" cost="73000" minLvl="55"/>
-			<skill id="231" lvl="30" cost="73000" minLvl="55"/>
-			<skill id="231" lvl="31" cost="73000" minLvl="55"/>
-			<skill id="231" lvl="32" cost="73000" minLvl="58"/>
-			<skill id="231" lvl="33" cost="73000" minLvl="58"/>
-			<skill id="231" lvl="34" cost="73000" minLvl="58"/>
-			<skill id="231" lvl="35" cost="161000" minLvl="60"/>
-			<skill id="231" lvl="36" cost="161000" minLvl="60"/>
-			<skill id="231" lvl="37" cost="200000" minLvl="62"/>
-			<skill id="231" lvl="38" cost="200000" minLvl="62"/>
-			<skill id="231" lvl="39" cost="270000" minLvl="64"/>
-			<skill id="231" lvl="40" cost="270000" minLvl="64"/>
-			<skill id="231" lvl="41" cost="290000" minLvl="66"/>
-			<skill id="231" lvl="42" cost="290000" minLvl="66"/>
-			<skill id="231" lvl="43" cost="390000" minLvl="68"/>
-			<skill id="231" lvl="44" cost="390000" minLvl="68"/>
-			<skill id="231" lvl="45" cost="420000" minLvl="70"/>
-			<skill id="231" lvl="46" cost="420000" minLvl="70"/>
-			<skill id="231" lvl="47" cost="600000" minLvl="72"/>
-			<skill id="231" lvl="48" cost="600000" minLvl="72"/>
-			<skill id="231" lvl="49" cost="1000000" minLvl="74"/>
-			<skill id="231" lvl="50" cost="1000000" minLvl="74"/>
+			<skill id="9942" lvl="14" cost="12000" minLvl="40"/>
+			<skill id="9942" lvl="15" cost="12000" minLvl="40"/>
+			<skill id="9942" lvl="16" cost="12000" minLvl="40"/>
+			<skill id="9942" lvl="17" cost="14000" minLvl="43"/>
+			<skill id="9942" lvl="18" cost="14000" minLvl="43"/>
+			<skill id="9942" lvl="19" cost="14000" minLvl="43"/>
+			<skill id="9942" lvl="20" cost="20000" minLvl="46"/>
+			<skill id="9942" lvl="21" cost="20000" minLvl="46"/>
+			<skill id="9942" lvl="22" cost="20000" minLvl="46"/>
+			<skill id="9942" lvl="23" cost="33000" minLvl="49"/>
+			<skill id="9942" lvl="24" cost="33000" minLvl="49"/>
+			<skill id="9942" lvl="25" cost="33000" minLvl="49"/>
+			<skill id="9942" lvl="26" cost="50000" minLvl="52"/>
+			<skill id="9942" lvl="27" cost="50000" minLvl="52"/>
+			<skill id="9942" lvl="28" cost="50000" minLvl="52"/>
+			<skill id="9942" lvl="29" cost="73000" minLvl="55"/>
+			<skill id="9942" lvl="30" cost="73000" minLvl="55"/>
+			<skill id="9942" lvl="31" cost="73000" minLvl="55"/>
+			<skill id="9942" lvl="32" cost="73000" minLvl="58"/>
+			<skill id="9942" lvl="33" cost="73000" minLvl="58"/>
+			<skill id="9942" lvl="34" cost="73000" minLvl="58"/>
+			<skill id="9942" lvl="35" cost="161000" minLvl="60"/>
+			<skill id="9942" lvl="36" cost="161000" minLvl="60"/>
+			<skill id="9942" lvl="37" cost="200000" minLvl="62"/>
+			<skill id="9942" lvl="38" cost="200000" minLvl="62"/>
+			<skill id="9942" lvl="39" cost="270000" minLvl="64"/>
+			<skill id="9942" lvl="40" cost="270000" minLvl="64"/>
+			<skill id="9942" lvl="41" cost="290000" minLvl="66"/>
+			<skill id="9942" lvl="42" cost="290000" minLvl="66"/>
+			<skill id="9942" lvl="43" cost="390000" minLvl="68"/>
+			<skill id="9942" lvl="44" cost="390000" minLvl="68"/>
+			<skill id="9942" lvl="45" cost="420000" minLvl="70"/>
+			<skill id="9942" lvl="46" cost="420000" minLvl="70"/>
+			<skill id="9942" lvl="47" cost="600000" minLvl="72"/>
+			<skill id="9942" lvl="48" cost="600000" minLvl="72"/>
+			<skill id="9942" lvl="49" cost="1000000" minLvl="74"/>
+			<skill id="9942" lvl="50" cost="1000000" minLvl="74"/>
 			<!-- Spoil -->
 			<skill id="254" lvl="5" cost="42000" minLvl="43"/>
 			<skill id="254" lvl="6" cost="109000" minLvl="49"/>
@@ -933,15 +982,22 @@
 			<skill id="424" lvl="1" cost="220000" minLvl="58"/>
 			<skill id="424" lvl="2" cost="580000" minLvl="66"/>
 			<skill id="424" lvl="3" cost="2000000" minLvl="74"/>
+			
+			<!-- Hammer Smite -->
+			<skill id="7085" lvl="6" cost="13000" minLvl="72"/>
+			<skill id="7085" lvl="7" cost="17000" minLvl="73"/>
+			<skill id="7085" lvl="8" cost="17000" minLvl="74"/>
+			<skill id="7085" lvl="9" cost="17000" minLvl="75"/>
+			<skill id="7085" lvl="10" cost="27000" minLvl="76"/>
+			
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 		</skills>
 	</class>
 	<class><!-- Maestro -->
 		<set id="118" baseLvl="76" fists="247"/>
 		<set str="39" con="45" dex="29" int="20" wit="10" men="27"/>
-		<set pAtk="4" pDef="80" mAtk="6" mDef="41" runSpd="115" walkSpd="80" swimSpd="50"/>
+		<set pAtk="4" pDef="80" mAtk="6" mDef="41" runSpd="118" walkSpd="80" swimSpd="50"/>
 		<set radius="9" radiusFemale="5"/>
 		<set height="18" heightFemale="19"/>
 		<set safeFallHeight="200;180"/>
@@ -975,14 +1031,13 @@
 			<!-- Symbol of Honor -->
 			<skill id="457" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+
 		</skills>
 	</class>
 	<class><!-- Fortune Seeker -->
 		<set id="117" baseLvl="76" fists="247"/>
 		<set str="39" con="45" dex="29" int="20" wit="10" men="27"/>
-		<set pAtk="4" pDef="80" mAtk="6" mDef="41" runSpd="115" walkSpd="80" swimSpd="50"/>
+		<set pAtk="4" pDef="80" mAtk="6" mDef="41" runSpd="118" walkSpd="80" swimSpd="50"/>
 		<set radius="9" radiusFemale="5"/>
 		<set height="18" heightFemale="19"/>
 		<set safeFallHeight="200;180"/>
@@ -1018,8 +1073,7 @@
 			<!-- Symbol of Resistance -->
 			<skill id="456" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+	
 		</skills>
 	</class>
 </list>

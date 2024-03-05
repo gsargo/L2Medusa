@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!-- Seven Signs - Blacksmith of Mammon - SA removal -->
+<!-- Blacksmith of Mammon - DELETE SA removal -->
 <list maintainEnchantment="true">
 	<npcs>
 		<npc>31126</npc> <!-- Blacksmith of Mammon -->
@@ -1627,5 +1627,113 @@
 	<item>
 		<ingredient id="8137" count="1"/>
 		<production id="7902" count="1"/>
+	</item>
+	<item><!-- Soultwisters-->
+		<ingredient id="26581" count="1"/>
+		<production id="26580" count="1"/>
+	</item>
+	<item><!-- Soultwisters-->
+		<ingredient id="26590" count="1"/>
+		<production id="26580" count="1"/>
+	</item>
+	<item><!-- Hadesbane-->
+		<ingredient id="26583" count="1"/>
+		<production id="26582" count="1"/>
+	</item>
+	<item><!-- Hadesbane-->
+		<ingredient id="26597" count="1"/>
+		<production id="26582" count="1"/>
+	</item>
+	<item><!-- Hadesbane-->
+		<ingredient id="26598" count="1"/>
+		<production id="26582" count="1"/>
+	</item>
+	<item><!-- Hellblaze-->
+		<ingredient id="26586" count="1"/>
+		<production id="26585" count="1"/>
+	</item>
+	<item><!-- Hellblaze-->
+		<ingredient id="26599" count="1"/>
+		<production id="26585" count="1"/>
+	</item>
+	<item><!-- Hellblaze-->
+		<ingredient id="26600" count="1"/>
+		<production id="26585" count="1"/>
+	</item>
+	<item><!-- Hydratooth-->
+		<ingredient id="26589" count="1"/>
+		<production id="26584" count="1"/>
+	</item>
+	<item><!-- Hydratooth-->
+		<ingredient id="26603" count="1"/>
+		<production id="26584" count="1"/>
+	</item>
+	<item><!-- Hydratooth-->
+		<ingredient id="26604" count="1"/>
+		<production id="26584" count="1"/>
+	</item>
+	<item><!-- Hypercognition-->
+		<ingredient id="26591" count="1"/>
+		<production id="26608" count="1"/>
+	</item>
+	<item><!-- Hypercognition-->
+		<ingredient id="26605" count="1"/>
+		<production id="26608" count="1"/>
+	</item>
+	<item><!-- Hypercognition-->
+		<ingredient id="26606" count="1"/>
+		<production id="26608" count="1"/>
+	</item>
+	<item><!-- Metasentience-->
+		<ingredient id="26592" count="1"/>
+		<production id="26609" count="1"/>
+	</item>
+	<item><!-- Metasentience-->
+		<ingredient id="26610" count="1"/>
+		<production id="26609" count="1"/>
+	</item>
+	<item><!-- Metasentience-->
+		<ingredient id="26611" count="1"/>
+		<production id="26609" count="1"/>
+	</item>
+	<item><!-- Gleamwave-->
+		<ingredient id="26593" count="1"/>
+		<production id="26612" count="1"/>
+	</item>
+	<item><!-- Gleamwave-->
+		<ingredient id="26616" count="1"/>
+		<production id="26612" count="1"/>
+	</item>
+	<item><!-- Gleamwave-->
+		<ingredient id="26617" count="1"/>
+		<production id="26612" count="1"/>
+	</item>
+	<item><!-- Morningstar-->
+		<ingredient id="26594" count="1"/>
+		<production id="26613" count="1"/>
+	</item>
+	<item><!-- Morningstar-->
+		<ingredient id="26618" count="1"/>
+		<production id="26613" count="1"/>
+	</item>
+	<item><!-- Morningstar-->
+		<ingredient id="26619" count="1"/>
+		<production id="26613" count="1"/>
+	</item>
+	<item><!-- Dawnbrakers-->
+		<ingredient id="26595" count="1"/>
+		<production id="26614" count="1"/>
+	</item>
+	<item><!-- Dawnbrakers-->
+		<ingredient id="26607" count="1"/>
+		<production id="26614" count="1"/>
+	</item>
+	<item><!-- Starshine-->
+		<ingredient id="26596" count="1"/>
+		<production id="26615" count="1"/>
+	</item>
+	<item><!-- Starshine-->
+		<ingredient id="26620" count="1"/>
+		<production id="26615" count="1"/>
 	</item>
 </list>

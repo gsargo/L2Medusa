@@ -337,7 +337,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="maxHp" val="#maxHp" />
 			</effect>
 		</for>
@@ -358,7 +358,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="#stackOrder" stackType="abnormal_item" >
+			<effect name="Buff" time="2460" val="0" stackOrder="#stackOrder" stackType="abnormal_item" >
 				<add stat="maxHp" val="#maxHp" />
 			</effect>
 		</for>
@@ -379,7 +379,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="gainHp" val="#gainHp" />
 			</effect>
 		</for>
@@ -419,7 +419,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="maxMp" val="#maxMp" />
 			</effect>
 		</for>
@@ -440,7 +440,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="gainMp" val="#gainMp" />
 			</effect>
 		</for>
@@ -485,7 +485,7 @@
 	</skill>
 	<skill id="3132" levels="10" name="Item Skill: Might">
 		<table name="#mpInitialConsume"> 10 11 11 12 13 13 14 15 16 17 </table>
-		<table name="#mpConsume"> 38 42 44 47 51 52 55 58 61 65 </table>
+		<table name="#mpConsume"> 38 42 44 47 45 45 45 45 45 45 </table>
 		<table name="#pAtk"> 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 </table>
 		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 75 </table>
 		<set name="magicLvl" val="#magicLvl" />
@@ -499,7 +499,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -520,7 +520,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="mAtk" val="#mAtk" />
 			</effect>
 		</for>
@@ -541,7 +541,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="pvpPhysDmg" val="#pvpBonus" />
 				<mul stat="pvpPhysSkillsDmg" val="#pvpBonus" />
 			</effect>
@@ -563,7 +563,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -584,7 +584,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="mDef" val="#mDef" />
 			</effect>
 		</for>
@@ -632,7 +632,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="giveHp" val="#giveHp" />
 			</effect>
 		</for>
@@ -653,7 +653,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="rEvas" val="#rEvas" />
 			</effect>
 		</for>
@@ -674,7 +674,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="accCombat" val="#accCombat" />
 			</effect>
 		</for>
@@ -695,7 +695,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<basemul stat="rCrit" val="#rCrit" />
 			</effect>
 		</for>
@@ -703,7 +703,8 @@
 	<skill id="3142" levels="10" name="Item Skill: Wild Magic">
 		<table name="#mpInitialConsume"> 10 11 11 12 13 13 14 15 16 17 </table>
 		<table name="#mpConsume"> 38 42 44 47 51 52 55 58 61 65 </table>
-		<table name="#mCritRate"> 0.01 0.01 0.01 0.02 0.02 0.02 0.03 0.03 0.03 0.04 </table>
+		<table name="#mCritRate"> 0.01 0.01 0.01 0.02 0.02 0.02 0.03 0.03 0.03 0.03 </table>
+		<!-- default <table name="#mCritRate"> 0.01 0.01 0.01 0.02 0.02 0.02 0.03 0.03 0.03 0.04 </table> -->
 		<table name="#magicLvl"> 46 49 52 55 58 61 64 67 70 75 </table>
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -716,7 +717,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<basemul stat="mCritRate" val="#mCritRate" />
 			</effect>
 		</for>
@@ -736,7 +737,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="breath" val="6" />
 			</effect>
 		</for>
@@ -777,7 +778,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="fall" val="#fall" />
 			</effect>
 		</for>
@@ -822,7 +823,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="absorbDam" val="#absorbDam" /> <!-- absorb HP from damage inflicted on enemies -->
 			</effect>
 		</for>
@@ -996,7 +997,7 @@
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="ACTIVE" />
 		<for>
-			<effect name="Invincible" time="10" val="0" special="invincible" stackOrder="1" stackType="invincibility" />
+			<effect name="Invincible" time="6" val="0" special="invincible" stackOrder="1" stackType="invincibility" />
 		</for>
 	</skill>
 	<skill id="3159" levels="3" name="Item Skill: Stealth">
@@ -1034,7 +1035,7 @@
 		<set name="target" val="CORPSE_PLAYER" />
 		<set name="reuseDelay" val="300000" />
 		<set name="staticReuse" val="true" />
-		<set name="hitTime" val="6000" />
+		<set name="hitTime" val="4000" />
 		<set name="skillType" val="RESURRECT" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="castRange" val="400" />
@@ -1057,7 +1058,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 			</effect>
 		</for>
@@ -1078,7 +1079,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="MagicalMpConsumeRate" val="#MagicalMpConsumeRate" />
 			</effect>
 		</for>
@@ -1099,7 +1100,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="DanceMpConsumeRate" val="#DanceMpConsumeRate" />
 			</effect>
 		</for>
@@ -1121,7 +1122,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="staticHitTime" val="true" />
 		<for>
-			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
+			<effect name="Buff" time="2460" val="0" stackOrder="1" stackType="abnormal_item">
 				<mul stat="PhysicalMpConsumeRate" val="#PhysicalMpConsumeRate" />
 				<mul stat="MagicalMpConsumeRate" val="#MagicalMpConsumeRate" />
 				<mul stat="DanceMpConsumeRate" val="0.9" />

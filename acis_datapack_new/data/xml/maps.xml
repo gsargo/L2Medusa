@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <maps>
+        <map id="1">
+            <!-- Instances can use this map -->
+            <instance type="RAID"/>
+            
+            <!-- Teleport Locations -->
+            <location team="NONE" x="148721" y="46743" z="-3413"/>
+        </map>
+    </maps>
+</list>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="536" levels="12" name="Lindvior1">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 150 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+	
+		<skill id="537" levels="12" name="Lindvior2">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 100 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+	
+		<skill id="538" levels="12" name="Lindvior3">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 150 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+	
+		<skill id="539" levels="12" name="Lindvior4">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+	
+		<skill id="540" levels="12" name="Lindvior5">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+	
+		<skill id="541" levels="12" name="Lindvior6">
+		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
+		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
+		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="castRange" val="900" />
+		<set name="effectRange" val="1400" />
+		<set name="element" val="HOLY" />
+		<set name="hitTime" val="5000" />
+		<set name="isMagic" val="true" />
+		<set name="magicLvl" val="#magicLvl" />
+		<set name="mpInitialConsume" val="#mpInitialConsume" />
+		<set name="mpConsume" val="#mpConsume" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="power" val="#power" />
+		<set name="reuseDelay" val="30000" />
+		<set name="skillRadius" val="200" />
+		<set name="skillType" val="MDAM" />
+		<set name="target" val="AREA" />
+	</skill>
+</list>

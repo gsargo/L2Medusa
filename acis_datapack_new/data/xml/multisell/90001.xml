@@ -1,0 +1,143 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- by Stev0 -->
+
+<list maintainEnchantment="true">
+
+  <!-- Majestic Heavy -->
+  <item id="1">
+    <ingredient id="57" count="8000000"/>
+	 <production id="2383" count="1"/>
+	 <production id="2419" count="1"/>
+	 <production id="5774" count="1"/>
+	 <production id="5786" count="1"/>
+  </item>
+
+    <!-- Majestic Light -->
+  <item id="2">
+    <ingredient id="57" count="8000000"/>
+    <production id="2395" count="1"/>
+	<production id="2419" count="1"/>
+	<production id="5775" count="1"/>
+	<production id="5787" count="1"/>
+  </item>
+  
+    <!-- Majestic Robe -->
+  <item id="3">
+    <ingredient id="57" count="8000000"/>
+    <production id="2409" count="1"/>
+	<production id="2419" count="1"/>
+	<production id="5776" count="1"/>
+	<production id="5788" count="1"/>
+  </item>
+  
+
+  
+  <!-- Nightmarish Heavy -->
+  <item id="11">
+     <ingredient id="57" count="8000000"/>
+	<production id="374" count="1"/>
+	 <production id="2418" count="1"/>
+	<production id="5771" count="1"/>
+	<production id="5783" count="1"/>
+  </item>
+  
+  
+      <!-- Nightmarish Light -->
+  <item id="15">
+     <ingredient id="57" count="8000000"/>
+	<production id="2394" count="1"/>
+	<production id="2418" count="1"/>
+	<production id="5772" count="1"/>
+	<production id="5784" count="1"/>
+  </item>
+ 
+
+      <!-- Nightmarish Robe -->
+  <item id="19">
+     <ingredient id="57" count="8000000"/>
+    <production id="2408" count="1"/>
+	<production id="2418" count="1"/>
+	<production id="2394" count="1"/>
+	<production id="5773" count="1"/>
+	<production id="5785" count="1"/>
+  </item>
+  
+
+ <!-- Tallum Heavy -->
+  <item id="22">
+     <ingredient id="57" count="8000000"/>
+	<production id="2382" count="1"/>
+	<production id="547" count="1"/>
+	<production id="5768" count="1"/>
+	<production id="5780" count="1"/>
+  </item>
+  
+      <!-- Tallum Light -->
+  <item id="26">
+     <ingredient id="57" count="8000000"/>
+    <production id="2393" count="1"/>
+	<production id="547" count="1"/>
+	<production id="5769" count="1"/>
+	<production id="5781" count="1"/>
+  </item>
+  
+
+        <!-- Tallum Robe  -->
+  <item id="29">
+    <ingredient id="57" count="8000000"/>
+    <production id="2400" count="1"/>
+	<production id="547" count="1"/>
+	<production id="2405" count="1"/>
+	<production id="5770" count="1"/>
+	<production id="5782" count="1"/>
+  </item>
+  
+  
+   <!-- Dark Crystal Heavy -->
+  <item id="32">
+     <ingredient id="57" count="8000000"/>
+	<production id="365" count="1"/>
+	<production id="512" count="1"/>
+	<production id="388" count="1"/>
+	<production id="5765" count="1"/>
+	<production id="5777" count="1"/>
+  </item>
+  
+
+      <!-- Dark Crystal Light -->
+  <item id="37">
+    <ingredient id="57" count="8000000"/>
+    <production id="2385" count="1"/>
+	<production id="512" count="1"/>
+	<production id="2389" count="1"/>
+	<production id="5766" count="1"/>
+	<production id="5778" count="1"/>
+  </item>
+  
+  
+        <!-- Dark Crystal Robe-->
+  <item id="41">
+    <ingredient id="57" count="8000000"/>
+    <production id="2407" count="1"/>
+	<production id="512" count="1"/>
+	<production id="5767" count="1"/>
+	<production id="5779" count="1"/>
+  </item>
+  
+
+ 
+<item id="44">
+  <ingredient id="57" count="700000"/>
+   <production id="641" count="1"/>
+</item>
+
+<item id="45">
+  <ingredient id="57" count="700000"/>
+   <production id="2498" count="1"/>
+</item>
+
+
+
+</list>

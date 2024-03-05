@@ -2,69 +2,150 @@
 <list>
 	<!-- DEFAULT: buff id="skill id" level="max level" price="0" desc="" -->
 	<category type="Buffs">
-		<buff id="1035" desc="Increases resistance to mental attacks."/><!-- Mental Shield -->
-		<buff id="1036" desc="Increases M. Def."/><!-- Magic Barrier -->
-		<buff id="1040" desc="Increases P. Def."/><!-- Shield -->
-		<buff id="1045" desc="Increases maximum HP."/><!-- Blessed Body -->
-		<buff id="1048" desc="Increases maximum MP."/><!-- Blessed Soul -->
-		<buff id="1059" desc="Increases M. Atk."/><!-- Empower -->
-		<buff id="1062" desc="Reduces def. and increase atk. power."/><!-- Berserker Spirit -->
-		<buff id="1068" desc="Increases P. Atk."/><!-- Might -->
-		<buff id="1077" desc="Increases critical attack rate."/><!-- Focus -->
-		<buff id="1078" desc="Increases magic concentration."/><!-- Concentration -->
-		<buff id="1085" desc="Increases Casting Spd."/><!-- Acumen -->
-		<buff id="1086" desc="Increases Atk. Spd."/><!-- Haste -->
-		<buff id="1087" desc="Increases Evasion."/><!-- Agility -->
-		<buff id="1204" desc="Increases Speed."/><!-- Wind Walk -->
-		<buff id="1240" desc="Increases Accuracy."/><!-- Guidance -->
-		<buff id="1242" desc="Increases critical attack."/><!-- Death Whisper -->
-		<buff id="1243" desc="Increases shield defense rate."/><!-- Bless Shield -->
-		<buff id="1259" desc="Increases resistance to stun attack."/><!-- Resist Shock -->
-		<buff id="1268" desc="Restores HP using inflicted damage."/><!-- Vampiric Rage -->
-		<buff id="1303" desc="Increases crit. rate of magic attacks."/><!-- Wild Magic -->
-		<buff id="1304" desc="Increases shield defense power."/><!-- Advanced Block -->
-		<buff id="1352" desc="Increases resistance to elements."/><!-- Elemental Protection -->
-		<buff id="1353" desc="Increases resistance to dark attack."/><!-- Divine Protection -->
-		<buff id="1354" desc="Increases resistance to de-buff attack."/><!-- Arcane Protection -->
-		<buff id="1355" desc="Increases mage abilities."/><!-- Prophecy of Water -->
-		<buff id="1356" desc="Increases fighter abilities."/><!-- Prophecy of Fire -->
-		<buff id="1357" desc="Increases dagger abilities."/><!-- Prophecy of Wind -->
-		<buff id="1363" desc="Increases combat abilities."/><!-- Chant of Victory -->
-		<buff id="1388" desc="Increases P. Atk."/><!-- Greater Might -->
-		<buff id="1389" desc="Increases P. Def."/><!-- Greater Shield -->
-		<buff id="1390" desc="Increases P. Atk."/><!-- War Chant -->
-		<buff id="1391" desc="Increases P. Def."/><!-- Earth Chant -->
-		<buff id="1397" desc="Decreases MP consumption rate."/><!-- Clarity -->
-		<buff id="1413" desc="Increases mage abilities."/><!-- Magnus' Chant -->
+		<buff id="1035" desc="Increases resistance to mental attacks." icon="icon.skill1035"/><!-- Mental Shield -->
+		<buff id="1036" desc="Increases M. Def." icon="icon.skill1036"/><!-- Magic Barrier -->
+		<buff id="1040" desc="Increases P. Def." icon="icon.skill1040"/><!-- Shield -->
+		<buff id="1045" desc="Increases maximum HP." icon="icon.skill1045"/><!-- Blessed Body -->
+		<buff id="1048" desc="Increases maximum MP." icon="icon.skill1048"/><!-- Blessed Soul -->
+		<buff id="1059" desc="Increases M. Atk." icon="icon.skill1059"/><!-- Empower -->
+		<buff id="1062" desc="Reduces def. and increase atk. power." icon="icon.skill1062"/><!-- Berserker Spirit -->
+		<buff id="1068" desc="Increases P. Atk." icon="icon.skill1068"/><!-- Might -->
+		<buff id="1077" desc="Increases critical attack rate." icon="icon.skill1077"/><!-- Focus -->
+		<buff id="1078" desc="Increases magic concentration." icon="icon.skill1078"/><!-- Concentration -->
+		<buff id="1085" desc="Increases Casting Spd." icon="icon.skill1085"/><!-- Acumen -->
+		<buff id="1086" desc="Increases Atk. Spd." icon="icon.skill1086"/><!-- Haste -->
+		<buff id="1087" desc="Increases Evasion." icon="icon.skill1087"/><!-- Agility -->
+		<buff id="1204" desc="Increases Speed." icon="icon.skill1204"/><!-- Wind Walk -->
+		<buff id="1240" desc="Increases Accuracy." icon="icon.skill1240"/><!-- Guidance -->
+		<buff id="1242" desc="Increases critical attack." icon="icon.skill1242"/><!-- Death Whisper -->
+		<buff id="1243" desc="Increases shield defense rate." icon="icon.skill1243"/><!-- Bless Shield -->
+		<buff id="1259" desc="Increases resistance to stun attack." icon="icon.skill1259"/><!-- Resist Shock -->
+		<buff id="1268" desc="Restores HP using inflicted damage." icon="icon.skill1268"/><!-- Vampiric Rage -->
+		<buff id="1303" desc="Increases crit. rate of magic attacks." icon="icon.skill1303"/><!-- Wild Magic -->
+		<buff id="1304" desc="Increases shield defense power." icon="icon.skill1304"/><!-- Advanced Block -->
+		<buff id="1352" desc="Increases resistance to elements." icon="icon.skill1352"/><!-- Elemental Protection -->
+		<buff id="1353" desc="Increases resistance to dark attack." icon="icon.skill1353"/><!-- Divine Protection -->
+		<buff id="1354" desc="Increases resistance to de-buff attack." icon="icon.skill1354"/><!-- Arcane Protection -->
+		<buff id="1355" desc="Increases mage abilities." icon="icon.skill1355"/><!-- Prophecy of Water -->
+		<buff id="1356" desc="Increases fighter abilities." icon="icon.skill1356"/><!-- Prophecy of Fire -->
+		<buff id="1357" desc="Increases dagger abilities." icon="icon.skill1357"/><!-- Prophecy of Wind -->
+		<buff id="1363" desc="Increases combat abilities." icon="icon.skill1363"/><!-- Chant of Victory -->
+		<buff id="1388" desc="Increases P. Atk." icon="icon.skill1388"/><!-- Greater Might -->
+		<buff id="1389" desc="Increases P. Def." icon="icon.skill1389"/><!-- Greater Shield -->
+		<buff id="1033" desc="Increases resistance to poison." icon="icon.skill1033"/><!-- Resist poison -->
+		<buff id="1182" desc="Increases resistance to water" icon="icon.skill1182"/><!-- Resist aqua -->
+		<buff id="1189" desc="Increases resistance to wind" icon="icon.skill1189"/><!-- Resist wind -->
+		<buff id="1191" desc="Increases resistance to fire" icon="icon.skill1191"/><!-- Resist Fire -->
+		<buff id="1390" desc="Increases P. Atk." icon="icon.skill1390"/><!-- War Chant -->
+		<buff id="1391" desc="Increases P. Def." icon="icon.skill1391"/><!-- Earth Chant -->
+		<buff id="1397" desc="Decreases MP consumption rate." icon="icon.skill1397"/><!-- Clarity -->
+		<buff id="1413" desc="Increases mage abilities." icon="icon.skill1413"/><!-- Magnus' Chant -->
+		<buff id="4699" desc="Queen's buff magic." icon="icon.skill1331"/><!-- Blessing of Queen -->
+		<buff id="4700" desc="Queen's buff magic" icon="icon.skill1331"/><!-- Gift of Queen -->
+		<buff id="4702" desc="Buff magic used by the Unicorn Seraphim." icon="icon.skill1332"/><!-- Blessing of Seraphim -->
+		<buff id="4703" desc="Unicorn Seraphim's buff." icon="icon.skill1332"/><!-- Gift of Seraphim -->
 	</category>
 	<category type="Dances">
-		<buff id="271" desc="Increases P. Atk."/><!-- Dance of the Warrior -->
-		<buff id="272" desc="Increases Accuracy."/><!-- Dance of Inspiration -->
-		<buff id="273" desc="Increases M. Atk."/><!-- Dance of the Mystic -->
-		<buff id="274" desc="Increases critical damage."/><!-- Dance of Fire -->
-		<buff id="275" desc="Increases attack speed."/><!-- Dance of Fury -->
-		<buff id="276" desc="Increases Casting Spd."/><!-- Dance of Concentration -->
-		<buff id="277" desc="Sacred power to physical attack."/><!-- Dance of Light -->
-		<buff id="307" desc="Increases water resistance."/><!-- Dance of Aqua Guard -->
-		<buff id="309" desc="Increases earth resistance."/><!-- Dance of Earth Guard -->
-		<buff id="310" desc="Restores HP by inflicted damage."/><!-- Dance of the Vampire -->
-		<buff id="311" desc="Increases resistance to terrain damage."/><!-- Dance of Protection -->
-		<buff id="365" desc="Increases rate of magic crit. damage."/><!-- Siren's Dance -->
+		<buff id="271" desc="Increases P. Atk." icon="icon.skill0271"/><!-- Dance of the Warrior -->
+		<buff id="272" desc="Increases Accuracy." icon="icon.skill0272"/><!-- Dance of Inspiration -->
+		<buff id="273" desc="Increases M. Atk." icon="icon.skill0273"/><!-- Dance of the Mystic -->
+		<buff id="274" desc="Increases critical damage." icon="icon.skill0274"/><!-- Dance of Fire -->
+		<buff id="275" desc="Increases attack speed." icon="icon.skill0275"/><!-- Dance of Fury -->
+		<buff id="276" desc="Increases Casting Spd." icon="icon.skill0276"/><!-- Dance of Concentration -->
+		<buff id="277" desc="Sacred power to physical attack." icon="icon.skill0277"/><!-- Dance of Light -->
+		<buff id="307" desc="Increases water resistance." icon="icon.skill0307"/><!-- Dance of Aqua Guard -->
+		<buff id="309" desc="Increases earth resistance." icon="icon.skill0309"/><!-- Dance of Earth Guard -->
+		<buff id="310" desc="Restores HP by inflicted damage." icon="icon.skill0310"/><!-- Dance of the Vampire -->
+		<buff id="311" desc="Increases resistance to terrain damage." icon="icon.skill0311"/><!-- Dance of Protection -->
+		<buff id="365" desc="Increases rate of magic crit. damage." icon="icon.skill0365"/><!-- Siren's Dance -->
 	</category>
 	<category type="Songs">
-		<buff id="264" desc="Increases P. Def."/><!-- Song of Earth -->
-		<buff id="265" desc="Increases HP regeneration."/><!-- Song of Life -->
-		<buff id="266" desc="Increases Evasion."/><!-- Song of Water -->
-		<buff id="267" desc="Increases M. Def."/><!-- Song of Warding -->
-		<buff id="268" desc="Increases movement."/><!-- Song of Wind -->
-		<buff id="269" desc="Increases critical rate."/><!-- Song of Hunter -->
-		<buff id="270" desc="Increases resistance to dark magic."/><!-- Song of Invocation -->
-		<buff id="304" desc="Increases maximum HP."/><!-- Song of Vitality -->
-		<buff id="305" desc="Reflects damage received."/><!-- Song of Vengeance -->
-		<buff id="306" desc="Increases resistance to fire."/><!-- Song of Flame Guard -->
-		<buff id="308" desc="Increases resistance to wind."/><!-- Song of Storm Guard -->
-		<buff id="349" desc="Decreases re-use time."/><!-- Song of Renewal -->
-		<buff id="363" desc="Increases MP regeneration rate."/><!-- Song of Meditation -->
-		<buff id="364" desc="Decreases re-use time of physical skills."/><!-- Song of Champion -->
+		<buff id="264" desc="Increases P. Def." icon="icon.skill0264"/><!-- Song of Earth -->
+		<buff id="265" desc="Increases HP regeneration." icon="icon.skill0265"/><!-- Song of Life -->
+		<buff id="266" desc="Increases Evasion." icon="icon.skill0266"/><!-- Song of Water -->
+		<buff id="267" desc="Increases M. Def." icon="icon.skill0267"/><!-- Song of Warding -->
+		<buff id="268" desc="Increases movement." icon="icon.skill0268"/><!-- Song of Wind -->
+		<buff id="269" desc="Increases critical rate." icon="icon.skill0269"/><!-- Song of Hunter -->
+		<buff id="270" desc="Increases resistance to dark magic." icon="icon.skill0270"/><!-- Song of Invocation -->
+		<buff id="304" desc="Increases maximum HP." icon="icon.skill0304"/><!-- Song of Vitality -->
+		<buff id="305" desc="Reflects damage received." icon="icon.skill0305"/><!-- Song of Vengeance -->
+		<buff id="306" desc="Increases resistance to fire." icon="icon.skill0306"/><!-- Song of Flame Guard -->
+		<buff id="308" desc="Increases resistance to wind." icon="icon.skill0308"/><!-- Song of Storm Guard -->
+		<buff id="349" desc="Decreases re-use time." icon="icon.skill0349"/><!-- Song of Renewal -->
+		<buff id="363" desc="Increases MP regeneration rate." icon="icon.skill0363"/><!-- Song of Meditation -->
+		<buff id="364" desc="Decreases re-use time of physical skills." icon="icon.skill0364"/><!-- Song of Champion -->
 	</category>
+	
+	<scheme type="Fighter">
+	<buff id="1204" />
+	<buff id="1240" />
+	<buff id="1068" />
+	<buff id="1388" /> 			
+	<buff id="1086" />
+	<buff id="1077" />
+	<buff id="1242" />
+	<buff id="1062" />
+	<buff id="4344" />
+	<buff id="1036" />
+	<buff id="1045" />
+	<buff id="304" />
+	<buff id="267" />
+	<buff id="268" />
+	<buff id="264" />
+	<buff id="269" />
+	<buff id="274" />
+	<buff id="271" />
+	<buff id="275" />
+	<buff id="1363" />
+	<buff id="4700" />
+	</scheme>
+	
+	<scheme type="Mage">
+	<buff id="4351" />
+	<buff id="4391" />
+	<buff id="1048" />
+	<buff id="1259" />
+	<buff id="1085" />
+	<buff id="1045" />
+	<buff id="1036" />
+	<buff id="1389" />
+	<buff id="1040" />
+	<buff id="1059" />
+	<buff id="1062" />
+	<buff id="1303" />
+	<buff id="273" />
+	<buff id="276" />
+	<buff id="365" />
+	<buff id="304" />
+	<buff id="267" />
+	<buff id="268" />
+	<buff id="264" />
+	<buff id="1413" />
+	<buff id="4703" />
+	</scheme>
+
+	<scheme type="Tank">
+	<buff id="4391" />
+	<buff id="1259" />
+	<buff id="1068" />
+	<buff id="1389" /> 			
+	<buff id="1086" />
+	<buff id="1077" />
+	<buff id="1242" />
+	<buff id="1040" />
+	<buff id="1036" />
+	<buff id="1045" />
+	<buff id="304" />
+	<buff id="267" />
+	<buff id="268" />
+	<buff id="264" />
+	<buff id="269" />
+	<buff id="274" />
+	<buff id="272" />
+	<buff id="271" />
+	<buff id="275" />
+	<buff id="1363" />
+	<buff id="4700" />
+	</scheme>
+	
 </list>

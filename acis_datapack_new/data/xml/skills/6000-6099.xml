@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	
+<skill id="6001" levels="1" name="Zeus' Hegemony"><!-- necklace of zeus healer/tank oriented-->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="400" />
+			<addMul stat="windRes" val="15" />
+			<addMul stat="sleepVuln" val="60" />
+			<addMul stat="stunVuln" val="18" />
+			<mul stat="giveHp" val="1.12" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+			<add stat="maxMp" val="250" />
+			<add stat="reflectDam" val="5" />
+		</for>
+	</skill>
+	
+	<skill id="6002" levels="1" name="Poseidon's Fury"><!-- necklace of poseidon mage oriented-->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="400" />
+			<add stat="maxMp" val="250" />
+			<mul stat="mAtk" val="1.085" />
+			<mul stat="mCritRate" val="1.05" />
+			<addMul stat="waterRes" val="15" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+		</for>
+	</skill>
+	
+		<skill id="6003" levels="1" name="Nyx's Darkness"><!-- enhanced version of dorian ring -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="rootVuln" val="30" />
+			<add stat="accCombat" val="2" />
+			<add stat="runSpd" val="2" />
+		</for>
+	</skill>
+	
+		<skill id="6004" levels="1" name="Hades' Grasp"><!-- necklace of hades fighter oriented-->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="400" />
+			<add stat="maxMp" val="200" />
+			<mul stat="pAtk" val="1.08" />
+			<mul stat="cAtk" val="1.05" />
+			<addMul stat="darkRes" val="15" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+		</for>
+	</skill>
+	
+	<skill id="6005" levels="1" name="Medusa's Vanity"><!-- enhanced version of ionian ring -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxMp" val="300"/>
+			<addMul stat="sleepVuln" val="15" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="fireRes" val="15" />
+			<mul stat="mCritRate" val="1.05" />
+			<mul val='1.12' order='0x30' stat='regMp'/>
+		</for>
+		<set name="chanceType" val="ON_ATTACKED" />
+		<set name="reuseDelay" val="20000" />
+		<set name="activationChance" val="5" />
+		<set name="triggeredId" val="6011" /> <!-- reflect magic attacks 5% -->
+		<set name="triggeredLevel" val="1" />
+	</skill>
+	
+	<skill id="6006" levels="1" name="Laestrygon's Glutonny"><!-- ring for both slots , critical + evasion -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="rootVuln" val="10" />
+			<add stat="rEvas" val="2"/>
+			<add stat="rCrit" val="5"/>
+		</for>
+	</skill>
+	
+	<skill id="6007" levels="1" name="Typhon's Bane"><!-- earring for both slots -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="pDef" val="75" />
+			<add stat="mDef" val="75" />
+		</for>
+	</skill>
+	
+	
+	<skill id="6008" levels="1" name="Minotaur's Demise"><!-- enhanced version of dorian earring -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxCp" val="100" />
+			<addMul stat="earthRes" val="10" />
+			<addMul stat="bleedVuln" val="20" />
+			<addMul stat="stunVuln" val="8" /> 
+			<addMul stat="derangementVuln" val="45" />
+			<mul stat="gainHp" val="1.16" />
+			<mul stat="MagicalMpConsumeRate" val="0.90" />
+			<mul stat="PhysicalMpConsumeRate" val="0.90" />	
+			<add stat="absorbDam" val="2" />
+		</for>
+	</skill>
+	
+	<skill id="6009" levels="1" name="Cerberus Malcontent"><!-- enhanced version of ionian earring -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxCp" val="100" />
+			<addMul stat="holyRes" val="20" />
+			<addMul stat="sleepVuln" val="7" />
+			<mul stat="regHp" val="1.07"/>
+		</for>
+		<set name="chanceType" val="ON_ATTACKED" /><!-- reflect physical attacks 5% -->
+		<set name="reuseDelay" val="20000" />
+		<set name="activationChance" val="5" />
+		<set name="triggeredId" val="6010" />
+		<set name="triggeredLevel" val="1" />
+	</skill>
+	
+		<skill id="6010" levels="1" name="Physical Mirror">
+		<set name="mpConsume" val="1"/>
+		<set name="magicLvl" val="78" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="reuseDelay" val="40000"/>
+		<set name="hitTime" val="2000"/>
+		<set name="aggroPoints" val="669"/>
+		<for>
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="reflect_abnormal">
+				<add stat="reflectSkillPhysic" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6011" levels="1" name="Magical Mirror">
+		<set name="mpConsume" val="1"/>
+		<set name="magicLvl" val="78" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="reuseDelay" val="40000"/>
+		<set name="hitTime" val="2000"/>
+		<set name="aggroPoints" val="669"/>
+		<for>
+			<effect name="Buff" time="10" val="0" stackOrder="1" stackType="reflect_abnormal">
+				<add stat="reflectSkillMagic" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6012" levels="1" name="Blessed Tateossian Necklace">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="200" />
+			<mul stat="pAtk" val="1.035" />
+			<mul stat="mAtk" val="1.035" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+		</for>
+	</skill>
+	
+		
+	<skill id="6013" levels="1" name="Blessed Tateossian Earring">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="rootVuln" val="20" />
+			<addMul stat="stunVuln" val="5" /> 
+			<addMul stat="sleepVuln" val="7" />
+		</for>
+	</skill>
+	
+	<skill id="6014" levels="1" name="Blessed Tateossian Ring">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="waterRes" val="5" />
+			<addMul stat="fireRes" val="5" />
+		</for>
+	</skill>
+	
+</list>
+

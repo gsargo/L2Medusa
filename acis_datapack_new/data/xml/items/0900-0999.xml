@@ -32,7 +32,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="104" />
 		<set name="material" val="GOLD" />
-		<set name="weight" val="150" />
+		<set name="weight" val="0" />
 		<set name="price" val="1300000" />
 		<for>
 			<baseadd stat="mDef" val="40" />
@@ -165,7 +165,7 @@
 		<set name="crystal_count" val="227" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="125000" />
+		<set name="price" val="25000" />
 		<for>
 			<baseadd stat="mDef" val="45" />
 			<enchant stat="mDef" val="0" />
@@ -178,7 +178,7 @@
 		<set name="crystal_count" val="294" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="162000" />
+		<set name="price" val="42000" />
 		<for>
 			<baseadd stat="mDef" val="48" />
 			<enchant stat="mDef" val="0" />
@@ -191,7 +191,7 @@
 		<set name="crystal_count" val="82" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="207000" />
+		<set name="price" val="40000" />
 		<for>
 			<baseadd stat="mDef" val="52" />
 			<enchant stat="mDef" val="0" />
@@ -204,7 +204,7 @@
 		<set name="crystal_count" val="104" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="261000" />
+		<set name="price" val="41000" />
 		<for>
 			<baseadd stat="mDef" val="56" />
 			<enchant stat="mDef" val="0" />
@@ -217,7 +217,7 @@
 		<set name="crystal_count" val="157" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="393000" />
+		<set name="price" val="33000" />
 		<for>
 			<baseadd stat="mDef" val="60" />
 			<enchant stat="mDef" val="0" />
@@ -230,7 +230,7 @@
 		<set name="crystal_count" val="107" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="808000" />
+		<set name="price" val="48000" />
 		<for>
 			<baseadd stat="mDef" val="68" />
 			<enchant stat="mDef" val="0" />
@@ -243,7 +243,7 @@
 		<set name="crystal_count" val="226" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="565000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="mDef" val="64" />
 			<enchant stat="mDef" val="0" />
@@ -263,6 +263,7 @@
 			<enchant stat="mDef" val="0" />
 		</for>
 	</item>
+	
 	<item id="921" type="Armor" name="Necklace of Mana">
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
@@ -308,8 +309,8 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="276" />
 		<set name="material" val="SILVER" />
-		<set name="weight" val="150" />
-		<set name="price" val="3450000" />
+		<set name="weight" val="0" />
+		<set name="price" val="2450000" />
 		<for>
 			<baseadd stat="mDef" val="85" />
 			<add stat="maxMp" val="33" />
@@ -323,7 +324,7 @@
 		<set name="crystal_count" val="107" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="808000" />
+		<set name="price" val="88000" />
 		<for>
 			<baseadd stat="mDef" val="68" />
 			<enchant stat="mDef" val="0" />
@@ -336,7 +337,7 @@
 		<set name="crystal_count" val="164" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="1230000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="mDef" val="72" />
 			<enchant stat="mDef" val="0" />
@@ -349,7 +350,7 @@
 		<set name="crystal_count" val="107" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="808000" />
+		<set name="price" val="88000" />
 		<for>
 			<baseadd stat="mDef" val="68" />
 			<enchant stat="mDef" val="0" />
@@ -362,7 +363,7 @@
 		<set name="crystal_count" val="164" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="1230000" />
+		<set name="price" val="63000" />
 		<for>
 			<baseadd stat="mDef" val="72" />
 			<enchant stat="mDef" val="0" />
@@ -375,7 +376,7 @@
 		<set name="crystal_count" val="164" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="1230000" />
+		<set name="price" val="53000" />
 		<for>
 			<baseadd stat="mDef" val="72" />
 			<enchant stat="mDef" val="0" />
@@ -388,7 +389,7 @@
 		<set name="crystal_count" val="208" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="2600000" />
+		<set name="price" val="55000" />
 		<for>
 			<baseadd stat="mDef" val="80" />
 			<enchant stat="mDef" val="0" />
@@ -414,7 +415,7 @@
 		<set name="crystal_count" val="164" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="1230000" />
+		<set name="price" val="53000" />
 		<for>
 			<baseadd stat="mDef" val="72" />
 			<enchant stat="mDef" val="0" />
@@ -426,7 +427,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="208" />
 		<set name="material" val="SILVER" />
-		<set name="weight" val="150" />
+		<set name="weight" val="0" />
 		<set name="price" val="2600000" />
 		<for>
 			<baseadd stat="mDef" val="80" />
@@ -578,7 +579,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="500000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -588,7 +590,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="80000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -597,7 +600,8 @@
 	<item id="949" type="EtcItem" name="Crystal Scroll: Enchant Weapon (Grade B)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="80000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -605,7 +609,8 @@
 	<item id="950" type="EtcItem" name="Crystal Scroll: Enchant Armor (Grade B)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="80000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -614,7 +619,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="110000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -624,7 +630,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="15000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -633,7 +640,8 @@
 	<item id="953" type="EtcItem" name="Crystal Scroll: Enchant Weapon (Grade C)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="15000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -641,7 +649,8 @@
 	<item id="954" type="EtcItem" name="Crystal Scroll: Enchant Armor (Grade C)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="15000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -650,7 +659,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="50000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -660,7 +670,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="6000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -669,7 +680,8 @@
 	<item id="957" type="EtcItem" name="Crystal Scroll: Enchant Weapon (Grade D)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="6000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -677,7 +689,8 @@
 	<item id="958" type="EtcItem" name="Crystal Scroll: Enchant Armor (Grade D)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="6000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -686,7 +699,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="5000000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -696,7 +710,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="500000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -705,7 +720,8 @@
 	<item id="961" type="EtcItem" name="Crystal Scroll: Enchant Weapon (Grade S)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="500000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -713,7 +729,8 @@
 	<item id="962" type="EtcItem" name="Crystal Scroll: Enchant Armor (Grade S)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="500000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />

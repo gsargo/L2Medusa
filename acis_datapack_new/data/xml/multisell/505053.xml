@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<!-- Donate Shop -->
+<!-- Premium status 14 days -->
+  <item id="-28">
+    <ingredient id="12535" count="5"/>
+    <production id="12580" count="1"/>
+  </item>
+
+<!-- Premium status 24 days -->
+  <item id="-27">
+    <ingredient id="12535" count="7"/>
+    <production id="12581" count="1"/>
+  </item>
+  
+  <!-- Legendary Premium status 24 days -->
+  <item id="-26">
+    <ingredient id="12535" count="15"/>
+    <production id="12585" count="1"/>
+	<production id="11363" count="1"/>
+	<production id="11366" count="1"/>
+  </item>
+
+
+<!-- Donate scroll of escape-->
+  <item id="-22">
+    <ingredient id="12535" count="5"/>
+    <production id="25620" count="1500"/>
+  </item>
+  
+  <!-- Tattoo of Dagger-->
+  <item id="-21">
+    <ingredient id="12535" count="8"/>
+    <production id="11388" count="1"/>
+  </item>
+  
+  <!-- Tattoo of Hermes-->
+  <item id="-20">
+    <ingredient id="12535" count="5"/>
+    <production id="11386" count="1"/>
+  </item>
+  
+  <!-- tatoo of mage lv1-->
+    <item id="-19">
+    <ingredient id="12535" count="8"/>
+    <production id="11380" count="1"/>
+  </item>
+  
+  <!-- tattoo of fighter lv1-->
+    <item id="-18">
+    <ingredient id="12535" count="8"/>
+    <production id="11383" count="1"/>
+  </item>
+  
+  
+  <!-- fire stone lvl 1 -->
+   <item id="-13">
+    <ingredient id="12535" count="5"/>
+    <production id="5577" count="1"/>
+  </item>
+  
+    <!-- earth stone lvl 1 -->
+   <item id="-12">
+    <ingredient id="12535" count="5"/>
+    <production id="5578" count="1"/>
+  </item>
+  
+    <!-- water stone lvl 1 -->
+   <item id="-11">
+    <ingredient id="12535" count="5"/>
+    <production id="5579" count="1"/>
+  </item>
+  
+    <!-- fire stone lvl 2 -->
+   <item id="-10">
+    <ingredient id="12535" count="8"/>
+    <production id="5580" count="1"/>
+  </item>
+  
+    <!-- earth stone lvl 2 -->
+   <item id="-9">
+    <ingredient id="12535" count="8"/>
+    <production id="5581" count="1"/>
+  </item>
+  
+    <!-- water stone lvl 2 -->
+   <item id="-8">
+    <ingredient id="12535" count="8"/>
+    <production id="5582" count="1"/>
+  </item>
+  
+  <!-- Elemental stones bundle lvl 1 -->
+    <item id="-7">
+    <ingredient id="12535" count="10"/>
+    <production id="25621" count="1"/>
+  </item>
+  
+  
+  <!-- Elemental stones bundle lvl 2 -->
+    <item id="-6">
+    <ingredient id="12535" count="20"/>
+    <production id="25622" count="1"/>
+  </item>
+  
+
+  
+  <!-- Crimson Experimental wings -->
+  <item id="-4">
+    <ingredient id="12535" count="10"/>
+    <production id="25317" count="1"/>
+  </item>
+  
+  <!-- Emerald Experimental wings -->
+  <item id="-3">
+    <ingredient id="12535" count="10"/>
+    <production id="25318" count="1"/>
+  </item>
+  
+  
+  <!-- Olympus valor wings -->
+  <item id="-1">
+    <ingredient id="12535" count="15"/>
+    <production id="25135" count="1"/>
+  </item>
+  
+
+<!-- Hero for 15 days Item -->
+  <item id="1">
+    <ingredient id="12535" count="20"/>
+    <production id="12572" count="1"/>
+  </item>
+
+
+<!-- Clan Scroll Points -->
+  <item id="3">
+    <ingredient id="12535" count="15"/>
+    <production id="12571" count="30"/>
+  </item>
+
+<!-- Noblesse Item -->
+  <item id="4">
+    <ingredient id="12535" count="15"/>
+    <production id="12532" count="1"/>
+  </item>
+  
+  <!-- Name Color Item -->
+  <item id="5">
+    <ingredient id="12535" count="5"/>
+    <production id="12533" count="1"/>
+  </item>
+  
+    <!-- Name Color Item -->
+  <item id="6">
+    <ingredient id="12535" count="5"/>
+    <production id="12540" count="1"/>
+  </item>
+  
+    <!-- Title Color Item -->
+  <item id="7">
+    <ingredient id="12535" count="7"/>
+    <production id="12534" count="1"/>
+  </item>
+  
+
+  <!-- Ancient Book Lv1 -->
+  <item id="10">
+   <ingredient id="12535" count="7"/>
+    <production id="8618" count="1"/>
+	<production id="8619" count="1"/>
+	<production id="8620" count="1"/>
+	<production id="8621" count="1"/>
+  </item>
+  
+  
+       <!-- Winged Princess Agathion -->
+  <item id="14">
+  <ingredient id="12535" count="5"/>
+	 <production id="18013" count="1"/>
+  </item>
+  
+  <!-- Three Headed Agathion -->
+  <item id="15">
+  <ingredient id="12535" count="5"/>
+	 <production id="18029" count="1"/>
+  </item>
+  
+       <!-- Flying Nest Agathion -->
+   <item id="19">
+	<ingredient id="12535" count="5"/>
+	 <production id="18028" count="1"/>
+  </item>
+  
+  
+           <!-- Bee Agathion -->
+  <item id="20">
+ <ingredient id="12535" count="10"/>
+	 <production id="18018" count="1"/>
+  </item>
+  
+       <!-- Panda Agathion -->
+   <item id="21">
+	<ingredient id="12535" count="10"/>
+	 <production id="18025" count="1"/>
+  </item>
+  
+             <!-- Moon Agathion -->
+  <item id="22">
+ <ingredient id="12535" count="10"/>
+	 <production id="18020" count="1"/>
+  </item>
+  
+               <!-- Cat Agathion -->
+  <item id="23">
+ <ingredient id="12535" count="10"/>
+	 <production id="18021" count="1"/>
+  </item>
+  
+  <!-- Pegasus Agathion -->
+   <item id="24">
+	<ingredient id="12535" count="10"/>
+	 <production id="18023" count="1"/>
+  </item>
+  
+                   <!-- Phoenix Agathion -->
+  <item id="25">
+	<ingredient id="12535" count="10"/>
+	 <production id="18022" count="1"/>
+  </item>
+  
+   <!-- Baby Bear Agathion -->
+   <item id="26">
+	<ingredient id="12535" count="10"/>
+	 <production id="18016" count="1"/>
+  </item>
+  
+   <!-- Bat Agathion -->
+   <item id="27">
+	<ingredient id="12535" count="12"/>
+	 <production id="18026" count="1"/>
+  </item>
+  
+  <!-- Baby Minotaur Agathion -->
+   <item id="28">
+	<ingredient id="12535" count="12"/>
+	 <production id="18014" count="1"/>
+  </item>
+  
+<!-- Elephant Agathion -->
+   <item id="29">
+	<ingredient id="12535" count="12"/>
+	 <production id="18015" count="1"/>
+  </item>
+
+  <!-- Aeolus -->
+  <item id="30">
+    <ingredient id="12535" count="15"/>
+    <production id="12526" count="1"/>
+  </item>
+  
+             <!-- Griffin -->
+  <item id="31">
+	<ingredient id="12535" count="10"/>
+	 <production id="18012" count="1"/>
+  </item>
+  
+			<!-- Fox -->
+   <item id="32">
+	<ingredient id="12535" count="10"/>
+	 <production id="18011" count="1"/>
+  </item>
+  
+  			<!-- Pindus Bison -->
+   <item id="33">
+	<ingredient id="12535" count="5"/>
+	 <production id="18002" count="1"/>
+  </item>
+  
+  
+      			<!-- Helios Shield -->
+   <item id="34">
+	<ingredient id="12535" count="10"/>
+	 <production id="19530" count="1"/>
+  </item>
+  
+        			<!-- Shield of Achilles -->
+   <item id="35">
+	<ingredient id="12535" count="10"/>
+	 <production id="19531" count="1"/>
+  </item>
+  
+    <item id="36">
+	<ingredient id="12535" count="10"/>
+	 <production id="19533" count="1"/>
+  </item>
+  
+    <item id="37">
+	<ingredient id="12535" count="10"/>
+	 <production id="19534" count="1"/>
+  </item>
+  
+    <item id="38">
+	<ingredient id="12535" count="10"/>
+	 <production id="19537" count="1"/>
+  </item>
+  
+     <item id="39">
+	<ingredient id="12535" count="10"/>
+	 <production id="19541" count="1"/>
+  </item>
+  
+    <item id="40">
+	<ingredient id="12535" count="10"/>
+	 <production id="19540" count="1"/>
+  </item>
+  
+    <item id="41">
+	<ingredient id="12535" count="10"/>
+	 <production id="19542" count="1"/>
+  </item>
+  <!-- shield of golden scarb -->
+     <item id="42">
+	<ingredient id="12535" count="10"/>
+	 <production id="19543" count="1"/>
+  </item>
+  
+    <!-- Lindvior Shield -->
+     <item id="43">
+	<ingredient id="12535" count="10"/>
+	 <production id="19553" count="1"/>
+  </item>
+  
+      <!-- Aulakiria Shield -->
+     <item id="44">
+	<ingredient id="12535" count="10"/>
+	 <production id="19554" count="1"/>
+  </item>
+  
+          <!-- Aegis -->
+     <item id="46">
+	<ingredient id="12535" count="12"/>
+	 <production id="19549" count="1"/>
+  </item>
+  
+         <!-- Ultrasanity Shield -->
+     <item id="45">
+	<ingredient id="12535" count="12"/>
+	 <production id="19555" count="1"/>
+  </item>
+  
+          <!-- Altervolition Shield -->
+     <item id="47">
+	<ingredient id="12535" count="12"/>
+	 <production id="19550" count="1"/>
+  </item>
+  
+            <!-- Omnisapience Book -->
+     <item id="48">
+	<ingredient id="12535" count="12"/>
+	 <production id="19557" count="1"/>
+  </item>
+  
+
+  
+  
+   
+  
+</list>
+

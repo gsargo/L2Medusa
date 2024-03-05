@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+
+<list>
+
+  
+ 
+ <!-- Lunargent -->
+  <item id="17">
+    <ingredient id="12528" count="1500" enchant="0"/>
+	<ingredient id="12529" count="1500" enchant="0"/>
+	<ingredient id="12530" count="20" enchant="0"/>
+    <production id="6029" count="1"/>
+  </item>
+  
+   <!-- Hellfire Oil -->
+  <item id="18">
+    <ingredient id="12528" count="5000" enchant="0"/>
+	<ingredient id="12529" count="5000" enchant="0"/>
+	<ingredient id="12530" count="60" enchant="0"/>
+    <production id="6033" count="1"/>
+  </item>
+ 
+ 
+   <!-- Oly Weap -->
+  <item id="24">
+    <ingredient id="12528" count="2000"/>
+	<ingredient id="12529" count="1000"/>
+	<ingredient id="57" count="15000000"/>
+    <production id="4900" count="1"/>
+  </item>
+
+  <!-- Oly Weap -->
+  <item id="25">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4901" count="1"/>
+  </item>
+
+    <!-- Oly Weap -->
+  <item id="26">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4898" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="27">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4899" count="1"/>
+  </item>
+  
+    
+  
+</list>
+

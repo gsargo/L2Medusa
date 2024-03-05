@@ -1729,18 +1729,18 @@
 	</item>
 	<item id="8874" type="EtcItem" name="Einhasad's Holy Water">
 		<set name="material" val="LEATHER" />
-		<set name="weight" val="20" />
+		<set name="weight" val="0" />
 		<set name="price" val="20000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8875" type="EtcItem" name="Battle Symbol">
 		<set name="material" val="LEATHER" />
-		<set name="weight" val="20" />
+		<set name="weight" val="0" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8876" type="EtcItem" name="Magic Symbol">
 		<set name="material" val="LEATHER" />
-		<set name="weight" val="20" />
+		<set name="weight" val="0" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8877" type="EtcItem" name="Spellbook: Soul of the Phoenix">

@@ -105,7 +105,7 @@
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="7029" levels="4" name="Super Haste">
-		<table name="#amount"> 1.25 1.5 1.75 2 </table>
+		<table name="#amount"> 1.25 1.5 1.75 3 </table>
 		<table name="#reuse"> 0.75 0.50 0.25 0.01 </table>
 		<set name="skillType" val="CONT"/>
 		<set name="operateType" val="TOGGLE"/>
@@ -208,4 +208,982 @@
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
+	
+	<skill id="7041" levels="3" name="Ingredient Bag">
+
+	<!-- Custom Random Item (Skill) -->
+		<table name="#extractableItems">
+			<!-- RB JEWELS -->
+			6656,1,12;6657,1,7;6658,1,9;6659,1,14;6660,1,13;8191,1,14;6661,1,15;6662,1,16;
+			<!-- ?? Item skills?? -->
+			6017,1,10;6020,1,20;6014,1,35;6016,1,35
+			<!-- ??  -->
+			6012,1,20;6018,1,20;6019,1,20;6013,1,40
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	
+	
+
+	
+	<skill id="7043" levels="3" name="Heal Trick">
+		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
+		<table name="#ench2MpConsume"> 95 94 93 92 91 90 89 88 87 86 86 85 84 83 82 81 80 79 78 77 76 76 75 74 73 72 71 70 69 68 </table>
+		<table name="#ench2MpConsume_Init"> 23 23 23 23 22 22 22 22 21 21 21 21 21 20 20 20 20 19 19 19 19 19 18 18 18 18 17 17 17 17 </table>
+		<table name="#mpInitialConsume"> 21 22 23 23 24 24 </table>
+		<table name="#mpConsume"> 83 86 89 91 93 96 </table>
+		<table name="#rateCp"> 645 667 689 811 834 858 </table>
+		<table name="#ench1Power"> 863 867 871 875 880 884 888 892 897 901 905 909 913 918 922 926 930 935 939 943 947 952 956 960 964 969 973 977 981 986 </table>
+		<table name="#aggro"> 677 700 722 743 763 780 </table>
+		<set name="mpInitialConsume" val="#mpInitialConsume"/>
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="power" val="#rateCp"/>
+		<set name="target" val="OWNER_PET" />
+		<set name="hitTime" val="5000"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="skillType" val="COMBATPOINTHEAL"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="600"/>
+		<set name="effectRange" val="1100"/>
+		<set name="aggroPoints" val="#aggro"/>
+		<enchant1 name="power" val="#ench1Power"/>
+		<enchant1 name="magicLvl" val="#enchantMagicLvl"/>
+		<enchant2 name="magicLvl" val="#enchantMagicLvl"/>		
+		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
+		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
+	</skill>
+
+<skill id="7044" levels="1" name="Dorian Necklace">
+<!-- A GRADE NECKLACE RED SKILL -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxHp" val="200" />
+			<mul stat="pAtk" val="1.035" />
+			<mul stat="mAtk" val="1.035" />
+			<addMul stat="fireRes" val="10" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+		</for>
+	</skill>
+
+<skill id="7045" levels="1" name="Dorian Earring">
+<!-- A GRADE EARRING RED SKILL -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxCp" val="100" />
+			<addMul stat="earthRes" val="15" />
+			<addMul stat="bleedVuln" val="20" />
+			<addMul stat="stunVuln" val="8" />
+			<addMul stat="derangementVuln" val="20" />
+			<mul stat="gainHp" val="1.1" />
+			<mul stat="MagicalMpConsumeRate" val="0.95" />
+			<mul stat="PhysicalMpConsumeRate" val="0.95" />	
+			<add stat="absorbDam" val="2" />
+		</for>
+	</skill>
+	
+	<skill id="7046" levels="1" name="Dorian Ring">
+	<!-- A GRADE RING RED SKILL -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="rootVuln" val="30" />
+			<add stat="accCombat" val="1" />
+			<add stat="runSpd" val="1" />
+		</for>
+	</skill>
+	
+	<skill id="7047" levels="1" name="Ionian Necklace">
+<!-- A GRADE NECKLACE BLUE SKILL -->
+
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="sleepVuln" val="15" />
+			<addMul stat="stunVuln" val="10" />
+			<addMul stat="darkRes" val="10" />
+			<add stat="maxMp" val="200"/>
+			<mul stat="gainHp" val="1.06" />
+			<mul stat="pReuse" val="0.9" />
+			<mul stat="mReuse" val="0.9" />
+		</for>
+	</skill>
+	
+<skill id="7048" levels="1" name="Ionian Earring">
+<!-- A GRADE EARRING BLUE SKILL -->
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<add stat="maxCp" val="100" />
+			<addMul stat="sleepVuln" val="5" />
+			<addMul stat="bleedVuln" val="20" />
+			<addMul stat="debuffVuln" val="5" />
+			<add stat="regMp" val="2"/>
+		</for>
+	</skill>
+
+
+	<skill id="7049" levels="1" name="Ionian Ring">
+	<!-- A GRADE RING RED SKILL -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<addMul stat="rootVuln" val="10" />
+			<add stat="maxMp" val="100"/>
+			<mul stat="mCritRate" val="1.035" />
+		</for>
+	</skill>
+	
+	<skill id="7050" levels="1" name="Special Ability: Magic Hold">
+		<set name="target" val="ONE" />
+		<set name="skillType" val="ROOT" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="magicLvl" val="75" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
+		<set name="power" val="100" />
+		<set name="isMagic" val="true" />
+		<set name="isDebuff" val="true" />
+		<for>
+			<effect name="Root" time="5" val="0" stackOrder="1" stackType="root_magically" />
+		</for>
+	</skill>
+	
+	<skill id="7051" levels="1" name="Special Ability: Crt. Slow">
+		<set name="target" val="ONE" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="castRange" val="1000" />
+		<set name="effectRange" val="1500" />
+		<set name="magicLvl" val="75" />
+		<set name="power" val="100" />
+		<set name="isDebuff" val="true" />
+		<set name="lvlDepend" val="1" />
+		<for>
+			<effect name="Debuff" time="6" val="0" stackOrder="3" stackType="speed_down">
+				<mul stat="runSpd" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7058" levels="1" name="Custom Special Ability: Robust Health/Haste">
+	<!-- Top S grade Duals -->
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="maxHp" val="1.15" />
+			<mul stat="maxMp" val="1.2" />
+			<mul stat="maxCp" val="1.3" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<add stat="atkCountMax" val="0" />
+			<mul stat="pAtkSpd" val="1.045" />
+		</for>
+	</skill>
+	
+	<skill id="7059" levels="1" name="Special Ability: Focus/Guidance">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="rCrit" val="92" />
+			<add stat="accCombat" val="2" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7060" levels="1" name="Special Ability: Haste/Focus">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="pAtkSpd" val="1.07" />
+			<add stat="rCrit" val="50" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<add stat="absorbDam" val="2" />
+		</for>
+	</skill>
+	
+	<skill id="7061" levels="1" name="Custom Special Ability: Acumen/Mana Up">
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="mAtkSpd" val="1.15" />
+			<mul stat="maxMp" val="1.2" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7062" levels="1" name="Custom Special Ability: Acumen/Heal Empower">
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="mAtkSpd" val="1.15" />
+			<add stat="giveHp" val="60" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7063" levels="1" name="Special Ability: Crit.Dmg/Mortal blow">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="cAtkAdd" val="260" />
+			<mul stat="blowRate" val="1.13">
+				<using kind="DAGGER" />
+			</mul>
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7064" levels="1" name="Special Ability: Crit.Dmg/Hase">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="cAtkAdd" val="260" />
+			<mul stat="pAtkSpd" val="1.042" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7065" levels="1" name="Special Ability: Focus/Might">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="rCrit" val="80.6" />
+			<add stat="pAtk" val="200" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7066" levels="1" name="Special Ability: Focus/Health">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<add stat="rCrit" val="80.6" />
+			<mul stat="maxHp" val="1.12" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7067" levels="1" name="Special Ability: Haste/HP Drain">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="pAtkSpd" val="1.07" />
+			<mul stat="maxHp" val="1.12" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<add stat="absorbDam" val="2" />
+		</for>
+	</skill>
+	
+	<skill id="7068" levels="1" name="Special Ability: Haste/Health">
+		<set name="magicLvl" val="75" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="pAtkSpd" val="1.07" />
+			<mul stat="maxHp" val="1.12" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7069" levels="1" name="Custom Special Ability: Acumen/Empower">
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="mAtkSpd" val="1.15" />
+			<add stat="mAtk" val="100" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+		</for>
+	</skill>
+	
+	<skill id="7070" levels="1" name="Custom Special Ability: Robust Health/Focus">
+	<!-- Top S grade Duals -->
+		<set name="target" val="SELF" />
+		<set name="skillType" val="BUFF" />
+		<set name="operateType" val="PASSIVE" />
+		<set name="magicLvl" val="75" />
+		<for>
+			<mul stat="maxHp" val="1.15" />
+			<mul stat="maxMp" val="1.2" />
+			<mul stat="maxCp" val="1.3" />
+			<mul stat="pvpPhysDmg" val="1.05" />
+			<mul stat="pvpPhysSkillsDmg" val="1.05" />
+			<mul stat="pvpMagicalDmg" val="1.05" />
+			<add stat="atkCountMax" val="0" />
+			<add stat="rCrit" val="50" />
+		</for>
+	</skill>
+	
+	<skill id="7071" levels="1" name="Elemental Skill 1"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="708"/>
+		<set name="target" val="AREA"/>
+		<set name="element" val="FIRE"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="1000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7072" levels="1" name="Elemental Skill 2"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="400"/>
+	</skill>
+	
+	<skill id="7073" levels="1" name="Elemental Skill 3"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7074" levels="1" name="Elemental Skill 4"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+			<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7075" levels="1" name="Elemental Skill 5"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7076" levels="1" name="Elemental Skill 6"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7077" levels="1" name="Wind Riding Skill"  >
+		<set name="mpInitialConsume" val="15"/>
+		<set name="mpConsume" val="70"/>
+		<set name="magicLvl" val="40"/>
+		<set name="power" val="108"/>
+		<set name="target" val="ONE"/>
+		<set name="element" val="WIND"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="skillType" val="MDAM"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="900"/>
+		<set name="effectRange" val="1400"/>
+	</skill>
+	
+	<skill id="7078" levels="1" name="NPC:The Heart of Pa'agrio" >
+		<set name="mpInitialConsume" val="10"/>
+		<set name="mpConsume" val="10"/>
+		<set name="power" val="100"/>
+		<set name="target" val="SELF"/>
+		<set name="skillRadius" val="900"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="hitTime" val="1500"/>
+		<set name="skillType" val="HEAL"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<for>
+			<effect count="15" name="HealOverTime" val="30" stackOrder="1" stackType="life_force_orc"/>
+		</for>
+	</skill>
+	
+	<skill id="7079" levels="1" name="Tartarus Door Key">
+	<!-- tartarus door key -->
+		<set name="target" val="UNLOCKABLE" />
+		<set name="skillType" val="UNLOCK_SPECIAL" />
+		<set name="reuseDelay" val="3000" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="hitTime" val="500" />
+		<set name="staticHitTime" val="true" />
+		<set name="power" val="35" />
+		<cond msgId="113" addName="1">
+			<target npcId="20250001" />
+		</cond>
+	</skill>
+	
+	
+	<skill id="7080" levels="2" name="Kykeon">
+	<!-- High CP POT (+60 from retail)-->
+		<table name="#power"> 50 260 </table>
+		<set name="power" val="#power" />
+		<set name="target" val="SELF" />
+		<set name="skillType" val="COMBATPOINTHEAL" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="reuseDelay" val="50" />
+		<set name="isPotion" val="true" />
+		<cond msgId="113" addName="1">
+			<player flying="False" />
+		</cond>
+	</skill>
+	
+	<skill id="7081" levels="1" name="Earthquake">
+	<!-- Cetus Custom Earthquake skill -->
+		<set name="baseCritRate" val="20"/>
+		<set name="hpConsume" val="340"/>
+		<set name="mpConsume" val="87"/>
+		<set name="magicLvl" val="78"/>
+		<set name="power" val="4040"/>
+		<set name="element" val="EARTH" />
+		<set name="ignoreShld" val="true"/>
+		<set name="overHit" val="true"/>
+		<set name="SSBoost" val="2.0"/>
+		<set name="target" val="AURA"/>
+		<set name="skillRadius" val="150"/>
+		<set name="skillType" val="PDAM"/>
+		<set name="isDebuff" val="true" />
+		<set name="operateType" val="ACTIVE"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="hitTime" val="1800"/>
+		<for>
+			<effect name="RemoveTarget" noicon="1" val="0"/>
+		</for>
+	</skill>
+	
+	<skill id="7082" levels="1" name="Hammer Fury">
+		<set name="mpInitialConsume" val="100"/>
+		<table name="#blunt"> 1.3</table>
+		<set name="weaponsAllowed" val="BLUNT,BIGBLUNT" />
+		<set name="mpConsume" val="500"/>
+		<set name="magicLvl" val="40"/>
+		<set name="hitTime" val="1000"/>
+		<set name="reuseDelay" val="180000"/>
+		<set name="staticReuse" val="true" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<cond msgId="1509">
+			<player olympiad="false" />			
+		</cond>
+		<cond msgId="113" addName="1">
+			<player hp="70" />
+		</cond>
+		<for>
+			<effect name="Buff" time="90" val="0" stackOrder="1" stackType="possession" >
+				<sub stat="rEvas" val="10"/>
+				<mul stat="pAtkSpd" val="1.10"/>
+				<add stat="runSpd" val="3"/>
+				<mul stat="pDef" val="0.90"/>
+				<mul stat="mDef" val="0.90"/>
+				<add stat="rCrit" val="80"/>
+				<mul stat="absorbDam" val="1.10"/>
+				<mul stat="pAtk" val="#blunt">
+					<using kind="BLUNT,BIGBLUNT" />
+				</mul>
+			</effect>			
+		</for>
+	</skill>
+	
+	<skill id="7083" levels="1" name="Noblesse Scroll of Escape" >
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="20000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	
+	
+	<skill id="7084" levels="1" name="Stun Field" >
+		<set name="weaponsAllowed" val="SHIELD" />
+		<set name="magicLvl" val="40"/>
+		<set name="mpConsume" val="500"/>
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="500"/>
+		<set name="lvlDepend" val="0"/>
+		<set name="target" val="AREA"/>
+		<set name="reuseDelay" val="32000"/>
+		<set name="hitTime" val="1600"/>
+		<set name="coolTime" val="1400" />
+		<set name="skillType" val="STUN"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="500"/>
+		<set name="isDebuff" val="true" />
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Stun" time="6" val="0" stackOrder="1" stackType="stun" />
+		</for>
+	</skill>
+	
+	
+	<skill id="7085" levels="10" name="Hammer Smite" >
+	<!-- usable 32 levels -->
+		<table name="#enchantMagicLvl"> 81 82 82 82 82 83 83 83 84 84  </table>
+		<table name="#magicLvl">  40 40 40 40 40 40 40 40 40 40 </table>
+		<table name="#mpConsume">  150 150 150 150 150 150 150 150 175 180  </table>
+		<table name="#power">  2050 2130 2211 2293 2375 2459 2542 2626 2710 2794 </table>
+		<set name="weaponsAllowed" val="SWORD,BLUNT,BIGBLUNT" />
+		<set name="mpConsume" val="#mpConsume"/>
+		<set name="magicLvl" val="#magicLvl"/>
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="#power"/>
+		<set name="target" val="ONE"/>
+		<set name="ignoreShld" val="true"/>
+		<set name="overHit" val="true"/>
+		<set name="SSBoost" val="2.0"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="hitTime" val="1600"/>
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="400"/>	
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+	</skill>
+	
+	
+	<skill id="7086" levels="4" name="Elemental Stones Bundle">
+	<!-- Soul Crystals / Elemental Stones Lv 1-2-3-4 -->
+		<table name="#extractableItems">		
+			5577,1,5578,1,5579,1,100
+			5580,1,5581,1,5582,1,100
+			5908,1,5911,1,5914,1,100
+			12575,1,12576,1,12577,1,100	
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="operateType" val="ACTIVE" />
+		<set name="skillType" val="EXTRACTABLE" />
+		<set name="target" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="1" />
+				<player weight="3" />
+			</and>
+		</cond>
+	</skill>
+	
+
+	<!-- Olympian SOE -->
+	<skill id="7087" levels="1" name="Olympus Scroll of Escape" >
+		<set name="target" val="SELF" />
+		<set name="hitTime" val="13000" />
+		<set name="staticHitTime" val="true" />
+		<set name="skillType" val="RECALL" />
+		<set name="operateType" val="ACTIVE" />
+	</skill>
+	
+	<skill id="7088" levels="1" name="Blade of the dead">
+		<set name="weaponsAllowed" val="DUAL" />
+		<set name="mpConsume" val="100"/>
+		<set name="hpConsume" val="200"/>
+		<set name="magicLvl" val="40"/>
+		<set name="nextActionAttack" val="true" />
+		<set name="power" val="2500"/>
+		<set name="target" val="ONE"/>
+		<set name="ignoreShld" val="true"/>
+		<set name="overHit" val="true"/>
+		<set name="SSBoost" val="2.0"/>
+		<set name="reuseDelay" val="25000"/>
+		<set name="hitTime" val="1620"/>
+		<set name="coolTime" val="1080" />
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="500"/>
+		<set name="effectRange" val="1200"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<cond msgId="113" addName="1">
+			<player hp="80" />
+		</cond>
+		<for>
+			<effect name="Debuff" time="10" val="0" stackOrder="3" stackType="speed_down">
+				<mul stat="runSpd" val="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7089" levels="1" name="Blessing of Artemis">
+	<!-- increases P.Atk -->
+		<set name="mpInitialConsume" val="50"/>
+		<set name="mpConsume" val="1"/>
+		<set name="magicLvl" val="1"/>
+		<set name="hitTime" val="1500"/>
+		<set name="reuseDelay" val="8000"/>
+		<set name="staticReuse" val="true" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Buff" time="110" val="0" stackOrder="1" stackType="blessing_of_artemis">
+				<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7090" levels="1" name="Dance of Zeus" >
+	<!-- custom dance of zeus-->	
+		<set name="weaponsAllowed" val="DUAL" />
+		<set name="magicLvl" val="40" />
+		<set name="mpConsume" val="160"/>
+		<set name="nextDanceCost" val="30"/>
+		<set name="target" val="SELF"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="hitTime" val="3500"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="isDance" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="aggroPoints" val="549"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Buff" time="980" val="0" stackOrder="1" stackType="dance_of_zeus">
+				<mul stat="pAtkSpd" val="1.10"/>
+				<mul stat="pAtk" val="1.12"/>
+				<mul stat="cAtk" val="1.10"/>
+				<add stat="runSpd" val="3"/>
+				<sub stat="rEvas" val="3"/>
+				<add stat="rCrit" val="50"/>
+			</effect>
+		</for>	
+	</skill>
+	
+	<skill id="7091" levels="1" name="Touch of Berserker">
+		<set name="mpInitialConsume" val="50"/>
+		<set name="mpConsume" val="200"/>
+		<set name="magicLvl" val="40"/>
+		<set name="hitTime" val="1000"/>
+		<set name="reuseDelay" val="450000"/>
+		<set name="staticReuse" val="true" />
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="ACTIVE"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Buff" time="480" val="0" stackOrder="1" stackType="possession" >
+			
+				<add stat="accCombat" val="2"/>
+				<sub stat="rEvas" val="2"/>
+				<mul stat="pAtk" val="1.16">
+					<using kind="SWORD"/>
+				</mul>
+				<mul stat="pAtkSpd" val="1.05">
+					<using kind="SWORD"/>
+				</mul>
+				<add stat="runSpd" val="4"/>
+				<mul stat="pDef" val="0.87"/>
+				<mul stat="mDef" val="0.90"/>
+				<add stat="rCrit" val="60"/>
+				<mul stat="bowWpnVuln" val="1.30"/>
+			</effect>			
+		</for>
+	</skill>
+	
+	<skill id="7092" levels="1" name="Heavy Expertise"><!-- Anti Light on Heavy Classes -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul val="0.4" order="0x30" stat="pAtk">
+				<using kind="LIGHT,MAGIC"/>
+			</mul>
+			<mul val="0.6" order="0x30" stat="runSpd">
+				<using kind="LIGHT,MAGIC"/>
+			</mul>
+			<mul val="0.75" order="0x30" stat="pDef">
+				<using kind="LIGHT,MAGIC"/>
+			</mul>
+		</for>
+	</skill>
+
+	<skill id="7093" levels="1" name="Light Expertise"><!-- Anti Heavy on Light Classes -->
+		<set name="target" val="SELF"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="operateType" val="PASSIVE"/>
+		<for>
+			<mul val="0.4" order="0x30" stat="pAtk">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul val="0.6" order="0x30" stat="runSpd">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul val="0.75" order="0x30" stat="pDef">
+				<using kind="HEAVY"/>
+			</mul>
+		</for>
+	</skill>
+	
+	<skill id ="7094" levels="1" name="Cancellation Effect">
+		<set name="magicLvl" val="1" />
+		<set name="mpInitialConsume" val="0"/>
+		<set name="mpConsume" val="0" />
+		<set name="target" val="ONE"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="hitTime" val="1000"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="1000"/>
+		<for>
+			<effect name="Buff" time="7" val="0" stackOrder="1" stackType="cancellation_effect" abnormal="poison">
+			</effect>
+		</for>	
+	</skill>
+	
+	<skill id ="7095" levels="1" name="Leader's Aegis">
+	<!-- Leader Online Buff -->
+		<set name="magicLvl" val="1" />
+		<set name="mpInitialConsume" val="57"/>
+		<set name="mpConsume" val="227" />
+		<set name="target" val="ONE"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="2000"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="900"/>
+		<for>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="leaderisonline_buff">
+				<add stat="maxCp" val="500"/>				
+		</effect>
+		</for>
+	</skill>
+	
+	<skill id="7096" levels="1" name="Protection of Ares">
+	<!-- Castle Buff -->
+		<set name="magicLvl" val="1" />
+		<set name="mpInitialConsume" val="57"/>
+		<set name="mpConsume" val="227" />
+		<set name="target" val="ONE"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="reuseDelay" val="6000"/>
+		<set name="hitTime" val="2000"/>
+		<set name="skillType" val="BUFF"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="effectRange" val="900"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="Buff" time="21800" val="0" stackOrder="1" stackType="castle_buff">
+				<add stat="pAtk" val="100"/>
+				<add stat="mAtk" val="100"/>
+				<add stat="maxCp" val="200"/>
+				<add stat="maxHp" val="200"/>
+				<add stat="maxMp" val="200"/>				
+			</effect>
+		</for>
+	</skill>
+
+<!-- custom heal -->
+<skill id="7097" levels="1" name="Major Cluster Heal" >	
+		<set name="mpConsume" val="250" />
+		<set name="aggroPoints" val="990" /> 
+		<set name="power" val="990"/>
+		<set name="reuseDelay" val="17000"/>
+		<set name="hitTime" val="7000"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="target" val="PARTY"/>
+		<set name="skillType" val="HEAL"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="isMagic" val="true"/>
+		<set name="itemConsumeId" val="3031"/>
+		<set name="itemConsumeCount" val="4"/>  
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+	</skill>
+
+	<skill id="7098" levels="1" name="Gift of the Gods">
+	<!-- Pvp zone only -->
+		<set name="magicLvl" val="78" />
+		<set name="mpInitialConsume" val="57"/>
+		<set name="mpConsume" val="227" />
+		<set name="power" val="20"/>
+		<set name="target" val="PARTY"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="reuseDelay" val="1200000"/>
+		<set name="hitTime" val="2500"/>
+		<set name="skillType" val="HEAL_PERCENT"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="aggroPoints" val="669"/>
+		<for>
+			<effect name="Buff" time="21600" val="0" stackOrder="3" stackType="multi_buff">
+				<mul stat="pAtk" val="1.1"/>
+				<mul stat="pDef" val="1.35"/>
+				<basemul stat="rCrit" val="1" />
+				<add stat="accCombat" val="4"/>
+				<mul stat="pAtkSpd" val="1.3"/> 
+				<mul stat="mAtkSpd" val="1.3"/> 
+				<mul stat="cAtk" val="1.2"/>
+				<mul stat="mAtk" val="1.15"/>
+				<mul stat="mDef" val="1.4"/>
+				<add stat="runSpd" val="15"/>
+				<mul stat="maxHp" val="1.1"/>
+				<addMul stat="debuffVuln" val="10" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="7099" levels="1" name="Petrifying Gaze">
+		<set name="mpConsume" val="50"/>
+		<set name="power" val="900"/>
+		<set name="magicLvl" val="70"/>
+		<set name="nextActionAttack" val="true" />
+		<set name="target" val="ONE"/>
+		<set name="reuseDelay" val="42000"/>
+		<set name="hitTime" val="2080"/>
+		<set name="coolTime" val="720" />
+		<set name="skillType" val="PDAM"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="effectRange" val="400"/>
+		<for>
+			<effect name="Paralyze" time="15" val="0" stackOrder="1" stackType="paralyze" />
+		</for>
+	</skill>
+	
+	
 </list>
+

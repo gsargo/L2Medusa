@@ -23,94 +23,94 @@
 			<team_two_loc x="88959" y="258557" z="-10381"/>
 	</arena>-->
 	
-	<!-- coliseum 1x1 -->
+	<!-- arena 1x1 -->
 	<arena id="2" types="F1X1">
 		<!-- Team One Locs -->
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46726" z="-3408"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
 		<!-- Team Two Locs -->
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46726" z="-3408"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
 	</arena>
 	
-	<!-- coliseum 2x2 -->
+	<!-- arena 2x2 -->
 	<arena id="3" types="F2X2">
 		<!-- Team One Locs -->
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
+		<team_one_loc x="213077" y="-50307" z="-11200"/>
+		<team_one_loc x="213077" y="-50307" z="-11200"/>
 		<!-- Team Two Locs -->
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
+		<team_two_loc x="212945" y="-48156" z="-11200"/>
+		<team_two_loc x="212945" y="-48156" z="-11200"/>
 	</arena>
 	
-	<!-- coliseum 3x3 -->
+	<!-- arena 3x3 -->
 	<arena id="4" types="F3X3">
 		<!-- Team One Locs -->
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
+		<team_one_loc x="213005" y="-50281" z="-11200"/>
+		<team_one_loc x="213077" y="-50307" z="-11200"/>
+		<team_one_loc x="213077" y="-50307" z="-11200"/>
+		<team_one_loc x="213028" y="-50447" z="-11200"/>
+		<team_one_loc x="213028" y="-50447" z="-11200"/>
 		<!-- Team Two Locs -->
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
+		<team_two_loc x="213031" y="-48159" z="-11200"/>
+		<team_two_loc x="212945" y="-48156" z="-11200"/>
+		<team_two_loc x="212945" y="-48156" z="-11200"/>
+		<team_two_loc x="213014" y="-48066" z="-11200"/>
+		<team_two_loc x="213014" y="-48066" z="-11200"/>
 	</arena>
 	
-	<!-- coliseum 4x4 -->
+	<!-- arena 4x4 -->
 	<arena id="5" types="F4X4">
 		<!-- Team One Locs -->
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
-		<team_one_loc x="150396" y="46926" z="-3408"/>
-		<team_one_loc x="150396" y="46926" z="-3408"/>
+		<team_one_loc x="211824" y="-49349" z="-11072"/>
+		<team_one_loc x="211824" y="-49349" z="-11072"/>
+		<team_one_loc x="211834" y="-49178" z="-11072"/>
+		<team_one_loc x="211834" y="-49178" z="-11072"/>
+		<team_one_loc x="211438" y="-49151" z="-10984"/>
+		<team_one_loc x="211438" y="-49151" z="-10984"/>
+		<team_one_loc x="211446" y="-49393" z="-10984"/>
+		<team_one_loc x="211446" y="-49393" z="-10984"/>
 		<!-- Team Two Locs -->
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
-		<team_two_loc x="148532" y="46926" z="-3408"/>
-		<team_two_loc x="148532" y="46926" z="-3408"/>
+		<team_two_loc x="214254" y="-49407" z="-11072"/>
+		<team_two_loc x="214254" y="-49407" z="-11072"/>
+		<team_two_loc x="214290" y="-49141" z="-11072"/>
+		<team_two_loc x="214290" y="-49141" z="-11072"/>
+		<team_two_loc x="214604" y="-49140" z="-10984"/>
+		<team_two_loc x="214604" y="-49140" z="-10984"/>
+		<team_two_loc x="214593" y="-49378" z="-10984"/>
+		<team_two_loc x="214593" y="-49378" z="-10984"/>
 	</arena>
 	
-	<!-- coliseum 5x5 -->
+	<!-- arena 5x5 -->
 	<arena id="6" types="F5X5">
 		<!-- Team One Locs -->
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46726" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46826" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
-		<team_one_loc x="150396" y="46626" z="-3408"/>
-		<team_one_loc x="150396" y="46926" z="-3408"/>
-		<team_one_loc x="150396" y="46926" z="-3408"/>
-		<team_one_loc x="150396" y="46526" z="-3408"/>
-		<team_one_loc x="150396" y="46526" z="-3408"/>
+		<team_one_loc x="211824" y="-49349" z="-11072"/>
+		<team_one_loc x="211824" y="-49349" z="-11072"/>
+		<team_one_loc x="211834" y="-49178" z="-11072"/>
+		<team_one_loc x="211834" y="-49178" z="-11072"/>
+		<team_one_loc x="211438" y="-49151" z="-10984"/>
+		<team_one_loc x="211438" y="-49151" z="-10984"/>
+		<team_one_loc x="211446" y="-49393" z="-10984"/>
+		<team_one_loc x="211446" y="-49393" z="-10984"/>
+		<team_one_loc x="211361" y="-49293" z="-10984"/>
+		<team_one_loc x="211361" y="-49293" z="-10984"/>
 		<!-- Team Two Locs -->
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46726" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46826" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
-		<team_two_loc x="148532" y="46626" z="-3408"/>
-		<team_two_loc x="148532" y="46926" z="-3408"/>
-		<team_two_loc x="148532" y="46926" z="-3408"/>
-		<team_two_loc x="148532" y="46526" z="-3408"/>
-		<team_two_loc x="148532" y="46526" z="-3408"/>
+		<team_two_loc x="214254" y="-49407" z="-11072"/>
+		<team_two_loc x="214254" y="-49407" z="-11072"/>
+		<team_two_loc x="214290" y="-49141" z="-11072"/>
+		<team_two_loc x="214290" y="-49141" z="-11072"/>
+		<team_two_loc x="214604" y="-49140" z="-10984"/>
+		<team_two_loc x="214604" y="-49140" z="-10984"/>
+		<team_two_loc x="214593" y="-49378" z="-10984"/>
+		<team_two_loc x="214593" y="-49378" z="-10984"/>
+		<team_two_loc x="214672" y="-49280" z="-10984"/>
+		<team_two_loc x="214672" y="-49280" z="-10984"/>
 	</arena>
 	
 	<!-- coliseum 9x9 -->

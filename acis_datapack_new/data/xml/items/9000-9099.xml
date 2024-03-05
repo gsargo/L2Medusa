@@ -1468,6 +1468,7 @@
 	</item>
 	<item id="9081" type="Armor" name="Shadow Item: Dark Crystal Breastplate">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="A" />
@@ -1476,6 +1477,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="171" />
@@ -1491,6 +1493,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="107" />
@@ -1505,6 +1508,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="69" />
@@ -1519,6 +1523,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<sub stat="rEvas" val="8" />
@@ -1535,6 +1540,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1549,6 +1555,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1556,6 +1563,7 @@
 	</item>
 	<item id="9087" type="Armor" name="Shadow Item: Dark Crystal Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="A" />
@@ -1564,6 +1572,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="128" />
@@ -1579,6 +1588,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="80" />
@@ -1593,6 +1603,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1607,6 +1618,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1622,6 +1634,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="139" />
@@ -1637,6 +1650,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1651,6 +1665,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="46" />
@@ -1658,6 +1673,7 @@
 	</item>
 	<item id="9094" type="Armor" name="Shadow Item: Majestic Plate Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
@@ -1666,6 +1682,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="293" />
@@ -1680,6 +1697,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="73" />
@@ -1694,6 +1712,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="49" />
@@ -1708,6 +1727,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="49" />
@@ -1715,6 +1735,7 @@
 	</item>
 	<item id="9098" type="Armor" name="Shadow Item: Majestic Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
@@ -1723,6 +1744,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="220" />
@@ -1737,6 +1759,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<set name="duration" val="600" />
 		<for>
 			<baseadd stat="pDef" val="49" />

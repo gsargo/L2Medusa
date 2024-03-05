@@ -1,0 +1,2178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<npc id="10001" idTemplate="10017" name="Hephaestus' Smelter" title="BETA Shop">
+		<set name="level" val="50"/>
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="radius" val="15"/>
+		<set name="height" val="28.5"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Merchant"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0"  canMove="true" seedable="false"/>
+	</npc>	
+	
+	
+	<npc id="10003" name="Test Knight" title="">
+		<set name="level" val="50"/>
+		<set name="radius" val="20"/>
+		<set name="height" val="55"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0"  canMove="true" seedable="false"/>
+	</npc>	
+	
+	
+	
+	<npc id="10006" name="Tartarus Bats" title="">
+		<set name="level" val="50"/>
+		<set name="radius" val="0"/>
+		<set name="height" val="95"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="2444.46819"/>
+		<set name="mp" val="1345.8"/>
+		<set name="hpRegen" val="7.5"/>
+		<set name="mpRegen" val="2.7"/>
+		<set name="pAtk" val="688.86373"/>
+		<set name="pDef" val="295.91597"/>
+		<set name="mAtk" val="470.40463"/>
+		<set name="mDef" val="216.53847"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="120"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0"  canMove="true" seedable="false"/>
+	</npc>	
+	
+	
+	<npc id="10007" name="Mora" title="Raid Fighter">
+	<!-- tayr's guard stats -->
+		<set name="level" val="85"/>
+		<set name="radius" val="22"/>
+		<set name="height" val="52"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="DungeonMob"/>
+		<set name="exp" val="20000"/>
+		<set name="sp" val="4024"/>
+		<set name="hp" val="110993.613068531"/>
+		<set name="mp" val="1830.722"/>
+		<set name="hpRegen" val="97.9908215924451"/>
+		<set name="mpRegen" val="3.09"/>
+		<set name="pAtk" val="3156.51109771821"/>
+		<set name="pDef" val="1146.7159248"/>
+		<set name="mAtk" val="2001.14110989056"/>
+		<set name="mDef" val="933.4164"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="45"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="35"/>
+		<set name="wit" val="35"/>
+		<set name="con" val="45"/>
+		<set name="men" val="12"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="70"/>
+		<set name="runSpd" val="140"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="100" clan="nyx" clanRange="600" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4109" level="1"/><!-- curse of destiny -->
+			<skill id="4038" level="5"/>
+			<skill id="1184" level="6"/>
+			<skill id="1266" level="3"/><!-- shadow spark -->
+			<skill id="4720" level="1"/>
+			<skill id="9970" level="1"/>
+		</skills>
+		<drops>
+		<!-- adena-->
+		<category id="1">
+		<drop itemid="57" min="4000000" max="20000000" chance="750000"/>
+		</category>
+		<!-- divine inspiration books-->
+		<category id="1">
+		<drop itemid="8618" min="1" max="1" chance="450000"/>
+		<drop itemid="8619" min="1" max="1" chance="300000"/>
+		<drop itemid="8620" min="1" max="1" chance="150000"/>
+		<drop itemid="8620" min="1" max="1" chance="100000"/>
+		</category>
+		</drops>
+	</npc>	
+	
+	<npc id="10008" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10009" name="Echmus" title="">
+	<!-- fighter party farm mob -->
+		<set name="level" val="87"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="55000"/>
+		<set name="sp" val="55875"/>
+		<set name="hp" val="238107.6436594"/>
+		<set name="mp" val="12883.736"/>
+		<set name="hpRegen" val="120.925"/>
+		<set name="mpRegen" val="153.1518"/>
+		<set name="pAtk" val="3090.1240034"/>
+		<set name="pDef" val="1600"/>
+		<set name="mAtk" val="1040.577283506"/>
+		<set name="mDef" val="99999"/>
+		<set name="atkSpd" val="223"/>
+		<set name="crit" val="2"/>
+		<set name="str" val="60"/>
+		<set name="int" val="70"/>
+		<set name="dex" val="25"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="65"/>
+		<set name="runSpd" val="205"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="50" ssRate="50" spsCount="50" spsRate="50" aggro="10" clan="Echmus" clanRange="10" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9916" level="1"/> <!-- special attack sp1-->
+		<skill id="9915" level="1"/> <!-- special attack sp2-->
+		<skill id="9929" level="1"/> <!-- special attack sp3-->	
+		<skill id="9926" level="1"/> <!-- Ranged attack-->
+		<skill id="4602" level="12"/><!-- decrease p atk de buff -->
+		<skill id="9980" level="1"/><!-- curse to reduce reuse time -->
+		<skill id="9981" level="1"/><!-- Massive Shock -->
+		<skill id="4428" level="4"/><!-- resist two handed attacks -->
+		<skill id="4459" level="3"/><!-- vulnerable to duals -->
+		<skill id="4460" level="3"/><!-- vulnerable to sword -->
+		<skill id="4276" level="6"/><!-- vunlerable to bow -->
+		</skills>
+			<drops>
+			<category id="-2">
+			<!-- adena -->
+				<drop itemid="57" min="3000000" max="5000000" chance="1000000"/>
+			</category>
+			<category id="0">
+			<!-- ambrosia + nectar -->
+				<drop itemid="25626" min="10" max="20" chance="300000"/>
+				<drop itemid="25625" min="10" max="20" chance="300000"/>
+			</category>
+			<category id="1">
+				<drop itemid="6377" min="1" max="1" chance="58000"/> <!-- Imperial Shield -->
+			    <drop itemid="6378" min="1" max="1" chance="58000"/> <!-- Imperial Helm -->
+			    <drop itemid="6373" min="1" max="1" chance="58000"/> <!-- Imperial Breastplate -->
+			    <drop itemid="6374" min="1" max="1" chance="58000"/> <!-- Imperial Gaiters -->
+			    <drop itemid="6375" min="1" max="1" chance="58000"/> <!-- Imperial Gloves -->
+			    <drop itemid="6376" min="1" max="1" chance="58000"/> <!-- Imperial Boots -->
+				<drop itemid="6382" min="1" max="1" chance="58000"/> <!-- Draconic Leather Helmet -->
+				<drop itemid="6379" min="1" max="1" chance="58000"/> <!-- Draconic Leather Armor -->
+				<drop itemid="6380" min="1" max="1" chance="58000"/> <!-- Draconic Gloves -->
+				<drop itemid="6381" min="1" max="1" chance="58000"/> <!-- Draconic Boots -->			
+				<drop itemid="6386" min="1" max="1" chance="58000"/> <!-- Major Arcana Cap -->
+				<drop itemid="6383" min="1" max="1" chance="58000"/> <!-- Major Arcana Robe -->
+				<drop itemid="6384" min="1" max="1" chance="58000"/> <!-- Major Arcana Gloves -->
+				<drop itemid="6385" min="1" max="1" chance="58000"/> <!-- Major Arcana Boots -->
+				<drop itemid="920" min="1" max="1" chance="58000"/> <!-- Tateo Necklace -->
+				<drop itemid="858" min="1" max="1" chance="58000"/> <!-- Tateo Earring -->
+				<drop itemid="889" min="1" max="1" chance="58000"/> <!-- Tateo Ring -->
+			</category>
+			<category id="2">
+			<!--sapphires -->
+				<drop itemid="12529" min="150" max="200" chance="1000000"/>
+			</category>
+			<category id="3">
+			<!-- emeralds -->
+				<drop itemid="12528" min="300" max="350" chance="1000000"/>
+			</category>
+		</drops>
+	</npc>
+	
+	<npc id="10010" name="Porous" title="">
+	<!-- solo dungeon stage 3-->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="85"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="48"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="DungeonMob"/>
+		<set name="exp" val="26000"/>
+		<set name="sp" val="55875"/>
+		<set name="hp" val="20107.6436594"/>
+		<set name="mp" val="8883.736"/>
+		<set name="hpRegen" val="18.925"/>
+		<set name="mpRegen" val="43.1518"/>
+		<set name="pAtk" val="1250.1240034"/>
+		<set name="pDef" val="1220.23713"/>
+		<set name="mAtk" val="1540.577283506"/>
+		<set name="mDef" val="1020.24103048"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="283"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="55"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="100" spsCount="100" spsRate="100" aggro="100" clan="Porous" clanRange="100" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9916" level="1"/><!-- sp atk 1-->
+		<skill id="1201" level="33"/> <!-- Root -->
+		<skill id="4435" level="5"/> <!-- greater resist shock -->
+		<skill id="4438" level="5"/> <!-- greater resist sleep -->
+		<skill id="4439" level="5"/> <!-- greater resist hold -->
+		<skill id="4416" level="1"/> <!--Undead-->
+		</skills>
+		<drops>
+			<category id="2">
+			<!--S grade Weapons 25% -->
+				<drop itemid="7577" min="1" max="1" chance="30000"/><!-- DB Focus -->
+				<drop itemid="6608" min="1" max="1" chance="30000"/> <!-- Arcana Acu -->
+				<drop itemid="6590" min="1" max="1" chance="30000"/><!--Angel Slayer crit dmg -->
+				<drop itemid="6580" min="1" max="1" chance="30000"/><!-- Duals S -->
+				<drop itemid="6604" min="1" max="1" chance="30000"/> <!-- Fists Crit stun -->
+				<drop itemid="6606" min="1" max="1" chance="30000"/><!-- Heavens Divider Health -->
+				<drop itemid="6582" min="1" max="1" chance="30000"/> <!-- Forgotten Blade Health -->
+				<drop itemid="6587" min="1" max="1" chance="30000"/> <!-- Imperial Staff Empower -->
+			</category>
+			<category id="3">
+				<drop itemid="25626" min="20" max="30" chance="500000"/> <!-- 50% Amrbosia -->
+			</category>
+			<category id="4">
+				<drop itemid="12533" min="1" max="1" chance="150000"/><!-- 15% Dark Red Color - Palette -->
+				<drop itemid="25625" min="20" max="30" chance="500000"/> <!-- 50% Nectar -->
+			</category>
+			<category id="5">
+			<!-- Adena -->
+				<drop itemid="57" min="1500000" max="2500000" chance="1000000"/>
+			</category>
+			<category id="6"><!-- emmeralds or sapphires -->
+				<drop itemid="12529" min="100" max="150" chance="1000000"/><!-- sapphires-->
+				<drop itemid="12528" min="200" max="250" chance="1000000"/><!-- emeralds-->
+			</category>
+		</drops>
+	</npc>
+	
+	
+	<npc id="10011" name="Cetus Enforcer" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="84"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="50"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="43759"/>
+		<set name="sp" val="52476"/>
+		<set name="hp" val="5432.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="873.81598"/>
+		<set name="pDef" val="414.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="559.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="270"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="20"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="55"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="50" spsCount="50" spsRate="50" aggro="400" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9917" level="1"/><!-- sp atk 1 -->
+		<skill id="9915" level="1"/><!-- sp atk 2 -->
+		</skills>
+		<drops>
+
+		<category id="1"><!--100% Adenas -->
+			<drop itemid="57" min="300000" max="450000" chance="1000000"/>
+		</category>	
+		<category id="2">
+				<drop itemid="6622" min="1" max="1" chance="30000"/><!-- book of giants -->
+				<drop itemid="6569" min="1" max="1" chance="50000"/><!-- A blessed weap -->
+				<drop itemid="6570" min="1" max="1" chance="50000"/><!-- A blessed armor -->
+		</category>	
+		<category id="3">
+				<drop itemid="12529" min="10" max="18" chance="600000"/><!-- sapphire -->
+		</category>
+		<category id="4">
+				<drop itemid="12528" min="20" max="32" chance="1000000"/><!-- emerald -->
+			</category>	
+		
+		</drops>
+	</npc>
+	
+		<npc id="10012" name="Albion" title="Clan Boss">
+		<!-- Clan boss -->
+		<set name="level" val="85"/>
+		<set name="radius" val="35"/>
+		<set name="height" val="63"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="2238750"/>
+		<set name="sp" val="1554472"/>
+		<set name="hp" val="160327.053710865"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="92.3387631310317"/>
+		<set name="mpRegen" val="130"/>
+		<set name="pAtk" val="4745.33274686674"/>
+		<set name="pDef" val="1424.125"/>
+		<set name="mAtk" val="410.52213944732"/>
+		<set name="mDef" val="999.6"/>
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="313"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="35"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="34"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="albion" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9956" level="1"/><!-- sp atk 1 -->
+		<skill id="9915" level="1"/><!-- sp atk 2 -->
+		<skill id="4057" level="1"/><!-- Insect weak point -->
+		</skills>
+		<drops>
+		<category id="0">
+			<drop itemid="12530" min="1" max="1" chance="150000"/> <!-- 15% fossil -->
+		</category>
+		<category id="1">
+	<!-- eggs -->
+			<drop itemid="8166" min="2" max="5" chance="140000"/>
+			<drop itemid="8163" min="2" max="5" chance="140000"/>
+			<drop itemid="8176" min="2" max="5" chance="140000"/>
+			<drop itemid="8169" min="1" max="3" chance="140000"/>
+			<drop itemid="8160" min="1" max="3" chance="140000"/>
+			<drop itemid="8175" min="1" max="3" chance="140000"/>
+			<drop itemid="8172" min="1" max="3" chance="140000"/>
+		</category>	
+		<category id="2">
+			<!-- scroll of reputation-->
+				<drop itemid="12571" min="1" max="2" chance="500000"/>
+			</category>
+		<category id="3">
+			<!-- Hydra's Eggs-->
+				<drop itemid="12527" min="1" max="1" chance="70000"/>
+		</category>
+		<category id="4">
+			<!--Adamantine Jewel Box-->
+				<drop itemid="12570" min="1" max="1" chance="100000"/>
+		</category>
+			<category id="5">
+			<!--Blessed Weap/Armor or Premium 1 Day-->
+				<drop itemid="6577" min="1" max="2" chance="150000"/> <!-- 70% blessed weap S -->
+				<drop itemid="6578" min="1" max="2" chance="150000"/> <!-- 70% blessed armor S -->
+				<drop itemid="12579" min="1" max="1" chance="70000"/> <!-- Premium 1 day -->
+		</category>
+		</drops>
+	</npc>
+	
+		<npc id="10013" name="Earth Golem" title="Clan Boss">
+		<!-- clan boss -->
+		<!-- old class RaccoonMonsters_SpiritHighEarth.spirit_high_earth -->
+		<set name="level" val="85"/>
+		<set name="radius" val="38"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="2838750"/>
+		<set name="sp" val="1554472"/>
+		<set name="hp" val="210327.053710865"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="92.3387631310317"/>
+		<set name="mpRegen" val="130"/>
+		<set name="pAtk" val="4645.33274686674"/>
+		<set name="pDef" val="1424.125"/>
+		<set name="mAtk" val="410.52213944732"/>
+		<set name="mDef" val="899.6"/>
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="313"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="38"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="34"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="earth_golem" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9913" level="1"/> <!-- sp atk01 -->
+		<skill id="4013" level="1"/> <!-- resist fire vuln to water -->
+		</skills>
+		<drops>
+		<category id="0">
+			<drop itemid="12530" min="1" max="1" chance="150000"/> <!-- 15% fossil -->
+		</category>
+		<category id="1">
+		<!-- eggs -->
+			<drop itemid="8166" min="2" max="5" chance="140000"/>
+			<drop itemid="8163" min="2" max="5" chance="140000"/>
+			<drop itemid="8176" min="2" max="5" chance="140000"/>
+			<drop itemid="8169" min="1" max="3" chance="140000"/>
+			<drop itemid="8160" min="1" max="3" chance="140000"/>
+			<drop itemid="8175" min="1" max="3" chance="140000"/>
+			<drop itemid="8172" min="1" max="3" chance="140000"/>
+		</category>	
+		<category id="2">
+			<!-- scroll of reputation-->
+				<drop itemid="12571" min="1" max="2" chance="500000"/>
+			</category>
+		<category id="3">
+			<!-- Hydra's Eggs-->
+				<drop itemid="12527" min="1" max="1" chance="70000"/>
+		</category>
+		<category id="4">
+			<!--Adamantine Jewel Box-->
+				<drop itemid="12570" min="1" max="1" chance="100000"/>
+		</category>
+			<category id="5">
+			<!--Blessed Weap/Armor or Premium 1 Day-->
+				<drop itemid="6577" min="1" max="2" chance="150000"/> <!-- 70% blessed weap S -->
+				<drop itemid="6578" min="1" max="2" chance="150000"/> <!-- 70% blessed armor S -->
+				<drop itemid="12579" min="1" max="1" chance="70000"/> <!-- Premium 1 day -->
+		</category>
+		<category id="6">
+			<!-- top lf 100% -->
+				<drop itemid="8762" min="1" max="1" chance="500000"/>
+		</category>
+		<category id="7">
+			<!-- top lf 100% -->
+				<drop itemid="8762" min="1" max="1" chance="500000"/>
+		</category>
+			
+		</drops>
+	</npc>
+	
+		<npc id="10014" name="Spirit of the dead" title="Coffin">
+		<!-- coffin -->
+		<set name="level" val="85"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="27000"/>
+		<set name="sp" val="4024"/>
+		<set name="hp" val="47562.3910653454"/>
+		<set name="mp" val="1641"/>
+		<set name="hpRegen" val="91.4930863014358"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="1697.64406230895"/>
+		<set name="pDef" val="505.60512"/>
+		<set name="mAtk" val="4423.65426034769"/>
+		<set name="mDef" val="493.3"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="23"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="hades_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="9917" level="1"/> <!-- sp atk01 -->
+			<skill id="9915" level="1"/> <!-- sp atk02 -->
+			<skill id="9936" level="1"/> <!-- sp atk03 -->
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10015" name="Spirit of the dead" title="Coffin">
+		<!-- coffin -->
+		<set name="level" val="85"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="27000"/>
+		<set name="sp" val="4024"/>
+		<set name="hp" val="47562.3910653454"/>
+		<set name="mp" val="1641"/>
+		<set name="hpRegen" val="91.4930863014358"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="1697.64406230895"/>
+		<set name="pDef" val="505.60512"/>
+		<set name="mAtk" val="4423.65426034769"/>
+		<set name="mDef" val="493.3"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="23"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="hades_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="9917" level="1"/> <!-- sp atk01 -->
+			<skill id="9915" level="1"/> <!-- sp atk02 -->
+			<skill id="9936" level="1"/> <!-- sp atk03 -->
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10016" name="Blazing Salamander" title="Clan Boss">
+		<!-- clan boss -->
+		<set name="level" val="85"/>
+		<set name="radius" val="23"/>
+		<set name="height" val="43"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="2238750"/>
+		<set name="sp" val="1054472"/>
+		<set name="hp" val="160327.053710865"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="92.3387631310317"/>
+		<set name="mpRegen" val="290"/>
+		<set name="pAtk" val="4345.33274686674"/>
+		<set name="pDef" val="1524.125"/>
+		<set name="mAtk" val="410.52213944732"/>
+		<set name="mDef" val="899.6"/>
+		<set name="crit" val="1"/>
+		<set name="atkSpd" val="313"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="35"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="34"/>
+		<set name="runSpd" val="190"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9956" level="1"/><!-- sp atk 1-->
+		<skill id="9915" level="1"/><!-- sp atk 2-->
+		<skill id="7071" level="1"/><!-- elemental skill fire-->
+		<skill id="4059" level="1"/><!-- Animal Weak Point-->
+		<skill id="4336" level="1"/><!-- Dark Atk weak point-->
+		</skills>
+		<drops>
+		<category id="0">
+			<drop itemid="12530" min="1" max="1" chance="150000"/> <!-- 15% fossil -->
+		</category>
+		<category id="1">
+	<!-- eggs -->
+			<drop itemid="8166" min="2" max="5" chance="140000"/>
+			<drop itemid="8163" min="2" max="5" chance="140000"/>
+			<drop itemid="8176" min="2" max="5" chance="140000"/>
+			<drop itemid="8169" min="1" max="3" chance="140000"/>
+			<drop itemid="8160" min="1" max="3" chance="140000"/>
+			<drop itemid="8175" min="1" max="3" chance="140000"/>
+			<drop itemid="8172" min="1" max="3" chance="140000"/>
+		</category>	
+		<category id="2">
+			<!-- scroll of reputation-->
+				<drop itemid="12571" min="1" max="2" chance="500000"/>
+			</category>
+		<category id="3">
+			<!-- Hydra's Eggs-->
+				<drop itemid="12527" min="1" max="1" chance="70000"/>
+		</category>
+		<category id="4">
+			<!--Adamantine Jewel Box-->
+				<drop itemid="12570" min="1" max="1" chance="100000"/>
+		</category>
+			<category id="5">
+			<!--Blessed Weap/Armor or Premium 1 Day-->
+				<drop itemid="6577" min="1" max="2" chance="150000"/> <!-- 70% blessed weap S -->
+				<drop itemid="6578" min="1" max="2" chance="150000"/> <!-- 70% blessed armor S -->
+				<drop itemid="12579" min="1" max="1" chance="70000"/> <!-- Premium 1 day -->
+		</category>
+		<category id="6">
+			<!-- top lf 100% -->
+				<drop itemid="8762" min="1" max="1" chance="500000"/>
+		</category>
+		<category id="7">
+			<!-- top lf 100% -->
+				<drop itemid="8762" min="1" max="1" chance="500000"/>
+		</category>
+		</drops>
+	</npc>
+	
+		<npc id="10017" name="Tester" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="20"/>
+		<set name="height" val="33"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Trainer"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="false" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10018" name="Old Electra" title="">
+		<!-- old symbol maker Electra -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10019" name="Dead Hunter" title="">
+		<!--Death Knight Archer -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="85"/>
+		<set name="radius" val="12"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="289"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="26927"/>
+		<set name="sp" val="3291"/>
+		<set name="hp" val="7044.88717"/>
+		<set name="mp" val="2812.948"/>
+		<set name="hpRegen" val="8.823"/>
+		<set name="mpRegen" val="3.111"/>
+		<set name="pAtk" val="1485.66600746"/>
+		<set name="pDef" val="700.3536375"/>
+		<set name="mAtk" val="699.2575207596"/>
+		<set name="mDef" val="753.534464"/>
+		<set name="crit" val="28"/>
+		<set name="atkSpd" val="353"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="35"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="60"/>
+		<set name="runSpd" val="165"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="ARCHER" ssCount="100" ssRate="70" spsCount="70" spsRate="70" aggro="750" clan="dark_knight_archer" clanRange="600" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9946" level="1"/><!-- stunning shot-->
+		<skill id="19" level="35"/><!-- Sp atk 2 - Double Shot-->
+		<skill id="4414" level="8"/><!-- heavy armor-->
+		<skill id="4435" level="5"/> <!-- greater resist shock -->
+		<skill id="4438" level="5"/> <!-- greater resist sleep -->	
+		<skill id="4416" level="1"/> <!-- undead -->
+		</skills>
+		<drops>
+			<category id="0">
+				<drop itemid="57" min="105060" max="200500" chance="900000"/>
+			</category>
+		</drops>
+	</npc>
+	
+		<npc id="10020" name="Stingray" title="">
+		<set name="level" val="78"/>
+		<set name="radius" val="0"/>
+		<set name="height" val="77"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="992632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="35973.81598"/>
+		<set name="pDef" val="55514.65987"/>
+		<set name="mAtk" val="55668.41601"/>
+		<set name="mDef" val="54509.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="65"/>
+		<set name="runSpd" val="205"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="100" clan="stingray" clanRange="150" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10021" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10022" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10023" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10024" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+		<npc id="10025" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10026" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+		<npc id="10027" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10028" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+		<npc id="10029" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+		<npc id="10030" name="Test" title="">
+		<!-- RB DEMON -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+		<npc id="10031" name="Bovine Brute" title="">
+		<!-- mage party farm -->
+		<set name="level" val="88"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="75"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="55000"/>
+		<set name="sp" val="55875"/>
+		<set name="hp" val="218107.6436594"/>
+		<set name="mp" val="12883.736"/>
+		<set name="hpRegen" val="120.925"/>
+		<set name="mpRegen" val="153.1518"/>
+		<set name="pAtk" val="4490.1240034"/>
+		<set name="pDef" val="99999"/>
+		<set name="mAtk" val="1040.577283506"/>
+		<set name="mDef" val="1220"/>
+		<set name="atkSpd" val="223"/>
+		<set name="crit" val="3"/>
+		<set name="str" val="60"/>
+		<set name="int" val="70"/>
+		<set name="dex" val="25"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="50" ssRate="40" spsCount="40" spsRate="40" aggro="50" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+			<category id="-4">
+			<!--sapphires -->
+				<drop itemid="12529" min="150" max="250" chance="1000000"/>
+			</category>
+			<category id="-3">
+			<!-- emeralds -->
+				<drop itemid="12528" min="300" max="400" chance="1000000"/>
+			</category>
+			<category id="-2">
+			<!-- adena -->
+				<drop itemid="57" min="4000000" max="8000000" chance="1000000"/>
+			</category>
+			<category id="0">
+			<!-- ambrosia + nectar -->
+				<drop itemid="25626" min="15" max="30" chance="500000"/>
+				<drop itemid="25625" min="15" max="30" chance="500000"/>
+			</category>
+				<category id="1">
+			<!--S grade Weapons -->
+				<drop itemid="6590" min="1" max="1" chance="29200"/>
+				<drop itemid="6592" min="1" max="1" chance="29200"/>
+				<drop itemid="6608" min="1" max="1" chance="29200"/>
+				<drop itemid="6585" min="1" max="1" chance="29200"/>
+				<drop itemid="6597" min="1" max="1" chance="29200"/>
+				<drop itemid="6605" min="1" max="1" chance="29200"/>
+				<drop itemid="6606" min="1" max="1" chance="29200"/>
+				<drop itemid="6607" min="1" max="1" chance="29200"/>
+				<drop itemid="7577" min="1" max="1" chance="29200"/>
+				<drop itemid="7578" min="1" max="1" chance="29200"/>
+				<drop itemid="6587" min="1" max="1" chance="29200"/>				
+				<drop itemid="6602" min="1" max="1" chance="29200"/>
+				<drop itemid="6603" min="1" max="1" chance="29200"/>
+				<drop itemid="6604" min="1" max="1" chance="29200"/>
+				<drop itemid="6580" min="1" max="1" chance="29200"/>
+				<drop itemid="6594" min="1" max="1" chance="29200"/>
+				<drop itemid="6595" min="1" max="1" chance="29200"/>
+				<drop itemid="6599" min="1" max="1" chance="29200"/>
+				<drop itemid="6601" min="1" max="1" chance="29200"/>
+				<drop itemid="6581" min="1" max="1" chance="29200"/>
+				<drop itemid="6582" min="1" max="1" chance="29200"/>
+				<drop itemid="6583" min="1" max="1" chance="29200"/>				
+			</category>
+			<category id="2">
+			<!--S grade Weapons -->
+				<drop itemid="6590" min="1" max="1" chance="29200"/>
+				<drop itemid="6592" min="1" max="1" chance="29200"/>
+				<drop itemid="6608" min="1" max="1" chance="29200"/>
+				<drop itemid="6585" min="1" max="1" chance="29200"/>
+				<drop itemid="6597" min="1" max="1" chance="29200"/>
+				<drop itemid="6605" min="1" max="1" chance="29200"/>
+				<drop itemid="6606" min="1" max="1" chance="29200"/>
+				<drop itemid="6607" min="1" max="1" chance="29200"/>
+				<drop itemid="7577" min="1" max="1" chance="29200"/>
+				<drop itemid="7578" min="1" max="1" chance="29200"/>
+				<drop itemid="6587" min="1" max="1" chance="29200"/>				
+				<drop itemid="6602" min="1" max="1" chance="29200"/>
+				<drop itemid="6603" min="1" max="1" chance="29200"/>
+				<drop itemid="6604" min="1" max="1" chance="29200"/>
+				<drop itemid="6580" min="1" max="1" chance="29200"/>
+				<drop itemid="6594" min="1" max="1" chance="29200"/>
+				<drop itemid="6595" min="1" max="1" chance="29200"/>
+				<drop itemid="6599" min="1" max="1" chance="29200"/>
+				<drop itemid="6601" min="1" max="1" chance="29200"/>
+				<drop itemid="6581" min="1" max="1" chance="29200"/>
+				<drop itemid="6582" min="1" max="1" chance="29200"/>
+				<drop itemid="6583" min="1" max="1" chance="29200"/>				
+			</category>
+			<category id="3">
+				<drop itemid="8762" min="1" max="1" chance="500000"/><!-- 50% top lf -->
+			</category>
+			<category id="4">
+				<drop itemid="8762" min="1" max="1" chance="500000"/><!-- 50% top lf -->
+			</category>
+			
+		</drops>
+	</npc>
+	
+	<npc id="10032" name="Corrupted Nymph" title="">
+	<!-- Asphodel monster -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="83"/>
+		<set name="radius" val="34"/>
+		<set name="height" val="30"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="36759"/>
+		<set name="sp" val="42476"/>
+		<set name="hp" val="7032.19636"/>
+		<set name="mp" val="6475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="614.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="559.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="35"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="55"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="100" spsCount="100" spsRate="100" aggro="200" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+			<skill id="9937" level="1"/><!-- sp atk01 -->
+			<skill id="9915" level="1"/><!-- sp atk02 -->
+			<skill id="9957" level="1"/><!-- sp atk03 -->
+			<skill id="9930" level="1"/> <!-- Long-Range Raging force Attack -->
+			<skill id="9933" level="1"/> <!-- Short-Range Raging force Attack -->
+
+		</skills>
+		<drops>
+		<category id="1">
+				<drop itemid="57" min="225000" max="300000" chance="1000000"/>
+			</category>		
+			<category id="2">
+				<drop itemid="12529" min="10" max="17" chance="600000"/><!-- sapphire -->
+			</category>			
+			<category id="3">
+				<drop itemid="12528" min="18" max="25" chance="1000000"/><!-- emerald -->
+			</category>			
+
+		</drops>
+	</npc>
+	
+	<npc id="10033" name="Test" title="">
+	<!-- fafurion -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+	<npc id="10034" name="Test" title="">
+	<!-- lindvior -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+	<npc id="10035" name="Primordial Mammal" title="">
+	<!-- Fighter Party Farm -->
+		<set name="level" val="87"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="55"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="55000"/>
+		<set name="sp" val="55875"/>
+		<set name="hp" val="238107.6436594"/>
+		<set name="mp" val="12883.736"/>
+		<set name="hpRegen" val="120.925"/>
+		<set name="mpRegen" val="153.1518"/>
+		<set name="pAtk" val="3090.1240034"/>
+		<set name="pDef" val="1600"/>
+		<set name="mAtk" val="1040.577283506"/>
+		<set name="mDef" val="99999"/>
+		<set name="atkSpd" val="223"/>
+		<set name="crit" val="2"/>
+		<set name="str" val="60"/>
+		<set name="int" val="70"/>
+		<set name="dex" val="25"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="65"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="10" clan="ketra_orc_clan" clanRange="10" canMove="true" seedable="true"/>
+		<skills>
+		<skill id="9916" level="1"/> <!-- special attack sp1-->
+		<skill id="9915" level="1"/> <!-- special attack sp2-->
+		<skill id="9929" level="1"/> <!-- special attack sp3-->	
+		<skill id="9926" level="1"/> <!-- Ranged attack-->
+		<skill id="4602" level="12"/><!-- decrease p atk de buff -->
+		<skill id="9980" level="1"/><!-- curse to reduce reuse time -->
+		<skill id="9981" level="1"/><!-- Massive Shock -->
+		<skill id="4428" level="3"/><!-- resist two handed attacks -->
+		<skill id="4459" level="3"/><!-- vulnerable to duals -->
+		<skill id="4460" level="3"/><!-- vulnerable to sword -->
+		<skill id="4276" level="2"/><!-- vunlerable to bow -->
+		<skill id="4448" level="3"/><!-- low lvl resist daggers -->
+		</skills>
+			<drops>
+			<category id="-2">
+			<!-- adena -->
+				<drop itemid="57" min="3000000" max="5000000" chance="1000000"/>
+			</category>
+			<category id="0">
+			<!-- ambrosia + nectar -->
+				<drop itemid="25626" min="10" max="20" chance="300000"/>
+				<drop itemid="25625" min="10" max="20" chance="300000"/>
+			</category>
+			<category id="1">
+				<drop itemid="6377" min="1" max="1" chance="58000"/> <!-- Imperial Shield -->
+			    <drop itemid="6378" min="1" max="1" chance="58000"/> <!-- Imperial Helm -->
+			    <drop itemid="6373" min="1" max="1" chance="58000"/> <!-- Imperial Breastplate -->
+			    <drop itemid="6374" min="1" max="1" chance="58000"/> <!-- Imperial Gaiters -->
+			    <drop itemid="6375" min="1" max="1" chance="58000"/> <!-- Imperial Gloves -->
+			    <drop itemid="6376" min="1" max="1" chance="58000"/> <!-- Imperial Boots -->
+				<drop itemid="6382" min="1" max="1" chance="58000"/> <!-- Draconic Leather Helmet -->
+				<drop itemid="6379" min="1" max="1" chance="58000"/> <!-- Draconic Leather Armor -->
+				<drop itemid="6380" min="1" max="1" chance="58000"/> <!-- Draconic Gloves -->
+				<drop itemid="6381" min="1" max="1" chance="58000"/> <!-- Draconic Boots -->			
+				<drop itemid="6386" min="1" max="1" chance="58000"/> <!-- Major Arcana Cap -->
+				<drop itemid="6383" min="1" max="1" chance="58000"/> <!-- Major Arcana Robe -->
+				<drop itemid="6384" min="1" max="1" chance="58000"/> <!-- Major Arcana Gloves -->
+				<drop itemid="6385" min="1" max="1" chance="58000"/> <!-- Major Arcana Boots -->
+				<drop itemid="920" min="1" max="1" chance="58000"/> <!-- Tateo Necklace -->
+				<drop itemid="858" min="1" max="1" chance="58000"/> <!-- Tateo Earring -->
+				<drop itemid="889" min="1" max="1" chance="58000"/> <!-- Tateo Ring -->
+			</category>
+			<category id="2">
+			<!--sapphires -->
+				<drop itemid="12529" min="150" max="200" chance="1000000"/>
+			</category>
+			<category id="3">
+			<!-- emeralds -->
+				<drop itemid="12528" min="300" max="350" chance="1000000"/>
+			</category>
+			
+			
+		</drops>
+	</npc>
+	
+	
+	<npc id="10036" name="Test" title="">
+	<!-- Test -->
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="40"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="DungeonMob"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="MAGE" ssCount="100" ssRate="100" spsCount="100" spsRate="100" aggro="0" canMove="true" seedable="false"/>
+		<skills>
+
+			<skill id="1245" level="9"/>
+			<skill id="1148" level="9"/>
+			<skill id="7078" level="1"/>
+
+			
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+	<npc id="10037" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10038" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10500" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10501" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10502" name="Bat_Agathion" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10503" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10504" name="Lindvior_aga" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="60"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	
+	<npc id="10505" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10506" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10507" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10508" name="Test" title="">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="78"/>
+		<set name="radius" val="33"/>
+		<set name="height" val="160"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Monster"/>
+		<set name="exp" val="23759"/>
+		<set name="sp" val="2476"/>
+		<set name="hp" val="2632.19636"/>
+		<set name="mp" val="1475"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="973.81598"/>
+		<set name="pDef" val="514.65987"/>
+		<set name="mAtk" val="668.41601"/>
+		<set name="mDef" val="409.50409325236"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="25"/>
+		<set name="runSpd" val="195"/>
+		<set name="dropHerbGroup" val="1"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<skills>
+
+		</skills>
+		<drops>
+		
+		</drops>
+	</npc>
+	
+	<npc id="10509" name="Mora" title="Raid Fighter">
+	<!-- tayr's guard stats -->
+		<set name="level" val="85"/>
+		<set name="radius" val="22"/>
+		<set name="height" val="52"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="DungeonMob"/>
+		<set name="exp" val="20000"/>
+		<set name="sp" val="4024"/>
+		<set name="hp" val="110993.613068531"/>
+		<set name="mp" val="1830.722"/>
+		<set name="hpRegen" val="97.9908215924451"/>
+		<set name="mpRegen" val="3.09"/>
+		<set name="pAtk" val="3156.51109771821"/>
+		<set name="pDef" val="1146.7159248"/>
+		<set name="mAtk" val="2001.14110989056"/>
+		<set name="mDef" val="933.4164"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="45"/>
+		<set name="int" val="41"/>
+		<set name="dex" val="35"/>
+		<set name="wit" val="35"/>
+		<set name="con" val="45"/>
+		<set name="men" val="12"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="70"/>
+		<set name="runSpd" val="140"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="100" clan="nyx" clanRange="600" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4109" level="1"/><!-- curse of destiny -->
+			<skill id="4038" level="5"/>
+			<skill id="1184" level="6"/>
+			<skill id="1266" level="3"/><!-- shadow spark -->
+			<skill id="4720" level="1"/>
+			<skill id="9970" level="1"/>
+		</skills>
+		<drops>
+		<!-- adena-->
+		<category id="1">
+		<drop itemid="57" min="4000000" max="20000000" chance="750000"/>
+		</category>
+		<!-- divine inspiration books-->
+		<category id="1">
+		<drop itemid="8618" min="1" max="1" chance="450000"/>
+		<drop itemid="8619" min="1" max="1" chance="300000"/>
+		<drop itemid="8620" min="1" max="1" chance="150000"/>
+		<drop itemid="8620" min="1" max="1" chance="100000"/>
+		</category>
+		</drops>
+	</npc>	
+	
+	</list>

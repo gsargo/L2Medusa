@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="4600" type="EtcItem" name="Greater Dye of WIT (Wit+2 Men-2)">
-		<set name="etcitem_type" val="DYE" />
+		<set name="etcitem_type" val="DYE" /> 
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="150" />
 		<set name="price" val="72000" />
@@ -214,7 +214,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4630" type="EtcItem" name="Red Soul Crystal - Stage 1">
 		<set name="default_action" val="skill_reduce" />
@@ -223,7 +223,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4631" type="EtcItem" name="Red Soul Crystal - Stage 2">
 		<set name="default_action" val="skill_reduce" />
@@ -268,7 +268,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4636" type="EtcItem" name="Red Soul Crystal - Stage 7">
 		<set name="default_action" val="skill_reduce" />
@@ -277,7 +277,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4637" type="EtcItem" name="Red Soul Crystal - Stage 8">
 		<set name="default_action" val="skill_reduce" />
@@ -286,7 +286,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4638" type="EtcItem" name="Red Soul Crystal - Stage 9">
 		<set name="default_action" val="skill_reduce" />
@@ -295,7 +295,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4639" type="EtcItem" name="Red Soul Crystal - Stage 10">
 		<set name="default_action" val="skill_reduce" />
@@ -304,7 +304,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4640" type="EtcItem" name="Green Soul Crystal">
 		<set name="default_action" val="skill_reduce" />
@@ -313,7 +313,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4641" type="EtcItem" name="Green Soul Crystal - Stage 1">
 		<set name="default_action" val="skill_reduce" />
@@ -322,7 +322,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	
 	</item>
 	<item id="4642" type="EtcItem" name="Green Soul Crystal - Stage 2">
 		<set name="default_action" val="skill_reduce" />
@@ -385,7 +385,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4649" type="EtcItem" name="Green Soul Crystal - Stage 9">
 		<set name="default_action" val="skill_reduce" />
@@ -394,7 +394,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4650" type="EtcItem" name="Green Soul Crystal - Stage 10">
 		<set name="default_action" val="skill_reduce" />
@@ -403,7 +403,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4651" type="EtcItem" name="Blue Soul Crystal">
 		<set name="default_action" val="skill_reduce" />
@@ -412,7 +412,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4652" type="EtcItem" name="Blue Soul Crystal - Stage 1">
 		<set name="default_action" val="skill_reduce" />
@@ -421,7 +421,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4653" type="EtcItem" name="Blue Soul Crystal - Stage 2">
 		<set name="default_action" val="skill_reduce" />
@@ -430,7 +430,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	
 	</item>
 	<item id="4654" type="EtcItem" name="Blue Soul Crystal - Stage 3">
 		<set name="default_action" val="skill_reduce" />
@@ -484,7 +484,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4660" type="EtcItem" name="Blue Soul Crystal - Stage 9">
 		<set name="default_action" val="skill_reduce" />
@@ -493,7 +493,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
 	</item>
 	<item id="4661" type="EtcItem" name="Blue Soul Crystal - Stage 10">
 		<set name="default_action" val="skill_reduce" />
@@ -502,7 +502,7 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	
 	</item>
 	<item id="4662" type="EtcItem" name="Broken Red Soul Crystal">
 		<set name="default_action" val="skill_reduce" />
@@ -782,7 +782,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3007-2" />
@@ -806,7 +806,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3018-2" />
@@ -830,7 +830,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3028-2" />
@@ -854,7 +854,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3010-2" />
@@ -878,7 +878,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3023-2" />
@@ -902,7 +902,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3036-2" />
@@ -926,7 +926,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3023-2" />
@@ -950,7 +950,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="oncrit_chance" val="15" />
@@ -975,7 +975,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3036-2" />
@@ -999,7 +999,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3010-2" />
@@ -1023,7 +1023,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="oncrit_chance" val="35" />
@@ -1048,7 +1048,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1420" />
-		<set name="price" val="2870000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="oncrit_chance" val="15" />
@@ -1073,7 +1073,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1400" />
-		<set name="price" val="4300000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3007-3" />
@@ -1097,7 +1097,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1400" />
-		<set name="price" val="4300000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3010-3" />
@@ -1121,7 +1121,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1400" />
-		<set name="price" val="4300000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3023-3" />
@@ -1145,7 +1145,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1400" />
-		<set name="price" val="4300000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3010-3" />

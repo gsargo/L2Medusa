@@ -22,17 +22,15 @@
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="BONE" />
-		<set name="weight" val="1380" />
+		<set name="weight" val="1" />
 		<set name="price" val="12900" />
-		<cond msgId="1518">
-			<player clanHall="-1" />
-		</cond>
+		
 		<for>
-			<sub stat="rEvas" val="8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="90" />
+			<sub val="4" order="0x40" stat='rEvas' />
+			<add val="50" order="0x40" stat='pDef'/>
 			<enchant val="0" stat="sDef" />
-		</for>
+		</for>	
+		
 	</item>
 	<item id="6903" type="EtcItem" name="Music Box M">
 		<set name="default_action" val="skill_reduce" />

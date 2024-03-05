@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<zone shape="NPoly" minZ="-4290" maxZ="-1290"><!-- Primeval Isle (Pvp Zone Area) -->
+		<node x="10740" y="-28870"/>
+		<node x="14840" y="-24152"/>
+		<node x="8749" y="-5103"/>
+		<node x="1312" y="-4072"/>
+		<node x="3110" y="-25113"/>
+		
+		<spawn type="NORMAL" x="11263" y="-25279" z="-3696"/>
+		<spawn type="NORMAL" x="11202" y="-22706" z="-3592"/>
+		<spawn type="NORMAL" x="9640" y="-22040" z="-3688"/>
+		<spawn type="NORMAL" x="8172" y="-22445" z="-3688"/>
+		<spawn type="NORMAL" x="7888" y="-23753" z="-3712"/>
+		<spawn type="NORMAL" x="5732" y="-23459" z="-3728"/>
+		<spawn type="NORMAL" x="7006" y="-22320" z="-3392"/>
+		<spawn type="CHAOTIC" x="19108" y="171015" z="-3552"/>
+	
+		<stat name="nameEnter" val="You have entered in the PvP Zone"/> <!-- On Onter Message -->
+		<stat name="nameExit" val="You have exited the PvP Zone"/>   <!-- On Exit Message -->
+		<stat name="pvpRewards" val="12549,1,100"/> <!-- PvP Reward id,count,chance -->
+		<stat name="forbItems" val="1,2,3,4"/> <!-- Disable items -->
+		<stat name="forbSkills" val="1218,1418,1394,1305,1256"/> <!-- Disable skills -->
+		<stat name="buffs" val=""/> <!-- Buffs on enter into zone -->  
+		<stat name="pvp" val="true"/> <!-- Flag status enable -->
+		<stat name="pvpTime" val="3000000"/> 
+		<stat name="ip" val="false"/> <!-- Check IP -->
+		<stat name="hwid" val="false"/> <!-- Check HWID, DO NOT ENABLE THIS -->
+		<stat name="clan" val="true"/> <!-- Check Clan -->
+		<stat name="party" val="true"/> <!-- Check Party -->
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="summonForb" val="true"/> <!-- Disable Summon -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+		<stat name="requestForb" val="true"/> <!-- Disable Request -->
+		<stat name="partyForb" val="true"/> <!-- Disable Party -->
+	</zone>
+	
+	<!-- ACROPOLIS (PvP Zone Area) -->
+    <zone shape="NPoly" minZ="-3820" maxZ="-2085">
+        <node x="215349" y="181044"/>
+		<node x="215220" y="179065"/>
+		<node x="213176" y="177619"/>
+		<node x="207980" y="179058"/>
+		<node x="208975" y="182579"/>
+		<node x="214386" y="182706"/>
+		
+        <spawn type="NORMAL" x="211534" y="180787" z="-3136"/> 
+		<spawn type="NORMAL" x="213653" y="178440" z="-3472"/> 
+		<spawn type="NORMAL" x="211848" y="182175" z="-3664"/> 
+		
+		<stat name="nameEnter" val="You have entered the PvP Zone"/> <!-- On Onter Message -->
+		<stat name="nameExit" val="You have exited the PvP Zone"/>   <!-- On Exit Message -->
+		<stat name="pvpRewards" val="12549,1,100"/> <!-- PvP Reward id,count,chance -->
+		<stat name="forbItems" val="1,2,3,4"/> <!-- Disable items -->
+		<stat name="forbSkills" val=""/> <!-- Disable skills -->
+		<stat name="buffs" val=""/> <!-- Buffs on enter into zone -->  
+		<stat name="pvp" val="true"/> <!-- Flag status enable -->
+		<stat name="pvpTime" val="3000000"/> 
+		<stat name="ip" val="false"/> <!-- Check IP -->
+		<stat name="hwid" val="false"/> <!-- Check HWID, DO NOT ENABLE THIS -->
+		<stat name="clan" val="true"/> <!-- Check Clan -->
+		<stat name="party" val="false"/> <!-- Check Party -->
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="summonForb" val="true"/> <!-- Disable Summon -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+		<stat name="requestForb" val="false"/> <!-- Disable Request -->
+		<stat name="partyForb" val="false"/> <!-- Disable Party -->
+     </zone>
+</list>

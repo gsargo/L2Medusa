@@ -1,17 +1,87 @@
-<html><body>Blacksmith of Mammon:<br>
-Ah, yes, the seal of gnosis! May you receive the blessings of Mammon! You have come a long way to find me. I can provide you with the highest-quality weapons and armor.<br>
-Blacksmiths the world over try to mimic my refined techniques, but their work pales in comparison to mine.<br>
-I must ask you but one thing. As a dwarf of Mammon, I cannot accept money from the outside world. I can only accept payment in<font color="LEVEL"> Ancient Adena</font>.<br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262503">Manufacture an S-grade sword</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262501">Bestow the special S-grade weapon some abilities</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262504">Release the S-grade armor seal</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262505">Release the S-grade accessory seal</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262502">Manufacture an A-grade sword</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262510">Bestow the special A-grade weapon some abilities</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262506">Release the A-grade armor seal</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262507">Release the A-grade accessory seal</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262508">Seal the A-grade armor again</a><br>
-<a action="bypass -h npc_%objectId%_exc_multisell 311262509">Remove the special abilities from a weapon</a><br>
-<a action="bypass -h npc_%objectId%_Link seven_signs/mammblack_2.htm">Upgrade a weapon</a><br>
-<a action="bypass -h npc_%objectId%_Link seven_signs/mammblack_3.htm">Make an even exchange of weapons</a>
-</body></html>
+<html>
+<title>
+Augmenter
+</title>
+<body>
+<center><br1>
+<table>
+	<tr><td><img src="SargoUTX.HTM_Header" width=281 height=71></tr></td>
+</table><br>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<table width=290 border=0 bgcolor="000000">
+	<tr>
+	<td align="center" fixwidth=280><font color="e1c563" align="center">L2 Medusa</font></td>
+	</tr>
+</table>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<br>
+
+<img src="sek.cbui32" width="295" height="1" align=center>
+<table width=295 border=0 bgcolor="000000">
+	<tr>
+	<td width=1></td>
+	</tr>
+	<tr>
+	<td valign=top align=left><img src="SargoUTX.Augment_Fore" width=32 height=32></td>
+	<td align=left width=32 height=32><font color="e1c563" align="center">Augment Item</font><br1><font color="FFFFFF" align="center">Augment your current weapon.</font></td>
+	<td width=51></td>
+	<td align=right width=32 height=32><button value="" action="bypass -h npc_%objectId%_Link common/augmentation_01.htm" width=32 height=32 back="SargoUTX.Select" fore="SargoUTX.Select"></td>
+	</tr>
+	<tr>
+	<td width=1></td>
+	</tr>
+</table>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<br>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<table width=295 border=0 bgcolor="000000">
+	<tr>
+	<td width=1></td>
+	</tr>
+	<tr>
+	<td valign=top align=left><img src="SargoUTX.AugmentRemove_Fore" width=32 height=32></td>
+	<td align=left width=32 height=32><font color="e1c563" align="center">Remove Augmentation</font><br1><font color="FFFFFF" align="center">Remove the augmentation of your weapon.</font></td>
+	<td align=right width=32 height=32><button value=" " action="bypass -h npc_%objectId%_Link common/augmentation_02.htm" width=32 height=32 back="SargoUTX.Select" fore="SargoUTX.Select"></td>
+	</tr>
+	<tr>
+	<td width=1></td>
+	</tr>
+</table>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<br>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<table width=295 border=0 bgcolor="000000">
+	<tr>
+	<td width=1></td>
+	</tr>
+	<tr>
+	<td valign=top align=left><img src="SargoUTX.Mineral_Fore" width=32 height=32></td>
+	<td align=left width=32 height=32><font color="e1c563" align="center">Buy Minerals</font><br1><font color="FFFFFF" align="center">Buy all grade gemstones.</font></td>
+	<td width=81></td>
+	<td align=right width=32 height=32><button value="" action="bypass -h npc_%objectId%_multisell 155" width=32 height=32 back="SargoUTX.Select" fore="SargoUTX.Select"></td> <!-- This bypass is empty, set it to your multisell -->
+	</tr>
+	<tr>
+	<td width=1></td>
+	</tr>
+</table>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<br>
+<img src="sek.cbui32" width="295" height="1" align=center>
+<table width=295 border=0 bgcolor="000000">
+	<tr>
+	<td width=1></td>
+	</tr>
+	<tr>
+	<td valign=top align=left><img src="SargoUTX.AugmentInfo_Fore" width=32 height=32></td>
+	<td align=left width=32 height=32><font color="e1c563" align="center">Enchant Skills</font><br1><font color="FFFFFF" align="center">Upgrade your abilities.</font></td>
+	<td width=38></td>
+	<td align=right width=32 height=32><button value=" " action="bypass -h npc_%objectId%_EnchantSkillList" width=32 height=32 back="SargoUTX.Select" fore="SargoUTX.Select"></td> <!-- This bypass is empty, set it to your html redirect etc -->
+	</tr>
+	<tr>
+	<td width=1></td>
+	</tr>
+</table>
+<img src="sek.cbui32" width="295" height="1" align=center>
+</center>
+</body>
+</html>

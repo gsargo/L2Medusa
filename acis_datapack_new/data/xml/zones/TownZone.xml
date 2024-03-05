@@ -60,18 +60,13 @@
 		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
 		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
 		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
-		<spawn type="CHAOTIC" x="74450" y="144238" z="-3730"/>
-		<spawn type="CHAOTIC" x="74209" y="142395" z="-3730"/>
-		<spawn type="CHAOTIC" x="77279" y="145045" z="-3630"/>
-		<spawn type="CHAOTIC" x="74809" y="146119" z="-3600"/>
-		<spawn type="CHAOTIC" x="75006" y="143520" z="-3700"/>
-		<spawn type="CHAOTIC" x="81347" y="140579" z="-3520"/>
-		<spawn type="CHAOTIC" x="79543" y="142050" z="-3500"/>
-		<spawn type="CHAOTIC" x="86223" y="140993" z="-3400"/>
-		<spawn type="CHAOTIC" x="78692" y="154573" z="-3450"/>
-		<spawn type="CHAOTIC" x="77870" y="156209" z="-3430"/>
-		<spawn type="CHAOTIC" x="79832" y="154009" z="-3500"/>
-		<spawn type="CHAOTIC" x="75501" y="147178" z="-3530"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-4700" maxZ="-3600"><!-- Dark Elven Village -->
 		<stat name="townId" val="1"/>
@@ -89,38 +84,27 @@
 		<node x="7382" y="14486"/>
 		<node x="13891" y="13025"/>
 		<node x="15542" y="15230"/>
-		<spawn type="NORMAL" x="11632" y="16812" z="-4500"/>
-		<spawn type="NORMAL" x="11217" y="16837" z="-4500"/>
-		<spawn type="NORMAL" x="11498" y="16979" z="-4500"/>
-		<spawn type="NORMAL" x="11404" y="16699" z="-4500"/>
-		<spawn type="NORMAL" x="12501" y="16768" z="-4500"/>
-		<spawn type="NORMAL" x="12104" y="17385" z="-4500"/>
-		<spawn type="NORMAL" x="11603" y="17770" z="-4500"/>
-		<spawn type="NORMAL" x="12519" y="16376" z="-4500"/>
-		<spawn type="NORMAL" x="10355" y="17270" z="-4500"/>
-		<spawn type="NORMAL" x="10146" y="16965" z="-4500"/>
-		<spawn type="NORMAL" x="10691" y="16343" z="-4500"/>
-		<spawn type="NORMAL" x="11193" y="15963" z="-4500"/>
-		<spawn type="CHAOTIC" x="3040" y="24240" z="-3700"/>
-		<spawn type="CHAOTIC" x="1184" y="21856" z="-3240"/>
-		<spawn type="CHAOTIC" x="3760" y="25136" z="-3700"/>
-		<spawn type="CHAOTIC" x="672" y="20096" z="-3350"/>
-		<spawn type="CHAOTIC" x="1248" y="14512" z="-3180"/>
-		<spawn type="CHAOTIC" x="-8176" y="23120" z="-3450"/>
-		<spawn type="CHAOTIC" x="-10208" y="25408" z="-3560"/>
-		<spawn type="CHAOTIC" x="-11456" y="23936" z="-3700"/>
-		<spawn type="CHAOTIC" x="-9632" y="22624" z="-3650"/>
-		<spawn type="CHAOTIC" x="-5776" y="22080" z="-3510"/>
-		<spawn type="CHAOTIC" x="2224" y="11936" z="-3050"/>
-		<spawn type="CHAOTIC" x="1744" y="8640" z="-3250"/>
-		<spawn type="CHAOTIC" x="2784" y="7872" z="-3110"/>
-		<spawn type="CHAOTIC" x="3216" y="10128" z="-2980"/>
-		<spawn type="CHAOTIC" x="3584" y="6976" z="-3020"/>
-		<spawn type="CHAOTIC" x="-10768" y="21952" z="-3600"/>
-		<spawn type="CHAOTIC" x="-11360" y="22688" z="-3600"/>
-		<spawn type="CHAOTIC" x="-12784" y="23232" z="-3630"/>
-		<spawn type="CHAOTIC" x="-13632" y="21872" z="-3620"/>
-		<spawn type="CHAOTIC" x="-11984" y="21232" z="-3600"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3800" maxZ="-3700"><!-- Talking Island -->
 		<stat name="townId" val="2"/>
@@ -167,40 +151,27 @@
 		<node x="-82292" y="244585"/>
 		<node x="-82787" y="244999"/>
 		<node x="-83726" y="245721"/>
-		<spawn type="NORMAL" x="-83990" y="243336" z="-3700"/>
-		<spawn type="NORMAL" x="-83964" y="242680" z="-3700"/>
-		<spawn type="NORMAL" x="-84512" y="242679" z="-3700"/>
-		<spawn type="NORMAL" x="-84623" y="243193" z="-3700"/>
-		<spawn type="NORMAL" x="-83742" y="242214" z="-3700"/>
-		<spawn type="NORMAL" x="-83537" y="242537" z="-3700"/>
-		<spawn type="NORMAL" x="-83700" y="242896" z="-3700"/>
-		<spawn type="NORMAL" x="-83646" y="243397" z="-3700"/>
-		<spawn type="NORMAL" x="-83808" y="243637" z="-3700"/>
-		<spawn type="NORMAL" x="-84903" y="243489" z="-3700"/>
-		<spawn type="NORMAL" x="-84852" y="243174" z="-3700"/>
-		<spawn type="NORMAL" x="-84892" y="242479" z="-3700"/>
-		<spawn type="NORMAL" x="-84756" y="242155" z="-3700"/>
-		<spawn type="NORMAL" x="-83761" y="243620" z="-3700"/>
-		<spawn type="CHAOTIC" x="-79411" y="240677" z="-3450"/>
-		<spawn type="CHAOTIC" x="-80480" y="242640" z="-3690"/>
-		<spawn type="CHAOTIC" x="-80336" y="244656" z="-3680"/>
-		<spawn type="CHAOTIC" x="-82464" y="247248" z="-3570"/>
-		<spawn type="CHAOTIC" x="-89522" y="241696" z="-3530"/>
-		<spawn type="CHAOTIC" x="-87056" y="237952" z="-3580"/>
-		<spawn type="CHAOTIC" x="-89536" y="240336" z="-3560"/>
-		<spawn type="CHAOTIC" x="-88208" y="241360" z="-3560"/>
-		<spawn type="CHAOTIC" x="-85328" y="238080" z="-3660"/>
-		<spawn type="CHAOTIC" x="-89760" y="237408" z="-3660"/>
-		<spawn type="CHAOTIC" x="-92976" y="240560" z="-3380"/>
-		<spawn type="CHAOTIC" x="-94448" y="240944" z="-3300"/>
-		<spawn type="CHAOTIC" x="-93552" y="245296" z="-3530"/>
-		<spawn type="CHAOTIC" x="-91584" y="238480" z="-3650"/>
-		<spawn type="CHAOTIC" x="-88720" y="238976" z="-3650"/>
-		<spawn type="CHAOTIC" x="-91760" y="243664" z="-3440"/>
-		<spawn type="CHAOTIC" x="-81680" y="249696" z="-3630"/>
-		<spawn type="CHAOTIC" x="-83808" y="251264" z="-3630"/>
-		<spawn type="CHAOTIC" x="-83328" y="238304" z="-3700"/>
-		<spawn type="CHAOTIC" x="-91296" y="236272" z="-3690"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3600" maxZ="-2750"><!-- Elven Village -->
 		<stat name="townId" val="3"/>
@@ -250,38 +221,27 @@
 		<node x="44336" y="46713"/>
 		<node x="44843" y="46575"/>
 		<node x="45395" y="46530"/>
-		<spawn type="NORMAL" x="45487" y="49767" z="-2950"/>
-		<spawn type="NORMAL" x="45080" y="49614" z="-2950"/>
-		<spawn type="NORMAL" x="45284" y="49309" z="-2950"/>
-		<spawn type="NORMAL" x="45576" y="49412" z="-2950"/>
-		<spawn type="NORMAL" x="45896" y="49831" z="-2950"/>
-		<spawn type="NORMAL" x="45463" y="50097" z="-2950"/>
-		<spawn type="NORMAL" x="44935" y="49798" z="-2950"/>
-		<spawn type="NORMAL" x="44798" y="49475" z="-2950"/>
-		<spawn type="NORMAL" x="45100" y="49025" z="-2950"/>
-		<spawn type="NORMAL" x="45912" y="49363" z="-2950"/>
-		<spawn type="NORMAL" x="45788" y="49861" z="-2950"/>
-		<spawn type="NORMAL" x="45325" y="50067" z="-2950"/>
-		<spawn type="CHAOTIC" x="40720" y="56064" z="-3580"/>
-		<spawn type="CHAOTIC" x="39760" y="55040" z="-3410"/>
-		<spawn type="CHAOTIC" x="43152" y="55920" z="-3620"/>
-		<spawn type="CHAOTIC" x="44192" y="56960" z="-3580"/>
-		<spawn type="CHAOTIC" x="39328" y="56256" z="-3580"/>
-		<spawn type="CHAOTIC" x="40448" y="57744" z="-3600"/>
-		<spawn type="CHAOTIC" x="38080" y="52048" z="-3500"/>
-		<spawn type="CHAOTIC" x="38784" y="51824" z="-3470"/>
-		<spawn type="CHAOTIC" x="37088" y="51248" z="-3400"/>
-		<spawn type="CHAOTIC" x="37952" y="49680" z="-3480"/>
-		<spawn type="CHAOTIC" x="38848" y="47072" z="-3580"/>
-		<spawn type="CHAOTIC" x="36688" y="49856" z="-3440"/>
-		<spawn type="CHAOTIC" x="36096" y="46544" z="-3680"/>
-		<spawn type="CHAOTIC" x="37200" y="45232" z="-3600"/>
-		<spawn type="CHAOTIC" x="50128" y="55472" z="-3410"/>
-		<spawn type="CHAOTIC" x="51856" y="54432" z="-3320"/>
-		<spawn type="CHAOTIC" x="53136" y="54592" z="-3420"/>
-		<spawn type="CHAOTIC" x="51824" y="58624" z="-3400"/>
-		<spawn type="CHAOTIC" x="51232" y="59216" z="-3320"/>
-		<spawn type="CHAOTIC" x="49808" y="56240" z="-3430"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-400" maxZ="-200"><!-- Orc Village -->
 		<stat name="townId" val="4"/>
@@ -326,34 +286,27 @@
 		<node x="-43843" y="-110456"/>
 		<node x="-44147" y="-110375"/>
 		<node x="-45529" y="-110078"/>
-		<spawn type="NORMAL" x="-44316" y="-113136" z="-80"/>
-		<spawn type="NORMAL" x="-44296" y="-114048" z="-80"/>
-		<spawn type="NORMAL" x="-44704" y="-112896" z="-80"/>
-		<spawn type="NORMAL" x="-44720" y="-114304" z="-80"/>
-		<spawn type="NORMAL" x="-44206" y="-113392" z="-80"/>
-		<spawn type="NORMAL" x="-43970" y="-114150" z="-80"/>
-		<spawn type="NORMAL" x="-44328" y="-114625" z="-80"/>
-		<spawn type="NORMAL" x="-44884" y="-115063" z="-80"/>
-		<spawn type="NORMAL" x="-44923" y="-114659" z="-80"/>
-		<spawn type="NORMAL" x="-44232" y="-113701" z="-80"/>
-		<spawn type="NORMAL" x="-44596" y="-112956" z="-80"/>
-		<spawn type="NORMAL" x="-44987" y="-112394" z="-80"/>
-		<spawn type="NORMAL" x="-45498" y="-111800" z="-80"/>
-		<spawn type="NORMAL" x="-44637" y="-112373" z="-80"/>
-		<spawn type="NORMAL" x="-44189" y="-113065" z="-80"/>
-		<spawn type="NORMAL" x="-44048" y="-113463" z="-80"/>
-		<spawn type="CHAOTIC" x="-43552" y="-121488" z="-233"/>
-		<spawn type="CHAOTIC" x="-42560" y="-121344" z="-188"/>
-		<spawn type="CHAOTIC" x="-41536" y="-122960" z="-308"/>
-		<spawn type="CHAOTIC" x="-40464" y="-122752" z="-364"/>
-		<spawn type="CHAOTIC" x="-45568" y="-107296" z="-516"/>
-		<spawn type="CHAOTIC" x="-46512" y="-106032" z="-700"/>
-		<spawn type="CHAOTIC" x="-44304" y="-105888" z="-1156"/>
-		<spawn type="CHAOTIC" x="-43728" y="-106688" z="-1304"/>
-		<spawn type="CHAOTIC" x="-40000" y="-109200" z="-1736"/>
-		<spawn type="CHAOTIC" x="-39792" y="-110832" z="-1860"/>
-		<spawn type="CHAOTIC" x="-39136" y="-112688" z="-1844"/>
-		<spawn type="CHAOTIC" x="-37888" y="-112608" z="-1772"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3300" maxZ="-3000"><!-- Gludin Village -->
 		<stat name="townId" val="5"/>
@@ -377,40 +330,27 @@
 		<node x="-79978" y="156104"/>
 		<node x="-84876" y="156106"/>
 		<node x="-84875" y="149371"/>
-		<spawn type="NORMAL" x="-83520" y="150560" z="-3000"/>
-		<spawn type="NORMAL" x="-82464" y="150848" z="-3000"/>
-		<spawn type="NORMAL" x="-84064" y="150864" z="-3000"/>
-		<spawn type="NORMAL" x="-83408" y="151376" z="-3000"/>
-		<spawn type="NORMAL" x="-82195" y="150489" z="-3000"/>
-		<spawn type="NORMAL" x="-81787" y="150780" z="-3000"/>
-		<spawn type="NORMAL" x="-81721" y="151202" z="-3000"/>
-		<spawn type="NORMAL" x="-82241" y="151163" z="-3000"/>
-		<spawn type="NORMAL" x="-82575" y="151025" z="-3000"/>
-		<spawn type="NORMAL" x="-82909" y="150357" z="-3000"/>
-		<spawn type="NORMAL" x="-83584" y="150512" z="-3000"/>
-		<spawn type="NORMAL" x="-83529" y="151205" z="-3000"/>
-		<spawn type="NORMAL" x="-82035" y="152647" z="-3000"/>
-		<spawn type="NORMAL" x="-80053" y="154348" z="-3000"/>
-		<spawn type="CHAOTIC" x="-81616" y="157104" z="-3150"/>
-		<spawn type="CHAOTIC" x="-80688" y="157216" z="-3150"/>
-		<spawn type="CHAOTIC" x="-79568" y="156960" z="-3150"/>
-		<spawn type="CHAOTIC" x="-78800" y="157744" z="-3150"/>
-		<spawn type="CHAOTIC" x="-80448" y="157968" z="-3130"/>
-		<spawn type="CHAOTIC" x="-81712" y="159536" z="-3230"/>
-		<spawn type="CHAOTIC" x="-79744" y="160592" z="-3330"/>
-		<spawn type="CHAOTIC" x="-79584" y="159408" z="-3180"/>
-		<spawn type="CHAOTIC" x="-74016" y="150656" z="-2800"/>
-		<spawn type="CHAOTIC" x="-72720" y="149632" z="-2780"/>
-		<spawn type="CHAOTIC" x="-75904" y="162000" z="-3300"/>
-		<spawn type="CHAOTIC" x="-75488" y="161472" z="-3250"/>
-		<spawn type="CHAOTIC" x="-74688" y="160736" z="-3200"/>
-		<spawn type="CHAOTIC" x="-74352" y="161488" z="-3250"/>
-		<spawn type="CHAOTIC" x="-76656" y="160768" z="-3280"/>
-		<spawn type="CHAOTIC" x="-77472" y="160960" z="-3470"/>
-		<spawn type="CHAOTIC" x="-77776" y="158752" z="-3270"/>
-		<spawn type="CHAOTIC" x="-80448" y="161488" z="-3420"/>
-		<spawn type="CHAOTIC" x="-75440" y="162672" z="-3350"/>
-		<spawn type="CHAOTIC" x="-81760" y="161248" z="-3200"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-1600" maxZ="-800"><!-- Dwarven Village -->
 		<stat name="townId" val="6"/>
@@ -447,31 +387,27 @@
 		<node x="116418" y="-176887"/>
 		<node x="115929" y="-176804"/>
 		<node x="115490" y="-176767"/>
-		<spawn type="NORMAL" x="116176" y="-182448" z="-1400"/>
-		<spawn type="NORMAL" x="116476" y="-182904" z="-1500"/>
-		<spawn type="NORMAL" x="115248" y="-178816" z="-850"/>
-		<spawn type="NORMAL" x="116352" y="-179264" z="-1000"/>
-		<spawn type="NORMAL" x="115271" y="-178561" z="-820"/>
-		<spawn type="NORMAL" x="115249" y="-177859" z="-820"/>
-		<spawn type="NORMAL" x="115485" y="-178077" z="-820"/>
-		<spawn type="NORMAL" x="115790" y="-179146" z="-890"/>
-		<spawn type="NORMAL" x="116507" y="-179597" z="-1000"/>
-		<spawn type="NORMAL" x="116725" y="-180147" z="-1000"/>
-		<spawn type="NORMAL" x="116738" y="-181494" z="-1300"/>
-		<spawn type="NORMAL" x="116775" y="-182367" z="-1400"/>
-		<spawn type="NORMAL" x="116587" y="-183032" z="-1400"/>
-		<spawn type="NORMAL" x="116321" y="-182734" z="-1400"/>
-		<spawn type="CHAOTIC" x="118160" y="-179328" z="-1578"/>
-		<spawn type="CHAOTIC" x="119024" y="-180208" z="-2180"/>
-		<spawn type="CHAOTIC" x="119728" y="-180912" z="-2649"/>
-		<spawn type="CHAOTIC" x="119776" y="-181968" z="-2948"/>
-		<spawn type="CHAOTIC" x="119392" y="-183968" z="-3125"/>
-		<spawn type="CHAOTIC" x="119520" y="-184928" z="-3196"/>
-		<spawn type="CHAOTIC" x="119568" y="-186016" z="-3220"/>
-		<spawn type="CHAOTIC" x="119984" y="-187312" z="-3260"/>
-		<spawn type="CHAOTIC" x="119632" y="-188352" z="-3260"/>
-		<spawn type="CHAOTIC" x="119264" y="-188736" z="-3203"/>
-		<spawn type="CHAOTIC" x="118656" y="-187760" z="-2828"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3200" maxZ="-2900"><!-- Gludio Castle Town -->
 		<stat name="townId" val="7"/>
@@ -510,26 +446,14 @@
 		<spawn type="NORMAL" x="-13513" y="123752" z="-3000"/>
 		<spawn type="NORMAL" x="-14683" y="121945" z="-3000"/>
 		<spawn type="NORMAL" x="-14491" y="121915" z="-3000"/>
-		<spawn type="CHAOTIC" x="-17280" y="125392" z="-3120"/>
-		<spawn type="CHAOTIC" x="-16128" y="126944" z="-3120"/>
-		<spawn type="CHAOTIC" x="-14464" y="128288" z="-3250"/>
-		<spawn type="CHAOTIC" x="-13040" y="128768" z="-3350"/>
-		<spawn type="CHAOTIC" x="-15600" y="127904" z="-3150"/>
-		<spawn type="CHAOTIC" x="-16128" y="128592" z="-3230"/>
-		<spawn type="CHAOTIC" x="-15632" y="129456" z="-3400"/>
-		<spawn type="CHAOTIC" x="-16960" y="127696" z="-3200"/>
-		<spawn type="CHAOTIC" x="-17632" y="126320" z="-3150"/>
-		<spawn type="CHAOTIC" x="-18704" y="124960" z="-3100"/>
-		<spawn type="CHAOTIC" x="-17760" y="121888" z="-3140"/>
-		<spawn type="CHAOTIC" x="-17472" y="122752" z="-3100"/>
-		<spawn type="CHAOTIC" x="-18720" y="124080" z="-3130"/>
-		<spawn type="CHAOTIC" x="-19008" y="122432" z="-3200"/>
-		<spawn type="CHAOTIC" x="-20048" y="122432" z="-3280"/>
-		<spawn type="CHAOTIC" x="-19008" y="126160" z="-3250"/>
-		<spawn type="CHAOTIC" x="-18480" y="127184" z="-3300"/>
-		<spawn type="CHAOTIC" x="-19664" y="125440" z="-3180"/>
-		<spawn type="CHAOTIC" x="-20176" y="124512" z="-3350"/>
-		<spawn type="CHAOTIC" x="-19040" y="121632" z="-3200"/>
+
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3250" maxZ="-2600"><!-- Dion Castle Town -->
 		<stat name="townId" val="8"/>
@@ -566,29 +490,27 @@
 		<node x="17238" y="141792"/>
 		<node x="17218" y="141574"/>
 		<node x="15265" y="141765"/>
-		<spawn type="NORMAL" x="19025" y="145245" z="-3107"/>
-		<spawn type="NORMAL" x="18576" y="145136" z="-3104"/>
-		<spawn type="NORMAL" x="18717" y="145711" z="-3097"/>
-		<spawn type="NORMAL" x="18512" y="145536" z="-3100"/>
-		<spawn type="NORMAL" x="18954" y="144428" z="-3000"/>
-		<spawn type="NORMAL" x="19150" y="143941" z="-3020"/>
-		<spawn type="NORMAL" x="19134" y="144847" z="-3020"/>
-		<spawn type="NORMAL" x="19613" y="145607" z="-3020"/>
-		<spawn type="NORMAL" x="18078" y="145925" z="-3020"/>
-		<spawn type="NORMAL" x="17398" y="145456" z="-3000"/>
-		<spawn type="NORMAL" x="17144" y="145055" z="-3000"/>
-		<spawn type="NORMAL" x="19012" y="145140" z="-3020"/>
-		<spawn type="CHAOTIC" x="17555" y="170393" z="-3400"/>
-		<spawn type="CHAOTIC" x="17699" y="170153" z="-3400"/>
-		<spawn type="CHAOTIC" x="17315" y="170041" z="-3400"/>
-		<spawn type="CHAOTIC" x="17283" y="170329" z="-3400"/>
-		<spawn type="CHAOTIC" x="17536" y="170505" z="-3400"/>
-		<spawn type="CHAOTIC" x="17299" y="170341" z="-3400"/>
-		<spawn type="CHAOTIC" x="17085" y="170170" z="-3400"/>
-		<spawn type="CHAOTIC" x="17421" y="169993" z="-3400"/>
-		<spawn type="CHAOTIC" x="17820" y="170054" z="-3400"/>
-		<spawn type="CHAOTIC" x="18054" y="170263" z="-3400"/>
-		<spawn type="CHAOTIC" x="17931" y="170381" z="-3400"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-2250" maxZ="-1400"><!-- Town of Oren -->
 		<stat name="townId" val="10"/>
@@ -622,40 +544,27 @@
 		<node x="81369" y="52310"/>
 		<node x="82605" y="52244"/>
 		<node x="84010" y="52250"/>
-		<spawn type="NORMAL" x="80304" y="56241" z="-1500"/>
-		<spawn type="NORMAL" x="80594" y="55837" z="-1500"/>
-		<spawn type="NORMAL" x="79933" y="55752" z="-1500"/>
-		<spawn type="NORMAL" x="80267" y="55497" z="-1500"/>
-		<spawn type="NORMAL" x="80334" y="54400" z="-1500"/>
-		<spawn type="NORMAL" x="82445" y="56012" z="-1480"/>
-		<spawn type="NORMAL" x="82323" y="55466" z="-1480"/>
-		<spawn type="NORMAL" x="82880" y="55390" z="-1480"/>
-		<spawn type="NORMAL" x="82638" y="53885" z="-1440"/>
-		<spawn type="NORMAL" x="82552" y="53447" z="-1440"/>
-		<spawn type="NORMAL" x="82213" y="53964" z="-1440"/>
-		<spawn type="NORMAL" x="80054" y="53209" z="-1500"/>
-		<spawn type="NORMAL" x="79706" y="52986" z="-1500"/>
-		<spawn type="NORMAL" x="82123" y="53535" z="-1440"/>
-		<spawn type="CHAOTIC" x="76576" y="50151" z="-3200"/>
-		<spawn type="CHAOTIC" x="77310" y="50317" z="-3160"/>
-		<spawn type="CHAOTIC" x="77250" y="51285" z="-3160"/>
-		<spawn type="CHAOTIC" x="78811" y="51106" z="-3160"/>
-		<spawn type="CHAOTIC" x="75755" y="51372" z="-3250"/>
-		<spawn type="CHAOTIC" x="75613" y="52504" z="-3200"/>
-		<spawn type="CHAOTIC" x="74459" y="52441" z="-3260"/>
-		<spawn type="CHAOTIC" x="74467" y="53354" z="-3200"/>
-		<spawn type="CHAOTIC" x="73600" y="53918" z="-3170"/>
-		<spawn type="CHAOTIC" x="71102" y="57875" z="-3330"/>
-		<spawn type="CHAOTIC" x="70052" y="59300" z="-3580"/>
-		<spawn type="CHAOTIC" x="70420" y="57480" z="-3480"/>
-		<spawn type="CHAOTIC" x="75474" y="60125" z="-2730"/>
-		<spawn type="CHAOTIC" x="74880" y="60818" z="-2820"/>
-		<spawn type="CHAOTIC" x="88011" y="56589" z="-3560"/>
-		<spawn type="CHAOTIC" x="91239" y="53120" z="-3430"/>
-		<spawn type="CHAOTIC" x="81785" y="46306" z="-3160"/>
-		<spawn type="CHAOTIC" x="80708" y="44609" z="-3120"/>
-		<spawn type="CHAOTIC" x="70139" y="55885" z="-3550"/>
-		<spawn type="CHAOTIC" x="80236" y="45675" z="-3150"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-2800" maxZ="-1500"><!-- Hunter Village -->
 		<stat name="townId" val="11"/>
@@ -676,31 +585,27 @@
 		<node x="117404" y="73671"/>
 		<node x="115622" y="74026"/>
 		<node x="115328" y="74252"/>
-		<spawn type="NORMAL" x="116127" y="76015" z="-2729"/>
-		<spawn type="NORMAL" x="115683" y="77610" z="-2650"/>
-		<spawn type="NORMAL" x="117304" y="76318" z="-2670"/>
-		<spawn type="NORMAL" x="119862" y="76603" z="-2220"/>
-		<spawn type="NORMAL" x="117671" y="78998" z="-2210"/>
-		<spawn type="NORMAL" x="117189" y="78952" z="-2210"/>
-		<spawn type="NORMAL" x="115861" y="75200" z="-2550"/>
-		<spawn type="NORMAL" x="118275" y="74859" z="-2557"/>
-		<spawn type="NORMAL" x="118229" y="74677" z="-2450"/>
-		<spawn type="NORMAL" x="115685" y="75072" z="-2550"/>
-		<spawn type="NORMAL" x="116704" y="75695" z="-2680"/>
-		<spawn type="NORMAL" x="116737" y="76738" z="-2650"/>
-		<spawn type="NORMAL" x="115193" y="77594" z="-2670"/>
-		<spawn type="NORMAL" x="116158" y="77443" z="-2660"/>
-		<spawn type="CHAOTIC" x="122098" y="70373" z="-2864"/>
-		<spawn type="CHAOTIC" x="118674" y="71218" z="-2743"/>
-		<spawn type="CHAOTIC" x="118040" y="67175" z="-2905"/>
-		<spawn type="CHAOTIC" x="119300" y="70660" z="-2850"/>
-		<spawn type="CHAOTIC" x="118851" y="70566" z="-2800"/>
-		<spawn type="CHAOTIC" x="112655" y="70976" z="-3122"/>
-		<spawn type="CHAOTIC" x="119712" y="66376" z="-2960"/>
-		<spawn type="CHAOTIC" x="107511" y="82890" z="-2515"/>
-		<spawn type="CHAOTIC" x="105702" y="82773" z="-2803"/>
-		<spawn type="CHAOTIC" x="104257" y="82194" z="-2581"/>
-		<spawn type="CHAOTIC" x="104474" y="81109" z="-2651"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-2700" maxZ="-1900"><!-- Town of Aden -->
 		<stat name="townId" val="12"/>
@@ -747,18 +652,14 @@
 		<spawn type="NORMAL" x="147970" y="27040" z="-2191"/>
 		<spawn type="NORMAL" x="146814" y="27108" z="-2189"/>
 		<spawn type="NORMAL" x="146819" y="28063" z="-2252"/>
-		<spawn type="CHAOTIC" x="136398" y="28901" z="-3582"/>
-		<spawn type="CHAOTIC" x="137292" y="28485" z="-3290"/>
-		<spawn type="CHAOTIC" x="155925" y="28554" z="-3164"/>
-		<spawn type="CHAOTIC" x="157608" y="23866" z="-3760"/>
-		<spawn type="CHAOTIC" x="157463" y="28770" z="-3371"/>
-		<spawn type="CHAOTIC" x="159348" y="28561" z="-3400"/>
-		<spawn type="CHAOTIC" x="160236" y="14119" z="-3892"/>
-		<spawn type="CHAOTIC" x="156764" y="13774" z="-3960"/>
-		<spawn type="CHAOTIC" x="161426" y="23055" z="-3670"/>
-		<spawn type="CHAOTIC" x="136380" y="21899" z="-3647"/>
-		<spawn type="CHAOTIC" x="137708" y="15640" z="-3800"/>
-		<spawn type="CHAOTIC" x="136629" y="28127" z="-3258"/>
+
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3550" maxZ="-2600"><!-- Town of Goddard -->
 		<stat name="townId" val="13"/>
@@ -793,78 +694,54 @@
 		<node x="143335" y="-55225"/>
 		<node x="143679" y="-53917"/>
 		<node x="143887" y="-53081"/>
-		<spawn type="NORMAL" x="148560" y="-55904" z="-2779"/>
-		<spawn type="NORMAL" x="150704" y="-55744" z="-2979"/>
-		<spawn type="NORMAL" x="150400" y="-56752" z="-2979"/>
-		<spawn type="NORMAL" x="149872" y="-57424" z="-2979"/>
-		<spawn type="NORMAL" x="149088" y="-56256" z="-2779"/>
-		<spawn type="NORMAL" x="147664" y="-56464" z="-2779"/>
-		<spawn type="NORMAL" x="147680" y="-56928" z="-2779"/>
-		<spawn type="NORMAL" x="146832" y="-55904" z="-2779"/>
-		<spawn type="NORMAL" x="146368" y="-56256" z="-2779"/>
-		<spawn type="NORMAL" x="149120" y="-58064" z="-2979"/>
-		<spawn type="NORMAL" x="148288" y="-58304" z="-2979"/>
-		<spawn type="NORMAL" x="147680" y="-58208" z="-2979"/>
-		<spawn type="NORMAL" x="147232" y="-58480" z="-2979"/>
-		<spawn type="NORMAL" x="146272" y="-58176" z="-2979"/>
-		<spawn type="NORMAL" x="145696" y="-57696" z="-2979"/>
-		<spawn type="NORMAL" x="145264" y="-57680" z="-2979"/>
-		<spawn type="NORMAL" x="145392" y="-56960" z="-2979"/>
-		<spawn type="NORMAL" x="144752" y="-56752" z="-2979"/>
-		<spawn type="NORMAL" x="144960" y="-56224" z="-2979"/>
-		<spawn type="NORMAL" x="144944" y="-55392" z="-2979"/>
-		<spawn type="NORMAL" x="144496" y="-55088" z="-2979"/>
-		<spawn type="CHAOTIC" x="142656" y="-55008" z="-3024"/>
-		<spawn type="CHAOTIC" x="142832" y="-55680" z="-3462"/>
-		<spawn type="CHAOTIC" x="143152" y="-56368" z="-3456"/>
-		<spawn type="CHAOTIC" x="145344" y="-59472" z="-3344"/>
-		<spawn type="CHAOTIC" x="145872" y="-59744" z="-3328"/>
-		<spawn type="CHAOTIC" x="150304" y="-59800" z="-3504"/>
-		<spawn type="CHAOTIC" x="152080" y="-56576" z="-3415"/>
-		<spawn type="CHAOTIC" x="142880" y="-56992" z="-3418"/>
-		<spawn type="CHAOTIC" x="144544" y="-58976" z="-3440"/>
-		<spawn type="CHAOTIC" x="146688" y="-60048" z="-3447"/>
-		<spawn type="CHAOTIC" x="146000" y="-60704" z="-3450"/>
-		<spawn type="CHAOTIC" x="145248" y="-60064" z="-3440"/>
-		<spawn type="CHAOTIC" x="144368" y="-59616" z="-3512"/>
-		<spawn type="CHAOTIC" x="143536" y="-57456" z="-3424"/>
-		<spawn type="CHAOTIC" x="150576" y="-59024" z="-3488"/>
-		<spawn type="CHAOTIC" x="149680" y="-59600" z="-3440"/>
-		<spawn type="CHAOTIC" x="149360" y="-60576" z="-3520"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="Cuboid" minZ="-1200" maxZ="3000"><!-- Rune Castle Town -->
 		<stat name="townId" val="14"/>
 		<stat name="castleId" val="8"/>
 		<node x="47150" y="-44815"/>
 		<node x="32531" y="-52045"/>
-		<spawn type="NORMAL" x="38096" y="-46976" z="899"/>
-		<spawn type="NORMAL" x="38608" y="-47168" z="899"/>
-		<spawn type="NORMAL" x="38752" y="-47792" z="899"/>
-		<spawn type="NORMAL" x="38848" y="-48640" z="899"/>
-		<spawn type="NORMAL" x="38272" y="-49008" z="899"/>
-		<spawn type="NORMAL" x="38112" y="-49792" z="899"/>
-		<spawn type="NORMAL" x="43408" y="-51120" z="-800"/>
-		<spawn type="NORMAL" x="43536" y="-50416" z="-800"/>
-		<spawn type="NORMAL" x="44368" y="-50592" z="-800"/>
-		<spawn type="NORMAL" x="44000" y="-49952" z="-800"/>
-		<spawn type="NORMAL" x="45072" y="-49936" z="-800"/>
-		<spawn type="NORMAL" x="45824" y="-49056" z="-800"/>
-		<spawn type="NORMAL" x="45632" y="-47968" z="-800"/>
-		<spawn type="NORMAL" x="44864" y="-47824" z="-800"/>
-		<spawn type="NORMAL" x="43744" y="-47920" z="-800"/>
-		<spawn type="NORMAL" x="43792" y="-48928" z="-800"/>
-		<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
-		<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
-		<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
-		<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
-		<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
-		<spawn type="CHAOTIC" x="37152" y="-56272" z="-272"/>
-		<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
-		<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
-		<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
-		<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
-		<spawn type="CHAOTIC" x="42496" y="-58192" z="-3264"/>
-		<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3800" maxZ="-3400"><!-- Heine -->
 		<stat name="townId" val="15"/>
@@ -928,25 +805,27 @@
 		<node x="111808" y="216566"/>
 		<node x="111631" y="216386"/>
 		<node x="111393" y="216322"/>
-		<spawn type="NORMAL" x="107568" y="218256" z="-3624"/>
-		<spawn type="NORMAL" x="107920" y="218240" z="-3624"/>
-		<spawn type="NORMAL" x="107808" y="217856" z="-3624"/>
-		<spawn type="NORMAL" x="108032" y="218048" z="-3624"/>
-		<spawn type="NORMAL" x="107552" y="218000" z="-3624"/>
-		<spawn type="NORMAL" x="110912" y="219584" z="-3624"/>
-		<spawn type="NORMAL" x="110768" y="219824" z="-3624"/>
-		<spawn type="NORMAL" x="110688" y="220576" z="-3624"/>
-		<spawn type="NORMAL" x="110896" y="220768" z="-3624"/>
-		<spawn type="NORMAL" x="111856" y="220752" z="-3624"/>
-		<spawn type="NORMAL" x="112112" y="220576" z="-3624"/>
-		<spawn type="NORMAL" x="112064" y="219792" z="-3624"/>
-		<spawn type="NORMAL" x="111888" y="219584" z="-3624"/>
-		<spawn type="CHAOTIC" x="117872" y="225536" z="-3200"/>
-		<spawn type="CHAOTIC" x="118064" y="225648" z="-3200"/>
-		<spawn type="CHAOTIC" x="101696" y="221808" z="-3520"/>
-		<spawn type="CHAOTIC" x="101552" y="221568" z="-3520"/>
-		<spawn type="CHAOTIC" x="100784" y="218272" z="-3420"/>
-		<spawn type="CHAOTIC" x="100928" y="218560" z="-3420"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-2350" maxZ="-1200"><!-- Town of Schuttgart -->
 		<stat name="townId" val="17"/>
@@ -977,34 +856,27 @@
 		<node x="89454" y="-148688"/>
 		<node x="91280" y="-145403"/>
 		<node x="91084" y="-144472"/>
-		<spawn type="NORMAL" x="87609" y="-140199" z="-1536"/>
-		<spawn type="NORMAL" x="87171" y="-140174" z="-1536"/>
-		<spawn type="NORMAL" x="87295" y="-139915" z="-1536"/>
-		<spawn type="NORMAL" x="86540" y="-140337" z="-1536"/>
-		<spawn type="NORMAL" x="85475" y="-140821" z="-1536"/>
-		<spawn type="NORMAL" x="84960" y="-141293" z="-1536"/>
-		<spawn type="NORMAL" x="84580" y="-142140" z="-1536"/>
-		<spawn type="NORMAL" x="84472" y="-143168" z="-1536"/>
-		<spawn type="NORMAL" x="86206" y="-142594" z="-1336"/>
-		<spawn type="NORMAL" x="86818" y="-142510" z="-1336"/>
-		<spawn type="NORMAL" x="87741" y="-142567" z="-1336"/>
-		<spawn type="NORMAL" x="88256" y="-143192" z="-1336"/>
-		<spawn type="NORMAL" x="89624" y="-141193" z="-1536"/>
-		<spawn type="NORMAL" x="89857" y="-141698" z="-1536"/>
-		<spawn type="NORMAL" x="90272" y="-142619" z="-1536"/>
-		<spawn type="NORMAL" x="90306" y="-143788" z="-1536"/>
-		<spawn type="CHAOTIC" x="42640" y="-54496" z="-2310"/>
-		<spawn type="CHAOTIC" x="38304" y="-55440" z="-1136"/>
-		<spawn type="CHAOTIC" x="40192" y="-57600" z="-2343"/>
-		<spawn type="CHAOTIC" x="38400" y="-56832" z="-992"/>
-		<spawn type="CHAOTIC" x="35632" y="-54800" z="-1744"/>
-		<spawn type="CHAOTIC" x="37152" y="-56272" z="-272"/>
-		<spawn type="CHAOTIC" x="43936" y="-56480" z="-3627"/>
-		<spawn type="CHAOTIC" x="39440" y="-60080" z="-2870"/>
-		<spawn type="CHAOTIC" x="41376" y="-55376" z="-1488"/>
-		<spawn type="CHAOTIC" x="41920" y="-57760" z="-2392"/>
-		<spawn type="CHAOTIC" x="42496" y="-58192" z="-3264"/>
-		<spawn type="CHAOTIC" x="40784" y="-59888" z="-2600"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
 	<zone shape="NPoly" minZ="-3600" maxZ="-3400"><!-- Floran Village -->
 		<stat name="townId" val="16"/>
@@ -1030,38 +902,27 @@
 		<node x="17220" y="170888"/>
 		<node x="16897" y="170757"/>
 		<node x="16543" y="170561"/>
-		<spawn type="NORMAL" x="19025" y="145245" z="-3107"/>
-		<spawn type="NORMAL" x="18576" y="145136" z="-3104"/>
-		<spawn type="NORMAL" x="18717" y="145711" z="-3097"/>
-		<spawn type="NORMAL" x="18512" y="145536" z="-3100"/>
-		<spawn type="NORMAL" x="18954" y="144428" z="-3000"/>
-		<spawn type="NORMAL" x="19150" y="143941" z="-3020"/>
-		<spawn type="NORMAL" x="19134" y="144847" z="-3020"/>
-		<spawn type="NORMAL" x="19613" y="145607" z="-3020"/>
-		<spawn type="NORMAL" x="18078" y="145925" z="-3020"/>
-		<spawn type="NORMAL" x="17398" y="145456" z="-3000"/>
-		<spawn type="NORMAL" x="17144" y="145055" z="-3000"/>
-		<spawn type="NORMAL" x="19012" y="145140" z="-3020"/>
-		<spawn type="CHAOTIC" x="17555" y="170393" z="-3451"/>
-		<spawn type="CHAOTIC" x="17699" y="170153" z="-3451"/>
-		<spawn type="CHAOTIC" x="17315" y="170041" z="-3451"/>
-		<spawn type="CHAOTIC" x="17283" y="170329" z="-3451"/>
-		<spawn type="CHAOTIC" x="17536" y="170505" z="-3451"/>
-		<spawn type="CHAOTIC" x="17299" y="170341" z="-3451"/>
-		<spawn type="CHAOTIC" x="17085" y="170170" z="-3451"/>
-		<spawn type="CHAOTIC" x="17421" y="169993" z="-3451"/>
-		<spawn type="CHAOTIC" x="17820" y="170054" z="-3451"/>
-		<spawn type="CHAOTIC" x="18054" y="170263" z="-3451"/>
-		<spawn type="CHAOTIC" x="17931" y="170381" z="-3451"/>
+		<spawn type="NORMAL" x="82480" y="149087" z="-3350"/>
+		<spawn type="NORMAL" x="81440" y="149119" z="-3350"/>
+		<spawn type="NORMAL" x="81376" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="82496" y="148095" z="-3350"/>
+		<spawn type="NORMAL" x="83473" y="149223" z="-3300"/>
+		<spawn type="NORMAL" x="83426" y="148835" z="-3300"/>
+		<spawn type="NORMAL" x="83409" y="148578" z="-3300"/>
+		<spawn type="NORMAL" x="83415" y="148235" z="-3300"/>
+		<spawn type="NORMAL" x="82272" y="147801" z="-3350"/>
+		<spawn type="NORMAL" x="81562" y="147782" z="-3350"/>
+		<spawn type="NORMAL" x="81062" y="148144" z="-3350"/>
+		<spawn type="NORMAL" x="81033" y="148883" z="-3350"/>
+		<spawn type="NORMAL" x="81637" y="149427" z="-3350"/>
+		<spawn type="NORMAL" x="82292" y="149450" z="-3350"/>
+		<spawn type="CHAOTIC" x="12896" y="171141" z="-3632"/>
+		<spawn type="CHAOTIC" x="18488" y="170394" z="-3496"/>
+		<spawn type="CHAOTIC" x="20276" y="169975" z="-3552"/>
+		<spawn type="CHAOTIC" x="19419" y="174004" z="-3576"/>
+		<spawn type="CHAOTIC" x="15571" y="174289" z="-3624"/>
+		<spawn type="CHAOTIC" x="18975" y="165313" z="-3440"/>
+		<spawn type="CHAOTIC" x="22347" y="165517" z="-3376"/>
 	</zone>
-	<zone shape="NPoly" minZ="-4290" maxZ="-1290"><!-- Primeval Isle (Town Zone) -->
-		<stat name="townId" val="19"/>
-		<node x="10408" y="-27395"/>
-		<node x="12065" y="-25334"/>
-		<node x="12223" y="-23159"/>
-		<node x="10424" y="-22340"/>
-		<node x="9566" y="-23131"/>
-		<node x="9290" y="-24261"/>
-		<spawn type="NORMAL" x="10468" y="-24569" z="-3645"/>
-	</zone>
+	
 </list>

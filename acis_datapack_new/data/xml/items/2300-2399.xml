@@ -779,7 +779,7 @@
 		<set name="crystal_count" val="277" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="7920" />
-		<set name="price" val="2080000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="157" />
 			<enchant stat="pDef" val="0" />
@@ -793,7 +793,7 @@
 		<set name="crystal_count" val="340" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="3870" />
-		<set name="price" val="187000" />
+		<set name="price" val="87000" />
 		<for>
 			<baseadd stat="pDef" val="64" />
 			<enchant stat="pDef" val="0" />
@@ -807,7 +807,7 @@
 		<set name="crystal_count" val="340" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="3820" />
-		<set name="price" val="187000" />
+		<set name="price" val="37000" />
 		<for>
 			<baseadd stat="pDef" val="64" />
 			<enchant stat="pDef" val="0" />
@@ -815,13 +815,14 @@
 	</item>
 	<item id="2379" type="Armor" name="Avadon Gaiters">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="173" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="3520" />
-		<set name="price" val="1300000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="98" />
 			<enchant stat="pDef" val="0" />
@@ -829,13 +830,14 @@
 	</item>
 	<item id="2380" type="Armor" name="Blue Wolf Gaiters">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="268" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="3370" />
-		<set name="price" val="2010000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="104" />
 			<enchant stat="pDef" val="0" />
@@ -843,13 +845,14 @@
 	</item>
 	<item id="2381" type="Armor" name="Doom Plate Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="628" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="9980" />
-		<set name="price" val="4710000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="270" />
 			<enchant stat="pDef" val="0" />
@@ -857,13 +860,14 @@
 	</item>
 	<item id="2382" type="Armor" name="Tallum Plate Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="541" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="9780" />
-		<set name="price" val="6770000" />
+		<set name="price" val="6000000" />
 		<for>
 			<baseadd stat="pDef" val="278" />
 			<enchant stat="pDef" val="0" />
@@ -871,13 +875,14 @@
 	</item>
 	<item id="2383" type="Armor" name="Majestic Plate Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_heavy_restricted" val="true" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="824" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="9200" />
-		<set name="price" val="10300000" />
+		<set name="price" val="6000000" />
 		<for>
 			<baseadd stat="pDef" val="293" />
 			<enchant stat="pDef" val="0" />
@@ -891,7 +896,7 @@
 		<set name="crystal_count" val="208" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4330" />
-		<set name="price" val="1560000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="117" />
 			<enchant stat="pDef" val="0" />
@@ -899,13 +904,14 @@
 	</item>
 	<item id="2385" type="Armor" name="Dark Crystal Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="277" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="4300" />
-		<set name="price" val="3470000" />
+		<set name="price" val="1470000" />
 		<for>
 			<baseadd stat="pDef" val="128" />
 			<enchant stat="pDef" val="0" />
@@ -930,7 +936,7 @@
 		<set name="crystal_count" val="94" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1530" />
-		<set name="price" val="237000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="pDef" val="56" />
 			<enchant stat="pDef" val="0" />
@@ -944,7 +950,7 @@
 		<set name="crystal_count" val="129" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1480" />
-		<set name="price" val="973000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="73" />
 			<enchant stat="pDef" val="0" />
@@ -958,7 +964,7 @@
 		<set name="crystal_count" val="173" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1480" />
-		<set name="price" val="2170000" />
+		<set name="price" val="1170000" />
 		<for>
 			<baseadd stat="pDef" val="80" />
 			<enchant stat="pDef" val="0" />
@@ -966,13 +972,14 @@
 	</item>
 	<item id="2390" type="Armor" name="Avadon Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="304" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5600" />
-		<set name="price" val="2280000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="191" />
 			<enchant stat="pDef" val="0" />
@@ -980,13 +987,14 @@
 	</item>
 	<item id="2391" type="Armor" name="Blue Wolf Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="470" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5500" />
-		<set name="price" val="3530000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="202" />
 			<enchant stat="pDef" val="0" />
@@ -994,13 +1002,14 @@
 	</item>
 	<item id="2392" type="Armor" name="Leather Armor of Doom">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="470" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5500" />
-		<set name="price" val="3530000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="202" />
 			<enchant stat="pDef" val="0" />
@@ -1008,13 +1017,14 @@
 	</item>
 	<item id="2393" type="Armor" name="Tallum Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="406" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5400" />
-		<set name="price" val="5080000" />
+		<set name="price" val="4030000" />
 		<for>
 			<baseadd stat="pDef" val="209" />
 			<enchant stat="pDef" val="0" />
@@ -1022,13 +1032,14 @@
 	</item>
 	<item id="2394" type="Armor" name="Nightmarish Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="618" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5300" />
-		<set name="price" val="7730000" />
+		<set name="price" val="4030000" />
 		<for>
 			<baseadd stat="pDef" val="220" />
 			<enchant stat="pDef" val="0" />
@@ -1036,13 +1047,14 @@
 	</item>
 	<item id="2395" type="Armor" name="Majestic Leather Armor">
 		<set name="default_action" val="equip" />
+		<set name="is_light_restricted" val="true" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="618" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="5350" />
-		<set name="price" val="7730000" />
+		<set name="price" val="4030000" />
 		<for>
 			<baseadd stat="pDef" val="220" />
 			<enchant stat="pDef" val="0" />
@@ -1056,7 +1068,7 @@
 		<set name="crystal_count" val="407" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="720" />
-		<set name="price" val="224000" />
+		<set name="price" val="24000" />
 		<for>
 			<baseadd stat="pDef" val="54" />
 			<add stat="maxMp" val="169" />
@@ -1071,7 +1083,7 @@
 		<set name="crystal_count" val="208" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1960" />
-		<set name="price" val="1560000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="78" />
 			<add stat="maxMp" val="345" />
@@ -1086,7 +1098,7 @@
 		<set name="crystal_count" val="321" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1920" />
-		<set name="price" val="2410000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="83" />
 			<add stat="maxMp" val="377" />
@@ -1101,7 +1113,7 @@
 		<set name="crystal_count" val="321" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1900" />
-		<set name="price" val="2410000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="83" />
 			<add stat="maxMp" val="377" />

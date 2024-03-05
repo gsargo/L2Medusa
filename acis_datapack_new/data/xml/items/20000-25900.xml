@@ -1,0 +1,3958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+<item id="14004" type="EtcItem" name="Fox Mask">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+<item id="14005" type="EtcItem" name="Dragon Boat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+<item id="14009" type="EtcItem" name="Halisha Helmet">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+
+	
+	<item id="14016" type="EtcItem" name="Bee Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="14019" type="EtcItem" name="Feathered Friend">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="14018" type="EtcItem" name="Mask of Legion">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="14020" type="EtcItem" name="Ice Daemon">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="14022" type="EtcItem" name="Warm Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	<item id="14023" type="EtcItem" name="Warm Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9191" type="EtcItem" name="Bear Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="9192" type="EtcItem" name="Pig Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9193" type="EtcItem" name="Penguin Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="9194" type="EtcItem" name="Turtle Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="9821" type="EtcItem" name="Jester">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9822" type="EtcItem" name="Romantic Chapeu Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9823" type="EtcItem" name="Dapper Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	<item id="9824" type="EtcItem" name="Laborer Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	<item id="9831" type="EtcItem" name="Red Horned Mask">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+
+	
+	
+	<item id="9873" type="EtcItem" name="Forage Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+
+	<item id="9874" type="EtcItem" name="Sheriff's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+<item id="9836" type="EtcItem" name="Diablo Mask">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9868" type="EtcItem" name="Granny's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+
+<item id="9852" type="EtcItem" name="Winged Halo">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+
+
+<item id="9929" type="EtcItem" name="Napoleon Helm">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	<item id="9937" type="EtcItem" name="Blonde Hairstyle with Diadem">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	<item id="9938" type="EtcItem" name="Cap of the Jolly Jester">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9939" type="EtcItem" name="Cougar Mask">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+<item id="9941" type="EtcItem" name="Afro Hair Gold">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+
+
+<item id="9942" type="EtcItem" name="Afro Hair Pink">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9943" type="EtcItem" name="Snake's head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9944" type="EtcItem" name="Straw hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="9945" type="EtcItem" name="Sexy panda">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="9946" type="EtcItem" name="Shark head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	
+		<item id="9850" type="EtcItem" name="Valakas Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9851" type="EtcItem" name="Antharas Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9870" type="EtcItem" name="Agamemnon's conquest">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="45" order="0x40" stat='pAtkSpd' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="9882" type="EtcItem" name="Ippocrates Healer Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="9922" type="Armor" name="Ippocrates  Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	<item id="9925" type="Armor" name="Dioscuri / Elite Rogue Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9928" type="Armor" name="Mainland Bandit / Armor of the grand lord Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="9936" type="EtcItem" name="Elite Rogue Bandana">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15001" type="EtcItem" name="Red Artemis Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="15003" type="EtcItem" name="Green Artemis Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15013" type="EtcItem" name="Sorcerer's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="15015" type="EtcItem" name="Hoplite's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	
+	</item>
+	
+	<item id="15019" type="EtcItem" name="Red Noblesse Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15021" type="EtcItem" name="White Noblesse Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	<item id="15027" type="EtcItem" name="Red Zaken Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15029" type="EtcItem" name="Blue Zaken Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15037" type="EtcItem" name="Vampire Costume Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="15041" type="EtcItem" name="Talos Costume Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="15043" type="EtcItem" name="Cowboy Costume Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="15045" type="EtcItem" name="Viking Costume Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+			
+		<item id="15047" type="EtcItem" name="Dragon Costume Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	
+
+	<item id="19524" type="Armor" name="Spanish Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+
+	<item id="19525" type="Armor" name="Bulgarian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+		</for>
+	</item>
+
+	<item id="19526" type="Armor" name="Russian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+
+	<item id="19527" type="Armor" name="Czech Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+	
+	<item id="19528" type="Armor" name="Polish Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+	
+	<item id="9934" type="Armor" name="Skull Gate">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+	
+	<item id="19529" type="Armor" name="Greek Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+
+		</for>
+	</item>
+	
+	<item id="19530" type="Armor" name="Shield of Helios">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+		</for>
+	</item>
+	
+	<item id="19531" type="Armor" name="Achilles Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />		
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<enchant val="0" stat="sDef" />
+			<set stat="rShld" val="20" />
+		</for>
+	</item>
+
+
+	<item id="19532" type="Armor" name="Freya Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19533" type="Armor" name="Istina Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19534" type="Armor" name="Kelbim Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19535" type="Armor" name="Kunda Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19536" type="Armor" name="Mahum Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+
+	<item id="19537" type="Armor" name="Marshal Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19538" type="Armor" name="Mask Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19539" type="Armor" name="Invader Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19540" type="Armor" name="Shield of Scrab">
+		<!--v1 -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19541" type="Armor" name="Amira Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+		<item id="19542" type="Armor" name="Shield of Scrab">
+		<!-- v2 -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19543" type="Armor" name="Shield of Scrab">
+	<!-- v3 -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19544" type="Armor" name="Brazilian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19545" type="Armor" name="Lithuanian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19546" type="Armor" name="Romanian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19547" type="Armor" name="Turkish Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19548" type="Armor" name="Argentinian Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<cond msgId="1518">
+			<and>
+				<player isinclan="true" />
+			</and>
+		</cond>
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19549" type="Armor" name="Aegis">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<mul stat="rCrit" val="1.12" />
+			<set stat="rShld" val="20" />
+		</for>
+	</item>
+	
+	<item id="19550" type="Armor" name="Altervolition">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_oly_restricted" val="true" />
+		
+		<for>
+			<add val="50" order="0x40" stat='mDef'/>
+			<add val="200" order="0x40" stat='mAtk' />
+		</for>
+	</item>
+	
+	<item id="19551" type="Armor" name="Valakas Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19552" type="Armor" name="Fafurion Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19553" type="Armor" name="Lindvior Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19554" type="Armor" name="Aulakiria Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="3760000" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="150" order="0x40" stat='pAtk' /> <!-- +150 patk -->
+			<set stat="rShld" val="20" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	
+	<item id="19555" type="Armor" name="Ultrasanity Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="760000" />
+
+		<set name="is_oly_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+			<add val="200" order="0x40" stat='mAtk' />
+		</for>
+	</item>
+	
+	<item id="19556" type="Armor" name="Trojan Shield">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="760000" />
+		<set name="is_oly_restricted" val="true" />	
+		<set name="is_dagger_restricted" val="true" />		
+		<for>
+			<add val="50" order="0x40" stat='pDef'/>
+		</for>
+	</item>
+	
+	<item id="19557" type="Armor" name="Omnisapience">
+	<!-- healer's book -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1" />
+		<set name="price" val="760000" />	
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_dagger_restricted" val="true" />
+		<for>
+			<add val="50" order="0x40" stat='mDef'/>
+			<add val="200" order="0x40" stat='mAtk' />
+			<add stat="giveHp" val="1.10" />
+			<mul stat="mReuse" val="1.025" />		
+		</for>
+	</item>
+
+
+
+
+	<item id="20000" type="EtcItem" name="Zoro Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+<item id="20003" type="EtcItem" name="Golden Skeleton Circlet">
+<!-- REMOVE FROM SHOP , NOBLE QUEST GIVE Q247_PossesorOfAPreciousSoul-->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="equip_condition" val="{{ec_nobless;1}}" />
+	</item>
+
+	<item id="20004" type="EtcItem" name="Zaken's Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="20005" type="EtcItem" name="Atalanta's Circlet">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="2" order="0x40" stat='runSpd' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="20007" type="EtcItem" name="Orpheus Lamentation">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.08' order='0x30' stat='mReuse'/>
+		<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="20010" type="EtcItem" name="Hermes Circlet">
+	<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="20011" type="EtcItem" name="Krypteia's Shadow OLD no stats">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="20012" type="EtcItem" name="Miner's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="20014" type="EtcItem" name="Hydra's Skull">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val='3' order='0x40' stat='accCombat'/>
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+
+
+	<item id="20017" type="EtcItem" name="Feathered Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="20018" type="EtcItem" name="Firework Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="20019" type="EtcItem" name="Taiwan Hair">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="20021" type="EtcItem" name="Feathered Helm">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="20022" type="EtcItem" name="Flower hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="20025" type="EtcItem" name="King's Crown">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="20026" type="EtcItem" name="Flower hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="20027" type="EtcItem" name="Farmer's hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22001" type="EtcItem" name="Brazil Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="22002" type="EtcItem" name="USA Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="22003" type="EtcItem" name="Greek Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="22004" type="EtcItem" name="Europe Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="22005" type="EtcItem" name="Russian Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22006" type="EtcItem" name="Ukraine Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22009" type="EtcItem" name="Kings Crown">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+		
+	
+	<item id="22011" type="EtcItem" name="Spartan Helm">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22012" type="EtcItem" name="Cap and glasses">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22013" type="EtcItem" name="Green Wizard Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22014" type="EtcItem" name="Magician Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22015" type="EtcItem" name="Blackbear's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22017" type="EtcItem" name="USSR Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="22018" type="EtcItem" name="Joker's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22019" type="EtcItem" name="Chicken Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22020" type="EtcItem" name="Pinokio Mask">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22021" type="EtcItem" name="Flower Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22022" type="EtcItem" name="Perseus' Conviction">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.20' order='0x30' stat='stunVuln'/>
+		<mul val='1.40' order='0x30' stat='rootVuln'/>
+		<mul val='1.30' order='0x30' stat='sleepVuln'/>
+		<mul val='1.20' order='0x40' stat='paralyzeVuln'/>
+		<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	
+	<item id="22024" type="EtcItem" name="Black Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22025" type="EtcItem" name="Black Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="22026" type="EtcItem" name="Orion's Wrath">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>
+		<add val="70" order="0x40" stat='mDef' />
+		<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="22027" type="EtcItem" name="Sherrif Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25127" type="EtcItem" name="Ixion's Greed">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.08' order='0x20' stat='gainHp'/>
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25128" type="EtcItem" name="Feathered Friend">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25129" type="EtcItem" name="Satyr's Horns">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="2" order="0x40" stat='rEvas' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="25130" type="EtcItem" name="Zlodey Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="25131" type="EtcItem" name="Angry Bird">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25135" type="EtcItem" name="Olympus Valor">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>	
+			<add val="500" order="0x40" stat='maxCp'/>		
+			<add val="3" order="0x40" stat='runSpd'/>
+		</for>
+	</item>
+	
+	<item id="25139" type="EtcItem" name="Achilles Helm">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="85" order="0x40" stat='pAtk' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25149" type="EtcItem" name="Witcher's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+	<item id="25150" type="EtcItem" name="Marine's Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25151" type="EtcItem" name="Russian Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	
+		<item id="25152" type="EtcItem" name="Special Forces Beret">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="25153" type="EtcItem" name="Special Forces Beret v2">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25157" type="EtcItem" name="Headgear of leader">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25158" type="EtcItem" name="Headgear of leader">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25160" type="EtcItem" name="Good Ghost">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25161" type="EtcItem" name="Voodoo Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25163" type="EtcItem" name="Mad Hatter">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25164" type="EtcItem" name="Voodoo Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.05' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+		<item id="25166" type="EtcItem" name="Demon's Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25167" type="EtcItem" name="Theseus' Courage">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.10' order='0x30' stat='pReuse'/>
+		<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25168" type="EtcItem" name="Carnival">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25300" type="EtcItem" name="Vampire Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25301" type="Armor" name="Cowboy Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25302" type="Armor" name="Red Zaken Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="25303" type="Armor" name="Blue Zaken Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25304" type="Armor" name="Dark Nobless Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		
+	</item>
+	
+	<item id="25305" type="Armor" name="White Nobless Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		
+	</item>
+	
+	<item id="25306" type="Armor" name="Green Artemis Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25307" type="Armor" name="Apollo's Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25308" type="Armor" name="Talos/Cyborg Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25309" type="Armor" name="Red Artemis Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25310" type="Armor" name="Dragon Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25311" type="Armor" name="Sorcerer's Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25312" type="Armor" name="Hoplite's Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25313" type="Armor" name="Marauder's Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25314" type="EtcItem" name="Marauder's Hat">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25315" type="Armor" name="Arke's Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>					
+			<add val="500" order="0x40" stat='maxCp'/>
+            <add val="3" order="0x40" stat='runSpd'/>
+		</for>
+	</item>
+	
+	<item id="25316" type="Armor" name="Magma Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>					
+			<mul val='1.10' order='0x30' stat='regHp'/>
+			<mul val='1.10' order='0x30' stat='regCp'/>
+			<mul val='1.10' order='0x30' stat='regMp'/>
+		</for>
+	</item>
+	
+	<item id="25317" type="Armor" name="Wings of Icarus">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>					
+			<add val="500" order="0x40" stat='maxCp'/>
+			<add val="3" order="0x40" stat='runSpd'/>
+		</for>
+	</item>
+	
+	<item id="25318" type="Armor" name="Wings of Daedalus">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>					
+			<add val="500" order="0x40" stat='maxCp'/>
+			<add val="3" order="0x40" stat='runSpd'/>		
+		</for>
+	</item>
+	
+	<item id="25319" type="Armor" name="SkullShot Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25320" type="EtcItem" name="Skullshot Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25321" type="EtcItem" name="Cirke's Diceit">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>		
+			<add val="40" order="0x40" stat='mAtkSpd' />		
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="25322" type="EtcItem" name="Medea's Cover">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>		
+			<add val="70" order="0x40" stat='mAtk' />		
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25323" type="EtcItem" name="Diomedes Prowess">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="40" order="0x40" stat='pDef' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25324" type="EtcItem" name="Krypteia’s shadow">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="85" order="0x40" stat='cAtkAdd' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25325" type="EtcItem" name="Asclepius gift">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.08' order='0x20' stat='giveHp'/>
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+			<mul val='1.09' order='0x20' stat='maxMp'/>
+		</for>
+	</item>
+	
+	<item id="25326" type="EtcItem" name="Ajax's Ferocity">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="12" order="0x40" stat='rCrit' />
+			<mul val='1.10' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25327" type="Armor" name="Red Muskeeter Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25328" type="EtcItem" name="Red Muskeeter Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25329" type="Armor" name="Blue Muskeeter Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25330" type="EtcItem" name="Blue Muskeeter Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	<item id="25331" type="Armor" name="Black Assasin Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25332" type="EtcItem" name="Black Assasin Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25333" type="EtcItem" name="Moden Vampire Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25334" type="Armor" name="Poseidon Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25335" type="EtcItem" name="Poseidon Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25336" type="Armor" name="Typhon's Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25337" type="EtcItem" name="Typhon's Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25338" type="Armor" name="Night Terror Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25339" type="EtcItem" name="Night Terror Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	
+	
+	<item id="25340" type="Armor" name="Helios' Follower Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25341" type="EtcItem" name="Helios' Follower Cap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25343" type="Armor" name="Shark Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25344" type="EtcItem" name="Shark Costume Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25345" type="Armor" name="Akronos Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_fighter_restricted" val="true" />
+		<for>					
+			<mul val='1.20' order='0x30' stat='regHp'/>
+			<mul val='1.20' order='0x30' stat='regCp'/>
+			<mul val='1.20' order='0x30' stat='regMp'/>
+			<add val="1" order="0x40" stat='runSpd'/>
+		</for>
+	</item>
+	
+	<item id="25346" type="EtcItem" name="Dark Legacy Costume Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25347" type="Armor" name="Deer Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25348" type="EtcItem" name="Deer Costume Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25349" type="Armor" name="Santa Claus Costume">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25350" type="Armor" name="Hades Costume">
+	<!-- Blue -->
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25351" type="Armor" name="Hades Costume Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25352" type="Armor" name="Hades Costume">
+	<!-- Violet -->
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="alldress" />
+		<set name="material" val="CLOTH" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25353" type="Armor" name="Hades Costume Head">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		
+	
+	
+	<item id="25600" type="Armor" name="Dorian Necklace">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7044-1" />
+		<for>
+			<baseadd stat="mDef" val="85" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25601" type="Armor" name="Dorian Earring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lonly_ear" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7045-1" />
+		<!-- 7045 is a custom passive skill for the earring -->
+		<for>
+			<baseadd stat="mDef" val="63" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25602" type="Armor" name="Dorian Ring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lonly_finger" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7046-1" />
+		<for>
+			<baseadd stat="mDef" val="42" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25603" type="Armor" name="Ionian Necklace">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7047-1" />
+		<for>
+			<baseadd stat="mDef" val="85" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25604" type="Armor" name="Ionian Earring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7048-1" />
+		<!-- 7048 is a custom passive skill for the earring -->
+		<for>
+			<baseadd stat="mDef" val="63" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25605" type="Armor" name="Ionian Ring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="7049-1" />
+		<for>
+			<baseadd stat="mDef" val="42" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25606" type="Armor" name="Zeus' Hegemony">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6001-1" />
+		<for>
+			<baseadd stat="mDef" val="95" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="25607" type="Armor" name="Poseidon's Fury">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6002-1" />
+		<for>
+			<baseadd stat="mDef" val="95" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25608" type="Armor" name="Nyx's Darkness">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lonly_finger" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6003-1" />
+		<for>
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25609" type="Armor" name="Hades' Grasp">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6004-1" />
+		<for>
+			<baseadd stat="mDef" val="95" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25610" type="Armor" name="Medusa's Vanity">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6005-1" />
+		<for>
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25611" type="Armor" name="Laestrygon's Glutonny">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6006-1" />
+		<for>
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="25612" type="Armor" name="Typhon's Bane">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6007-1" />
+		<for>
+			<baseadd stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25613" type="Armor" name="Minotaur's Demise">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lonly_ear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6008-1" />
+		<for>
+			<baseadd stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25614" type="Armor" name="Cerberus Malcontent">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="1" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6009-1" />
+		<for>
+			<baseadd stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25615" type="Armor" name="Blessed Tateossian Necklace">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="296" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6012-1" />
+		<for>
+			<baseadd stat="mDef" val="95" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25616" type="Armor" name="Blessed Tateossian Earring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="96" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6013-1" />
+		<for>
+			<baseadd stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<add stat="maxCp" val="75" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	
+	<item id="25617" type="Armor" name="Blessed Tateossian Ring">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="86" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="0" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="6014-1" />
+		<for>
+			<baseadd stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<add stat="maxMp" val="75" />
+			<enchant stat="mDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="25620" type="EtcItem" name="Olympus Scroll of Escape">
+	<!-- skill 7087 , custom soe skill -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7087-1" />
+	</item>
+	
+	<item id="25621" type="EtcItem" name="Elemental Stones Bundle Lv1"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7086-1" />
+	</item>
+	
+	<item id="25622" type="EtcItem" name="Elemental Stones Bundle Lv2"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7086-2" />
+	</item>
+	
+	<item id="25623" type="EtcItem" name="Elemental Stones Bundle Lv3"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7086-3" />
+	</item>
+	
+	<item id="25624" type="EtcItem" name="Elemental Stones Bundle Lv4">
+<!-- skill to be changed , etcitem grp + itemname -->	
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7086-4" /> 
+	</item>
+	
+	<item id="25625" type="EtcItem" name="Nectar">
+	<!-- Greater MP-->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="price" val="2000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2279-4" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+	</item>
+	
+	<item id="25626" type="EtcItem" name="Ambrosia">
+	<!-- Greater HP -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="1" />
+		<set name="price" val="1080" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="9954-2" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+		
+	</item>
+	
+	<item id="25627" type="EtcItem" name="Noblesse Scroll of Escape">
+	<!-- skill 7084 , custom soe skill -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_noble_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7083-1" />	
+	</item>
+	
+	<item id="25628" type="EtcItem" name="Grimoire of Darkness">
+	<!-- solo dungeon item -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="25629" type="EtcItem" name="True Grimoire of Darkness">
+	<!-- party dungeon item-->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="25630" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Olympus I (Dryad)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25631" type="EtcItem" name="Kykeon">
+	<!-- Greater CP (+60 CP)-->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="600" />
+		<set name="reuse_delay" val="0" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="7080-2" />
+	</item>
+
+	<item id="25632" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Olympus II (Dryad)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+		<item id="25633" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Olympus III (Dryad)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+		<item id="25634" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Olympus IV (Dryad)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+		<item id="25635" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Asphodel V (Talos)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+		<item id="25636" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan Tartarus VI (Magma Golem)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25637" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Tartarus VII (ocnus)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25638" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Tartarus VIII (High Dryad)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25639" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Tartarus IX (Ismenian)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25640" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Tartarus X (Colchian)-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25641" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Coming soon-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25642" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Coming soon-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25643" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Coming soon-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25644" type="EtcItem" name="Ancient Map">
+	<!-- map item for clan bosses Coming soon-->
+		<set name="default_action" val="show_html" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="HtmlMap" />
+	</item>
+	
+	<item id="25645" type="EtcItem" name="Olympus Scroll of Escape - for newbies">
+	<!-- skill 7087 , custom soe skill -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="7087-1" />
+	</item>
+	
+	<item id="25646" type="EtcItem" name="Cirke's Diceit"> <!-- Lv 2 Accs -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>		
+			<add val="40" order="0x40" stat='mAtkSpd' />		
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+
+	<item id="25647" type="EtcItem" name="Medea's Cover">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>		
+			<add val="70" order="0x40" stat='mAtk' />		
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25648" type="EtcItem" name="Diomedes Prowess">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="40" order="0x40" stat='pDef' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25649" type="EtcItem" name="Achilles Helm">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="85" order="0x40" stat='pAtk' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25650" type="EtcItem" name="Krypteia’s shadow">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="85" order="0x40" stat='cAtkAdd' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25651" type="EtcItem" name="Agamemnon's conquest">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="45" order="0x40" stat='pAtkSpd' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25652" type="EtcItem" name="Atalanta's Circlet">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="2" order="0x40" stat='runSpd' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25653" type="EtcItem" name="Asclepius gift">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.08' order='0x20' stat='giveHp'/>
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+			<mul val='1.09' order='0x20' stat='maxMp'/>
+		</for>
+	</item>
+	
+	<item id="25654" type="EtcItem" name="Hydra's Skull">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val='3' order='0x40' stat='accCombat'/>
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25655" type="EtcItem" name="Satyr's Horns">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="2" order="0x40" stat='rEvas' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25656" type="EtcItem" name="Perseus' Conviction">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.20' order='0x30' stat='stunVuln'/>
+		<mul val='1.40' order='0x30' stat='rootVuln'/>
+		<mul val='1.30' order='0x30' stat='sleepVuln'/>
+		<mul val='1.20' order='0x40' stat='paralyzeVuln'/>
+		<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25657" type="EtcItem" name="Theseus' Courage">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.10' order='0x30' stat='pReuse'/>
+		<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25658" type="EtcItem" name="Orpheus Lamentation">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+		<mul val='1.08' order='0x30' stat='mReuse'/>
+		<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25659" type="EtcItem" name="Ajax's Ferocity">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<add val="12" order="0x40" stat='rCrit' />
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25660" type="EtcItem" name="Ixion's Greed">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>					
+			<mul val='1.08' order='0x20' stat='gainHp'/>
+			<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+	
+	<item id="25661" type="EtcItem" name="Orion's Wrath"> <!--End of  Lv 2 Accs -->
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="0" />
+		<set name="price" val="500000" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<for>
+		<add val="70" order="0x40" stat='mDef' />
+		<mul val='1.15' order='0x20' stat='maxHp'/>
+		</for>
+	</item>
+</list>

@@ -1433,7 +1433,9 @@
 		<node x="131072" y="126072"/>
 		<node x="136072" y="131072"/>
 	</zone>
-	<zone name="24_22_water1" shape="Cuboid" minZ="-5804" maxZ="-3780">
+
+<!-- olympus -->
+<zone name="24_22_water1" shape="Cuboid" minZ="-5804" maxZ="-3780">
 		<node x="131072" y="131072"/>
 		<node x="163840" y="163840"/>
 	</zone>
@@ -1453,6 +1455,8 @@
 		<node x="141072" y="163840"/>
 		<node x="153840" y="180131"/>
 	</zone>
+	<!-- -->
+	
 	<zone name="24_24_water1" shape="Cuboid" minZ="-4780" maxZ="-3780">
 		<node x="131072" y="196608"/>
 		<node x="163840" y="229376"/>

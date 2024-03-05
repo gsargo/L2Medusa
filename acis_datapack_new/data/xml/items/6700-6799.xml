@@ -242,6 +242,7 @@
 		<set name="price" val="39" />
 		<for>
 			<sub stat="rEvas" val="8" />
+			<add val="50" order="0x40" stat='pDef'/>
 			<set stat="rShld" val="20" />
 			<set stat="sDef" val="47" />
 		</for>

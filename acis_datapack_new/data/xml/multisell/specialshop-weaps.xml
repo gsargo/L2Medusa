@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+<list maintainEnchantment="true"> 
+
+  <!-- Soultwisters -->
+  <item id="1">
+    <ingredient id="6580" count="1" enchantmentLevel="16" />
+    <production id="26580" count="1" />
+  </item>
+
+   <!-- Hadesbane -->
+  <item id="2">
+    <ingredient id="6584" count="1" enchantmentLevel="20"/>
+    <production id="26582" count="1"/>
+  </item>
+  
+  <!-- Hadesbane -->
+  <item id="3">
+    <ingredient id="6585" count="1" enchantmentLevel="16"/>
+    <production id="26582" count="1"/>
+  </item>
+  
+  <!-- Hadesbane -->
+  <item id="4">
+    <ingredient id="6586" count="1" enchantmentLevel="20"/>
+    <production id="26582" count="1"/>
+  </item>
+
+     <!-- Hydratooth -->
+  <item id="5">
+    <ingredient id="6591" count="1" enchantmentLevel="20"/>
+    <production id="26584" count="1"/>
+  </item>
+  
+       <!-- Hydratooth -->
+  <item id="6">
+    <ingredient id="6590" count="1" enchantmentLevel="16"/>
+    <production id="26584" count="1"/>
+  </item>
+  
+       <!-- Hydratooth -->
+  <item id="7">
+    <ingredient id="6592" count="1" enchantmentLevel="20"/>
+    <production id="26584" count="1"/>
+  </item>
+
+     <!-- Hellblaze -->
+  <item id="8">
+    <ingredient id="7576" count="1" enchantmentLevel="20"/>
+    <production id="26585" count="1"/>
+  </item>
+  
+       <!-- Hellblaze -->
+  <item id="9">
+    <ingredient id="7577" count="1" enchantmentLevel="16"/>
+    <production id="26585" count="1"/>
+  </item>
+  
+       <!-- Hellblaze -->
+  <item id="10">
+    <ingredient id="7578" count="1" enchantmentLevel="20"/>
+    <production id="26585" count="1"/>
+  </item>
+  
+       <!-- Deathclaws -->
+  <item id="11">
+    <ingredient id="6602" count="1" enchantmentLevel="20"/>
+    <production id="26587" count="1"/>
+  </item>
+  
+         <!-- Deathclaws -->
+  <item id="12">
+    <ingredient id="6604" count="1" enchantmentLevel="16"/>
+    <production id="26587" count="1"/>
+  </item>
+  
+         <!-- Deathclaws -->
+  <item id="13">
+    <ingredient id="6603" count="1" enchantmentLevel="20"/>
+    <production id="26587" count="1"/>
+  </item>
+  
+       <!-- Hypercognition -->
+  <item id="14">
+    <ingredient id="6609" count="1" enchantmentLevel="20"/>
+    <production id="26608" count="1"/>
+  </item>
+  
+       <!-- Hypercognition -->
+  <item id="15">
+    <ingredient id="6608" count="1" enchantmentLevel="16"/>
+    <production id="26608" count="1"/>
+  </item>
+  
+         <!-- Hypercognition -->
+  <item id="16">
+    <ingredient id="6610" count="1" enchantmentLevel="20"/>
+    <production id="26608" count="1"/>
+  </item>
+  
+  
+         <!-- Metasatience -->
+  <item id="17">
+    <ingredient id="6588" count="1" enchantmentLevel="20"/>
+    <production id="26609" count="1"/>
+  </item>
+  
+           <!-- Metasatience -->
+  <item id="18">
+    <ingredient id="6587" count="1" enchantmentLevel="16"/>
+    <production id="26609" count="1"/>
+  </item>
+  
+           <!-- Metasatience -->
+  <item id="19">
+    <ingredient id="6589" count="1" enchantmentLevel="20"/>
+    <production id="26609" count="1"/>
+  </item>
+  
+           <!-- Gleamwave -->
+  <item id="20">
+    <ingredient id="6605" count="1" enchantmentLevel="20"/>
+    <production id="26612" count="1"/>
+  </item>
+  
+             <!-- Gleamwave -->
+  <item id="21">
+    <ingredient id="6606" count="1" enchantmentLevel="16"/>
+    <production id="26612" count="1"/>
+  </item>
+  
+             <!-- Gleamwave -->
+  <item id="22">
+    <ingredient id="6607" count="1" enchantmentLevel="20"/>
+    <production id="26612" count="1"/>
+  </item>
+  
+             <!-- Morningstar -->
+  <item id="23">
+    <ingredient id="6581" count="1" enchantmentLevel="20"/>
+    <production id="26613" count="1"/>
+  </item>
+  
+               <!-- Morningstar -->
+  <item id="24">
+    <ingredient id="6582" count="1" enchantmentLevel="16"/>
+    <production id="26613" count="1"/>
+  </item>
+  
+  
+               <!-- Morningstar -->
+  <item id="25">
+    <ingredient id="6583" count="1" enchantmentLevel="20"/>
+    <production id="26613" count="1"/>
+  </item>
+
+               <!-- Dawnbreakers -->
+  <item id="27">
+    <ingredient id="6580" count="1" enchantmentLevel="16" />
+    <production id="26614" count="1"/>
+  </item>
+  
+               <!-- Starshine -->
+  <item id="28">
+    <ingredient id="6600" count="1" enchantmentLevel="20"/>
+    <production id="26615" count="1"/>
+  </item>
+  
+                 <!-- Starshine -->
+  <item id="29">
+    <ingredient id="6599" count="1" enchantmentLevel="16"/>
+    <production id="26615" count="1"/>
+  </item>
+  
+                 <!-- Starshine -->
+  <item id="30">
+    <ingredient id="6601" count="1" enchantmentLevel="20"/>
+    <production id="26615" count="1"/>
+  </item>
+  
+</list>
+

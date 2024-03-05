@@ -42,6 +42,9 @@
 			<add stat="pAtk" val="#pAtk">
 				<using kind="BOW"/>
 			</add>
+			<sub stat="rCrit" val="33">
+				<using kind="BOW"/>
+			</sub>
 		</for>
 	</skill>
 	<skill id="209" levels="45" name="Dagger Mastery">
@@ -53,6 +56,20 @@
 			<add stat="pAtk" val="#pAtk">
 				<using kind="DAGGER"/>
 			</add>
+			<mul val="0.8" order="0x30" stat="pAtk">
+				<and>
+					<using kind="SWORD,BOW,DUALFIST,BLUNT,BIGBLUNT,BIGSWORD,POLE"/>
+					<not>
+						<using kind="DAGGER"/>
+					</not>
+				</and>
+			</mul>
+			<mul val="0.8" order="0x30" stat="pAtkSpd">
+					<using kind="BOW"/>
+					<not>
+						<using kind="DAGGER"/>
+					</not>
+			</mul>
 		</for>
 	</skill>
 	<skill id="210" levels="45" name="Fist Mastery">
@@ -64,6 +81,20 @@
 			<add stat="pAtk" val="#pAtk">
 				<using kind="DUALFIST"/>
 			</add>
+			<mul val="0.6" order="0x30" stat="pAtk">
+				<and>
+					<using kind="SWORD,BOW"/>
+					<not>
+						<using kind="DUALFIST"/>
+					</not>
+				</and>
+			</mul>
+			<mul val="0.7" order="0x30" stat="pAtkSpd">
+					<using kind="BOW"/>
+					<not>
+						<using kind="DUALFIST"/>
+					</not>
+			</mul>
 		</for>
 	</skill>
 	<skill id="211" levels="10" name="Boost HP" enchantLevels1="30" enchantLevels2="30" >
@@ -128,6 +159,20 @@
 			<add stat="atkCountMax" val="#atkCountMax">
 				<using kind="POLE"/>
 			</add>
+			<mul val="0.65" order="0x30" stat="pAtk">
+				<and>
+					<using kind="BOW,DUALFIST,DAGGER"/>
+					<not>
+						<using kind="POLE,SWORD,BIGSWORD"/>
+					</not>
+				</and>
+			</mul>
+			<mul val="0.8" order="0x30" stat="pAtkSpd">
+					<using kind="BOW"/>
+					<not>
+						<using kind="POLE,SWORD,BIGSWORD"/>
+					</not>
+			</mul>		
 		</for>
 	</skill>
 	<skill id="217" levels="45" name="Sword Blunt Mastery">
@@ -139,6 +184,20 @@
 			<add stat="pAtk" val="#pAtk">    
 				<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT"/>
 			</add>
+			<mul val="0.5" order="0x30" stat="pAtk">
+				<and>
+					<using kind="DAGGER,BOW,DUALFIST"/>
+					<not>
+						<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT,POLE"/>
+					</not>
+				</and>
+			</mul>
+			<mul val="0.7" order="0x30" stat="pAtkSpd">
+					<using kind="BOW"/>
+					<not>
+						<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT,POLE"/>
+					</not>
+			</mul>
 		</for> 
 	</skill>
 	<skill id="221" levels="1" name="Silent Move">
@@ -182,7 +241,7 @@
 		<set name="target" val="ONE"/>
 		<set name="overHit" val="true"/>
 		<set name="SSBoost" val="2.0"/>
-		<set name="reuseDelay" val="11000"/>
+		<set name="reuseDelay" val="5000"/>
 		<set name="hitTime" val="1080"/>
 		<set name="coolTime" val="720" />
 		<set name="skillType" val="PDAM"/>
@@ -202,7 +261,8 @@
 		</for>
 	</skill>
 	<skill id="225" levels="3" name="Acrobatic Move">
-		<table name="#gain"> 4 5 6 </table>
+		<table name="#gain"> 2 3 3 </table>
+		<!-- default values 4 5 6 -->
 		<set name="target" val="SELF"/>
 		<set name="skillType" val="BUFF"/>
 		<set name="operateType" val="PASSIVE"/>
@@ -301,6 +361,16 @@
 			<add stat="pDef" val="#pDef">
 				<using kind="HEAVY"/>
 			</add>
+			
+			<mul stat="pAtk" val="0.75">
+				<using kind="LIGHT"/>
+			</mul>
+			<mul stat="pDef" val="0.85">
+				<using kind="LIGHT"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="LIGHT"/>
+			</sub>
 		</for>
 	</skill>
 	<skill id="232" levels="52" name="Heavy Armor Mastery">
@@ -312,6 +382,17 @@
 			<add stat="pDef" val="#pDef">
 				<using kind="HEAVY"/>
 			</add>
+			
+			<mul stat="pAtk" val="0.75">
+				<using kind="LIGHT"/>
+			</mul>
+			<mul stat="pDef" val="0.85">
+				<using kind="LIGHT"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="LIGHT"/>
+			</sub>
+
 		</for>
 	</skill>
 	<skill id="233" levels="47" name="Light Armor Mastery">
@@ -327,6 +408,16 @@
 			<add stat="rEvas" val="#rEvas">
 				<using kind="LIGHT"/>
 			</add>
+			<mul stat="pAtk" val="0.75">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul stat="pDef" val="0.85">
+				<using kind="HEAVY"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="HEAVY"/>
+			</sub>
+
 		</for>
 	</skill>
 	<skill id="234" levels="41" name="Robe Mastery">
@@ -369,6 +460,15 @@
 			<mul stat="regMp" val="1.2">
 				<using kind="LIGHT"/>
 			</mul>
+			<mul stat="pAtk" val="0.75">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul stat="pDef" val="0.85">
+				<using kind="HEAVY"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="HEAVY"/>
+			</sub>
 		</for>
 	</skill>
 	<skill id="239" levels="5" name="Expertise S">
@@ -521,6 +621,16 @@
 			<mul stat="regMp" val="1.2">
 				<using kind="LIGHT"/>
 			</mul>
+			
+			<mul stat="pAtk" val="0.75">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul stat="pDef" val="0.85">
+				<using kind="HEAVY"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="HEAVY"/>
+			</sub>
 		</for>
 	</skill>
 	<skill id="253" levels="43" name="Heavy Armor Mastery">
@@ -538,6 +648,9 @@
 			<mul stat="pAtkSpd" val="1.25">
 				<using kind="HEAVY"/>
 			</mul>
+			
+			
+			
 		</for>
 	</skill>
 	<skill id="254" levels="11" name="Spoil" enchantLevels1="30" enchantLevels2="30" >
@@ -599,7 +712,7 @@
 		<set name="target" val="ONE"/>
 		<set name="overHit" val="true"/>
 		<set name="SSBoost" val="2.0"/>
-		<set name="reuseDelay" val="13000"/>
+		<set name="reuseDelay" val="8000"/>
 		<set name="hitTime" val="1080"/>
 		<set name="coolTime" val="720" />
 		<set name="skillType" val="PDAM"/>
@@ -616,13 +729,14 @@
 		<set name="operateType" val="TOGGLE"/>
 		<enchant1 name="magicLvl" val="#enchantMagicLvl"/>
 		<for>
-			<effect count="0x7fffffff" name="ManaDamOverTime" time="5" val="4.8">
-				<add stat="accCombat" val="3"/>
+			<effect count="0x7fffffff" name="ManaDamOverTime" time="5" val="2.8">
+			<!-- default manadam value = 4.8 -->
+				<add stat="accCombat" val="4"/>
 			</effect>
 		</for>
 		<enchant1for>
 			<effect count="0x7fffffff" name="ManaDamOverTime" time="5" val="#ench1val">
-				<add stat="accCombat" val="3"/>
+				<add stat="accCombat" val="4"/>
 			</effect>  
 		</enchant1for>
 	</skill>
@@ -635,6 +749,20 @@
 			<add stat="pAtk" val="#pAtk">
 				<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT"/>
 			</add>
+			<mul val="0.5" order="0x30" stat="pAtk">
+				<and>
+					<using kind="DAGGER,BOW,DUALFIST"/>
+					<not>
+						<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT,POLE"/>
+					</not>
+				</and>
+			</mul>
+			<mul val="0.7" order="0x30" stat="pAtkSpd">
+					<using kind="BOW"/>
+					<not>
+						<using kind="SWORD,BIGSWORD,BLUNT,BIGBLUNT,POLE"/>
+					</not>
+			</mul>
 		</for>
 	</skill>
 	<skill id="258" levels="33" name="Light Armor Mastery">
@@ -655,6 +783,16 @@
 			<mul stat="regMp" val="1.2">
 				<using kind="LIGHT"/>
 			</mul>
+			
+			<mul stat="pAtk" val="0.75">
+				<using kind="HEAVY"/>
+			</mul>
+			<mul stat="pDef" val="0.75">
+				<using kind="HEAVY"/>
+			</mul>
+			<sub stat="accCombat" val="1">
+				<using kind="HEAVY"/>
+			</sub>
 		</for>
 	</skill>
 	<skill id="259" levels="33" name="Heavy Armor Mastery">
@@ -717,9 +855,11 @@
 		<table name="#mpConsume"> 114 117 120 123 125 128 131 134 134 137 139 142 144 147 149 152 154 156 158 161 163 165 </table>
 		<table name="#ench2MpConsume"> 162 160 157 155 152 150 147 145 142 140 137 135 133 130 128 125 123 120 118 115 113 110 108 105 103 100 98 95 93 90 </table>
 		<table name="#magicLvl"> 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
-		<table name="#power"> 1948.0 2042.0 2138.0 2236.0 2337.0 2439.0 2544.0 2651.0 2760.0 2870.0 2982.0 3095.0 3210.0 3325.0 3442.0 3559.0 3676.0 3794.0 3911.0 4029.0 4146.0 4262.0 </table>
+		<table name="#power"> 1948.0 2042.0 2138.0 2236.0 2337.0 2439.0 2544.0 2651.0 2760.0 2870.0 2982.0 3095.0 3210.0 3325.0 3442.0 3559.0 3676.0 3794.0 3911.0 4029.0 4029.0 4029.0 </table>
+		<!-- default <table name="#power"> 1948.0 2042.0 2138.0 2236.0 2337.0 2439.0 2544.0 2651.0 2760.0 2870.0 2982.0 3095.0 3210.0 3325.0 3442.0 3559.0 3676.0 3794.0 3911.0 4029.0 4146.0 4262.0 </table> -->
 		<table name="#ench1Power"> 4299 4338 4376 4415 4453 4491 4530 4568 4607 4645 4683 4722 4760 4799 4837 4875 4914 4952 4991 5029 5067 5106 5144 5183 5221 5259 5298 5336 5375 5413 </table>
-		<set name="baseCritRate" val="15"/>
+		<set name="baseCritRate" val="3"/>
+		<!-- defualt basecritrate 15 -->
 		<set name="weaponsAllowed" val="DUAL" />
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="magicLvl" val="#magicLvl"/>
@@ -790,6 +930,7 @@
 		<set name="coolTime" val="720" />
 		<set name="skillType" val="BLOW"/>
 		<set name="lethal1" val="5"/>
+		<set name="lethal3" val="7"/> <!-- custom lethal for mobs only -->
 		<set name="operateType" val="ACTIVE"/>
 		<set name="castRange" val="40"/>
 		<set name="effectRange" val="400"/>
@@ -819,7 +960,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_earth" >
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_earth" >
 				<mul stat="pDef" val="1.25"/>
 			</effect>
 		</for>
@@ -849,7 +990,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_life">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_life">
 				<mul stat="regHp" val="1.2"/>
 			</effect>
 		</for>
@@ -879,7 +1020,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_water">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_water">
 				<add stat="rEvas" val="3"/>
 			</effect>
 		</for>
@@ -909,7 +1050,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_warding">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_warding">
 				<mul stat="mDef" val="1.3"/>
 			</effect>
 		</for>
@@ -936,7 +1077,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" count="1" val="0" stackOrder="1" stackType="song_of_wind">
+			<effect name="Buff" time="7200" count="1" val="0" stackOrder="1" stackType="song_of_wind">
 				<add stat="runSpd" val="20"/>
 			</effect>
 		</for>
@@ -966,7 +1107,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_hunter" >
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_hunter" >
 				<basemul stat="rCrit" val="1" />
 			</effect>
 		</for>
@@ -996,7 +1137,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="song_of_invocation">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="song_of_invocation">
 				<addMul stat="darkRes" val="20" />
 			</effect>
 		</for>
@@ -1027,7 +1168,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_warrior">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_warrior">
 				<mul stat="pAtk" val="1.12"/>
 			</effect>
 		</for>
@@ -1058,7 +1199,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_inspiration">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_inspiration">
 				<add stat="accCombat" val="4"/>
 			</effect>
 		</for>
@@ -1089,7 +1230,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_mystic">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_mystic">
 				<mul stat="mAtk" val="1.2"/>
 			</effect>
 		</for>
@@ -1120,7 +1261,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_fire">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_fire">
 				<mul stat="cAtk" val="1.35"/>
 			</effect>
 		</for>
@@ -1151,7 +1292,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_fury">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_fury">
 				<mul stat="pAtkSpd" val="1.15"/>
 			</effect>
 		</for>
@@ -1182,7 +1323,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_concentration">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_concentration">
 				<mul stat="mAtkSpd" val="1.3"/>
 				<sub stat="cancel" val="30"/>
 			</effect>
@@ -1216,7 +1357,7 @@
 		<enchant2 name="aggroPoints" val="655"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_light">
+			<effect name="Buff" time="7200" val="0" stackOrder="1" stackType="dance_of_light">
 				<add stat="holyPower" val="1" />
 			</effect>
 		</for>
@@ -1288,7 +1429,8 @@
 		<table name="#ench2MpConsume"> 96 95 94 94 93 92 91 90 89 88 87 86 85 85 84 83 82 81 80 79 78 77 76 76 75 74 73 72 71 70 </table>
 		<table name="#mpConsume"> 47 48 50 50 51 53 54 56 57 59 61 62 64 64 66 67 69 71 72 74 76 77 79 79 81 82 84 85 86 88 89 91 92 93 95 96 97 </table>
 		<table name="#magicLvl"> 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
-		<table name="#power"> 431.0 458.0 486.0 516.0 547.0 579.0 612.0 647.0 683.0 721.0 760.0 800.0 842.0 885.0 929.0 974.0 1021.0 1069.0 1118.0 1169.0 1220.0 1272.0 1326.0 1380.0 1435.0 1491.0 1548.0 1605.0 1663.0 1721.0 1780.0 1838.0 1897.0 1956.0 2015.0 2073.0 2131.0 </table>
+		<table name="#power"> 431.0 458.0 486.0 516.0 547.0 579.0 612.0 647.0 683.0 721.0 760.0 800.0 842.0 885.0 929.0 974.0 1021.0 1069.0 1118.0 1169.0 1220.0 1272.0 1326.0 1380.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 1435.0 </table>
+		<!-- default power 431.0 458.0 486.0 516.0 547.0 579.0 612.0 647.0 683.0 721.0 760.0 800.0 842.0 885.0 929.0 974.0 1021.0 1069.0 1118.0 1169.0 1220.0 1272.0 1326.0 1380.0 1435.0 1491.0 1548.0 1605.0 1663.0 1721.0 1780.0 1838.0 1897.0 1956.0 2015.0 2073.0 2131.0 -->
 		<table name="#ench1Power"> 2151 2170 2189 2209 2228 2247 2266 2285 2305 2324 2343 2362 2381 2401 2420 2439 2458 2477 2497 2516 2535 2554 2573 2593 2612 2631 2650 2670 2689 2708 </table>
 		<set name="weaponsAllowed" val="DUALFIST" />
 		<set name="mpConsume" val="#mpConsume"/>
@@ -1315,7 +1457,8 @@
 		<table name="#enchantMagicLvl"> 76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 82 83 83 83 84 84 85 85 85 </table>
 		<table name="#mpConsume"> 37 38 39 39 40 42 43 44 45 46 48 49 50 51 52 53 54 55 57 58 59 60 62 62 63 64 66 67 68 69 70 71 72 73 74 75 76 </table>
 		<table name="#magicLvl"> 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
-		<table name="#power"> 406.0 432.0 458.0 486.0 515.0 546.0 577.0 610.0 644.0 680.0 717.0 754.0 794.0 834.0 876.0 919.0 963.0 1008.0 1054.0 1102.0 1150.0 1200.0 1250.0 1301.0 1353.0 1406.0 1460.0 1513.0 1568.0 1623.0 1678.0 1733.0 1789.0 1844.0 1900.0 1955.0 2009.0 </table>
+		<table name="#power"> 406.0 432.0 458.0 486.0 515.0 546.0 577.0 610.0 644.0 680.0 717.0 754.0 794.0 834.0 876.0 919.0 963.0 1008.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 1054.0 </table>
+		<!-- default power  406.0 432.0 458.0 486.0 515.0 546.0 577.0 610.0 644.0 680.0 717.0 754.0 794.0 834.0 876.0 919.0 963.0 1008.0 1054.0 1102.0 1150.0 1200.0 1250.0 1301.0 1353.0 1406.0 1460.0 1513.0 1568.0 1623.0 1678.0 1678.0 1678.0 1678.0 1678.0 1678.0 1678.0 -->
 		<table name="#hitTime"> 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1360 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 1409 </table>
 		<table name="#coolTime"> 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 440 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 391 </table>
 		<table name="#ench1effectPower"> 51 52 53 54 55 56 57 58 59 60 61 63 64 65 66 67 68 69 70 71 72 73 74 76 77 78 79 80 81 82 </table>
@@ -1343,10 +1486,11 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="power" val="#ench2power"/>
 		<for>
-			<effect name="Stun" time="9" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="stun"/>
+			<effect name="Stun" time="6" val="0" effectPower="50" effectType="STUN" stackOrder="1" stackType="stun"/>
 		</for>
+		<!--default stun time 9 -->
 		<enchant1for>
-			<effect name="Stun" time="9" val="0" effectPower="#ench1effectPower" effectType="STUN" stackOrder="1" stackType="stun"/>
+			<effect name="Stun" time="6" val="0" effectPower="#ench1effectPower" effectType="STUN" stackOrder="1" stackType="stun"/>
 		</enchant1for>
 	</skill>
 	<skill id="282" levels="1" name="Puma Spirit Totem">
@@ -1383,7 +1527,7 @@
 		<set name="itemConsumeIdOT" val="1459"/>
 		<set name="itemConsumeCountOT" val="#itemConsumeCountOT"/>
 		<set name="itemConsumeSteps" val="4"/>
-		<set name="summonTotalLifeTime" val="1200000"/>
+		<set name="summonTotalLifeTime" val="19990000"/>
 		<set name="summonTimeLostIdle" val="500"/>
 		<set name="summonTimeLostActive" val="1000"/>
 		<set name="target" val="SELF"/>
@@ -1401,9 +1545,11 @@
 		<table name="#ench2MpConsume"> 115 114 112 111 109 108 107 105 104 103 101 100 98 97 96 94 93 91 90 89 87 86 84 83 82 80 79 78 76 75 </table>
 		<table name="#mpConsume"> 49 50 52 56 58 59 59 61 63 65 67 69 71 73 75 77 77 79 81 83 85 87 89 91 93 94 95 97 98 100 102 104 105 107 109 110 112 113 115 116 </table>
 		<table name="#magicLvl"> 34 35 36 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 </table>
-		<table name="#power"> 501.0 535.0 570.0 607.0 646.0 729.0 773.0 820.0 868.0 918.0 971.0 1025.0 1081.0 1140.0 1200.0 1262.0 1327.0 1393.0 1461.0 1531.0 1603.0 1677.0 1753.0 1830.0 1908.0 1988.0 2070.0 2153.0 2237.0 2322.0 2408.0 2494.0 2581.0 2669.0 2757.0 2846.0 2934.0 3022.0 3109.0 3196.0 </table>
+		<table name="#power"> 501.0 535.0 570.0 607.0 646.0 729.0 773.0 820.0 868.0 918.0 971.0 1025.0 1081.0 1140.0 1200.0 1262.0 1327.0 1393.0 1461.0 1531.0 1603.0 1677.0 1753.0 1830.0 1908.0 1988.0 2070.0 2153.0 2237.0 2322.0 2408.0 2494.0 2581.0 2581.0 2581.0 2581.0 2581.0 2581.0 2581.0 2581.0 </table>
+		<!-- defualt power 501.0 535.0 570.0 607.0 646.0 729.0 773.0 820.0 868.0 918.0 971.0 1025.0 1081.0 1140.0 1200.0 1262.0 1327.0 1393.0 1461.0 1531.0 1603.0 1677.0 1753.0 1830.0 1908.0 1988.0 2070.0 2153.0 2237.0 2322.0 2408.0 2494.0 2581.0 2669.0 2757.0 2846.0 2934.0 3022.0 3109.0 3196.0 -->
 		<table name="#ench1Power"> 3225 3254 3283 3312 3340 3369 3398 3427 3456 3484 3513 3542 3571 3600 3628 3657 3686 3715 3744 3772 3801 3830 3859 3888 3916 3945 3974 4003 4032 4061 </table>
-		<set name="baseCritRate" val="15"/>
+		<set name="baseCritRate" val="5"/>
+		<!-- default basecritrate =15 -->
 		<set name="weaponsAllowed" val="DUALFIST" />
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="magicLvl" val="#magicLvl"/>
@@ -1574,7 +1720,8 @@
 				<add stat="accCombat" val="6">
 					<player hp="60"/>
 				</add>
-				<mul stat="pAtk" val="1.43">
+				<!-- default p atk 1.43 -->
+				<mul stat="pAtk" val="1.3">
 					<player hp="60"/>
 				</mul>
 				<add stat="rCrit" val="100">

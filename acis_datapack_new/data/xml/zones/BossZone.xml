@@ -15,13 +15,7 @@
 		<node x="188132" y="119249"/>
 		<node x="173386" y="119391"/>
 	</zone>
-	<zone id="110002" shape="NPoly" minZ="10061" maxZ="11061"><!-- Baium Boss -->
-		<stat name="InvadeTime" val="1800000"/>
-		<node x="111074" y="16177"/>
-		<node x="114562" y="12623"/>
-		<node x="118194" y="15790"/>
-		<node x="114825" y="19589"/>
-	</zone>
+	
 	<zone id="110003" shape="NPoly" minZ="-5504" maxZ="-5104"><!-- Anakim and Lilith Boss -->
 		<stat name="InvadeTime" val="1800000"/>
 		<node x="183938" y="-13697"/>

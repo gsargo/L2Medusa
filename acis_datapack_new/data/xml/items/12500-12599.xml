@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+	<item id="12526" type="EtcItem" name="Aeolus">
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="PET_COLLAR" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="price" val="1000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2025-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
+	</item>
+<item id="12527" type="EtcItem" name="Hydra's Eggs">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12528" type="EtcItem" name="Emerald">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12529" type="EtcItem" name="Sapphire">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12530" type="EtcItem" name="Fossil">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="12531" type="EtcItem" name="Touch of Midas">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<!-- <set name="etcitem_type" val="SCROLL" />  etcitem_type = HeroItem -->
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="HeroItem" />
+		
+	</item>
+	
+		<item id="12532" type="EtcItem" name="Scroll of Noblesse"> 
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="NobleItem" />
+	</item>
+	
+		<item id="12533" type="EtcItem" name="Title Color Element"> <!-- DARK RED -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItem" />
+	</item>
+	
+		<item id="12534" type="EtcItem" name="Title Color Element">  <!-- CYAN -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemDon" />
+	</item>
+	
+		<item id="12535" type="EtcItem" name="Diamonds"> 
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+
+	</item>
+	
+	<item id="12536" type="EtcItem" name="S Epic Boss Jewelry Box">
+	<!-- S GRADE -->
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-2" />
+	</item>
+	
+	<item id="12537" type="EtcItem" name="Exp. Book"> 
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="XPItem" />
+	</item>
+	
+	<item id="12538" type="EtcItem" name="Pandora's Box"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-3" />
+	</item>
+	
+	<item id="12539" type="EtcItem" name="Item Skill Box -bag of wonders"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-4" />
+	</item>
+	
+	<item id="12540" type="EtcItem" name="Title Color Element"> <!-- PURPLE -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItem2" />
+	</item>
+	
+	<item id="12541" type="EtcItem" name="Title Color Element PvP Shop"> <!-- Light Yellow -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemPvPShop" />
+	</item>
+	
+	<item id="12542" type="EtcItem" name="Title Color Element PvP Shop 2"> <!-- Light Red -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemPvPShop2" /> 
+	</item>
+	
+	<item id="12543" type="EtcItem" name="Title Color Element PvP Shop 3"> <!-- Light Green  -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemPvPShop3" />
+	</item>
+	
+	<item id="12544" type="EtcItem" name="Title Color Element PvP Shop 4"> <!-- Light Brown -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemPvPShop4" />
+	</item>
+	
+	
+	<item id="12545" type="EtcItem" name="Title Color Element Vote Shop">  <!-- Blue -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemPvPShop5" />
+	</item>
+	
+	<item id="12546" type="EtcItem" name="Title Color Element">  <!-- TITLE COLOR?? -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="TitleColorItemDon" />
+	</item>
+	
+	<item id="12547" type="EtcItem" name="ACTIVE MIGHT LV10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<!-- ITEM SKILL MIGHT LV10 -->
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3132-10" />
+	</item>
+	
+	<item id="12548" type="EtcItem" name="Socrates Scroll">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12549" type="EtcItem" name="PvP Trophy">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12550" type="EtcItem" name="Skill Storm Cubic">
+	<!-- NO ICON ? -->
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10-6" />
+	</item>
+	
+	<item id="12551" type="EtcItem" name="Active Focus Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3141-10" />
+	</item>
+	
+	<item id="12552" type="EtcItem" name="Active Guidance Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3140-10" />
+	</item>
+	
+	<item id="12553" type="EtcItem" name="Active Agility Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3139-10" />
+	</item>
+	
+	<item id="12554" type="EtcItem" name="Active Empower Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3133-10" />
+	</item>
+	
+	<item id="12555" type="EtcItem" name="Active Bless the Soul Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3128-10" />
+	</item>
+	
+	<item id="12556" type="EtcItem" name="Active Mana Gain Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3129-10" />
+	</item>
+	
+	<item id="12557" type="EtcItem" name="Active Clarity Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3164-3" />
+	</item>
+	
+	<item id="12558" type="EtcItem" name="Active Wild Magic Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3142-10" />
+	</item>
+	
+	<item id="12559" type="EtcItem" name="Active Shield Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3135-10" />
+	</item>
+	
+	<item id="12560" type="EtcItem" name="Active Magic Barrier Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3136-10" />
+	</item>
+	
+	<item id="12561" type="EtcItem" name="Active Battle Roar Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3125-10" />
+	</item>
+	
+	<item id="12562" type="EtcItem" name="Active Celestial Shield Lvl 1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3158-1" />
+	</item>
+	
+	<item id="12563" type="EtcItem" name="Active Bless The Body Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3124-10" />
+	</item>
+	
+	<item id="12564" type="EtcItem" name="Active Firecracker Lvl 1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3405-1" />
+	</item>
+	
+	<item id="12565" type="EtcItem" name="Active Resurrection Lvl 1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3160-9" />
+	</item>
+	
+	<item id="12566" type="EtcItem" name="Active Prayer Lvl 10">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="3126-10" />
+	</item>
+	
+	<item id="12567" type="EtcItem" name="Skill UE ">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="111-1" />
+	</item>	
+	
+	<item id="12568" type="EtcItem" name="Skill Dash ">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="4-1" />
+	</item>
+	
+	<item id="12569" type="EtcItem" name="Skill Noblesse ">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="1323-1" />
+	</item>
+
+	<item id="12570" type="EtcItem" name="A Adamantine Jewelry Box">
+	<!-- A GRADE -->
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-5" />
+	</item>
+
+	<item id="12571" type="EtcItem" name="Scroll of Reputation (Clan)"> 
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="0" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ClanRepItem" />
+	</item>
+	
+	<item id="12572" type="EtcItem" name="Goblet of Midas"> 
+	<set name="etcitem_type" val="MATERIAL" />
+	<set name="material" val="LIQUID" />
+	<set name="weight" val="0" />
+	<set name="price" val="400" />
+	<set name="is_stackable" val="true" />
+	<set name="is_tradable" val="true" />
+	<set name="is_dropable" val="false" />
+	<set name="is_sellable" val="false" />
+	<set name="is_depositable" val="true" />
+	<set name="is_oly_restricted" val="true" />
+	<set name="handler" val="HeroItem_Perma" />
+	</item>
+	
+	<item id="12573" type="EtcItem" name="Vote Coin">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="12574" type="EtcItem" name="Fragment Of Despair">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="12575" type="EtcItem" name="Fire Stone Lv 4">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+		<item id="12576" type="EtcItem" name="Earth Stone Lv 4">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12577" type="EtcItem" name="Water Stone Lv 4">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12578" type="EtcItem" name="Essence of the Depths">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12579" type="EtcItem" name="Premium Service 1 day">
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="VipCoin1" />
+	</item>
+	<item id="12580" type="EtcItem" name="Premium Service 14 day">
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="VipCoin2" />
+	</item>
+	<item id="12581" type="EtcItem" name="Premium Service 24 day">
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="VipCoin3" />
+	</item>
+
+	
+	<item id="12582" type="EtcItem" name="TartarusKey">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="CustomDoorKey" />
+		<set name="item_skill" val="7079-1" />
+	</item>
+	
+	<item id="12583" type="EtcItem" name="Goblet of Midas"> 
+	<!-- 30 days-->
+	<set name="etcitem_type" val="MATERIAL" />
+	<set name="material" val="LIQUID" />
+	<set name="weight" val="0" />
+	<set name="price" val="400" />
+	<set name="is_stackable" val="true" />
+	<set name="is_tradable" val="true" />
+	<set name="is_dropable" val="false" />
+	<set name="is_sellable" val="false" />
+	<set name="is_depositable" val="true" />
+	<set name="is_oly_restricted" val="true" />
+	<set name="handler" val="HeroItem_Perma_30" />
+	</item>
+	
+	<item id="12584" type="EtcItem" name="Asphodel Key">
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="CustomDoorKey_Asphodel" />
+		<set name="item_skill" val="7079-1" />
+	</item>
+	
+	<item id="12585" type="EtcItem" name="Vip Coin 24 day"> <!-- vip 24 days + skin -->
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="VipCoin3" />
+	</item>
+	
+	<item id="12586" type="EtcItem" name="Pure Wax">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12587" type="EtcItem" name="Daedalus Tool Box">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12588" type="EtcItem" name="Ethereal fluid">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12589" type="EtcItem" name="Pandora's Bronze Box"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-6" />
+	</item>
+	
+	<item id="12590" type="EtcItem" name="Pandora's Silver Box"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-7" />
+	</item>
+	
+	<item id="12591" type="EtcItem" name="Pandora's Golden Box"> 
+		<set name="default_action" val="capsule" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2174-8" />
+	</item>
+	
+	<item id="12592" type="EtcItem" name="Piece of Key">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	
+	<item id="12593" type="EtcItem" name="Scroll: Enchant Weapon (Grade S)">
+	<!-- 70% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="5000000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2021-1" />
+	</item>
+	<item id="12594" type="EtcItem" name="Scroll: Enchant Armor (Grade S)">
+	<!-- 70% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2022-1" />
+	</item>
+	
+	<item id="12595" type="EtcItem" name="Improved Blessed Scroll: Enchant Weapon (Grade S)">
+	<!-- on fail , reduces 1-3 -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="900000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2026-1" />
+	</item>
+	<item id="12596" type="EtcItem" name="Improved Blessed Scroll: Enchant Armor (Grade S)">
+	<!-- on fail , reduces 1-3 -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="750000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2208-1" />
+	</item>
+	
+	<item id="12597" type="EtcItem" name="Scroll: Enchant Weapon (Grade S)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="5000000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2021-1" />
+	</item>
+	<item id="12598" type="EtcItem" name="Scroll: Enchant Armor (Grade S)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2022-1" />
+	</item>
+	
+	<item id="12599" type="EtcItem" name="Scroll: Enchant Weapon (Grade S)">
+	<!-- 80% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="5000000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2021-1" />
+	</item>
+	<item id="12600" type="EtcItem" name="Scroll: Enchant Armor (Grade S)">
+	<!-- 80% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="500000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2022-1" />
+	</item>
+	
+	<item id="12601" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade S)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="900000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2026-1" />
+	</item>
+	<item id="12602" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade S)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="750000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2208-1" />
+	</item>
+	
+	<item id="12603" type="EtcItem" name="Scroll: Enchant Weapon (Grade A)">
+	<!-- 70% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="1800000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2006-1" />
+	</item>
+	<item id="12604" type="EtcItem" name="Scroll: Enchant Armor (Grade A)">
+	<!-- 70%-->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="240000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2007-1" />
+	</item>
+	
+	<item id="12605" type="EtcItem" name="Scroll: Enchant Weapon (Grade A)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="1800000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2006-1" />
+	</item>
+	<item id="12606" type="EtcItem" name="Scroll: Enchant Armor (Grade A)">
+	<!-- 75%-->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="240000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2007-1" />
+	</item>
+	
+	<item id="12607" type="EtcItem" name="Scroll: Enchant Weapon (Grade A)">
+	<!-- 80% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="1800000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2006-1" />
+	</item>
+	<item id="12608" type="EtcItem" name="Scroll: Enchant Armor (Grade A)">
+	<!-- 80%-->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="240000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2007-1" />
+	</item>
+	
+	<item id="12609" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade A)">
+	<!--75 -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="750000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2027-1" />
+	</item>
+	<item id="12610" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade A)">
+	<!-- 75% -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="450000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2209-1" />
+	</item>
+	
+	<item id="12611" type="EtcItem" name="Improved Blessed Scroll: Enchant Weapon (Grade A)">
+	<!-- on fail , reduces 1-3 -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="750000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2027-1" />
+	</item>
+	<item id="12612" type="EtcItem" name="Improved Blessed Scroll: Enchant Armor (Grade A)">
+	<!-- on fail , reduces 1-3 -->
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="450000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="2209-1" />
+	</item>
+	
+	<item id="12613" type="EtcItem" name="Premium Service 7 day">
+		<set name="material" val="STEEL" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="VipCoin4" />
+	</item>
+	
+</list>

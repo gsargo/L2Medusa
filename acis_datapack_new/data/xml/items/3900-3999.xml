@@ -667,7 +667,7 @@
 	<item id="3947" type="EtcItem" name="Blessed Spiritshot: No Grade">
 		<set name="default_action" val="spiritshot" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="5" />
+		<set name="weight" val="0" />
 		<set name="price" val="35" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -678,7 +678,7 @@
 		<set name="default_action" val="spiritshot" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="5" />
+		<set name="weight" val="0" />
 		<set name="price" val="45" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -689,7 +689,7 @@
 		<set name="default_action" val="spiritshot" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="0" />
 		<set name="price" val="90" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -700,7 +700,7 @@
 		<set name="default_action" val="spiritshot" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="0" />
 		<set name="price" val="245" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -711,7 +711,7 @@
 		<set name="default_action" val="spiritshot" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="0" />
 		<set name="price" val="290" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -722,7 +722,7 @@
 		<set name="default_action" val="spiritshot" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="0" />
 		<set name="price" val="350" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />

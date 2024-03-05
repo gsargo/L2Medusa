@@ -440,7 +440,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="69400" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5333" type="EtcItem" name="Recipe: Sealed Dark Crystal Leather Armor(100%)">
 		<set name="default_action" val="recipe" />
@@ -448,7 +448,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5334" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(60%)">
 		<set name="default_action" val="recipe" />
@@ -457,7 +457,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="101600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5335" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(100%)">
 		<set name="default_action" val="recipe" />
@@ -465,7 +465,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5336" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(60%)">
 		<set name="default_action" val="recipe" />
@@ -474,7 +474,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="154600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5337" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(100%)">
 		<set name="default_action" val="recipe" />
@@ -482,7 +482,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5338" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(60%)">
 		<set name="default_action" val="recipe" />
@@ -491,7 +491,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="154600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5339" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(100%)">
 		<set name="default_action" val="recipe" />
@@ -499,7 +499,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5340" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(60%)">
 		<set name="default_action" val="recipe" />
@@ -508,7 +508,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="43400" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5341" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(100%)">
 		<set name="default_action" val="recipe" />
@@ -516,7 +516,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5342" type="EtcItem" name="Recipe: Phoenix Earring(70%)">
 		<set name="default_action" val="skill_reduce" />
@@ -553,7 +553,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="69400" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5347" type="EtcItem" name="Recipe: Sealed Tallum Tunic(100%)">
 		<set name="default_action" val="recipe" />
@@ -561,7 +561,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5348" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(60%)">
 		<set name="default_action" val="recipe" />
@@ -570,7 +570,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="101600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5349" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(100%)">
 		<set name="default_action" val="recipe" />
@@ -578,7 +578,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5350" type="EtcItem" name="Recipe: Sealed Nightmare Robe(60%)">
 		<set name="default_action" val="recipe" />
@@ -587,7 +587,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="154600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5351" type="EtcItem" name="Recipe: Sealed Nightmare Robe(100%)">
 		<set name="default_action" val="recipe" />
@@ -595,7 +595,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5352" type="EtcItem" name="Recipe: Sealed Majestic Robe(60%)">
 		<set name="default_action" val="recipe" />
@@ -604,7 +604,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="154600" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5353" type="EtcItem" name="Recipe: Sealed Majestic Robe(100%)">
 		<set name="default_action" val="recipe" />
@@ -612,7 +612,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5354" type="EtcItem" name="Recipe: Sealed Tallum Stockings(60%)">
 		<set name="default_action" val="recipe" />
@@ -621,7 +621,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="43400" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5355" type="EtcItem" name="Recipe: Sealed Tallum Stockings(100%)">
 		<set name="default_action" val="recipe" />
@@ -629,7 +629,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5356" type="EtcItem" name="Recipe: Phoenix Necklace(70%)">
 		<set name="material" val="PAPER" />
@@ -686,7 +686,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="24400" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5365" type="EtcItem" name="Recipe: Sealed Dark Crystal Shield(100%)">
 		<set name="default_action" val="recipe" />
@@ -694,7 +694,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5366" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(60%)">
 		<set name="default_action" val="recipe" />
@@ -703,7 +703,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="37000" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5367" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(100%)">
 		<set name="default_action" val="recipe" />
@@ -711,7 +711,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5368" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(60%)">
 		<set name="default_action" val="recipe" />
@@ -720,7 +720,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="23200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5369" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(100%)">
 		<set name="default_action" val="recipe" />
@@ -728,7 +728,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5370" type="EtcItem" name="Recipe: Sealed Tallum Boots(60%)">
 		<set name="default_action" val="recipe" />
@@ -737,7 +737,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="23200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5371" type="EtcItem" name="Recipe: Sealed Tallum Boots(100%)">
 		<set name="default_action" val="recipe" />
@@ -745,7 +745,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5372" type="EtcItem" name="Recipe: Sealed Boots of The Underworld(60%)">
 		<set name="default_action" val="recipe" />
@@ -810,7 +810,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="35200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5381" type="EtcItem" name="Recipe: Sealed Boots of Nightmare(100%)">
 		<set name="default_action" val="recipe" />
@@ -818,7 +818,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5382" type="EtcItem" name="Recipe: Sealed Majestic Boots(60%)">
 		<set name="default_action" val="recipe" />
@@ -827,7 +827,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="35200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5383" type="EtcItem" name="Recipe: Sealed Majestic Boots(100%)">
 		<set name="default_action" val="recipe" />
@@ -835,7 +835,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5384" type="EtcItem" name="Recipe: Sealed Dark Legion Boots(60%)">
 		<set name="default_action" val="recipe" />
@@ -900,7 +900,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="23200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5393" type="EtcItem" name="Recipe: Sealed Dark Crystal Gloves(100%)">
 		<set name="default_action" val="recipe" />
@@ -908,7 +908,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5394" type="EtcItem" name="Recipe: Sealed Tallum Gloves(60%)">
 		<set name="default_action" val="recipe" />
@@ -917,7 +917,7 @@
 		<set name="weight" val="30" />
 		<set name="price" val="23200" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5395" type="EtcItem" name="Recipe: Sealed Tallum Gloves(100%)">
 		<set name="default_action" val="recipe" />
@@ -925,7 +925,7 @@
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		
 	</item>
 	<item id="5396" type="EtcItem" name="Recipe: Sealed Gloves of The Underworld(60%)">
 		<set name="default_action" val="recipe" />

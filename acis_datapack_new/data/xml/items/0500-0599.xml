@@ -46,7 +46,7 @@
 		<set name="crystal_count" val="103" />
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="590" />
-		<set name="price" val="778000" />
+		<set name="price" val="60000" />
 		<for>
 			<baseadd stat="pDef" val="62" />
 			<enchant stat="pDef" val="0" />
@@ -231,7 +231,7 @@
 		<set name="crystal_count" val="147" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="610" />
-		<set name="price" val="368000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="pDef" val="54" />
 			<enchant stat="pDef" val="0" />
@@ -387,7 +387,7 @@
 		<set name="crystal_count" val="214" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="320" />
-		<set name="price" val="536000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="pDef" val="58" />
 			<enchant stat="pDef" val="0" />
@@ -595,7 +595,7 @@
 		<set name="crystal_count" val="214" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="400" />
-		<set name="price" val="536000" />
+		<set name="price" val="50000" />
 		<for>
 			<baseadd stat="pDef" val="58" />
 			<enchant stat="pDef" val="0" />

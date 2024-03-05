@@ -1004,41 +1004,8 @@
 			<skill id="4416" level="19"/>
 		</skills>
 	</npc>
-	<npc id="31029" name="Chest of Golkonda" title="">
-		<set name="level" val="70"/>
-		<set name="radius" val="12"/>
-		<set name="height" val="9"/>
-		<set name="rHand" val="0"/>
-		<set name="lHand" val="0"/>
-		<set name="type" val="Folk"/>
-		<set name="exp" val="0"/>
-		<set name="sp" val="0"/>
-		<set name="hp" val="2444.46819"/>
-		<set name="mp" val="1345.8"/>
-		<set name="hpRegen" val="7.5"/>
-		<set name="mpRegen" val="2.7"/>
-		<set name="pAtk" val="688.86373"/>
-		<set name="pDef" val="295.91597"/>
-		<set name="mAtk" val="470.40463"/>
-		<set name="mDef" val="216.53847"/>
-		<set name="crit" val="4"/>
-		<set name="atkSpd" val="253"/>
-		<set name="str" val="40"/>
-		<set name="int" val="21"/>
-		<set name="dex" val="30"/>
-		<set name="wit" val="20"/>
-		<set name="con" val="43"/>
-		<set name="men" val="10"/>
-		<set name="corpseTime" val="7"/>
-		<set name="walkSpd" val="50"/>
-		<set name="runSpd" val="120"/>
-		<set name="dropHerbGroup" val="0"/>
-		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
-		<skills>
-			<skill id="4045" level="1"/>
-			<skill id="4416" level="19"/>
-		</skills>
-	</npc>
+	
+	
 	<npc id="31030" name="Chest of Hallate" title="">
 		<set name="level" val="70"/>
 		<set name="radius" val="12"/>
@@ -1669,10 +1636,10 @@
 			<skill id="4416" level="14"/>
 		</skills>
 	</npc>
-	<npc id="31053" name="Kidder" title="Symbol Maker">
+	<npc id="31053" idTemplate="35660" name="Kidder" title="Symbol Maker">
 		<set name="level" val="70"/>
-		<set name="radius" val="8"/>
-		<set name="height" val="23.5"/>
+		<set name="radius" val="11"/>
+		<set name="height" val="22"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="SymbolMaker"/>
@@ -3559,13 +3526,14 @@
 			<skill id="4416" level="19"/>
 		</skills>
 	</npc>
-	<npc id="31126" name="Blacksmith of Mammon" title="">
+	<npc id="31126"  name="Mammon" title="Blacksmith">
+<!-- old SignsPriest -->
 		<set name="level" val="70"/>
-		<set name="radius" val="8"/>
-		<set name="height" val="17"/>
+		<set name="radius" val="25"/>
+		<set name="height" val="21"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
-		<set name="type" val="SignsPriest"/>
+		<set name="type" val="Merchant"/>
 		<set name="exp" val="0"/>
 		<set name="sp" val="0"/>
 		<set name="hp" val="2444.46819"/>
@@ -3593,6 +3561,7 @@
 			<skill id="4045" level="1"/>
 			<skill id="4416" level="18"/>
 		</skills>
+		<teachTo classes="0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;88;89;90;91;92;93;94;95;96;97;98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118"/>
 	</npc>
 	<npc id="31127" name="Festival Guide" title="Level 31 and Below">
 		<set name="level" val="70"/>
@@ -6499,7 +6468,9 @@
 			<skill id="4416" level="7"/>
 		</skills>
 	</npc>
-	<npc id="31228" name="Roy the Cat" title="Event Manager">
+	<npc id="31228" name="Roy the Cat"  title="Event Manager">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>>
 		<set name="level" val="70"/>
 		<set name="radius" val="9"/>
 		<set name="height" val="16"/>
@@ -21815,12 +21786,14 @@
 			<skill id="4416" level="1"/>
 		</skills>
 	</npc>
-	<npc id="31688" name="Grand Olympiad Manager" title="">
+	<npc id="31688" idTemplate="10005" name="Diagoras" title="Grand Olympiad Manager">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="70"/>
-		<set name="radius" val="8"/>
-		<set name="height" val="23.5"/>
-		<set name="rHand" val="70"/>
-		<set name="lHand" val="0"/>
+		<set name="radius" val="16"/>
+		<set name="height" val="35"/>
+		<set name="rHand" val="79"/>
+		<set name="lHand" val="19534"/>
 		<set name="type" val="OlympiadManagerNpc"/>
 		<set name="exp" val="0"/>
 		<set name="sp" val="0"/>

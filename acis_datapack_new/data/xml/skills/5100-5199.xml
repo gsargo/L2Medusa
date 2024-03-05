@@ -655,6 +655,7 @@
 		<for>
 			<effect name="Buff" time="60" val="0" stackOrder="1" stackType="abnormal_item">
 				<add stat="maxMp" val="#maxMp" />
+				<mul val='1.08' order='0x30' stat='regMp'/>
 			</effect>
 		</for>
 	</skill>

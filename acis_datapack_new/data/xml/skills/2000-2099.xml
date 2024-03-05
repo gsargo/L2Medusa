@@ -119,7 +119,8 @@
 	</skill>
 	<skill id="2013" levels="1" name="Scroll Of Escape">
 		<set name="target" val="SELF" />
-		<set name="hitTime" val="20000" />
+		<set name="hitTime" val="30000" />
+		<!-- default hitTime 20000 -->
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="ACTIVE" />
@@ -283,18 +284,22 @@
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
-	<skill id="2037" levels="1" name="Greater Healing Potion">
+	<skill id="2037" levels="2" name="Greater Healing Potion">
 		<set name="target" val="SELF" />
-		<set name="skillType" val="HOT" />
+		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="isPotion" val="true" />
 		<set name="reuseDelay" val="10000" />
+		<table name="#time"> 2 4 </table>
+		<table name="#count"> 7 8 </table>
+		<table name="#totaltime"> 14 32 </table>
 		<cond msgId="113" addName="1">
 			<player flying="False" />
 		</cond>
 		<for>
-			<effect count="7" name="HealOverTime" noicon="1" time="2" val="100" stackOrder="3" stackType="hp_recover" />
+			<effect count="#count" name="HealOverTime" noicon="1" time="#time" val="100" stackOrder="3" stackType="hp_recover" />		
 		</for>
+		
 	</skill>
 	<skill id="2038" levels="1" name="Quick Healing Potion">
 		<set name="power" val="435" />
@@ -302,6 +307,7 @@
 		<set name="skillType" val="HEAL_STATIC" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="isPotion" val="true" />
+		<set name="reuseDelay" val="1000" />
 		<cond msgId="113" addName="1">
 			<player flying="False" />
 		</cond>
@@ -313,7 +319,8 @@
 	</skill>
 	<skill id="2040" levels="1" name="Scroll of Escape: Clan Hall">
 		<set name="target" val="SELF" />
-		<set name="hitTime" val="20000" />
+		<set name="hitTime" val="25000" />
+		<!-- default hittime 20000 -->
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="RECALL" />
 		<set name="recallType" val="ClanHall" />
@@ -321,11 +328,13 @@
 	</skill>
 	<skill id="2041" levels="1" name="Scroll of Escape: Castle">
 		<set name="target" val="SELF" />
-		<set name="hitTime" val="20000" />
+		<set name="hitTime" val="25000" />
+		<!-- default hittime  20000 -->
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="RECALL" />
 		<set name="recallType" val="Castle" />
 		<set name="operateType" val="ACTIVE" />
+		
 	</skill>
 	<skill id="2042" levels="1" name="Antidote">
 		<set name="target" val="SELF" />
@@ -428,7 +437,8 @@
 		</cond>
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="critical_dmg_up">
-				<mul stat="cAtk" val="1.35" />
+				<mul stat="cAtk" val="1.30" />
+				<!-- default value 1.35 -->
 			</effect>
 		</for>
 	</skill>
@@ -985,9 +995,10 @@
 		<set name="castRange" val="20" />
 		<set name="effectRange" val="100" />
 	</skill>
-	<skill id="2099" levels="1" name="Escape: 5 minutes">
+	<skill id="2099" levels="1" name="Escape: 2 minutes">
 		<set name="target" val="SELF" />
-		<set name="hitTime" val="300000" />
+		<set name="hitTime" val="90000" />
+		<!-- default hitTime ="300000" /> -->
 		<set name="staticHitTime" val="true" />
 		<set name="skillType" val="RECALL" />
 		<set name="operateType" val="ACTIVE" />

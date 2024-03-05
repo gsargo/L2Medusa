@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+    <zone shape="NPoly" minZ="-3900" maxZ="3400">  <!--PvP Zone Primeval -->
+      	<node x="10740" y="-28870"/>
+		<node x="14840" y="-24152"/>
+		<node x="9070" y="-16423"/>
+		<node x="3568" y="-20374"/>
+		<node x="3110" y="-25113"/>
+		<stat name="time" val="06:00,12:00,18:00,24:00"/> 
+		<stat name="zone_name" val="Solo PvP Area"/>
+    </zone> 	
 
-
-    <zone shape="Cylinder" minZ="-4000" maxZ="-1000" rad="10000"><!-- Playground Time Restrictions -->
-        <stat name="time" val="16:00,20:00;00:00"/>//no , i can do it  , i prefer manually
-        <spawn type="NORMAL" x="-116059" y="-251145" z="-2992"/>
-        <spawn type="NORMAL" x="-116126" y="-251135" z="-2992"/>
-        <spawn type="NORMAL" x="-116050" y="-251210" z="-2992"/>
-        <spawn type="NORMAL" x="-116049" y="-251082" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116059" y="-251145" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116126" y="-251135" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116050" y="-251210" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116049" y="-251082" z="-2992"/>
-    </zone>
-<!--    <zone shape="NPoly" minZ="-3596" maxZ="-3396">&lt;!&ndash; Time Zone &ndash;&gt;
-        <stat name="time" val="01:00,03:00,05:00"/>
-        <node x="-49572" y="-251426"/>
-        <node x="-115745" y="-251426"/>
-        <node x="-115745" y="-250840"/>
-        <node x="-116296" y="-250840"/>
-        <spawn type="NORMAL" x="-116059" y="-251145" z="-2992"/>
-        <spawn type="NORMAL" x="-116126" y="-251135" z="-2992"/>
-        <spawn type="NORMAL" x="-116050" y="-251210" z="-2992"/>
-        <spawn type="NORMAL" x="-116049" y="-251082" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116059" y="-251145" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116126" y="-251135" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116050" y="-251210" z="-2992"/>
-        <spawn type="CHAOTIC" x="-116049" y="-251082" z="-2992"/>
-    </zone>-->
+ <zone shape="NPoly" minZ="-3900" maxZ="3400"><!-- Clan war zone acropolis-->
+        <node x="215349" y="181044"/>
+		<node x="215220" y="179065"/>
+		<node x="213176" y="177619"/>
+		<node x="207980" y="179058"/>
+		<node x="208975" y="182579"/>
+		<node x="214386" y="182706"/>
+		 <stat name="time" val="09:00,15:00,21:00,03:00"/> 
+		<stat name="zone_name" val="Clan PvP Area"/>
+     </zone>	
+	
 </list>

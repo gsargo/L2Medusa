@@ -177,11 +177,11 @@
 	</npc>
 	<npc id="13006" name="Christmas Tree" title="">
 		<set name="level" val="70"/>
-		<set name="radius" val="0"/>
-		<set name="height" val="0"/>
+		<set name="radius" val="30"/>
+		<set name="height" val="1"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
-		<set name="type" val="ChristmasTree"/>
+		<set name="type" val="Trainer"/>
 		<set name="exp" val="0"/>
 		<set name="sp" val="10"/>
 		<set name="hp" val="2444.46819"/>
@@ -204,19 +204,19 @@
 		<set name="walkSpd" val="30"/>
 		<set name="runSpd" val="120"/>
 		<set name="dropHerbGroup" val="0"/>
-		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="false" seedable="false"/>
 		<skills>
 			<skill id="4045" level="1"/>
 			<skill id="4416" level="8"/>
 		</skills>
 	</npc>
-	<npc id="13007" name="Special Christmas Tree" title="">
+	<!-- <npc id="13007" name="Special Christmas Tree" title="">
 		<set name="level" val="70"/>
-		<set name="radius" val="0"/>
-		<set name="height" val="0"/>
+		<set name="radius" val="30"/>
+		<set name="height" val="1"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
-		<set name="type" val="ChristmasTree"/>
+		<set name="type" val="FestivalMonster"/>
 		<set name="exp" val="0"/>
 		<set name="sp" val="10"/>
 		<set name="hp" val="2444.46819"/>
@@ -244,7 +244,7 @@
 			<skill id="4045" level="1"/>
 			<skill id="4416" level="8"/>
 		</skills>
-	</npc>
+	</npc> -->
 	<npc id="13014" name="Effects For Valakas" title="">
 		<set name="level" val="70"/>
 		<set name="radius" val="0.1"/>
@@ -315,23 +315,23 @@
 			<skill id="4416" level="2"/>
 		</skills>
 	</npc>
-	<npc id="13016" name="King Squash" title="">
-		<set name="level" val="1"/>
-		<set name="radius" val="23"/>
+	<npc id="13016" name="King Squash" title="Lv 5">
+		<set name="level" val="10"/>
+		<set name="radius" val="33"/>
 		<set name="height" val="25"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="7133"/>
-		<set name="sp" val="810"/>
-		<set name="hp" val="39.74519"/>
+		<set name="exp" val="21100"/>
+		<set name="sp" val="24110"/>
+		<set name="hp" val="160"/>
 		<set name="mp" val="40"/>
 		<set name="hpRegen" val="2"/>
 		<set name="mpRegen" val="0.9"/>
 		<set name="pAtk" val="8.47458"/>
 		<set name="pDef" val="44.44444"/>
 		<set name="mAtk" val="5.78704"/>
-		<set name="mDef" val="32.52252"/>
+		<set name="mDef" val="45.52252"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
@@ -340,24 +340,24 @@
 		<set name="wit" val="20"/>
 		<set name="con" val="43"/>
 		<set name="men" val="10"/>
-		<set name="corpseTime" val="7"/>
+		<set name="corpseTime" val="8"/>
 		<set name="walkSpd" val="50"/>
 		<set name="runSpd" val="100"/>
 		<set name="dropHerbGroup" val="0"/>
-		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="false" seedable="false"/>
 		<skills>
 			<skill id="4416" level="19"/>
 		</skills>
 	</npc>
-	<npc id="13017" name="Emperor Squash" title="">
+	<npc id="13017" name="Emperor Squash" title="10">
 		<set name="level" val="1"/>
 		<set name="radius" val="24"/>
 		<set name="height" val="40"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="7557"/>
-		<set name="sp" val="858"/>
+		<set name="exp" val="31100"/>
+		<set name="sp" val="31100"/>
 		<set name="hp" val="39.74519"/>
 		<set name="mp" val="40"/>
 		<set name="hpRegen" val="2"/>
@@ -374,11 +374,11 @@
 		<set name="wit" val="20"/>
 		<set name="con" val="43"/>
 		<set name="men" val="10"/>
-		<set name="corpseTime" val="7"/>
+		<set name="corpseTime" val="10"/>
 		<set name="walkSpd" val="50"/>
 		<set name="runSpd" val="100"/>
 		<set name="dropHerbGroup" val="0"/>
-		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="false" seedable="false"/>
 		<skills>
 			<skill id="4416" level="19"/>
 		</skills>

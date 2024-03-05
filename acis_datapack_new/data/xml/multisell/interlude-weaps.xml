@@ -1,0 +1,183 @@
+<list>
+<!-- Shyeed's Bow - Cheap Shot -->
+  <item id="38">
+    <ingredient id="57" count="18000000"/>
+    <production id="8806" count="1"/>
+  </item>
+
+  <!-- Shyeed's Bow - Focus -->
+  <item id="39">
+    <ingredient id="57" count="18000000"/>
+    <production id="8807" count="1"/>
+  </item>
+
+  <!-- Shyeed's Bow - Quick Recovery -->
+  <item id="40">
+    <ingredient id="57" count="18000000"/>
+    <production id="8808" count="1"/>
+  </item>
+
+  <!-- Soul Bow - Cheap Shot -->
+  <item id="41">
+    <ingredient id="57" count="18000000"/>
+    <production id="5611" count="1"/>
+  </item>
+
+  <!-- Soul Bow - Critical Poison -->
+  <item id="42">
+    <ingredient id="57" count="18000000"/>
+    <production id="5613" count="1"/>
+  </item>
+
+  <!-- Soul Bow - Quick Recovery -->
+  <item id="43">
+    <ingredient id="57" count="18000000"/>
+    <production id="5612" count="1"/>
+  </item>
+
+  <!-- Elysian - Anger -->
+  <item id="44">
+    <ingredient id="57" count="18000000"/>
+    <production id="5603" count="1"/>
+  </item>
+
+  <!-- Elysian - Critical Drain -->
+  <item id="45">
+    <ingredient id="57" count="18000000"/>
+    <production id="5604" count="1"/>
+  </item>
+
+  <!-- Elysian - Health -->
+  <item id="46">
+    <ingredient id="57" count="18000000"/>
+    <production id="5602" count="1"/>
+  </item>
+
+  <!-- Flaming Dragon Skull - Acumen -->
+  <item id="47">
+    <ingredient id="57" count="18000000"/>
+    <production id="8150" count="1"/>
+  </item>
+
+  <!-- Flaming Dragon Skull - Magic Power -->
+  <item id="48">
+    <ingredient id="57" count="18000000"/>
+    <production id="8151" count="1"/>
+  </item>
+
+  <!-- Flaming Dragon Skull - Magic Silence -->
+  <item id="49">
+    <ingredient id="57" count="18000000"/>
+    <production id="8152" count="1"/>
+  </item>
+
+  <!-- Spiritual Eye - Acumen -->
+  <item id="50">
+    <ingredient id="57" count="18000000"/>
+    <production id="8149" count="1"/>
+  </item>
+
+  <!-- Spiritual Eye - Magic Poison -->
+  <item id="51">
+    <ingredient id="57" count="18000000"/>
+    <production id="8148" count="1"/>
+  </item>
+
+  <!-- Spiritual Eye - Mana Up -->
+  <item id="52">
+    <ingredient id="57" count="18000000"/>
+    <production id="8147" count="1"/>
+  </item>
+
+  <!-- Dragon Slayer - Critical Bleed -->
+  <item id="53">
+    <ingredient id="57" count="18000000"/>
+    <production id="5645" count="1"/>
+  </item>
+
+  <!-- Dragon Slayer - Critical Drain -->
+  <item id="54">
+    <ingredient id="57" count="18000000"/>
+    <production id="5646" count="1"/>
+  </item>
+
+  <!-- Dragon Slayer - Health -->
+  <item id="55">
+    <ingredient id="57" count="18000000"/>
+    <production id="5644" count="1"/>
+  </item>
+
+  <!-- Doom Crusher - Anger -->
+  <item id="56">
+    <ingredient id="57" count="18000000"/>
+    <production id="8136" count="1"/>
+  </item>
+
+  <!-- Doom Crusher - Health -->
+  <item id="57">
+    <ingredient id="57" count="18000000"/>
+    <production id="8135" count="1"/>
+  </item>
+
+  <!-- Doom Crusher - Rsk. Haste -->
+  <item id="58">
+    <ingredient id="57" count="18000000"/>
+    <production id="8137" count="1"/>
+  </item>
+
+  <!-- Tiphon's Spear - Critical Stun -->
+  <item id="59">
+    <ingredient id="57" count="18000000"/>
+    <production id="8803" count="1"/>
+  </item>
+
+  <!-- Tiphon's Spear - Towering Blow -->
+  <item id="60">
+    <ingredient id="57" count="18000000"/>
+    <production id="8804" count="1"/>
+  </item>
+
+  <!-- Tiphon's Spear - Wild Blow -->
+  <item id="61">
+    <ingredient id="57" count="18000000"/>
+    <production id="8805" count="1"/>
+  </item>
+
+  <!-- Daimon Crystal - Acumen -->
+  <item id="71">
+    <ingredient id="57" count="18000000"/>
+    <production id="8819" count="1"/>
+  </item>
+
+  <!-- Daimon Crystal - Magic Mental Shield -->
+  <item id="72">
+    <ingredient id="57" count="18000000"/>
+    <production id="8820" count="1"/>
+  </item>
+
+  <!-- Daimon Crystal - Mana Up -->
+  <item id="73">
+    <ingredient id="57" count="18000000"/>
+    <production id="8818" count="1"/>
+  </item>
+
+  <!-- Sword of Ipos - Focus -->
+  <item id="74">
+    <ingredient id="57" count="18000000"/>
+    <production id="8791" count="1"/>
+  </item>
+
+  <!-- Sword of Ipos - Haste -->
+  <item id="75">
+    <ingredient id="57" count="18000000"/>
+    <production id="8792" count="1"/>
+  </item>
+
+  <!-- Sword of Ipos - Health -->
+  <item id="76">
+    <ingredient id="57" count="18000000"/>
+    <production id="8793" count="1"/>
+  </item>
+  
+    
+</list>

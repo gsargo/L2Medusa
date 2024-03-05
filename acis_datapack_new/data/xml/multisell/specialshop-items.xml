@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+
+<list>
+
+  <!-- Adena - Gold Bar -->
+  <item id="-2">
+    <ingredient id="57" count="100000000"/>
+    <production id="3470" count="1"/>
+  </item>
+
+  <!-- Gold Bar - Adena -->
+  <item id="-1">
+    <ingredient id="3470" count="1"/>
+    <production id="57" count="100000000"/>
+  </item>
+  
+
+           <!-- Pandora's Silver box -->
+  <item id="2">
+	<ingredient id="12592" count="2" />
+	<ingredient id="12528" count="200" enchant="0"/>
+	<ingredient id="12529" count="100" enchant="0"/>
+    <production id="12590" count="1"/>
+  </item>
+  
+           <!-- Pandora's Golden box -->
+  <item id="3">
+	<ingredient id="12592" count="4" />
+	<ingredient id="12528" count="400" enchant="0"/>
+	<ingredient id="12529" count="200" enchant="0"/>
+    <production id="12591" count="1"/>
+  </item>
+  
+        <!--Strategy Guide -->
+  <item id="21">
+    <ingredient id="12528" count="600" enchant="0"/>
+	<ingredient id="12529" count="300" enchant="0"/>
+	 <production id="8871" count="1"/>
+  </item>
+  
+   <!-- Color Palette Blue -->
+  <item id="27">
+    <ingredient id="12549" count="25"/>
+	<ingredient id="12573" count="1" />
+	<ingredient id="6393" count="1" />
+	 <production id="12545" count="1"/>
+  </item>
+  
+     <!-- Title palette light yellow -->
+   <item id="28">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+    <production id="12541" count="1"/>
+  </item>
+  
+    <!-- Title palette light red -->
+   <item id="28">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	
+    <production id="12542" count="1"/>
+  </item>
+  
+      <!-- Title palette light green -->
+   <item id="29">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	
+    <production id="12543" count="1"/>
+  </item>
+  
+       <!-- Title palette light blue -->
+   <item id="30">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+    <production id="12544" count="1"/>
+  </item>
+  
+
+
+  
+  
+</list>
+

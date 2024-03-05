@@ -143,33 +143,36 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4422" type="EtcItem" name="Dragon Bugle of Wind">
-		<set name="default_action" val="skill_maintain" />
-		<set name="etcitem_type" val="PET_COLLAR" />
-		<set name="material" val="STEEL" />
+		
+		
+		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SummonItems" />
-		<set name="item_skill" val="2046-1" />
+		
+		
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
-	<item id="4423" type="EtcItem" name="Dragon Bugle of Star">
-		<set name="default_action" val="skill_maintain" />
-		<set name="etcitem_type" val="PET_COLLAR" />
+	<item id="4423" type="EtcItem" name="Nimbus2000">
+		
+		
 		<set name="material" val="STEEL" />
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SummonItems" />
-		<set name="item_skill" val="2046-1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		
+		
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
 	<item id="4424" type="EtcItem" name="Dragon Bugle of Dusk">
-		<set name="default_action" val="skill_maintain" />
-		<set name="etcitem_type" val="PET_COLLAR" />
+		
+		
 		<set name="material" val="STEEL" />
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SummonItems" />
-		<set name="item_skill" val="2046-1" />
+		
+		
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying;tt_pure_stat}}}" />
 	</item>
 	<item id="4425" type="EtcItem" name="Penitent's Manacles">

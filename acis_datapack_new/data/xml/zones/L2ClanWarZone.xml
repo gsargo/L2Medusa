@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<!-- ACROPOLIS -->
+    <zone shape="NPoly" minZ="-3820" maxZ="-2085">
+        <node x="215349" y="181044"/>
+		<node x="215220" y="179065"/>
+		<node x="213176" y="177619"/>
+		<node x="207980" y="179058"/>
+		<node x="208975" y="182579"/>
+		<node x="214386" y="182706"/>
+		
+        <spawn type="NORMAL" x="211534" y="180787" z="-3136"/> 
+		<spawn type="NORMAL" x="213653" y="178440" z="-3472"/> 
+		<spawn type="NORMAL" x="211848" y="182175" z="-3664"/> 
+     </zone>
+</list>

@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+
+<list>
+
+  <!-- Adena - Gold Bar -->
+  <item id="-2">
+    <ingredient id="57" count="100000000"/>
+    <production id="3470" count="1"/>
+  </item>
+
+  <!-- Gold Bar - Adena -->
+  <item id="-1">
+    <ingredient id="3470" count="1"/>
+    <production id="57" count="100000000"/>
+  </item>
+
+       <!-- Daedalus Toolbox -->
+  <item id="0">
+	<ingredient id="6393" count="5" />
+    <production id="12587" count="1"/>
+  </item>
+  
+         <!-- Pandora's bronze box -->
+  <item id="1">
+	<ingredient id="12592" count="1" />
+    <production id="12589" count="1"/>
+  </item>
+  
+           <!-- Pandora's Silver box -->
+  <item id="2">
+	<ingredient id="12592" count="2" />
+    <production id="12590" count="1"/>
+  </item>
+  
+           <!-- Pandora's Golden box -->
+  <item id="3">
+	<ingredient id="12592" count="3" />
+    <production id="12591" count="1"/>
+  </item>
+
+    <!-- CP -->
+  <item id="4">
+    <ingredient id="12529" count="200" />
+    <production id="5592" count="10"/>
+  </item>
+
+  
+      <!-- Book of Giants -->
+  <item id="6">
+    <ingredient id="12528" count="500" />
+	<ingredient id="12529" count="250" />
+	<ingredient id="57" count="1250000"/>
+	<ingredient id="6393" count="1" />
+    <production id="6622" count="5"/>
+  </item>
+  
+  
+      <!-- Monster Shield -->
+  <item id="7">
+	<ingredient id="12528" count="1000" enchant="0"/>
+    <ingredient id="12529" count="500" enchant="0"/>
+	<ingredient id="57" count="5000000"/>
+    <production id="6721" count="1"/>
+  </item>
+
+   <!-- Dusk Shield -->
+  <item id="8">
+	<ingredient id="12528" count="1000" enchant="0"/>
+    <ingredient id="12529" count="500" enchant="0"/>
+	<ingredient id="57" count="5000000"/>
+    <production id="5799" count="1"/>
+  </item>
+
+  <!-- shield of helios -->
+<item id="10">
+	<ingredient id="12528" count="3000" />
+    <ingredient id="12529" count="1500" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="57" count="20000000"/>
+	 <production id="19530" count="1"/>
+  </item>
+
+  <!-- Tattoo Of Fighter lv1 -->
+  <item id="9">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11383" count="1"/>
+  </item>
+
+  <!-- Tattoo Of Mage lv1 -->
+  <item id="10">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11380" count="1"/>
+  </item>
+
+
+   <!-- Tattoo Of Hermes lv1 -->
+  <item id="11">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="25000000"/>
+    <production id="11386" count="1"/>
+  </item>
+
+  <!-- Tattoo Of Dagger lv1 -->
+  <item id="12">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11388" count="1"/>
+  </item>
+  
+    <!-- Tattoo Of Fighter lv2 -->
+  <item id="13">
+    <ingredient id="11383" count="1" />
+	<ingredient id="12530" count="400"/>
+	<ingredient id="57" count="100000000"/>
+    <production id="11384" count="1"/>
+  </item>
+  
+      <!-- Tattoo Of Mage lv2 -->
+  <item id="13">
+    <ingredient id="11380" count="1" />
+	<ingredient id="12530" count="400"/>
+	<ingredient id="57" count="100000000"/>
+    <production id="11381" count="1"/>
+  </item>
+  
+        <!-- Tattoo Of Hermes lv2 -->
+  <item id="13">
+    <ingredient id="11386" count="1" />
+	<ingredient id="12530" count="200"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11387" count="1"/>
+  </item>
+
+        <!-- Tattoo Of Dagger lv2 -->
+  <item id="13">
+    <ingredient id="11388" count="1" />
+	<ingredient id="12530" count="400"/>
+	<ingredient id="57" count="100000000"/>
+    <production id="11389" count="1"/>
+  </item>
+ 
+ <!-- Lunargent -->
+  <item id="17">
+    <ingredient id="12528" count="1500" enchant="0"/>
+	<ingredient id="12529" count="1500" enchant="0"/>
+	<ingredient id="12530" count="20" enchant="0"/>
+    <production id="6029" count="1"/>
+  </item>
+  
+   <!-- Hellfire Oil -->
+  <item id="18">
+    <ingredient id="12528" count="5000" enchant="0"/>
+	<ingredient id="12529" count="5000" enchant="0"/>
+	<ingredient id="12530" count="60" enchant="0"/>
+    <production id="6033" count="1"/>
+  </item>
+ 
+ <!-- Ancient Book Lv1 -->
+  <item id="19">
+    <ingredient id="12528" count="3000" enchant="0"/>
+	<ingredient id="12529" count="1500" enchant="0"/>
+    <production id="8618" count="1"/>
+  </item>
+  
+
+  
+        <!--Strategy Guide -->
+  <item id="21">
+    <ingredient id="12528" count="600" enchant="0"/>
+	<ingredient id="12529" count="300" enchant="0"/>
+	 <production id="8871" count="1"/>
+  </item>
+  
+         <!-- Fox -->
+  <item id="22">
+    <ingredient id="12528" count="5000" enchant="0"/>
+	<ingredient id="12529" count="2500" enchant="0"/>
+	<ingredient id="12530" count="50" enchant="0"/>
+	 <production id="18011" count="1"/>
+  </item>
+  
+           <!-- Greygryps -->
+  <item id="23">
+    <ingredient id="12528" count="5000" enchant="0"/>
+	<ingredient id="12529" count="2500" enchant="0"/>
+	<ingredient id="6393" count="75" enchant="0"/>
+	 <production id="18012" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="24">
+    <ingredient id="12528" count="2000"/>
+	<ingredient id="12529" count="1000"/>
+	<ingredient id="57" count="15000000"/>
+    <production id="4900" count="1"/>
+  </item>
+
+  <!-- Oly Weap -->
+  <item id="25">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4901" count="1"/>
+  </item>
+
+    <!-- Oly Weap -->
+  <item id="26">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4898" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="27">
+     <ingredient id="12528" count="2000"/>
+	 <ingredient id="12529" count="1000"/>
+	 <ingredient id="57" count="15000000"/>
+    <production id="4899" count="1"/>
+  </item>
+  
+     <!-- Title palette light yellow -->
+   <item id="28">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="57" count="25000000" />
+    <production id="12541" count="1"/>
+  </item>
+  
+    <!-- Title palette light red -->
+   <item id="28">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="57" count="25000000" />
+    <production id="12542" count="1"/>
+  </item>
+  
+      <!-- Title palette light green -->
+   <item id="29">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="57" count="25000000" />
+    <production id="12543" count="1"/>
+  </item>
+  
+       <!-- Title palette light blue -->
+   <item id="30">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="57" count="25000000" />
+    <production id="12544" count="1"/>
+  </item>
+  
+         <!-- Trojan Shield -->
+   <item id="31">
+    <ingredient id="12549" count="50"/>
+	<ingredient id="12573" count="5" />
+	<ingredient id="6393" count="1" />
+    <production id="19556" count="1"/>
+  </item>
+  
+    
+   <!-- Triton's Costume -->
+  <item id="32">
+	 <ingredient id="12578" count="10"/>
+     <production id="11348" count="1"/>
+	 <production id="11349" count="1"/>
+  </item>
+  
+  
+</list>
+

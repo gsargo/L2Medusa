@@ -98,7 +98,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncrit_chance" val="35" />
@@ -123,7 +123,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3013-1" />
@@ -147,7 +147,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncrit_chance" val="24" />
@@ -172,7 +172,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3068-2" />
@@ -196,7 +196,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3067-1" />
@@ -220,7 +220,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3050-1" />
@@ -321,7 +321,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1380" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3076-4" />
@@ -346,7 +346,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1380" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3077-4" />
@@ -371,7 +371,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1380" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="oncast_chance" val="10" />
@@ -397,7 +397,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1350" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3047-1" />
@@ -422,7 +422,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1350" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3077-6" />
@@ -447,7 +447,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1350" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3048-1" />
@@ -471,7 +471,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2010" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3013-1" />
@@ -496,7 +496,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2010" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3012-4" />
@@ -521,7 +521,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2010" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="oncrit_chance" val="42" />
@@ -623,7 +623,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1910" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3013-3" />
@@ -648,7 +648,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1910" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3068-2" />
@@ -673,7 +673,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1910" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncrit_chance" val="24" />
@@ -700,7 +700,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1950" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3010-5" />
@@ -725,7 +725,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1950" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3012-5" />
@@ -750,7 +750,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1950" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncrit_chance" val="41" />
@@ -776,7 +776,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3013-1" />
@@ -801,7 +801,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3036-6" />
@@ -826,7 +826,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3027-6" />
@@ -851,7 +851,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3013-3" />
@@ -876,7 +876,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3057-2" />
@@ -901,7 +901,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3056-2" />
@@ -927,7 +927,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1640" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3048-1" />
@@ -953,7 +953,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1640" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="item_skill" val="3077-4" />
@@ -979,7 +979,7 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1640" />
-		<set name="price" val="6130000" />
+		<set name="price" val="200000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="oncast_chance" val="10" />
@@ -1006,7 +1006,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1620" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3047-1" />
@@ -1032,7 +1032,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1620" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncast_chance" val="50" />
@@ -1059,7 +1059,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1620" />
-		<set name="price" val="8680000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncast_chance" val="10" />
@@ -1086,7 +1086,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1570" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3014-1" />
@@ -1112,7 +1112,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1570" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncast_chance" val="10" />
@@ -1139,7 +1139,7 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1570" />
-		<set name="price" val="13100000" />
+		<set name="price" val="230000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3048-1" />
@@ -1165,7 +1165,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1550" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3014-2" />
@@ -1191,7 +1191,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1550" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncast_chance" val="8" />
@@ -1219,7 +1219,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1550" />
-		<set name="price" val="18300000" />
+		<set name="price" val="8300000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3047-2" />
@@ -1245,7 +1245,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1530" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3047-2" />
@@ -1271,7 +1271,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1530" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="item_skill" val="3073-2" />
@@ -1297,7 +1297,7 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1530" />
-		<set name="price" val="27000000" />
+		<set name="price" val="7000000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="oncast_chance" val="10" />
@@ -1551,9 +1551,9 @@
 	<item id="8191" type="Armor" name="Frintezza's Necklace">
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
-		<set name="crystal_type" val="A" />
+		<set name="crystal_type" val="S" />
 		<set name="material" val="GOLD" />
-		<set name="weight" val="150" />
+		<set name="weight" val="1" />
 		<set name="item_skill" val="3604-1" />
 		<for>
 			<baseadd stat="mDef" val="95" />

@@ -438,10 +438,10 @@
 	<!-- Tasks -->
 
 	<script path="task.ClanLadderRefresh" schedule="DAILY" start="00:05:00"/>
-	<script path="task.ClanLeaderTransfer" schedule="WEEKLY" start="TUE 16:55:00"/>
+	<script path="task.ClanLeaderTransfer" schedule="DAILY" start="00:04:00"/>
 	<script path="task.RaidPointReset" schedule="MONTHLY_WEEK" start="TUE-1 00:00:00"/>
 	<script path="task.RecommendationUpdate" schedule="DAILY" start="13:00:00"/>
-<!--	<script path="task.ServerRestart" schedule="WEEKLY" start="TUE 17:00:00"/> -->
+	<script path="task.ServerRestart" schedule="DAILY" start="05:15:00"/> 
 <!--	<script path="task.ServerShutdown" schedule="WEEKLY" start="TUE 17:00:00"/> -->
 	<script path="task.SevenSignsUpdate" schedule="HOURLY" start="00:00"/>
 

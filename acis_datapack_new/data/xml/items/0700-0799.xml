@@ -296,6 +296,8 @@
 		<set name="weight" val="180" />
 		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2002-1" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
@@ -315,29 +317,32 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="weight" val="180" />
+		<set name="weight" val="1" />
 		<set name="price" val="80" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SoulShots" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="728" type="EtcItem" name="Mana Potion">
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="weight" val="180" />
+		<set name="weight" val="0" />
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2279-2" />
+		<set name="handler" val="SoulShots" />
+ 		
+		<set name="item_skill" val="2279-3" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="729" type="EtcItem" name="Scroll: Enchant Weapon (Grade A)">
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="1800000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -347,7 +352,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="240000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -357,7 +363,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="240000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -366,7 +373,8 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
 		<set name="price" val="240000" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
@@ -412,7 +420,7 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
 		<set name="price" val="400" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -423,7 +431,7 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="10" />
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
@@ -493,7 +501,7 @@
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="material" val="STEEL" />
-		<set name="weight" val="1300" />
+		<set name="weight" val="0" />
 		<set name="price" val="33600" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />

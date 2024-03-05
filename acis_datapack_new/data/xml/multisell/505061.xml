@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+
+<!-- Olympian SOE -->
+  <item id="1">
+    <ingredient id="12530" count="50"/>
+	<ingredient id="6393" count="1" />
+    <production id="25620" count="5"/>
+  </item>
+  
+  <!-- Nectar -->
+  <item id="2">
+    <ingredient id="12530" count="50"/>
+	<ingredient id="6393" count="1" />
+    <production id="25625" count="100"/>
+  </item>
+  
+  <!-- Ambrosia -->
+  <item id="3">
+    <ingredient id="12530" count="50"/>
+	<ingredient id="6393" count="1" />
+    <production id="25626" count="100"/>
+  </item>
+ 
+   <!-- CP Pot -->
+  <item id="4">
+    <ingredient id="12530" count="10"/>
+    <production id="5592" count="250"/>
+  </item>
+  
+     <!-- Mystery Pot -->
+  <item id="5">
+    <ingredient id="12530" count="5"/>
+    <production id="5234" count="1"/>
+  </item>
+ 
+    <!-- Dye Pot A-->
+  <item id="6">
+    <ingredient id="12530" count="10"/>
+    <production id="5238" count="1"/>
+  </item>
+  
+      <!-- Dye Pot B-->
+  <item id="7">
+    <ingredient id="12530" count="10"/>
+    <production id="5239" count="1"/>
+  </item>
+ 
+     <!-- Dye Pot C-->
+  <item id="8">
+    <ingredient id="12530" count="10"/>
+    <production id="5240" count="1"/>
+  </item>
+ 
+     <!-- Dye Pot D-->
+  <item id="9">
+    <ingredient id="12530" count="10"/>
+    <production id="5241" count="1"/>
+  </item>
+  
+       <!-- Face Lifting Pot A-->
+  <item id="10">
+    <ingredient id="12530" count="15"/>
+    <production id="5235" count="1"/>
+  </item>
+  
+         <!-- Face Lifting Pot B-->
+  <item id="11">
+    <ingredient id="12530" count="15"/>
+    <production id="5236" count="1"/>
+  </item>
+ 
+        <!-- Face Lifting Pot C-->
+  <item id="12">
+    <ingredient id="12530" count="15"/>
+    <production id="5237" count="1"/>
+  </item>
+ 
+</list>
+

@@ -523,59 +523,78 @@
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="50" />
 	</item>
-	<item id="5577" type="EtcItem" name="Red Soul Crystal - Stage 11">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+
+	<item id="5577" type="EtcItem" name="Fire Stone Lv 1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
 	</item>
-	<item id="5578" type="EtcItem" name="Green Soul Crystal - Stage 11">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5578" type="EtcItem" name="Earth Stone - Lv1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
 	</item>
-	<item id="5579" type="EtcItem" name="Blue Soul Crystal - Stage 11">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5579" type="EtcItem" name="Water Stone Lv 1">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
 	</item>
-	<item id="5580" type="EtcItem" name="Red Soul Crystal - Stage 12">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5580" type="EtcItem" name="Fire Stone Lv 2">
+			<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	
 	</item>
-	<item id="5581" type="EtcItem" name="Green Soul Crystal - Stage 12">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5581" type="EtcItem" name="Earth Stone Lv 2">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	
 	</item>
-	<item id="5582" type="EtcItem" name="Blue Soul Crystal - Stage 12">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5582" type="EtcItem" name="Water Stone Lv 2">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+	
 	</item>
 	<item id="5583" type="EtcItem" name="Echo Crystal - 6th Carol">
 		<set name="default_action" val="skill_reduce" />
@@ -639,7 +658,7 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="weight" val="10" />
+		<set name="weight" val="0" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
@@ -668,12 +687,13 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="weight" val="100" />
+		<set name="weight" val="0" />
 		<set name="price" val="600" />
-		<set name="reuse_delay" val="500" />
+		<set name="reuse_delay" val="0" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="ItemSkills" />
+
+		<set name="handler" val="SoulShots" />
 		<set name="item_skill" val="2166-2" />
 	</item>
 	<item id="5593" type="EtcItem" name="SP Scroll: Low Grade">

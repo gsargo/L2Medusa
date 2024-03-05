@@ -156,7 +156,8 @@
 		<set name="operateType" val="ACTIVE" />
 		<for>
 			<effect name="Buff" time="3600" val="0" stackOrder="4" stackType="critical_dmg_up">
-				<mul stat="cAtk" val="1.35" />
+				<mul stat="cAtk" val="1.30" />
+				<!-- default value 1.35 -->
 			</effect>
 		</for>
 	</skill>

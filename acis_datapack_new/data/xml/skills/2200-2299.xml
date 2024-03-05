@@ -1233,20 +1233,31 @@
 			<player flying="False" />
 		</cond>
 	</skill>
-	<skill id="2279" levels="3" name="Herb of Mana">
-		<!-- Lvl 2 is Greater Herb of Mana Lvl 3 is Superior Herb of Mana -->
-		<table name="#power"> 12 18 100 </table>
-		<set name="power" val="#power" />
+	<skill id="2279" levels="5" name="Herb of Mana">
+		<!-- Lvl 2 is Greater Herb of Mana. Lvl 3 is Superior Herb of Mana -->
+		<!-- retail <table name="#power"> 12 14 16 18</table> -->
+		<!-- lvl 5 is custom greater herb of mana (mainly used in dungeons) -->
+		<table name="#power"> 12 14 45 60 50</table>
+		<table name="#mppower"> 100 150 400 600 600</table>
+		<table name="#time"> 10000 10000 8000 12000 1000</table>
+		<table name="#display_time"> 12 12 13 19 19</table>
+		<set name="power" val="#mppower" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
-		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="MANAHEAL_PERCENT" />
+		<set name="reuseDelay" val="#time" />
+		<!-- retail <set name="skillType" val="MANAHEAL_PERCENT" /> -->
+		<set name="skillType" val="MANAHEAL" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="isPotion" val="true" />
 		<cond msgId="113" addName="1">
 			<player flying="False" />
 		</cond>
+		<for>
+			<effect name="Buff" time="#display_time" val="0" stackOrder="1" stackType="mana_regen3">
+			<add stat="regMp" val="#power"/> 
+			</effect>
+		</for>
 	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
 		<set name="hitTime" val="100" />

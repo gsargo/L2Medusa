@@ -14,13 +14,22 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<items>
-			<item id="1147" count="1"/>
-			<item id="1146" count="1"/>
-			<item id="2368" count="1" isEquipped="false"/>
-			<item id="2369" count="1"/>
+			<item id="27" count="1"/><!-- Hard Leather Set -->
+			<item id="33" count="1"/> <!-- Hard Leather Gaiters -->
+			<item id="66" count="1" isEquipped="false"/> <!-- Gladius sword -->
+			<item id="254" count="1"/> <!-- iron gloves -->
+			<item id="4223" count="1"/> <!-- ubiquitus shield -->
 			<item id="5588" count="1"/>
+		<item id="1539" count="100"/> <!-- greater healing pot -->
+			<item id="728" count="100"/> <!-- mana pot -->
+			<item id="1835" count="1000"/> <!--Soulshot -->
+			<item id="736" count="15"/><!-- soe -->
+			<item id="25645" count="10"/><!-- olympus soe for newbies -->
+			<item id="57" count="10000000"/>
 		</items>
 		<skills>
+				<!-- AntiBuff Lock -->
+			<skill id="9943" lvl="1" cost="50" minLvl="1"/>
 			<!-- Power Strike -->
 			<skill id="3" lvl="1" cost="60" minLvl="5"/>
 			<skill id="3" lvl="2" cost="60" minLvl="5"/>
@@ -79,12 +88,18 @@
 			<skill id="1322" lvl="1" cost="0" minLvl="1"/>
 		</skills>
 		<spawns>
-			<spawn x="-56733" y="-113459" z="-690"/>
+			<!-- <spawn x="-56733" y="-113459" z="-690"/>
 			<spawn x="-56686" y="-113470" z="-690"/>
 			<spawn x="-56728" y="-113610" z="-690"/>
 			<spawn x="-56693" y="-113610" z="-690"/>
 			<spawn x="-56743" y="-113757" z="-690"/>
 			<spawn x="-56682" y="-113730" z="-690"/>
+			<spawn x="147564" y="26710" z="-2008"/> -->
+			<spawn x="115439" y="17085" z="8968"/>
+			<spawn x="115669" y="16924" z="8936"/>
+			<spawn x="115192" y="17732" z="9008"/>
+			<spawn x="115894" y="16473" z="9008"/>
+			<spawn x="115455" y="16863" z="9008"/>
 		</spawns>
 	</class>
 	<class><!-- Orc Raider -->
@@ -147,19 +162,7 @@
 			<skill id="216" lvl="7" cost="13000" minLvl="36"/>
 			<skill id="216" lvl="8" cost="13000" minLvl="36"/>
 			<!-- Light Armor Mastery -->
-			<skill id="227" lvl="1" cost="1700" minLvl="20"/>
-			<skill id="227" lvl="2" cost="1700" minLvl="20"/>
-			<skill id="227" lvl="3" cost="2700" minLvl="24"/>
-			<skill id="227" lvl="4" cost="2700" minLvl="24"/>
-			<skill id="227" lvl="5" cost="3600" minLvl="28"/>
-			<skill id="227" lvl="6" cost="3600" minLvl="28"/>
-			<skill id="227" lvl="7" cost="3600" minLvl="28"/>
-			<skill id="227" lvl="8" cost="5600" minLvl="32"/>
-			<skill id="227" lvl="9" cost="5600" minLvl="32"/>
-			<skill id="227" lvl="10" cost="5600" minLvl="32"/>
-			<skill id="227" lvl="11" cost="8600" minLvl="36"/>
-			<skill id="227" lvl="12" cost="8600" minLvl="36"/>
-			<skill id="227" lvl="13" cost="8600" minLvl="36"/>
+			
 			<!-- Heavy Armor Mastery -->
 			<skill id="231" lvl="1" cost="1700" minLvl="20"/>
 			<skill id="231" lvl="2" cost="1700" minLvl="20"/>
@@ -503,43 +506,8 @@
 			<skill id="216" lvl="44" cost="760000" minLvl="74"/>
 			<skill id="216" lvl="45" cost="760000" minLvl="74"/>
 			<!-- Light Armor Mastery -->
-			<skill id="227" lvl="14" cost="11000" minLvl="40"/>
-			<skill id="227" lvl="15" cost="11000" minLvl="40"/>
-			<skill id="227" lvl="16" cost="11000" minLvl="40"/>
-			<skill id="227" lvl="17" cost="13000" minLvl="43"/>
-			<skill id="227" lvl="18" cost="13000" minLvl="43"/>
-			<skill id="227" lvl="19" cost="13000" minLvl="43"/>
-			<skill id="227" lvl="20" cost="17000" minLvl="46"/>
-			<skill id="227" lvl="21" cost="17000" minLvl="46"/>
-			<skill id="227" lvl="22" cost="17000" minLvl="46"/>
-			<skill id="227" lvl="23" cost="27000" minLvl="49"/>
-			<skill id="227" lvl="24" cost="27000" minLvl="49"/>
-			<skill id="227" lvl="25" cost="27000" minLvl="49"/>
-			<skill id="227" lvl="26" cost="42000" minLvl="52"/>
-			<skill id="227" lvl="27" cost="42000" minLvl="52"/>
-			<skill id="227" lvl="28" cost="42000" minLvl="52"/>
-			<skill id="227" lvl="29" cost="47000" minLvl="55"/>
-			<skill id="227" lvl="30" cost="47000" minLvl="55"/>
-			<skill id="227" lvl="31" cost="47000" minLvl="55"/>
-			<skill id="227" lvl="32" cost="60000" minLvl="58"/>
-			<skill id="227" lvl="33" cost="60000" minLvl="58"/>
-			<skill id="227" lvl="34" cost="60000" minLvl="58"/>
-			<skill id="227" lvl="35" cost="145000" minLvl="60"/>
-			<skill id="227" lvl="36" cost="145000" minLvl="60"/>
-			<skill id="227" lvl="37" cost="150000" minLvl="62"/>
-			<skill id="227" lvl="38" cost="150000" minLvl="62"/>
-			<skill id="227" lvl="39" cost="200000" minLvl="64"/>
-			<skill id="227" lvl="40" cost="200000" minLvl="64"/>
-			<skill id="227" lvl="41" cost="220000" minLvl="66"/>
-			<skill id="227" lvl="42" cost="220000" minLvl="66"/>
-			<skill id="227" lvl="43" cost="330000" minLvl="68"/>
-			<skill id="227" lvl="44" cost="330000" minLvl="68"/>
-			<skill id="227" lvl="45" cost="360000" minLvl="70"/>
-			<skill id="227" lvl="46" cost="360000" minLvl="70"/>
-			<skill id="227" lvl="47" cost="500000" minLvl="72"/>
-			<skill id="227" lvl="48" cost="500000" minLvl="72"/>
-			<skill id="227" lvl="49" cost="760000" minLvl="74"/>
-			<skill id="227" lvl="50" cost="760000" minLvl="74"/>
+			
+			
 			<!-- Heavy Armor Mastery -->
 			<skill id="231" lvl="14" cost="11000" minLvl="40"/>
 			<skill id="231" lvl="15" cost="11000" minLvl="40"/>
@@ -734,8 +702,7 @@
 			<skill id="424" lvl="2" cost="440000" minLvl="66"/>
 			<skill id="424" lvl="3" cost="1530000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+	
 		</skills>
 	</class>
 	<class><!-- Tyrant -->
@@ -1103,8 +1070,7 @@
 			<skill id="461" lvl="1" cost="264000" minLvl="60"/>
 			<skill id="461" lvl="2" cost="500000" minLvl="66"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 		</skills>
 	</class>
 	<class><!-- Titan -->
@@ -1144,8 +1110,7 @@
 			<!-- Symbol of Resistance -->
 			<skill id="456" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+
 		</skills>
 	</class>
 	<class><!-- Grand Khavatari -->
@@ -1185,8 +1150,7 @@
 			<!-- Symbol of Energy -->
 			<skill id="458" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+
 		</skills>
 	</class>
 </list>

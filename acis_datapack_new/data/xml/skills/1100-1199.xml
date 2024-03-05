@@ -89,7 +89,8 @@
 		<set name="lvlDepend" val="1"/>
 		<set name="target" val="AURA"/>
 		<set name="skillRadius" val="200"/>
-		<set name="reuseDelay" val="8000"/>
+		<set name="reuseDelay" val="10000"/>
+		<!--default time ="8000" -->
 		<set name="hitTime" val="1500"/>
 		<set name="skillType" val="DEBUFF" />
 		<set name="isDebuff" val="true" />
@@ -101,8 +102,10 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
 		<for>
-			<effect name="Debuff" time="15" val="0" stackOrder="3" stackType="attack_time_up">
-				<mul stat="pAtkSpd" val="0.77"/>
+			<effect name="Debuff" time="8" val="0" stackOrder="3" stackType="attack_time_up">
+			<!-- default time="15" -->
+				<mul stat="pAtkSpd" val="0.87"/>
+				<!--default pAtkSpd ="0.77" -->
 			</effect>
 		</for>
 	</skill>
@@ -869,7 +872,7 @@
 		<set name="castRange" val="600"/>
 		<set name="effectRange" val="1100"/>
 		<for>
-			<effect count="10" name="Fear" time="2" val="0" stackOrder="1" stackType="turn_flee" />
+			<effect count="10" name="Fear" time="3" val="0" stackOrder="1" stackType="turn_flee" />
 		</for>
 	</skill>
 	<skill id="1170" levels="13" name="Anchor" enchantLevels1="30" enchantLevels2="30" >
@@ -900,7 +903,8 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
 		<for>
-			<effect count="1" name="Paralyze" time="30" val="0"/>
+			<effect count="1" name="Paralyze" time="4" val="0"/>
+			<!-- default time="30" -->
 		</for>
 	</skill>
 	<skill id="1171" levels="19" name="Blazing Circle" enchantLevels1="30" enchantLevels2="30" >
@@ -1109,7 +1113,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="armor_water">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="armor_water">
 				<addMul stat="waterRes" val="#vuln" />
 			</effect>
 		</for>
@@ -1197,7 +1201,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="armor_wind">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="armor_wind">
 				<addMul stat="windRes" val="#vuln" />
 			</effect>
 		</for>
@@ -1230,7 +1234,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="armor_fire">
+			<effect name="Buff" time="7200" val="0" stackOrder="#stackOrder" stackType="armor_fire">
 				<addMul stat="fireRes" val="#vuln" />
 			</effect>
 		</for>

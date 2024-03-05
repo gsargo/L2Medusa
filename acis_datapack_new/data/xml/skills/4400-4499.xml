@@ -621,8 +621,8 @@
 			<mul stat="poleWpnVuln" val="#vuln" />
 		</for>
 	</skill>
-	<skill id="4459" levels="5" name="Dual-Sword Weapon Weak Point">
-		<table name="#vuln"> 1.11 1.25 1.43 1.67 2 </table>
+	<skill id="4459" levels="6" name="Dual-Sword Weapon Weak Point">
+		<table name="#vuln"> 1.11 1.25 1.43 1.67 2 1.6</table>
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />

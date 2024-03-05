@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- vote shop -->
+
+<list>
+
+
+        <!-- Book of Giants -->
+  <item id="-40">
+	<ingredient id="12573" count="2" />
+	<ingredient id="6393" count="1" />
+    <production id="6622" count="1"/>
+  </item>
+  
+         <!-- High LS -->
+  <item id="-39">
+	 <ingredient id="12573" count="1" />
+	 <ingredient id="6393" count="1" />
+	 <production id="8752" count="1"/>
+  </item>
+  
+
+  
+<!-- Ambrosia -->
+  <item id="-36">
+    <ingredient id="12573" count="1" />
+    <production id="25626" count="20"/>
+  </item>
+
+<!-- Nectar -->
+  <item id="-35">
+    <ingredient id="12573" count="1" />
+    <production id="25625" count="20"/>
+  </item>
+
+<!-- CP POT -->
+  <item id="-37">
+    <ingredient id="12573" count="10" />
+    <production id="5592" count="500"/>
+  </item>
+
+
+<!-- Dark Legacy costume -->
+  <item id="-28">
+    <ingredient id="12573" count="60" />
+	<ingredient id="6393" count="20" />
+	 <production id="11356" count="1"/>
+	 <production id="11368" count="1"/>
+  </item>
+	
+<!-- Ippocates costume -->
+  <item id="-27">
+    <ingredient id="12573" count="60" />
+	<ingredient id="6393" count="20" />
+    <production id="11361" count="1"/>
+	<production id="11362" count="1"/>
+  </item>
+  
+
+<!-- Green Artemis costume -->
+  <item id="-25">
+    <ingredient id="12573" count="60" />
+	<ingredient id="6393" count="20" />
+    <production id="11318" count="1"/>
+	<production id="11332" count="1"/>
+  </item>
+  
+  <!-- Sorcerer's  costume -->
+  <item id="-26">
+    <ingredient id="12573" count="60" />
+	<ingredient id="6393" count="20" />
+    <production id="11323" count="1"/>
+	<production id="11337" count="1"/>
+  </item>
+  
+    <!-- Blue Zaken  costume -->
+  <item id="-27">
+    <ingredient id="12573" count="60" />
+	<ingredient id="6393" count="20" />
+    <production id="11315" count="1"/>
+	<production id="11329" count="1"/>
+  </item>
+
+
+   <!-- Triton's Costume -->
+  <item id="-28">
+	 <ingredient id="12578" count="10"/>
+     <production id="11348" count="1"/>
+	 <production id="11349" count="1"/>
+  </item>
+
+<!-- Tartarus Door Key -->
+  <item id="-12">
+    <ingredient id="12573" count="1" />
+    <production id="12582" count="1"/>
+  </item>
+
+
+<!-- Asphodel Door Key -->
+  <item id="-11">
+    <ingredient id="12573" count="3" />
+    <production id="12584" count="1"/>
+  </item>
+
+
+
+<!-- Solo Dungeon Item -->
+  <item id="-10">
+    <ingredient id="12573" count="3" />
+    <production id="25628" count="1"/>
+  </item>
+
+<!-- Party Dungeon Item -->
+  <item id="-9">
+    <ingredient id="12573" count="12" />
+    <production id="25629" count="1"/>
+  </item>
+
+<!-- Brown Bison -->
+  <item id="-8">
+    <ingredient id="12573" count="5" />
+    <production id="18001" count="1"/>
+  </item>
+  
+  <!-- Pindus Bison -->
+  <item id="-7">
+    <ingredient id="12573" count="10" />
+	<ingredient id="6393" count="5" />
+	<ingredient id="18001" count="1" />
+    <production id="18002" count="1"/>
+  </item>
+
+
+<!-- Oly Weap -->
+  <item id="1">
+    <ingredient id="12573" count="5" />
+	<ingredient id="6393" count="2" />
+    <production id="4898" count="1"/>
+  </item>
+  
+  <!-- Oly Weap -->
+  <item id="2">
+    <ingredient id="12573" count="5" />
+	<ingredient id="6393" count="2" />
+    <production id="4899" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="3">
+    <ingredient id="12573" count="5" />
+	<ingredient id="6393" count="2" />
+    <production id="4900" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="4">
+    <ingredient id="12573" count="5" />
+	<ingredient id="6393" count="2" />
+    <production id="4901" count="1"/>
+  </item>
+
+
+  
+                 <!-- Divine Inspiration lv 1 -->
+  <item id="33">
+	 <ingredient id="12573" count="3" />
+	 <production id="8618" count="1"/>
+  </item>
+  
+               <!-- Divine Inspiration lv 2 -->
+  <item id="34">
+	 <ingredient id="12573" count="5" />
+	 <ingredient id="6393" count="2" />
+	 <production id="8619" count="1"/>
+  </item>
+  
+                 <!-- Divine Inspiration lv 3 -->
+  <item id="35">
+	 <ingredient id="12573" count="7" />
+	 <ingredient id="6393" count="3" />
+	 <production id="8620" count="1"/>
+  </item>
+  
+                   <!-- Divine Inspiration lv 4 -->
+  <item id="36">
+	 <ingredient id="12573" count="12" />
+	 <ingredient id="6393" count="5" />
+	 <production id="8621" count="1"/>
+  </item>
+  
+  
+    <!-- Lunargent -->
+  <item id="8">
+	 <ingredient id="12573" count="3" />
+	 <ingredient id="6393" count="2" />
+	 <production id="6029" count="1"/>
+  </item>
+  
+      <!-- Hellfire Oil -->
+  <item id="9">
+	 <ingredient id="12573" count="15" />
+	 <ingredient id="6393" count="5" />
+	 <production id="6033" count="1"/>
+  </item>
+  
+  
+  
+ 
+
+
+  
+  
+  
+</list>

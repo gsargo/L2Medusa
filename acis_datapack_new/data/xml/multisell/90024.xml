@@ -1,0 +1,73 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- by Stev0 -->
+
+<list>
+
+<!-- Fire Stone lv1 -->
+  <item id="-3">
+    <ingredient id="12530" count="100"/>
+	<ingredient id="6393" count="1" />
+    <production id="5577" count="1"/>
+  </item>
+  
+  <!-- Earth Stone lv1 -->
+  <item id="-3">
+    <ingredient id="12530" count="100"/>
+	<ingredient id="6393" count="1" />
+    <production id="5578" count="1"/>
+  </item>
+  
+    <!-- Water Stone lv1 -->
+  <item id="-3">
+    <ingredient id="12530" count="100"/>
+	<ingredient id="6393" count="1" />
+    <production id="5579" count="1"/>
+  </item>
+
+<!-- Fire Stone lv2 -->
+  <item id="1">
+    <ingredient id="12530" count="200"/>
+	<ingredient id="6393" count="5" />
+    <production id="5580" count="1"/>
+  </item>
+  
+  <!-- Earth Stone lv2 -->
+  <item id="2">
+    <ingredient id="12530" count="200"/>
+	<ingredient id="6393" count="5" />
+    <production id="5581" count="1"/>
+  </item>
+  
+  <!-- Water stone lv2 -->
+  <item id="3">
+    <ingredient id="12530" count="200"/>
+	<ingredient id="6393" count="5" />
+    <production id="5582" count="1"/>
+  </item>
+  
+    <!-- fire stone lvl 3 -->
+   <item id="4">
+    <ingredient id="12530" count="300"/>
+	<ingredient id="6393" count="10" />
+    <production id="5908" count="1"/>
+  </item>
+  
+    <!-- earth stone lvl 3 -->
+   <item id="5">
+    <ingredient id="12530" count="300"/>
+	<ingredient id="6393" count="10" />
+    <production id="5911" count="1"/>
+  </item>
+  
+    <!-- water stone lvl 3 -->
+   <item id="6">
+    <ingredient id="12530" count="300"/>
+	<ingredient id="6393" count="10" />
+    <production id="5914" count="1"/>
+  </item>
+  
+
+
+</list>

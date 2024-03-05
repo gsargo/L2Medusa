@@ -63,14 +63,16 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="20" />
 	</item>
-	<item id="5908" type="EtcItem" name="Red Soul Crystal: Grade 13">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5908" type="EtcItem" name="Fire Stone Lv 3">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
 	</item>
 	<item id="5909" type="EtcItem" name="(Not used) Green Soul Crystal: Grade 11">
 		<set name="etcitem_type" val="SCROLL" />
@@ -82,14 +84,16 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="20" />
 	</item>
-	<item id="5911" type="EtcItem" name="Green Soul Crystal: Grade 13">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5911" type="EtcItem" name="Earth Stone Lv 3">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
 	</item>
 	<item id="5912" type="EtcItem" name="(Not used) Blue Soul Crystal: Grade 11">
 		<set name="etcitem_type" val="SCROLL" />
@@ -101,14 +105,16 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="20" />
 	</item>
-	<item id="5914" type="EtcItem" name="Blue Soul Crystal: Grade 13">
-		<set name="default_action" val="skill_reduce" />
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="material" val="CRYSTAL" />
-		<set name="weight" val="20" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="handler" val="SoulCrystals" />
-		<set name="item_skill" val="2096-1" />
+	<item id="5914" type="EtcItem" name="Water Stone Lv 3">
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="0" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
 	</item>
 	<item id="5915" type="EtcItem" name="Pirate's Treasure Map">
 		<set name="material" val="LIQUID" />

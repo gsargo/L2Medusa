@@ -1425,7 +1425,8 @@
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<for>
-			<effect name="Mute" time="30" val="0" stackOrder="1" stackType="silence" />
+			<effect name="Mute" time="3" val="0" stackOrder="1" stackType="silence" />
+			<!-- default time="30" -->
 		</for>
 	</skill>
 	<skill id="4099" levels="2" name="NPC Berserk">

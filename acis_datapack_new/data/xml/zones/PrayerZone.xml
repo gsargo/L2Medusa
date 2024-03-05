@@ -7,7 +7,7 @@
 	<zone shape="Cylinder" minZ="-2650" maxZ="-2630" rad="70"><!-- dion_castle_artifact -->
 		<node x="22078" y="161645"/>
 	</zone>
-	<zone shape="Cylinder" minZ="-2525" maxZ="-2505" rad="70"><!-- giran_castle_artifact -->
+	<zone shape="Cylinder" minZ="-2645" maxZ="-2505" rad="70"><!-- giran_castle_artifact -->
 		<node x="117816" y="145090"/>
 	</zone>
 	<zone shape="Cylinder" minZ="-2250" maxZ="-2230" rad="70"><!-- oren_castle_artifact -->

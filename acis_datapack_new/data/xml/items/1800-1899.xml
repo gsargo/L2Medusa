@@ -248,25 +248,27 @@
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="has_clanhall" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2040-1" />
-		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+		
 	</item>
 	<item id="1830" type="EtcItem" name="Scroll of Escape: Castle">
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
+		<set name="weight" val="1" />
 		<set name="price" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="has_castle" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2041-1" />
-		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
+		
 	</item>
 	<item id="1831" type="EtcItem" name="Antidote">
 		<set name="default_action" val="skill_reduce" />

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="18032" type="Armor" name="Typhon's Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+
+		<for>					
+			<mul val='1.20' order='0x30' stat='regHp'/>
+			<mul val='1.20' order='0x30' stat='regCp'/>
+			<mul val='1.20' order='0x30' stat='regMp'/>
+			<add val="1" order="0x40" stat='runSpd'/>
+		</for>
+	</item>
+
+	<item id="18033" type="Armor" name="Blue Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+	<item id="18034" type="Armor" name="Orange Wings">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+	<item id="18035" type="Armor" name="Baium Hair">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+	<item id="18036" type="Armor" name="Baium Hairv2">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+		<item id="18037" type="Armor" name="Test Cloak">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+	
+		<item id="18038" type="Armor" name="Test Cloak2">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	
+	<item id="18039" type="Armor" name="Test HeroCap">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="face" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+
+</list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<zone shape="NPoly" minZ="-11500" maxZ="-9200">  <!--Courtyard -->
+      	<node x="-75713" y="-185565"/>	
+		<node x="-77041" y="-184605"/>
+		<node x="-80754" y="-184617"/>
+		<node x="-83187" y="-184601"/>
+		<node x="-86739" y="-184469"/>
+		<node x="-88200" y="-185467"/>
+		<node x="-87120" y="-187500"/>
+		<node x="-76422" y="-186500"/>
+		
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="mountForb" val="false"/> <!-- Disable Mount -->
+    </zone> 
+	
+</list>

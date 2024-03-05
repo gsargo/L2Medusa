@@ -51,4 +51,22 @@
 	<armorset name="Apella Heavy Set" chest="7861" legs="0" head="7860" gloves="7862" feet="7863" skillId="3608" shield="0" shieldSkillId="0" enchant6Skill="3620"/>
 	<armorset name="Apella Light Set" chest="7864" legs="0" head="7860" gloves="7865" feet="7866" skillId="3609" shield="0" shieldSkillId="0" enchant6Skill="3621"/>
 	<armorset name="Apella Robe Set" chest="7867" legs="0" head="7860" gloves="7868" feet="7869" skillId="3610" shield="0" shieldSkillId="0" enchant6Skill="3622"/>
+
+	<armorset name="Shadow Weapon: Dark Crystal Heavy Set" chest="9081" legs="9082" head="9083" gloves="9085" feet="9086" skillId="3530" shield="641" shieldSkillId="3550" enchant6Skill="3620" />
+	<armorset name="Shadow Weapon: Dark Crystal Light Set" chest="2385" legs="9088" head="9083" gloves="9089" feet="9090" skillId="3532" shield="0" shieldSkillId="0"  enchant6Skill="3621"/>
+	<armorset name="Shadow Weapon: Dark Crystal Robe Set" chest="9091" legs="0" head="9083" gloves="9092" feet="9093" skillId="3535" shield="0" shieldSkillId="0" enchant6Skill="3622" />
+	<armorset name="Shadow Weapon: Majestic Heavy Set" chest="9094" legs="0" head="9095" gloves="9096" feet="9097" skillId="3537" shield="0" shieldSkillId="0" enchant6Skill="3620" />
+	<armorset name="Shadow Weapon: Majestic Leather Set" chest="9098" legs="0" head="9095" gloves="9099" feet="9100" skillId="3539" shield="0" shieldSkillId="0" enchant6Skill="3621" />
+	<armorset name="Shadow Weapon: Majestic Robe Set" chest="9101" legs="0" head="9095" gloves="9102" feet="9103" skillId="3541" shield="0" shieldSkillId="0" enchant6Skill="3622" />
+
+
+	<armorset name="Asphodel Heavy Set" chest="9642" legs="9643" head="9654" gloves="9644" feet="9645" skillId="9920" shield="0" shieldSkillId="0" enchant6Skill="9923" enchant12Skill="9973"/>
+	<armorset name="Tartarus Light Set" chest="9646" legs="9647" head="9641" gloves="9648" feet="9649" skillId="9921" shield="0" shieldSkillId="0" enchant6Skill="9924" enchant12Skill="9974"/>
+	<armorset name="Elysian Robe Set" chest="9650" legs="9651" head="9655" gloves="9652" feet="9653" skillId="9922" shield="0" shieldSkillId="0" enchant6Skill="9925" enchant12Skill="9975"/>
+	
+	<armorset name="Platinum Heavy Set" chest="9680" legs="9681" head="9679" gloves="9682" feet="9683" skillId="9983" shield="0" shieldSkillId="0" enchant6Skill="9923" enchant12Skill="9986"/>
+	<armorset name="Platinum Light Set" chest="9685" legs="9686" head="9684" gloves="9687" feet="9688" skillId="9984" shield="0" shieldSkillId="0" enchant6Skill="9924" enchant12Skill="9987"/>
+	<armorset name="Platinum Robe Set" chest="9690" legs="9691" head="9689" gloves="9692" feet="9693" skillId="9985" shield="0" shieldSkillId="0" enchant6Skill="9925" enchant12Skill="9988"/>
+	
+
 </list>

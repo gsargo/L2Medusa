@@ -40,27 +40,31 @@
 		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
+	
 	<item id="6007" type="EtcItem" name="Reagent Pouch">
 		<set name="default_action" val="capsule" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2174-1" />
+		<set name="item_skill" val="2174-6" />
 	</item>
 	<item id="6008" type="EtcItem" name="Reagent Pouch">
 		<set name="default_action" val="capsule" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2174-2" />
+		<set name="item_skill" val="2174-7" />
 	</item>
 	<item id="6009" type="EtcItem" name="Reagent Pouch">
 		<set name="default_action" val="capsule" />
 		<set name="material" val="LIQUID" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2174-3" />
+		<set name="item_skill" val="2174-8" />
 	</item>
+
+	
+
 	<item id="6010" type="EtcItem" name="Reagent Box">
 		<set name="default_action" val="capsule" />
 		<set name="material" val="LIQUID" />

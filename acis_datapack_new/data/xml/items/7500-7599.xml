@@ -706,6 +706,7 @@
 	</item>
 	<item id="7575" type="Weapon" name="Draconic Bow">
 		<set name="default_action" val="equip" />
+		<set name="is_noble_restricted" val="true" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
@@ -814,31 +815,37 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
+	
 	<item id="7579" type="EtcItem" name="Draconic Bow Shaft">
-		<set name="etcitem_type" val="MATERIAL" />
-		<set name="material" val="LIQUID" />
-		<set name="weight" val="60" />
-		<set name="price" val="91471" />
-		<set name="is_stackable" val="true" />
-	</item>
-	<item id="7580" type="EtcItem" name="Recipe: Draconic Bow (60%)">
-		<set name="default_action" val="recipe" />
-		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="30" />
-		<set name="price" val="976000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		<set name="etcitem_type" val="QUEST" />
 	</item>
-	<item id="7581" type="EtcItem" name="Recipe: Draconic Bow (100%)">
-		<set name="default_action" val="recipe" />
-		<set name="etcitem_type" val="RECIPE" />
+	
+		<item id="7580" type="EtcItem" name="Recipe: Draconic Bow (60%)">
 		<set name="material" val="PAPER" />
-		<set name="weight" val="30" />
-		<set name="price" val="976000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="Recipes" />
+		<set name="etcitem_type" val="QUEST" />
 	</item>
+	
+		<item id="7581" type="EtcItem" name="Recipe: Draconic Bow (100%)">
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="QUEST" />
+	</item>
+	
 	<item id="7582" type="EtcItem" name="Baby Spice">
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />

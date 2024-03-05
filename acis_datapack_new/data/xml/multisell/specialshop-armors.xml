@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+
+<list>
+ <!-- Platinum Helm -->
+  <item id="1">
+	<ingredient id="6378" count="1" enchantmentLevel="12"/>
+    <production id="9679" count="1"/>
+  </item>
+  
+ <!-- Platinum Breastplate -->
+  <item id="2">
+	<ingredient id="6373" count="1" enchantmentLevel="12"/>
+    <production id="9680" count="1"/>
+  </item>
+  
+    <!-- Platinum Gaiters -->
+  <item id="3">
+	<ingredient id="6374" count="1" enchantmentLevel="12"/>
+    <production id="9681" count="1"/>
+  </item> 
+  
+      <!-- Platinum Gloves -->
+  <item id="4">
+	<ingredient id="6375" count="1" enchantmentLevel="12"/>
+    <production id="9682" count="1"/>
+  </item> 
+  
+        <!-- Platinum Boots -->
+  <item id="5">
+	<ingredient id="6376" count="1" enchantmentLevel="12"/>
+    <production id="9683" count="1"/>
+  </item> 
+ 
+         <!-- Platinum Leather Helm -->
+  <item id="6">
+	<ingredient id="6382" count="1" enchantmentLevel="12"/>
+    <production id="9684" count="1"/>
+  </item> 
+  
+           <!-- Platinum Leather Armor -->
+  <item id="7">
+	<ingredient id="6379" count="1" enchantmentLevel="12"/>
+    <production id="9685" count="1"/>
+  </item> 
+  
+             <!-- Platinum Leggings -->
+  <item id="8">
+	<ingredient id="6379" count="1" enchantmentLevel="12"/>
+    <production id="9686" count="1"/>
+  </item> 
+  
+               <!-- Platinum Leather Gloves -->
+  <item id="9">
+	<ingredient id="6380" count="1" enchantmentLevel="12"/>
+    <production id="9687" count="1"/>
+  </item> 
+  
+                 <!-- Platinum Leather Boots -->
+  <item id="10">
+	<ingredient id="6381" count="1" enchantmentLevel="12"/>
+    <production id="9688" count="1"/>
+  </item> 
+  
+                   <!-- Platinum Cap -->
+  <item id="11">
+	<ingredient id="6386" count="1" enchantmentLevel="12"/>
+    <production id="9689" count="1"/>
+  </item> 
+  
+                     <!-- Platinum Tunic -->
+  <item id="12">
+	<ingredient id="6383" count="1" enchantmentLevel="12"/>
+    <production id="9690" count="1"/>
+  </item> 
+  
+                       <!-- Platinum Stockings -->
+  <item id="13">
+	<ingredient id="6383" count="1" enchantmentLevel="12"/>
+    <production id="9691" count="1"/>
+  </item> 
+  
+                         <!-- Platinum Robe Gloves -->
+  <item id="14">
+	<ingredient id="6384" count="1" enchantmentLevel="12"/>
+    <production id="9692" count="1"/>
+  </item> 
+ 
+                          <!-- Platinum Robe Boots -->
+  <item id="15">
+	<ingredient id="6385" count="1" enchantmentLevel="12"/>
+    <production id="9693" count="1"/>
+  </item> 
+        <!-- Monster Shield -->
+  <item id="16">
+	<ingredient id="12528" count="400" enchant="0"/>
+    <ingredient id="12529" count="200" enchant="0"/>
+	<ingredient id="57" count="25000000"/>
+    <production id="6721" count="1"/>
+  </item>
+
+   <!-- Dusk Shield -->
+  <item id="17">
+	<ingredient id="12528" count="400" enchant="0"/>
+    <ingredient id="12529" count="200" enchant="0"/>
+	<ingredient id="57" count="25000000"/>
+    <production id="5799" count="1"/>
+  </item>
+
+          <!-- Trojan Shield -->
+   <item id="18">
+	<ingredient id="12528" count="400" enchant="0"/>
+    <ingredient id="12529" count="200" enchant="0"/>
+	<ingredient id="57" count="25000000"/>
+    <production id="19556" count="1"/>
+  </item>
+  
+ 
+   <!-- shield of helios -->
+	<item id="19">
+	<ingredient id="6377" count="1" enchantmentLevel="10"/>
+	 <production id="19530" count="1"/>
+  </item>
+  
+     <!-- Ultrasanity -->
+	<item id="20">
+	<ingredient id="6377" count="1" enchantmentLevel="10"/>
+	 <production id="19555" count="1"/>
+  </item>
+ 
+   <!-- Tateossian Necklace -->
+  <item id="21">
+    <ingredient id="920" count="1" enchantmentLevel="12"/>
+    <production id="25615" count="1" />
+	
+  </item>
+
+  <!-- Tateossian Earring -->
+  <item id="22">
+    <ingredient id="858" count="1" enchantmentLevel="12"/>
+    <production id="25616" count="1"/>
+  </item>
+  
+  <!-- Tateossian Ring -->
+  <item id="23">
+    <ingredient id="889" count="1" enchantmentLevel="12"/>
+    <production id="25617" count="1"/>
+  </item>
+ 
+ 
+</list>
+

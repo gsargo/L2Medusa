@@ -1,0 +1,114 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- by Stev0 -->
+
+<list maintainEnchantment="true">
+
+  
+
+<!-- fritezza-->
+  <item id="1">
+    <ingredient id="5570" count="100"/>
+    <production id="8191" count="1"/>
+  </item>
+
+
+
+
+<!-- Valakas-->
+  <item id="2">
+    <ingredient id="5570" count="100"/>
+    <production id="6657" count="1"/>
+  </item>
+
+
+<!-- antharas-->
+  <item id="3">
+    <ingredient id="5570" count="100"/>
+    <production id="6656" count="1"/>
+  </item>
+
+<!-- zaken-->
+  <item id="4">
+    <ingredient id="5570" count="100"/>
+    <production id="6659" count="1"/>
+  </item>
+
+<!-- baium-->
+  <item id="5">
+    <ingredient id="5570" count="100"/>
+    <production id="6658" count="1"/>
+  </item>
+
+
+
+<!-- queen ants-->
+  <item id="6">
+    <ingredient id="5570" count="100"/>
+    <production id="6660" count="1"/>
+  </item>
+
+
+
+
+
+<!-- Blessed armor B-->
+  <item id="7">
+    <ingredient id="5572" count="25"/>
+    <production id="6572" count="1"/>
+  </item>
+
+
+
+
+<!-- Blessed armor A-->
+  <item id="8">
+    <ingredient id="5572" count="25"/>
+    <production id="6570" count="1"/>
+  </item>
+
+
+<!-- Blessed armor S-->
+  <item id="9">
+    <ingredient id="5572" count="25"/>
+    <production id="6578" count="1"/>
+  </item>
+
+<!-- Blessed weapon S-->
+  <item id="10">
+    <ingredient id="5570" count="50"/>
+    <production id="6577" count="1"/>
+  </item>
+
+
+
+<!-- book of giants -->
+  <item id="11">
+    <ingredient id="5574" count="50"/>
+    <production id="6622" count="1"/>
+  </item>
+
+
+<!-- top ls -->
+  <item id="12">
+    <ingredient id="5574" count="100"/>
+    <production id="8762" count="1"/>
+  </item>
+
+
+
+
+<!-- Gold Bar / Adena -->
+  <item id="13">
+    <ingredient id="57" count="500000000"/>
+    <production id="3470" count="1"/>
+  </item>
+  
+  <item id="14">
+    <ingredient id="3470" count="1"/>
+    <production id="57" count="500000000"/>
+  </item>
+  
+
+</list>

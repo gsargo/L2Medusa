@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Gold Bank -->
+
+<list>
+
+
+
+
+  
+    <!-- Panda Agathion -->
+  <item id="3">
+    <ingredient id="12530" count="3500"/>
+	<ingredient id="6393" count="40" />
+    <production id="18025" count="1"/>
+  </item>
+  
+    <!-- Selene Agathion -->
+  <item id="4">
+   <ingredient id="12530" count="3500"/>
+	<ingredient id="6393" count="40" />
+    <production id="18021" count="1"/>
+  </item>
+  
+    <!-- Lynx Agathion -->
+  <item id="5">
+    <ingredient id="12530" count="3500"/>
+	<ingredient id="6393" count="40" />
+    <production id="18020" count="1"/>
+  </item>
+  
+
+ 
+</list>
+

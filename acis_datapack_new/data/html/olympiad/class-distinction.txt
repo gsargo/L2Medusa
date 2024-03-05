@@ -1,0 +1,2 @@
+<!-- <a action="bypass -h npc_%objectId%_Chat 12">"I want to join the class-based games."</a><br> -->
+noble_10.htm

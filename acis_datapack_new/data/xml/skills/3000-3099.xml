@@ -386,7 +386,7 @@
 	</skill>
 	<skill id="3035" levels="6" name="Special Ability: Mighty Mortal">
 		<table name="#magicLvl"> 46 49 52 55 58 61 </table>
-		<table name="#blowRate"> 1.5 1.48 1.46 1.44 1.42 1.4 </table>
+		<table name="#blowRate"> 1.06 1.08 1.08 1.08 1.08 1.08 </table>
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />
@@ -537,7 +537,7 @@
 		</for>
 	</skill>
 	<skill id="3046" levels="20" name="Special Ability: Guidance">
-		<table name="#accCombat"> 3.9 2.8 3.7 3.1 2.6 2.2 1.8 2.9 5.7 4.8 3.9 3.2 3.8 3.4 6.5 6.5 6.5 6.5 6.5 6.5 </table>
+		<table name="#accCombat"> 3.9 2.8 3.7 3.1 2.6 2.2 1.8 2.9 5.7 5 3.9 3.2 3.8 3.4 6.5 6.5 6.5 6.5 6.5 6.5 </table>
 		<table name="#magicLvl"> 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 </table>
 		<table name="#pvpBonus"> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1.05 1.05 1.05 1.05 </table>
 		<set name="target" val="SELF" />
@@ -551,6 +551,7 @@
 			<mul stat="pvpMagicalDmg" val="#pvpBonus" />
 		</for>
 	</skill>
+
 	<skill id="3047" levels="3" name="Special Ability: Acumen">
 		<table name="#pvpBonus"> 1 1.05 1.05 </table>
 		<table name="#magicLvl"> 64 64 70 </table>
@@ -899,7 +900,7 @@
 		</for>
 	</skill>
 	<skill id="3072" levels="2" name="Special Ability: Empower">
-		<table name="#magicLvl"> 64 67 </table>
+		<table name="#magicLvl"> 64 67</table>
 		<table name="#mAtk"> 30.76 31.38 </table>
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />

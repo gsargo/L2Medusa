@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<!-- Donate Shop -->
+<!-- Premium status 14 days -->
+  
+  <!-- Platinum Heavy -->
+  <item id="1">
+  	<ingredient id="12535" count="30"/>
+	 <production id="9680" count="1"/>
+	 <production id="9681" count="1"/>
+	 <production id="9682" count="1"/>
+	 <production id="9683" count="1"/>
+	 <production id="9679" count="1"/>
+  </item>
+  
+    <!-- Platinum Light -->
+  <item id="2">
+  	<ingredient id="12535" count="30"/>
+	 <production id="9685" count="1"/>
+	 <production id="9686" count="1"/>
+	 <production id="9687" count="1"/>
+	 <production id="9688" count="1"/>
+	 <production id="9684" count="1"/>
+  </item>
+  
+      <!-- Platinum Robe -->
+  <item id="3">
+  	<ingredient id="12535" count="30"/>
+	 <production id="9690" count="1"/>
+	 <production id="9691" count="1"/>
+	 <production id="9692" count="1"/>
+	 <production id="9693" count="1"/>
+	 <production id="9689" count="1"/>
+  </item>
+  
+        <!-- Blessed Tateoossian -->
+  <item id="4">
+  	<ingredient id="12535" count="15"/>
+	 <production id="25615" count="1"/>
+	 <production id="25616" count="2"/>
+	 <production id="25617" count="2"/>
+  </item>
+  
+      			<!-- Helios Shield -->
+   <item id="34">
+	<ingredient id="12535" count="10"/>
+	 <production id="19530" count="1"/>
+  </item>
+  
+        			<!-- Shield of Achilles -->
+   <item id="35">
+	<ingredient id="12535" count="10"/>
+	 <production id="19531" count="1"/>
+  </item>
+  
+    <item id="36">
+	<ingredient id="12535" count="10"/>
+	 <production id="19533" count="1"/>
+  </item>
+  
+    <item id="37">
+	<ingredient id="12535" count="10"/>
+	 <production id="19534" count="1"/>
+  </item>
+  
+    <item id="38">
+	<ingredient id="12535" count="10"/>
+	 <production id="19537" count="1"/>
+  </item>
+  
+     <item id="39">
+	<ingredient id="12535" count="10"/>
+	 <production id="19541" count="1"/>
+  </item>
+  
+    <item id="40">
+	<ingredient id="12535" count="10"/>
+	 <production id="19540" count="1"/>
+  </item>
+  
+    <item id="41">
+	<ingredient id="12535" count="10"/>
+	 <production id="19542" count="1"/>
+  </item>
+  <!-- shield of golden scarb -->
+     <item id="42">
+	<ingredient id="12535" count="10"/>
+	 <production id="19543" count="1"/>
+  </item>
+  
+    <!-- Lindvior Shield -->
+     <item id="43">
+	<ingredient id="12535" count="10"/>
+	 <production id="19553" count="1"/>
+  </item>
+  
+      <!-- Aulakiria Shield -->
+     <item id="44">
+	<ingredient id="12535" count="10"/>
+	 <production id="19554" count="1"/>
+  </item>
+  
+          <!-- Aegis -->
+     <item id="46">
+	<ingredient id="12535" count="12"/>
+	 <production id="19549" count="1"/>
+  </item>
+  
+         <!-- Ultrasanity Shield -->
+     <item id="45">
+	<ingredient id="12535" count="12"/>
+	 <production id="19555" count="1"/>
+  </item>
+  
+          <!-- Altervolition Shield -->
+     <item id="47">
+	<ingredient id="12535" count="12"/>
+	 <production id="19550" count="1"/>
+  </item>
+  
+            <!-- Omnisapience Book -->
+     <item id="48">
+	<ingredient id="12535" count="12"/>
+	 <production id="19557" count="1"/>
+  </item>
+  
+
+  
+  
+   
+  
+</list>
+

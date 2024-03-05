@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<list>
+<!-- Donate Shop -->
+
+  
+
+
+  <!-- tatoo of mage lv1-->
+    <item id="-19">
+    <ingredient id="12535" count="8"/>
+    <production id="11380" count="1"/>
+  </item>
+  
+  <!-- tattoo of fighter lv1-->
+    <item id="-18">
+    <ingredient id="12535" count="8"/>
+    <production id="11383" count="1"/>
+  </item>
+  
+    <!-- Tattoo of Dagger-->
+  <item id="-20">
+    <ingredient id="12535" count="8"/>
+    <production id="11388" count="1"/>
+  </item>
+  
+  
+    <!-- Tattoo of Hermes-->
+  <item id="-21">
+    <ingredient id="12535" count="5"/>
+    <production id="11386" count="1"/>
+  </item>
+  
+  
+ 
+  
+   
+  
+</list>
+

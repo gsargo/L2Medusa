@@ -1,0 +1,299 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- by Stev0 -->
+
+<list>
+
+  <!-- Elemental Sword -->
+  <item id="0">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="150" count="1"/>
+  </item>
+
+  <!-- Sword of Miracles -->
+  <item id="1">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="151" count="1"/>
+  </item>
+
+  <!-- Themi's Tongue -->
+  <item id="2">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="8686" count="1"/>
+  </item>
+
+  <!-- Tallum's Blade -->
+  <item id="3">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="80" count="1"/>
+  </item>
+
+  <!--Halberd -->
+  <item id="4">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="98" count="1"/>
+  </item>
+
+  <!-- Tallum Glaive-->
+  <item id="5">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="305" count="1"/>
+  </item>
+
+  <!-- Dark Legion's Edge  -->
+  <item id="6">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="2500" count="1"/>
+  </item>
+
+  <!-- Dragon Grinder  -->
+  <item id="7">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="270" count="1"/>
+  </item>
+  
+    <!-- Carnage Bow  -->
+  <item id="8">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="288" count="1"/>
+  </item>
+  
+      <!-- Soul Bow  -->
+  <item id="9">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="289" count="1"/>
+  </item>
+
+
+  <!-- Damascus*Damascus -->
+  <item id="10">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="5706" count="1"/>
+  </item>
+
+  <!-- Soul Separator -->
+  <item id="11">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="236" count="1"/>
+  </item>
+
+  <!-- Naga Storm - Critical Damage -->
+  <item id="12">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="235" count="1"/>
+  </item>
+
+  <!-- Dragon Slayer (titan) -->
+  <item id="13">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="81" count="1"/>
+  </item>
+  
+    <!-- Elysian (dwarf) -->
+  <item id="14">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="164" count="1"/>
+  </item>
+  
+   <!-- branch of the mother tree -->
+  <item id="15">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="213" count="1"/>
+  </item>
+  
+  <!-- dragon skull -->
+  <item id="16">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="7895" count="1"/>
+  </item>
+  
+    <!-- Destroyer Hammer -->
+  <item id="17">
+    <ingredient id="12528" count="3500"/>
+	<ingredient id="12529" count="1500"/>
+    <production id="7899" count="1"/>
+  </item>
+  
+     <!-- Sirra's Blade -->
+  <item id="18">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8678" count="1"/>
+  </item>
+  
+       <!-- Sword of Ippos -->
+  <item id="19">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8679" count="1"/>
+  </item>
+  
+         <!-- Barakiel's Axe -->
+  <item id="20">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8680" count="1"/>
+  </item>
+  
+           <!-- Behemoth's Tunic Fork -->
+  <item id="21">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8681" count="1"/>
+  </item>
+  
+             <!-- Naga's Storm -->
+  <item id="22">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8682" count="1"/>
+  </item>
+  
+               <!-- Tiphon's Spear -->
+  <item id="23">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8683" count="1"/>
+  </item>
+  
+                 <!-- Shyeed's Bow -->
+  <item id="24">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8684" count="1"/>
+  </item>
+  
+                   <!-- Sobekk's Hurricane -->
+  <item id="25">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8685" count="1"/>
+  </item>
+
+                   <!-- Themi's Tongue -->
+  <item id="26">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8686" count="1"/>
+  </item>
+
+                   <!--Cabrio's Hand -->
+  <item id="27">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8687" count="1"/>
+  </item>
+  
+  
+                   <!--Daimon Crystal -->
+  <item id="28">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8688" count="1"/>
+  </item>
+  
+                     <!--Damascus tallum Duals -->
+  <item id="29">
+    <ingredient id="12528" count="7000"/>
+	<ingredient id="12529" count="3500"/>
+    <production id="8938" count="1"/>
+  </item>
+
+    <!-- Shadow Item Sword of Miracles -->
+  <item id="58">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9022" count="1"/>
+  </item>
+
+    <!-- Shadow Item Tallum Blade -->
+  <item id="59">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9011" count="1"/>
+  </item>
+  
+      <!-- Shadow Item Tallum Glaive -->
+  <item id="60">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9028" count="1"/>
+  </item>
+  
+        <!-- Shadow Item Dragon Grinder -->
+  <item id="61">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9026" count="1"/>
+  </item>
+  
+          <!-- Shadow Item Carnage Bow -->
+  <item id="62">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9016" count="1"/>
+  </item>
+  
+            <!-- Shadow Item Soul Bow -->
+  <item id="63">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9027" count="1"/>
+  </item>
+  
+              <!-- Shadow Stormbringer* Stormbringer* -->
+  <item id="64">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9000" count="1"/>
+  </item>
+  
+               <!-- Shadow Soul Separator -->
+  <item id="65">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9025" count="1"/>
+  </item>
+  
+               <!-- Shadow Dragon Slayer -->
+  <item id="66">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9021" count="1"/>
+  </item>
+  
+               <!-- Shadow Elysian -->
+  <item id="67">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9023" count="1"/>
+  </item>
+  
+              <!-- Shadow branch of the mother tree -->
+  <item id="68">
+    <ingredient id="12528" count="600"/>
+	<ingredient id="12529" count="300"/>
+    <production id="9024" count="1"/>
+  </item>
+  
+ 
+
+</list>

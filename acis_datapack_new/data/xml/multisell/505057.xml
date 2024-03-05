@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+<!-- oly weapons OLD -->
+
+
+  <!-- Oly Weap -->
+  <item id="1">
+    <ingredient id="12528" count="3000"/>
+	<ingredient id="12529" count="2000"/>
+    <production id="4900" count="1"/>
+  </item>
+
+  <!-- Oly Weap -->
+  <item id="2">
+     <ingredient id="12528" count="3000"/>
+	 <ingredient id="12529" count="2000"/>
+    <production id="4901" count="1"/>
+  </item>
+
+    <!-- Oly Weap -->
+  <item id="3">
+     <ingredient id="12528" count="3000"/>
+	 <ingredient id="12529" count="2000"/>
+    <production id="4898" count="1"/>
+  </item>
+  
+   <!-- Oly Weap -->
+  <item id="4">
+     <ingredient id="12528" count="3000"/>
+	 <ingredient id="12529" count="2000"/>
+    <production id="4899" count="1"/>
+  </item>
+  
+  
+</list>

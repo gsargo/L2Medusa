@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- special shop -->
+
+<list>
+  <!-- Tattoo Of Mage lv1 -->
+  <item id="10">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11380" count="1"/>
+  </item>
+
+  
+  <!-- Tattoo Of Fighter lv1 -->
+  <item id="9">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11383" count="1"/>
+  </item>
+
+
+  <!-- Tattoo Of Dagger lv1 -->
+  <item id="12">
+    <ingredient id="12528" count="6000" enchant="0"/>
+	<ingredient id="12529" count="3000" enchant="0"/>
+	<ingredient id="57" count="50000000"/>
+    <production id="11388" count="1"/>
+  </item>
+  
+    <!-- Tattoo Of Hermes lv1 -->
+  <item id="11">
+    <ingredient id="12528" count="5000" enchant="0"/>
+	<ingredient id="12529" count="2500" enchant="0"/>
+	<ingredient id="57" count="25000000"/>
+    <production id="11386" count="1"/>
+  </item>
+
+ 
+ 
+  
+</list>
+

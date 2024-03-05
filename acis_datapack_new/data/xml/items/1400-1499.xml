@@ -447,38 +447,38 @@
 	<item id="1458" type="EtcItem" name="Crystal: D-Grade">
 		<set name="crystal_type" val="D" />
 		<set name="material" val="PAPER" />
-		<set name="price" val="650" />
+		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1459" type="EtcItem" name="Crystal: C-Grade">
 		<set name="crystal_type" val="C" />
 		<set name="material" val="PAPER" />
-		<set name="price" val="3000" />
+		<set name="price" val="70" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1460" type="EtcItem" name="Crystal: B-Grade">
 		<set name="crystal_type" val="B" />
 		<set name="material" val="PAPER" />
-		<set name="price" val="9000" />
+		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1461" type="EtcItem" name="Crystal: A-Grade">
 		<set name="crystal_type" val="A" />
 		<set name="material" val="PAPER" />
-		<set name="price" val="15000" />
+		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1462" type="EtcItem" name="Crystal: S Grade">
 		<set name="crystal_type" val="S" />
 		<set name="material" val="PAPER" />
-		<set name="price" val="25000" />
+		<set name="price" val="2000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1463" type="EtcItem" name="Soulshot: D-grade">
 		<set name="default_action" val="soulshot" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="0" />
 		<set name="price" val="10" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />
@@ -488,7 +488,7 @@
 		<set name="default_action" val="soulshot" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="3" />
+		<set name="weight" val="0" />
 		<set name="price" val="15" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />
@@ -498,7 +498,7 @@
 		<set name="default_action" val="soulshot" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="0" />
 		<set name="price" val="50" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />
@@ -508,7 +508,7 @@
 		<set name="default_action" val="soulshot" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="0" />
 		<set name="price" val="80" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />
@@ -518,7 +518,7 @@
 		<set name="default_action" val="soulshot" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="2" />
+		<set name="weight" val="0" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />

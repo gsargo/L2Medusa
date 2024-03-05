@@ -6,12 +6,51 @@
 	<item id="3500" npcId="12311" summonType="1"/><!-- Hatchling of Wind -->
 	<item id="3501" npcId="12312" summonType="1"/><!-- Hatchling of Star -->
 	<item id="3502" npcId="12313" summonType="1"/><!-- Hatchling of Twilight -->
-	<item id="4422" npcId="12526" summonType="1"/><!-- Wind Strider -->
-	<item id="4423" npcId="12527" summonType="1"/><!-- Star Strider -->
-	<item id="4424" npcId="12528" summonType="1"/><!-- Twilight Strider -->
+	<item id="12526" npcId="12526" summonType="1"/><!-- Aeolus (Wind Strider) -->
+	<!-- <item id="4423" npcId="12527" summonType="1"/>  Star Strider  
+	<item id="4424" npcId="12528" summonType="1"/>  Twilight Strider -->
 	<item id="4425" npcId="12564" summonType="1"/><!-- Sin Eater -->
 	<item id="6648" npcId="12780" summonType="1"/><!-- Baby Buffalo -->
 	<item id="6649" npcId="12782" summonType="1"/><!-- Baby Cougar -->
 	<item id="6650" npcId="12781" summonType="1"/><!-- Baby Kookaburra -->
 	<item id="8663" npcId="12621" summonType="2"/><!-- Wyvern -->
+	
+	
+
+	<item id="18000" npcId="41001" summonType="1"/> <!-- Nemean Lion-->
+	<item id="18001" npcId="41002" summonType="1"/> <!-- Brown Bison-->
+	<item id="18002" npcId="41003" summonType="1"/> <!-- Pindus Bison -->
+	<item id="18003" npcId="41004" summonType="1"/> <!-- Ant Princess (NICE)-->
+	<item id="18004" npcId="12527" summonType="1"/> <!-- Black Bear /Callisto-->
+	<item id="18005" npcId="41007" summonType="1"/> <!-- Illusion Vehicle (BIRD NICE)-->
+	<item id="18006" npcId="12528" summonType="1"/> <!-- Gray Horse(COOL)-->
+	<item id="18007" npcId="41008" summonType="1"/> <!-- DELETED-->
+
+	<item id="18008" npcId="41009" summonType="1"/> <!-- Dwarf Vehicle-->
+
+	<item id="18009" npcId="41010" summonType="1"/> <!-- Eligor (VERY NICE )-->
+
+	<item id="18010" npcId="41011" summonType="1"/> <!-- Pegasus / Zephyrus (SUPER NICE!!!!!)-->
+
+	<item id="18011" npcId="35680" summonType="1"/> <!-- Teumessian Fox-->
+
+	<item id="18012" npcId="35675" summonType="1"/> <!-- Griffin-->
+	
+	<item id="18013" npcId="41027" summonType="3"/> <!-- Winged Pricess (Shiny) Agathion-->
+	<item id="18014" npcId="41032" summonType="3"/> <!-- Baby Minotaur-->
+	<item id="18015" npcId="41015" summonType="3"/> <!-- Elephant-->
+	<item id="18016" npcId="41033" summonType="3"/> <!-- Baby Bear-->
+	<item id="18017" npcId="41031" summonType="3"/> <!-- Agathion5-->
+	<item id="18018" npcId="41025" summonType="3"/> <!-- Shiny Bee-->
+	<item id="18019" npcId="41020" summonType="3"/> <!-- Agathion7-->
+	<item id="18020" npcId="41021" summonType="3"/> <!-- Moon/Selene Agathion-->
+	<item id="18021" npcId="41022" summonType="3"/> <!-- Cat/Lynx Agathion-->
+	<item id="18022" npcId="41023" summonType="3"/> <!-- Phoenix Agathion-->
+	<item id="18023" npcId="41024" summonType="3"/> <!-- Pegaus Agathion-->
+	<item id="18024" npcId="41019" summonType="3"/> <!-- Big Bear (not good for agath)-->
+	<item id="18025" npcId="41026" summonType="3"/> <!-- Panda Agathion-->
+	<item id="18026" npcId="41014" summonType="3"/> <!-- New Bat Agathion-->
+	<item id="18027" npcId="41028" summonType="3"/> <!-- Halloween-->
+	<item id="18028" npcId="41029" summonType="3"/> <!-- Izba (Nest) Agathion-->
+	<item id="18029" npcId="41030" summonType="3"/> <!-- Three Headed Dragon Agathion-->
 </list>

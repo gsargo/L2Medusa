@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<zone shape="NPoly" minZ="-4800" maxZ="-3611">  <!-- Primeval Sharks -->
+      	<node x="13430" y="-24517"/>
+		<node x="11505" y="-25432"/>
+		<node x="10457" y="-25281"/>	
+		<node x="9191" y="-24259"/>
+		<node x="6210" y="-24443"/>
+		<node x="4007" y="-23522"/>	
+		<node x="2461" y="-22484"/>	
+		<node x="1388" y="-28433"/>	
+		<node x="9929" y="-31503"/>	
+		<node x="15049" y="-27457"/>	
+		<stat name="logoutForb" val="true"/> <!-- Disable Logout -->
+		<stat name="mountForb" val="true"/> <!-- Disable Mount -->
+    </zone> 
+	
+	
+	
+	
+</list>

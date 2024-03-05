@@ -172,9 +172,10 @@
 			<effect count="6" name="Fear" time="5" val="0" stackOrder="1" stackType="turn_flee" />
 		</for>
 	</skill>
-	<skill id="4109" levels="1" name="Curse of Antharas">
-		<set name="coolTime" val="1200" />
-		<set name="hitTime" val="2800" />
+	<skill id="4109" levels="1" name="Curse of Destiny">
+	<!-- retail curse of antharas -->
+		<set name="coolTime" val="15200" />
+		<set name="hitTime" val="800" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="85" />

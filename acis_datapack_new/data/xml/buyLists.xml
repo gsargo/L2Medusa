@@ -1,5 +1,40 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
+
+	<buyList id="0" npcId="7100">
+		<product id="25301" price="90000"/>
+		<product id="25302" price="110000"/>
+		<product id="25303" price="230000"/>
+		<product id="25304" price="230000"/>
+		<product id="25305" price="70000"/>
+		<product id="25306" price="90000"/>
+		<product id="25309" price="230000"/>
+		<product id="25307" price="110000"/>
+		<product id="25308" price="230000"/>
+		<product id="25310" price="40000"/>
+		<product id="25311" price="50000"/>
+		<product id="25312" price="60000"/>
+		<product id="25313" price="60000"/>
+		<product id="25314" price="60000"/>
+		<product id="25319" price="60000"/>
+		<product id="25320" price="60000"/>
+		<product id="25327" price="60000"/>
+		<product id="25329" price="60000"/>
+		<product id="25331" price="60000"/>
+		<product id="25300" price="60000"/>
+		<product id="25334" price="60000"/>
+		<product id="25336" price="60000"/>
+		<product id="25338" price="60000"/>
+		<product id="25340" price="60000"/>
+		<product id="25343" price="60000"/>
+		<product id="9922" price="60000"/>
+		<product id="9928" price="60000"/>
+		<product id="9925" price="60000"/>
+		<product id="25350" price="60000"/>
+		<product id="25352" price="60000"/>
+	</buyList>
+
+
 	<buyList id="1" npcId="30001">
 		<product id="1" price="883"/>
 		<product id="4" price="883"/>
@@ -10296,7 +10331,7 @@
 		<product id="6721"/>
 		<product id="6722"/>
 		<product id="6723"/>
-		<product id="6902"/>
+		<product id="5858"/>
 		<product id="6917"/>
 		<product id="6918"/>
 		<product id="6919"/>
@@ -13334,7 +13369,7 @@
 		<product id="4222"/>
 		<product id="4223"/>
 		<product id="6721"/>
-		<product id="6902"/>
+		<product id="5858" price="70000000" count="1" restockDelay="120"/>
 		<product id="6918"/>
 		<product id="6919"/>
 		<product id="7014"/>
@@ -15619,321 +15654,321 @@
 		<product id="8569"/>
 	</buyList>
 	<buyList id="135383" npcId="35383">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135384" npcId="35384">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135386" npcId="35386">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135388" npcId="35388">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135390" npcId="35390">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135392" npcId="35392">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135394" npcId="35394">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135396" npcId="35396">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135398" npcId="35398">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135400" npcId="35400">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135403" npcId="35403">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135405" npcId="35405">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135407" npcId="35407">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135421" npcId="35421">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135439" npcId="35439">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135441" npcId="35441">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135443" npcId="35443">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135445" npcId="35445">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135447" npcId="35447">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135449" npcId="35449">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135451" npcId="35451">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135453" npcId="35453">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135455" npcId="35455">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135457" npcId="35457">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135459" npcId="35459">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135461" npcId="35461">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135463" npcId="35463">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135465" npcId="35465">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135467" npcId="35467">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135566" npcId="35566">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135568" npcId="35568">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135570" npcId="35570">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135572" npcId="35572">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135574" npcId="35574">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135576" npcId="35576">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135578" npcId="35578">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135580" npcId="35580">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135582" npcId="35582">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135584" npcId="35584">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="135586" npcId="35586">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
 		<product id="5169" price="300" count="5" restockDelay="60"/>
 	</buyList>
 	<buyList id="235383" npcId="35383">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235384" npcId="35384">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235386" npcId="35386">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235388" npcId="35388">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235390" npcId="35390">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235392" npcId="35392">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235394" npcId="35394">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235396" npcId="35396">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235398" npcId="35398">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235400" npcId="35400">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235403" npcId="35403">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="120"/>
+		<product id="5858" price="70000000" count="1" restockDelay="120"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235405" npcId="35405">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="120"/>
+		<product id="5858" price="70000000" count="1" restockDelay="120"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235407" npcId="35407">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="120"/>
+		<product id="5858" price="70000000" count="1" restockDelay="120"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235421" npcId="35421">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="956" price="6000" count="1" restockDelay="120"/>
 		<product id="952" price="15000" count="1" restockDelay="300"/>
@@ -15942,215 +15977,215 @@
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235439" npcId="35439">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235441" npcId="35441">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235443" npcId="35443">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235445" npcId="35445">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235447" npcId="35447">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235449" npcId="35449">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235451" npcId="35451">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235453" npcId="35453">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235455" npcId="35455">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235457" npcId="35457">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235459" npcId="35459">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235461" npcId="35461">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235463" npcId="35463">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235465" npcId="35465">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235467" npcId="35467">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235566" npcId="35566">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235568" npcId="35568">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235570" npcId="35570">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235572" npcId="35572">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235574" npcId="35574">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235576" npcId="35576">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235578" npcId="35578">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235580" npcId="35580">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235582" npcId="35582">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235584" npcId="35584">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="235586" npcId="35586">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -17724,9 +17759,9 @@
 		<product id="5125" price="575"/>
 	</buyList>
 	<buyList id="335383" npcId="35383">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
@@ -17754,9 +17789,9 @@
 		<product id="6989" price="12000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335384" npcId="35384">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17788,9 +17823,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335386" npcId="35386">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17822,9 +17857,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335388" npcId="35388">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17856,9 +17891,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335390" npcId="35390">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17890,9 +17925,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335392" npcId="35392">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17924,9 +17959,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335394" npcId="35394">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17958,9 +17993,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335396" npcId="35396">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -17992,9 +18027,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335398" npcId="35398">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -18026,9 +18061,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335400" npcId="35400">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7126" price="35000" count="1" restockDelay="60"/>
 		<product id="7127" price="35000" count="1" restockDelay="60"/>
@@ -18060,9 +18095,9 @@
 		<product id="6977" price="10000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335403" npcId="35403">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
@@ -18090,9 +18125,9 @@
 		<product id="6965" price="7000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335405" npcId="35405">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
@@ -18120,9 +18155,9 @@
 		<product id="6965" price="7000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335407" npcId="35407">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="1" restockDelay="60"/>
+		<product id="5858" price="70000000" count="1" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7131" price="35000" count="1" restockDelay="60"/>
 		<product id="7132" price="35000" count="1" restockDelay="60"/>
@@ -18150,10 +18185,10 @@
 		<product id="6965" price="7000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335421" npcId="35421">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="956" price="6000" count="1" restockDelay="120"/>
 		<product id="952" price="15000" count="1" restockDelay="120"/>
@@ -18189,10 +18224,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335439" npcId="35439">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18225,10 +18260,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335441" npcId="35441">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18261,10 +18296,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335443" npcId="35443">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18297,10 +18332,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335445" npcId="35445">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18333,10 +18368,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335447" npcId="35447">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18369,10 +18404,10 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335449" npcId="35449">
-		<product id="6902" price="12900"/>
+		
 		<product id="6316" price="300"/>
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7124" price="35000" count="1" restockDelay="60"/>
 		<product id="7125" price="35000" count="1" restockDelay="60"/>
@@ -18405,9 +18440,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335451" npcId="35451">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
@@ -18440,9 +18475,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335453" npcId="35453">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
@@ -18475,9 +18510,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335455" npcId="35455">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
@@ -18510,9 +18545,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335457" npcId="35457">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
@@ -18545,9 +18580,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335459" npcId="35459">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7122" price="35000" count="1" restockDelay="60"/>
 		<product id="7123" price="35000" count="1" restockDelay="60"/>
@@ -18580,9 +18615,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335461" npcId="35461">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18615,9 +18650,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335463" npcId="35463">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18650,9 +18685,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335465" npcId="35465">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18685,9 +18720,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335467" npcId="35467">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18726,9 +18761,9 @@
 		<product id="5125" price="575"/>
 	</buyList>
 	<buyList id="335566" npcId="35566">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18761,9 +18796,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335568" npcId="35568">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18796,9 +18831,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335570" npcId="35570">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18831,9 +18866,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335572" npcId="35572">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18866,9 +18901,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335574" npcId="35574">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18901,9 +18936,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335576" npcId="35576">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18936,9 +18971,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335578" npcId="35578">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -18971,9 +19006,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335580" npcId="35580">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -19006,9 +19041,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335582" npcId="35582">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -19041,9 +19076,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335584" npcId="35584">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -19076,9 +19111,9 @@
 		<product id="7013" price="29000" count="1" restockDelay="60"/>
 	</buyList>
 	<buyList id="335586" npcId="35586">
-		<product id="6902" price="12900"/>
+		
 		<product id="1829" price="500" count="5" restockDelay="60"/>
-		<product id="5858" price="100000" count="3" restockDelay="60"/>
+		<product id="5858" price="200000000" count="3" restockDelay="60"/>
 		<product id="5169" price="300" count="10" restockDelay="60"/>
 		<product id="7129" price="35000" count="1" restockDelay="60"/>
 		<product id="7130" price="35000" count="1" restockDelay="60"/>
@@ -19804,4 +19839,7 @@
 		<product id="7969" price="150000"/>
 		<product id="7970" price="150000"/>
 	</buyList>
+	
+		
+	
 </list>

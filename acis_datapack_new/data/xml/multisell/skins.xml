@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+
+      <!-- Dark Legacy Costume -->
+  <item id="-4">
+	<ingredient id="12535" count="5"/>
+	 <production id="11356" count="1"/>
+	 <production id="11368" count="1"/>
+  </item>
+
+
+
+ <!-- Shark Costume -->
+    <item id="0">
+	<ingredient id="12535" count="7"/>
+	 <production id="11359" count="1"/>
+  </item>
+
+  <!-- Cowboy Costume -->
+    <item id="1">
+	<ingredient id="12535" count="7"/>
+	 <production id="11313" count="1"/>
+	 <production id="11327" count="1"/>
+  </item>
+  
+      <!-- Red Zaken Costume -->
+    <item id="2">
+	<ingredient id="12535" count="7"/>
+	 <production id="11314" count="1"/>
+	 <production id="11328" count="1"/>
+  </item>
+  
+      <!-- Blue Zaken Costume -->
+    <item id="3">
+	<ingredient id="12535" count="7"/>
+	 <production id="11315" count="1"/>
+	 <production id="11329" count="1"/>
+  </item>
+  
+  <!-- Viking Costume -->
+     <item id="4">
+	<ingredient id="12535" count="7"/>
+	 <production id="11319" count="1"/>
+	 <production id="11334" count="1"/>
+  </item>
+  
+  
+      <!-- Green Artemis Costume -->
+     <item id="7">
+	<ingredient id="12535" count="7"/>
+	 <production id="11318" count="1"/>
+	 <production id="11332" count="1"/> 
+  </item>
+  
+     <!-- Red Artemis Costume -->
+     <item id="8">
+	<ingredient id="12535" count="7"/>
+	 <production id="11321" count="1"/>
+	 <production id="11333" count="1"/> 
+  </item>
+  
+     <!-- Talos Costume -->
+     <item id="9">
+	<ingredient id="12535" count="10"/>
+	 <production id="11320" count="1"/>
+	 <production id="11335" count="1"/> 
+  </item>
+  
+      <!-- Dragon Costume -->
+     <item id="10">
+	<ingredient id="12535" count="10"/>
+	 <production id="11322" count="1"/>
+	 <production id="11336" count="1"/> 
+  </item>
+  
+        <!-- Sorcerer's Costume -->
+     <item id="11">
+	<ingredient id="12535" count="10"/>
+	 <production id="11323" count="1"/>
+	 <production id="11337" count="1"/> 
+  </item>
+  
+         <!-- Achilles' Costume -->
+     <item id="12">
+	<ingredient id="12535" count="10"/>
+	 <production id="11324" count="1"/>
+	 <production id="11338" count="1"/> 
+  </item>
+  
+        <!-- Marauder's Costume -->
+     <item id="13">
+	<ingredient id="12535" count="10"/>
+	 <production id="11325" count="1"/>
+	 <production id="11339" count="1"/> 
+  </item>
+  
+   <!-- Skull Crackshot Costume -->
+     <item id="14">
+	<ingredient id="12535" count="10"/>
+	 <production id="11326" count="1"/>
+	 <production id="11340" count="1"/> 
+  </item>
+  
+  <!-- Mainland Bandit Costume -->
+     <item id="15">
+	<ingredient id="12535" count="10"/>
+	 <production id="11364" count="1"/>
+	 <production id="11365" count="1"/> 
+  </item>
+  
+   <!-- Ippocates Costume -->
+     <item id="16">
+	<ingredient id="12535" count="10"/>
+	 <production id="11361" count="1"/>
+	 <production id="11362" count="1"/> 
+  </item>
+  
+    <!-- Dark Nobless Costume -->
+     <item id="17">
+	<ingredient id="12535" count="10"/>
+	 <production id="11316" count="1"/>
+	 <production id="11330" count="1"/>
+  </item>
+  
+      <!-- White Nobless Costume -->
+     <item id="18">
+	<ingredient id="12535" count="10"/>
+	 <production id="11317" count="1"/>
+	 <production id="11331" count="1"/>
+  </item>
+  
+     <!-- Royal Oversee Costume -->
+     <item id="19">
+	<ingredient id="12535" count="10"/>
+	 <production id="11341" count="1"/>
+	 <production id="11342" count="1"/> 
+  </item>
+  
+     <!-- Royal Enforcer Costume -->
+     <item id="20">
+	<ingredient id="12535" count="10"/>
+	 <production id="11343" count="1"/>
+	 <production id="11344" count="1"/> 
+  </item>
+  
+ 
+   <!-- Royal Operative Costume -->
+     <item id="21">
+	<ingredient id="12535" count="10"/>
+	 <production id="11345" count="1"/>
+	 <production id="11346" count="1"/> 
+  </item>
+  
+     <!-- Vampire Costume -->
+     <item id="22">
+	<ingredient id="12535" count="12"/>
+	 <production id="11312" count="1"/>
+	 <production id="11347" count="1"/> 
+  </item>
+  
+      <!-- Poseidon Costume -->
+     <item id="23">
+	<ingredient id="12535" count="12"/>
+	 <production id="11348" count="1"/>
+	 <production id="11349" count="1"/> 
+  </item>
+  
+       <!-- Typhon's Costume -->
+     <item id="24">
+	<ingredient id="12535" count="12"/>
+	 <production id="11350" count="1"/>
+	 <production id="11351" count="1"/> 
+  </item>
+  
+       <!-- Night Terror Costume -->
+     <item id="25">
+	<ingredient id="12535" count="12"/>
+	 <production id="11352" count="1"/>
+	<production id="11353" count="1"/>
+  </item>
+  
+     <!-- Helios' Follower Costume -->
+     <item id="26">
+	<ingredient id="12535" count="12"/>
+	 <production id="11354" count="1"/>
+	<production id="11355" count="1"/>
+  </item>
+  
+  <!-- Oath Costume -->
+    <item id="27">
+	<ingredient id="12535" count="12"/>
+	 <production id="11307" count="1"/>
+  </item>
+
+<!-- Oath Costume -->
+    <item id="28">
+	<ingredient id="12535" count="12"/>
+	 <production id="11308" count="1"/>
+  </item>
+
+ <!-- Oath Costume -->
+    <item id="29">
+	<ingredient id="12535" count="12"/>
+	 <production id="11309" count="1"/>
+  </item>
+
+  
+       <!-- Tartarus Enforcer Costume -->
+     <item id="27">
+	<ingredient id="12535" count="15"/>
+	 <production id="11374" count="1"/>
+	<production id="11375" count="1"/>
+  </item>
+  
+         <!-- Tartarus Raider Costume -->
+     <item id="28">
+	<ingredient id="12535" count="15"/>
+	 <production id="11376" count="1"/>
+	<production id="11377" count="1"/>
+  </item>
+  
+
+  
+  
+</list>

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	
+	<item id="9654" type="Armor" name="Asphodel Heavy Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9642" type="Armor" name="Asphodel Heavy Breastplate">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_heavy_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="14300000" />
+		<for>
+			<baseadd stat="pDef" val="205" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9643" type="Armor" name="Asphodel Heavy Gaiters">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="448" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="8960000" />
+		<for>
+			<baseadd stat="pDef" val="128" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9644" type="Armor" name="Asphodel Heavy Gauntlets">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9645" type="Armor" name="Asphodel Heavy Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	
+	<item id="9646" type="Armor" name="Tartarus Light Upper Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_light_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="136" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9647" type="Armor" name="Tartarus Light Lower Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9648" type="Armor" name="Tartarus Light Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9649" type="Armor" name="Tartarus Light Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9641" type="Armor" name="Tartarus Light Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9650" type="Armor" name="Elysian Tunic">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<add stat="maxMp" val="866" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9651" type="Armor" name="Elysian Stockings">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="66" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9652" type="Armor" name="Elysian Robe Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9653" type="Armor" name="Elysian Robe Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9655" type="Armor" name="Elysian Robe Circlet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9656" type="Armor" name="Dark Legacy Costume Upper ">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9657" type="Armor" name="Dark Legacy Costume Lower ">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9658" type="Armor" name="Dark Legacy Costume gloves ">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9659" type="Armor" name="Dark Legacy Costume boots ">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9660" type="Armor" name="Deathcore Light Upper Armor v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9661" type="Armor" name="Deathcore Light Lower Armor v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9662" type="Armor" name="Deathcore Light gloves Armor v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="0" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4950" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		<item id="9663" type="Armor" name="Deathcore Light boots Armor v2">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4950" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="249" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	
+	<item id="9664" type="Armor" name="Tauti Heavy Breastplate">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_heavy_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="14300000" />
+		<for>
+			<baseadd stat="pDef" val="205" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9665" type="Armor" name="Tauti Heavy Gaiters">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="448" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="8960000" />
+		<for>
+			<baseadd stat="pDef" val="128" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9666" type="Armor" name="Tauti Heavy Gauntlets">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9667" type="Armor" name="Tauti Heavy Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9668" type="Armor" name="Tauti Heavy Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	
+	<item id="9669" type="Armor" name="Kelbim Light Upper Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_light_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="136" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9670" type="Armor" name="Kelbim Light Lower Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9671" type="Armor" name="Kelbim Light Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9672" type="Armor" name="Kelbim Light Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9673" type="Armor" name="Kelbim Light Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9674" type="Armor" name="Freya Tunic Robe">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<add stat="maxMp" val="866" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9675" type="Armor" name="Freya Stockings Robe">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="66" />
+			<add stat="maxMp" val="866" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9676" type="Armor" name="Freya Robe Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9677" type="Armor" name="Freya Robe Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9678" type="Armor" name="Freya Robe Circlet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+		
+	<item id="9679" type="Armor" name="Platinum Heavy Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9680" type="Armor" name="Platinum Heavy Breastplate">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_heavy_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="715" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="14300000" />
+		<for>
+			<baseadd stat="pDef" val="205" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9681" type="Armor" name="Platinum Heavy Gaiters">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="448" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="0" />
+		<set name="price" val="8960000" />
+		<for>
+			<baseadd stat="pDef" val="128" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9682" type="Armor" name="Platinum Heavy Gauntlets">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9683" type="Armor" name="Platinum Heavy Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9684" type="Armor" name="Platinum Light Helmet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	
+	<item id="9685" type="Armor" name="Platinum Light Upper Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_light_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="136" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9686" type="Armor" name="Platinum Light Lower Armor">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9687" type="Armor" name="Platinum Light Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9688" type="Armor" name="Platinum Light Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+
+	
+	<item id="9689" type="Armor" name="Platinum Robe Circlet">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="268" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="0" />
+		<set name="price" val="5370000" />
+		<for>
+			<baseadd stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9690" type="Armor" name="Platinum Tunic">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="100" />
+			<add stat="maxMp" val="866" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9691" type="Armor" name="Platinum Stockings">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="870" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="0" />
+		<set name="price" val="17400000" />
+		<for>
+			<baseadd stat="pDef" val="66" />
+			<add stat="maxMp" val="866" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	<item id="9692" type="Armor" name="Platinum Robe Gloves">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9693" type="Armor" name="Platinum Robe Boots">
+		<set name="default_action" val="equip" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="179" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="0" />
+		<set name="price" val="3580000" />
+		<for>
+			<baseadd stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	
+	
+	
+</list>

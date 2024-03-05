@@ -14,13 +14,22 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<items>
-			<item id="1147" count="1"/>
-			<item id="1146" count="1"/>
-			<item id="10" count="1" isEquipped="false"/>
-			<item id="2369" count="1"/>
+			<item id="27" count="1"/><!-- Hard Leather Set -->
+			<item id="33" count="1"/> <!-- Hard Leather Gaiters -->
+			<item id="3471" count="1" isEquipped="false"/> <!-- cybelin dagger -->
+			<item id="743" count="1"/> <!-- sword of sentinel -->
+			<item id="4223" count="1"/> <!-- ubiquitus shield -->
 			<item id="5588" count="1"/>
+			<item id="1539" count="100"/> <!-- greater healing pot -->
+			<item id="728" count="100"/> <!-- mana pot -->
+			<item id="1835" count="1000"/> <!--Soulshot -->
+			<item id="736" count="15"/><!-- soe -->
+			<item id="25645" count="10"/><!-- olympus soe for newbies -->
+			<item id="57" count="10000000"/>
 		</items>
 		<skills>
+			<!-- AntiBuff Lock -->
+			<skill id="9943" lvl="1" cost="50" minLvl="1"/>
 			<!-- Power Strike -->
 			<skill id="3" lvl="1" cost="50" minLvl="5"/>
 			<skill id="3" lvl="2" cost="50" minLvl="5"/>
@@ -92,12 +101,18 @@
 			<skill id="1322" lvl="1" cost="0" minLvl="1"/>
 		</skills>
 		<spawns>
-			<spawn x="28295" y="11063" z="-4224"/>
+			<!--<spawn x="28295" y="11063" z="-4224"/>
 			<spawn x="28302" y="11008" z="-4224"/>
 			<spawn x="28377" y="10916" z="-4224"/>
 			<spawn x="28456" y="10997" z="-4224"/>
 			<spawn x="28461" y="11044" z="-4224"/>
-			<spawn x="28395" y="11127" z="-4224"/>
+			<spawn x="28395" y="11127" z="-4224"/> 
+			<spawn x="147564" y="26710" z="-2008"/> -->
+			<spawn x="115439" y="17085" z="8968"/>
+			<spawn x="115669" y="16924" z="8936"/>
+			<spawn x="115192" y="17732" z="9008"/>
+			<spawn x="115894" y="16473" z="9008"/>
+			<spawn x="115455" y="16863" z="9008"/>
 		</spawns>
 	</class>
 	<class><!-- Palus Knight -->
@@ -206,22 +221,7 @@
 			<skill id="223" lvl="10" cost="9000" minLvl="36"/>
 			<skill id="223" lvl="11" cost="9000" minLvl="36"/>
 			<skill id="223" lvl="12" cost="9000" minLvl="36"/>
-			<!-- Heavy Armor Mastery -->
-			<skill id="232" lvl="1" cost="1500" minLvl="20"/>
-			<skill id="232" lvl="2" cost="1500" minLvl="20"/>
-			<skill id="232" lvl="3" cost="1500" minLvl="20"/>
-			<skill id="232" lvl="4" cost="2900" minLvl="24"/>
-			<skill id="232" lvl="5" cost="2900" minLvl="24"/>
-			<skill id="232" lvl="6" cost="2900" minLvl="24"/>
-			<skill id="232" lvl="7" cost="4400" minLvl="28"/>
-			<skill id="232" lvl="8" cost="4400" minLvl="28"/>
-			<skill id="232" lvl="9" cost="4400" minLvl="28"/>
-			<skill id="232" lvl="10" cost="7400" minLvl="32"/>
-			<skill id="232" lvl="11" cost="7400" minLvl="32"/>
-			<skill id="232" lvl="12" cost="7400" minLvl="32"/>
-			<skill id="232" lvl="13" cost="9000" minLvl="36"/>
-			<skill id="232" lvl="14" cost="9000" minLvl="36"/>
-			<skill id="232" lvl="15" cost="9000" minLvl="36"/>
+			
 		</skills>
 	</class>
 	<class><!-- Assassin -->
@@ -334,31 +334,8 @@
 			<skill id="195" lvl="1" cost="2800" minLvl="20"/>
 			<!-- Boost Evasion -->
 			<skill id="198" lvl="1" cost="5000" minLvl="24"/>
-			<!-- Bow Mastery -->
-			<skill id="208" lvl="1" cost="950" minLvl="20"/>
-			<skill id="208" lvl="2" cost="950" minLvl="20"/>
-			<skill id="208" lvl="3" cost="950" minLvl="20"/>
-			<skill id="208" lvl="4" cost="1700" minLvl="24"/>
-			<skill id="208" lvl="5" cost="1700" minLvl="24"/>
-			<skill id="208" lvl="6" cost="1700" minLvl="24"/>
-			<skill id="208" lvl="7" cost="2900" minLvl="28"/>
-			<skill id="208" lvl="8" cost="2900" minLvl="28"/>
-			<skill id="208" lvl="9" cost="2900" minLvl="28"/>
-			<skill id="208" lvl="10" cost="4800" minLvl="32"/>
-			<skill id="208" lvl="11" cost="4800" minLvl="32"/>
-			<skill id="208" lvl="12" cost="4800" minLvl="32"/>
-			<skill id="208" lvl="13" cost="7400" minLvl="36"/>
-			<skill id="208" lvl="14" cost="7400" minLvl="36"/>
-			<skill id="208" lvl="15" cost="7400" minLvl="36"/>
-			<!-- Dagger Mastery -->
-			<skill id="209" lvl="1" cost="2800" minLvl="20"/>
-			<skill id="209" lvl="2" cost="5000" minLvl="24"/>
-			<skill id="209" lvl="3" cost="4300" minLvl="28"/>
-			<skill id="209" lvl="4" cost="4300" minLvl="28"/>
-			<skill id="209" lvl="5" cost="7100" minLvl="32"/>
-			<skill id="209" lvl="6" cost="7100" minLvl="32"/>
-			<skill id="209" lvl="7" cost="11000" minLvl="36"/>
-			<skill id="209" lvl="8" cost="11000" minLvl="36"/>
+			
+			
 			<!-- Sting -->
 			<skill id="223" lvl="1" cost="1700" minLvl="24"/>
 			<skill id="223" lvl="2" cost="1700" minLvl="24"/>
@@ -409,11 +386,31 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		<!-- Heavy Armor Mastery -->
+			<skill id="232" lvl="1" cost="1500" minLvl="20"/>
+			<skill id="232" lvl="2" cost="1500" minLvl="20"/>
+			<skill id="232" lvl="3" cost="1500" minLvl="20"/>
+			<skill id="232" lvl="4" cost="2900" minLvl="24"/>
+			<skill id="232" lvl="5" cost="2900" minLvl="24"/>
+			<skill id="232" lvl="6" cost="2900" minLvl="24"/>
+			<skill id="232" lvl="7" cost="4400" minLvl="28"/>
+			<skill id="232" lvl="8" cost="4400" minLvl="28"/>
+			<skill id="232" lvl="9" cost="4400" minLvl="28"/>
+			<skill id="232" lvl="10" cost="7400" minLvl="32"/>
+			<skill id="232" lvl="11" cost="7400" minLvl="32"/>
+			<skill id="232" lvl="12" cost="7400" minLvl="32"/>
+			<skill id="232" lvl="13" cost="9000" minLvl="36"/>
+			<skill id="232" lvl="14" cost="9000" minLvl="36"/>
+			<skill id="232" lvl="15" cost="9000" minLvl="36"/>
+		
 			<!-- Confusion -->
 			<skill id="2" lvl="5" cost="26000" minLvl="40"/>
 			<skill id="2" lvl="6" cost="26000" minLvl="43"/>
 			<skill id="2" lvl="7" cost="40000" minLvl="46"/>
 			<skill id="2" lvl="8" cost="58000" minLvl="49"/>
+			<!-- Touch of Berserker - Custom -->
+			<skill id="7091" lvl="1" cost="100000" minLvl="50"/>
+			
 			<skill id="2" lvl="9" cost="94000" minLvl="52"/>
 			<skill id="2" lvl="10" cost="110000" minLvl="55"/>
 			<skill id="2" lvl="11" cost="120000" minLvl="58"/>
@@ -879,8 +876,7 @@
 			<skill id="450" lvl="9" cost="600000" minLvl="72"/>
 			<skill id="450" lvl="10" cost="1300000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+			
 		</skills>
 	</class>
 	<class><!-- Bladedancer -->
@@ -897,6 +893,45 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		<!-- Light Armor Mastery -->
+			<skill id="233" lvl="11" cost="12000" minLvl="40"/>
+			<skill id="233" lvl="12" cost="12000" minLvl="40"/>
+			<skill id="233" lvl="13" cost="12000" minLvl="40"/>
+			<skill id="233" lvl="14" cost="14000" minLvl="43"/>
+			<skill id="233" lvl="15" cost="14000" minLvl="43"/>
+			<skill id="233" lvl="16" cost="14000" minLvl="43"/>
+			<skill id="233" lvl="17" cost="14000" minLvl="46"/>
+			<skill id="233" lvl="18" cost="14000" minLvl="46"/>
+			<skill id="233" lvl="19" cost="14000" minLvl="46"/>
+			<skill id="233" lvl="20" cost="30000" minLvl="49"/>
+			<skill id="233" lvl="21" cost="30000" minLvl="49"/>
+			<skill id="233" lvl="22" cost="30000" minLvl="49"/>
+			<skill id="233" lvl="23" cost="38000" minLvl="52"/>
+			<skill id="233" lvl="24" cost="38000" minLvl="52"/>
+			<skill id="233" lvl="25" cost="38000" minLvl="52"/>
+			<skill id="233" lvl="26" cost="49000" minLvl="55"/>
+			<skill id="233" lvl="27" cost="49000" minLvl="55"/>
+			<skill id="233" lvl="28" cost="49000" minLvl="55"/>
+			<skill id="233" lvl="29" cost="50000" minLvl="58"/>
+			<skill id="233" lvl="30" cost="50000" minLvl="58"/>
+			<skill id="233" lvl="31" cost="50000" minLvl="58"/>
+			<skill id="233" lvl="32" cost="121000" minLvl="60"/>
+			<skill id="233" lvl="33" cost="121000" minLvl="60"/>
+			<skill id="233" lvl="34" cost="180000" minLvl="62"/>
+			<skill id="233" lvl="35" cost="180000" minLvl="62"/>
+			<skill id="233" lvl="36" cost="180000" minLvl="64"/>
+			<skill id="233" lvl="37" cost="180000" minLvl="64"/>
+			<skill id="233" lvl="38" cost="270000" minLvl="66"/>
+			<skill id="233" lvl="39" cost="270000" minLvl="66"/>
+			<skill id="233" lvl="40" cost="330000" minLvl="68"/>
+			<skill id="233" lvl="41" cost="330000" minLvl="68"/>
+			<skill id="233" lvl="42" cost="420000" minLvl="70"/>
+			<skill id="233" lvl="43" cost="420000" minLvl="70"/>
+			<skill id="233" lvl="44" cost="460000" minLvl="72"/>
+			<skill id="233" lvl="45" cost="460000" minLvl="72"/>
+			<skill id="233" lvl="46" cost="1000000" minLvl="74"/>
+			<skill id="233" lvl="47" cost="1000000" minLvl="74"/>
+		
 			<!-- Confusion -->
 			<skill id="2" lvl="5" cost="43000" minLvl="40"/>
 			<skill id="2" lvl="6" cost="46000" minLvl="43"/>
@@ -1180,8 +1215,11 @@
 			<skill id="408" lvl="9" cost="1000000" minLvl="72"/>
 			<skill id="408" lvl="10" cost="2170000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+	
+			
+			<!-- Dance of Zeus -->
+			<skill id="7090" lvl="1" cost="-1" minLvl="60"/>
+			
 		</skills>
 	</class>
 	<class><!-- Abyss Walker -->
@@ -1198,6 +1236,15 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		<!-- Dagger Mastery -->
+			<skill id="209" lvl="1" cost="2800" minLvl="20"/>
+			<skill id="209" lvl="2" cost="5000" minLvl="24"/>
+			<skill id="209" lvl="3" cost="4300" minLvl="28"/>
+			<skill id="209" lvl="4" cost="4300" minLvl="28"/>
+			<skill id="209" lvl="5" cost="7100" minLvl="32"/>
+			<skill id="209" lvl="6" cost="7100" minLvl="32"/>
+			<skill id="209" lvl="7" cost="11000" minLvl="36"/>
+			<skill id="209" lvl="8" cost="11000" minLvl="36"/>
 			<!-- Confusion -->
 			<skill id="2" lvl="5" cost="28000" minLvl="40"/>
 			<skill id="2" lvl="6" cost="29000" minLvl="43"/>
@@ -1624,8 +1671,7 @@
 			<!-- Escape Shackle -->
 			<skill id="453" lvl="1" cost="181000" minLvl="60"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 		</skills>
 	</class>
 	<class><!-- Phantom Ranger -->
@@ -1642,6 +1688,22 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		<!-- Bow Mastery -->
+			<skill id="208" lvl="1" cost="950" minLvl="20"/>
+			<skill id="208" lvl="2" cost="950" minLvl="20"/>
+			<skill id="208" lvl="3" cost="950" minLvl="20"/>
+			<skill id="208" lvl="4" cost="1700" minLvl="24"/>
+			<skill id="208" lvl="5" cost="1700" minLvl="24"/>
+			<skill id="208" lvl="6" cost="1700" minLvl="24"/>
+			<skill id="208" lvl="7" cost="2900" minLvl="28"/>
+			<skill id="208" lvl="8" cost="2900" minLvl="28"/>
+			<skill id="208" lvl="9" cost="2900" minLvl="28"/>
+			<skill id="208" lvl="10" cost="4800" minLvl="32"/>
+			<skill id="208" lvl="11" cost="4800" minLvl="32"/>
+			<skill id="208" lvl="12" cost="4800" minLvl="32"/>
+			<skill id="208" lvl="13" cost="7400" minLvl="36"/>
+			<skill id="208" lvl="14" cost="7400" minLvl="36"/>
+			<skill id="208" lvl="15" cost="7400" minLvl="36"/>
 			<!-- Confusion -->
 			<skill id="2" lvl="5" cost="33000" minLvl="40"/>
 			<skill id="2" lvl="6" cost="33000" minLvl="43"/>
@@ -2025,8 +2087,7 @@
 			<skill id="417" lvl="4" cost="620000" minLvl="70"/>
 			<skill id="417" lvl="5" cost="1530000" minLvl="74"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="1" cost="-1" minLvl="52"/>
-			<skill id="1405" lvl="2" cost="-1" minLvl="61"/>
+
 		</skills>
 	</class>
 	<class><!-- Shillien Templar -->
@@ -2043,6 +2104,7 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		
 			<!-- Wisdom -->
 			<skill id="328" lvl="1" cost="10000000" minLvl="76"/>
 			<!-- Health -->
@@ -2064,8 +2126,7 @@
 			<!-- Symbol of Defense -->
 			<skill id="454" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+	
 		</skills>
 	</class>
 	<class><!-- Spectral Dancer -->
@@ -2082,6 +2143,9 @@
 		<set mpRegenTable="0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;0.9;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.2;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.5;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;1.8;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.1;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.4;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;2.7;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0;3.0"/>
 		<set cpRegenTable="2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.0;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;2.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;3.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;4.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;5.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;6.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;7.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5;8.5"/>
 		<skills>
+		<!-- Blade of the dead - Custom -->
+			<skill id="7088" lvl="1" cost="1250000" minLvl="76"/>
+		
 			<!-- Wisdom -->
 			<skill id="328" lvl="1" cost="12500000" minLvl="76"/>
 			<!-- Health -->
@@ -2099,8 +2163,7 @@
 			<!-- Symbol of Noise -->
 			<skill id="455" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+
 		</skills>
 	</class>
 	<class><!-- Ghost Hunter -->
@@ -2140,8 +2203,7 @@
 			<!-- Symbol of the Assassin -->
 			<skill id="460" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+	
 		</skills>
 	</class>
 	<class><!-- Ghost Sentinel -->
@@ -2177,8 +2239,7 @@
 			<!-- Symbol of the Sniper -->
 			<skill id="459" lvl="1" cost="150000000" minLvl="80"/>
 			<!-- Divine Inspiration -->
-			<skill id="1405" lvl="3" cost="-1" minLvl="76"/>
-			<skill id="1405" lvl="4" cost="-1" minLvl="76"/>
+	
 		</skills>
 	</class>
 </list>

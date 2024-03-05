@@ -831,12 +831,7 @@
 		<node x="-112720" y="-248199"/>
 		<node x="-116354" y="-248217"/>
 	</zone>
-	<zone shape="NPoly" minZ="-4792" maxZ="208"><!-- primeval_peace2 -->
-		<node x="4850" y="-4736"/>
-		<node x="7294" y="-4712"/>
-		<node x="8529" y="-820"/>
-		<node x="3615" y="-737"/>
-	</zone>
+	
 	<zone shape="NPoly" minZ="-6964" maxZ="-6064"><!-- space_of_dimension_peace1 -->
 		<node x="-115441" y="-182134"/>
 		<node x="-114106" y="-182134"/>
@@ -912,4 +907,18 @@
 		<node x="-79984" y="111517"/>
 		<node x="-80532" y="111517"/>
 	</zone>
+	
+	<zone shape="NPoly" minZ="-4944" maxZ="-1430"><!-- Asphodel Teleport 1 Peace -->
+		<!-- stat name="allowStore" val="false" / -->
+		<node x="-16378" y="-176403"/>
+		<node x="-21030" y="-178217"/>
+		<node x="-21814" y="-188856"/>
+		<node x="-20113" y="-192576"/>
+		<node x="-17881" y="-191765"/>
+		<node x="-14633" y="-191648"/>
+		<node x="-4598" y="-193755"/>
+		<node x="-5332" y="-187965"/>
+		<node x="-6147" y="-181135"/>
+	</zone>
+	
 </list>
