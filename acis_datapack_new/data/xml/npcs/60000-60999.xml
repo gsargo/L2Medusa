@@ -277,7 +277,7 @@
 		<set name="pAtk" val="4545.33274686674"/>
 		<set name="pDef" val="924.125"/>
 		<set name="mAtk" val="280.52213944732"/>
-		<set name="mDef" val="999.6"/>
+		<set name="mDef" val="859.6"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -448,7 +448,7 @@
 		<set name="mp" val="48000"/>
 		<set name="hpRegen" val="700"/>
 		<set name="mpRegen" val="99"/>
-		<set name="pAtk" val="6700"/>
+		<set name="pAtk" val="6500"/>
 		<set name="pDef" val="3440"/>
 		<set name="mAtk" val="4550"/>
 		<set name="mDef" val="2225"/>
@@ -603,10 +603,10 @@
 		<set name="mp" val="1674.8"/>
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="83"/>
-		<set name="pAtk" val="4145.33274686674"/>
-		<set name="pDef" val="1424.125"/>
+		<set name="pAtk" val="4445.33274686674"/>
+		<set name="pDef" val="1994.125"/>
 		<set name="mAtk" val="280.52213944732"/>
-		<set name="mDef" val="899.6"/>
+		<set name="mDef" val="999.6"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -724,7 +724,7 @@
 		<set name="mp" val="18000"/>
 		<set name="hpRegen" val="750"/>
 		<set name="mpRegen" val="99"/>
-		<set name="pAtk" val="6874.18"/>
+		<set name="pAtk" val="6504.18"/>
 		<set name="pDef" val="3400"/>
 		<set name="mAtk" val="5200"/>
 		<set name="mDef" val="2000"/>
@@ -2125,7 +2125,7 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="90"/>
 		<set name="pAtk" val="4645.33274686674"/>
-		<set name="pDef" val="1494.125"/>
+		<set name="pDef" val="2294.125"/>
 		<set name="mAtk" val="410.52213944732"/>
 		<set name="mDef" val="1059.6"/>
 		<set name="crit" val="1"/>
@@ -2140,7 +2140,7 @@
 		<set name="walkSpd" val="54"/>
 		<set name="runSpd" val="190"/>
 		<set name="dropHerbGroup" val="1"/>
-		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="0" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<ai type="DEFAULT" ssCount="10" ssRate="10" spsCount="0" spsRate="0" aggro="0" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
 		<skills>
 			<skill id="9916" level="1"/><!-- sp atk 1 -->
 			<skill id="9914" level="1"/><!-- sp atk 2 -->

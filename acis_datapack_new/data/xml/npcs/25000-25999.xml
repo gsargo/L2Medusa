@@ -858,7 +858,7 @@
 		<set name="mp" val="15674.8"/>
 		<set name="hpRegen" val="411.789458580091"/>
 		<set name="mpRegen" val="3"/>
-		<set name="pAtk" val="6993.46388223624"/>
+		<set name="pAtk" val="6693.46388223624"/>
 		<set name="pDef" val="3224.125"/>
 		<set name="mAtk" val="3830.998398930805"/>
 		<set name="mDef" val="2299.6"/>
@@ -6185,10 +6185,10 @@
 		<set name="mp" val="1641"/>
 		<set name="hpRegen" val="319.229319897932"/>
 		<set name="mpRegen" val="3"/>
-		<set name="pAtk" val="6267.04651101713"/>
+		<set name="pAtk" val="5767.04651101713"/>
 		<set name="pDef" val="2511.21024"/>
 		<set name="mAtk" val="3790.2949006429"/>
-		<set name="mDef" val="1903.3"/>
+		<set name="mDef" val="1803.3"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -6198,8 +6198,8 @@
 		<set name="con" val="57"/>
 		<set name="men" val="80"/>
 		<set name="corpseTime" val="7"/>
-		<set name="walkSpd" val="40"/>
-		<set name="runSpd" val="170"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="180"/>
 		<set name="dropHerbGroup" val="0"/>
 		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
 		<skills>
@@ -15730,10 +15730,10 @@
 		<set name="mp" val="1345.8"/>
 		<set name="hpRegen" val="117.68436242886"/>
 		<set name="mpRegen" val="2.7"/>
-		<set name="pAtk" val="2154.88111713047"/>
-		<set name="pDef" val="887.74791"/>
+		<set name="pAtk" val="3554.88111713047"/>
+		<set name="pDef" val="1987.74791"/>
 		<set name="mAtk" val="717.403871261232"/>
-		<set name="mDef" val="433.08"/>
+		<set name="mDef" val="933.08"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -15758,7 +15758,7 @@
 		</skills>
 		<drops>
 			<category id="1">
-			<drop itemid="57" min="50000000" max="200000000" chance="1000000"/>
+			<drop itemid="57" min="5000000" max="15000000" chance="1000000"/>
 			</category>	
 			<category id="3">
 			<drop itemid="8752" min="2" max="4" chance="1000000"/> <!-- High Grade LF -->

@@ -937,9 +937,9 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="53"/>
 		<set name="pAtk" val="4745.33274686674"/>
-		<set name="pDef" val="1424.125"/>
+		<set name="pDef" val="1994.125"/>
 		<set name="mAtk" val="280.52213944732"/>
-		<set name="mDef" val="799.6"/>
+		<set name="mDef" val="999.6"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -1244,10 +1244,10 @@
 		<set name="mp" val="1674.8"/>
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="3"/>
-		<set name="pAtk" val="3445.33274686674"/>
-		<set name="pDef" val="924.125"/>
+		<set name="pAtk" val="4645.33274686674"/>
+		<set name="pDef" val="2854.125"/>
 		<set name="mAtk" val="980.52213944732"/>
-		<set name="mDef" val="999.6"/>
+		<set name="mDef" val="1099.6"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -1548,7 +1548,7 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="310"/>
 		<set name="pAtk" val="4845.33274686674"/>
-		<set name="pDef" val="1524.125"/>
+		<set name="pDef" val="2124.125"/>
 		<set name="mAtk" val="410.52213944732"/>
 		<set name="mDef" val="1199.6"/>
 		<set name="crit" val="1"/>
@@ -1760,9 +1760,9 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="130"/>
 		<set name="pAtk" val="4545.33274686674"/>
-		<set name="pDef" val="1484.125"/>
+		<set name="pDef" val="1954.125"/>
 		<set name="mAtk" val="410.52213944732"/>
-		<set name="mDef" val="899.6"/>
+		<set name="mDef" val="999.6"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="313"/>
 		<set name="str" val="60"/>
@@ -1838,10 +1838,10 @@
 		<set name="mp" val="1939.14"/>
 		<set name="hpRegen" val="142.22332528493"/>
 		<set name="mpRegen" val="3.15"/>
-		<set name="pAtk" val="6307.84035814098"/>
+		<set name="pAtk" val="5407.84035814098"/>
 		<set name="pDef" val="2439.632641"/>
 		<set name="mAtk" val="3145.14415159579"/>
-		<set name="mDef" val="1805.954"/>
+		<set name="mDef" val="1705.954"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
@@ -1854,7 +1854,7 @@
 		<set name="walkSpd" val="77"/>
 		<set name="runSpd" val="195"/>
 		<set name="dropHerbGroup" val="1"/>
-		<ai type="DEFAULT" ssCount="100" ssRate="100" spsCount="100" spsRate="100" aggro="0" clan="Laestrygon" clanRange="300" canMove="true" seedable="true"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" clan="Laestrygon" clanRange="300" canMove="true" seedable="true"/>
 		<skills>
 		<skill id="9913" level="1"/><!-- sp atk 1-->
 		<skill id="9914" level="1"/><!-- sp atk 2-->

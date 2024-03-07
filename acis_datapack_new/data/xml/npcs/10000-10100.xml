@@ -423,7 +423,7 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="130"/>
 		<set name="pAtk" val="4745.33274686674"/>
-		<set name="pDef" val="1424.125"/>
+		<set name="pDef" val="1924.125"/>
 		<set name="mAtk" val="410.52213944732"/>
 		<set name="mDef" val="999.6"/>
 		<set name="crit" val="1"/>
@@ -495,7 +495,7 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="130"/>
 		<set name="pAtk" val="4645.33274686674"/>
-		<set name="pDef" val="1424.125"/>
+		<set name="pDef" val="1994.125"/>
 		<set name="mAtk" val="410.52213944732"/>
 		<set name="mDef" val="899.6"/>
 		<set name="crit" val="1"/>
@@ -656,7 +656,7 @@
 		<set name="hpRegen" val="92.3387631310317"/>
 		<set name="mpRegen" val="290"/>
 		<set name="pAtk" val="4345.33274686674"/>
-		<set name="pDef" val="1524.125"/>
+		<set name="pDef" val="2404.125"/>
 		<set name="mAtk" val="410.52213944732"/>
 		<set name="mDef" val="899.6"/>
 		<set name="crit" val="1"/>
