@@ -16,6 +16,7 @@ import net.sf.l2j.gameserver.model.actor.Attackable;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.actor.instance.DungeonMob;
 import net.sf.l2j.gameserver.model.actor.instance.Monster;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
 import net.sf.l2j.gameserver.scripting.Quest;
@@ -101,7 +102,9 @@ public class AttackableAIScript extends Quest
 				if (npcTarget == target || npc == target)
 				{
 					final Creature originalCaster = isPet ? caster.getSummon() : caster;
-					attackable.getAggroList().addDamageHate(originalCaster, 0, (skillAggroPoints * 150) / (attackable.getStatus().getLevel() + 7));
+					//Finally, make sure Dungeon Mobs are not so easy aggred if heal is used
+					var multiplier = attackable instanceof DungeonMob ? 10 : 150;
+					attackable.getAggroList().addDamageHate(originalCaster, 0, (skillAggroPoints * multiplier) / (attackable.getStatus().getLevel() + 7));
 				}
 			}
 		}
