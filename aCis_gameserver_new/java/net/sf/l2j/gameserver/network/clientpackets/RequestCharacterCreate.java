@@ -10,8 +10,10 @@ import net.sf.l2j.gameserver.enums.QuestStatus;
 import net.sf.l2j.gameserver.enums.ShortcutType;
 import net.sf.l2j.gameserver.enums.actors.Sex;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
+import net.sf.l2j.gameserver.model.Macro;
 import net.sf.l2j.gameserver.model.Shortcut;
 import net.sf.l2j.gameserver.model.World;
+import net.sf.l2j.gameserver.model.Macro.MacroCmd;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.template.PlayerTemplate;
 import net.sf.l2j.gameserver.model.holder.ItemTemplateHolder;
@@ -140,6 +142,14 @@ public final class RequestCharacterCreate extends L2GameClientPacket
 		player.getShortcutList().addShortcut(new Shortcut(0, 0, ShortcutType.ACTION, 2, -1, 1)); // attack shortcut
 		player.getShortcutList().addShortcut(new Shortcut(3, 0, ShortcutType.ACTION, 5, -1, 1)); // take shortcut
 		player.getShortcutList().addShortcut(new Shortcut(10, 0, ShortcutType.ACTION, 0, -1, 1)); // sit shortcut
+		
+		//------------------------------------------------------------------------
+		//solution for missing petition button
+		var petitionMacro = new Macro(0, 3, "Petition", "Opens Petition Window", "PTTN", new MacroCmd[] { new MacroCmd(1, 3, 0, 0, "&")});
+		player.getMacroList().registerMacro(petitionMacro);
+		Shortcut petitionShortcut = new Shortcut(0, 2, ShortcutType.MACRO, petitionMacro.id, -1, 1);
+		player.getShortcutList().addShortcut(petitionShortcut);
+		//------------------------------------------------------------------------
 		
 		// Equip or add items, based on template.
 		for (ItemTemplateHolder holder : template.getItems())
