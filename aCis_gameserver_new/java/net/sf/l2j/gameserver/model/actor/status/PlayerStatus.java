@@ -156,7 +156,7 @@ public class PlayerStatus extends PlayableStatus<Player>
 			
 			// Check and calculate transfered damage, if any.
 			final Summon summon = _actor.getSummon();
-			if (summon instanceof Servitor && summon.isIn3DRadius(_actor, 900))
+			if ((summon instanceof Servitor || summon instanceof Pet) && summon.isIn3DRadius(_actor, 900))
 			{
 				tDmg = (int) (value * calcStat(Stats.TRANSFER_DAMAGE_PERCENT, 0, null, null) / 100.);
 				
