@@ -716,7 +716,7 @@ public class VillageMaster extends Folk
 	
 	private final static Set<ClassId> getAvailableSubClasses(Player player)
 	{
-		Set<ClassId> availSubs = ClassId.getAvailableSubclasses(player);
+		Set<ClassId> availSubs = ClassId.getAvailableSubclassesAll(player);
 		
 		if (availSubs != null && !availSubs.isEmpty())
 		{
@@ -765,7 +765,7 @@ public class VillageMaster extends Folk
 			}
 		}
 		
-		final Set<ClassId> availSubs = ClassId.getAvailableSubclasses(player);
+		final Set<ClassId> availSubs = ClassId.getAvailableSubclassesAll(player);
 		if (availSubs == null || availSubs.isEmpty())
 		{
 			

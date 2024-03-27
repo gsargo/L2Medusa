@@ -337,6 +337,30 @@ public enum ClassId
 		return EnumSet.copyOf(classId._subclasses);
 	}
 	
+	public static final EnumSet<ClassId> getAvailableSubclassesAll(Player player)
+	{
+		ClassId classId = VALUES[player.getBaseClass()];
+		if (classId._level < 2)
+			return null;
+		
+		// Handle 3rd level class.
+		if (classId._level == 3)
+			classId = classId._parent;
+		
+		var result = EnumSet.noneOf(ClassId.class);
+		
+		for (ClassId subClassId : VALUES) 
+		{
+			if (subClassId != classId) 
+			{
+				if (subClassId._level == 2)
+					result.add(subClassId);	
+			}
+		}
+		
+		return result;
+	}
+	
 	static
 	{
 		// Create subclass lists.
