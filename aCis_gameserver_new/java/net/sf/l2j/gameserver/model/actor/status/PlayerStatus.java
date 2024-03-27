@@ -158,7 +158,10 @@ public class PlayerStatus extends PlayableStatus<Player>
 			final Summon summon = _actor.getSummon();
 			if ((summon instanceof Servitor || summon instanceof Pet) && summon.isIn3DRadius(_actor, 900))
 			{
-				tDmg = (int) (value * calcStat(Stats.TRANSFER_DAMAGE_PERCENT, 0, null, null) / 100.);
+				//make less dmg on pets
+				var multiplier = summon instanceof Servitor ? 1.0 : 0.75;
+				
+				tDmg = (int) ((value * calcStat(Stats.TRANSFER_DAMAGE_PERCENT, 0, null, null) / 100.) * multiplier);
 				
 				// Only transfer dmg up to current HP, it should not be killed
 				tDmg = Math.min((int) summon.getStatus().getHp() - 1, tDmg);
