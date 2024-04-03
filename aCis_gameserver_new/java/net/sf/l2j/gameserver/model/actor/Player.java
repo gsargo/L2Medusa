@@ -2346,7 +2346,11 @@ public final class Player extends Playable
 		
 		if (count > item.getCount())
 			return null;
-
+		
+		//Custom Condition
+		if (getStatus().getLevel() < 65)
+			return null;
+		
 		// Pet is summoned and not the item that summoned the pet AND not the buggle from strider you're mounting
 		if (_summon != null && _summon.getControlItemId() == objectId || _mountObjectId == objectId)
 			return null;

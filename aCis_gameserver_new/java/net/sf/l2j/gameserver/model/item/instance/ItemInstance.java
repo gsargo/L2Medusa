@@ -559,6 +559,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	public boolean isAvailable(Player player, boolean allowAdena, boolean allowNonTradable, boolean allowStoreBuy)
 	{
 		return ((!isEquipped() || allowStoreBuy) // Not equipped
+			&& (player.getStatus().getLevel() >= 65)
 			&& (getItem().getType2() != Item.TYPE2_QUEST) // Not Quest Item
 			&& (getItem().getType2() != Item.TYPE2_MONEY || getItem().getType1() != Item.TYPE1_SHIELD_ARMOR) // not money, not shield
 			&& (player.getSummon() == null || getObjectId() != player.getSummon().getControlItemId()) // Not Control item of currently summoned pet
