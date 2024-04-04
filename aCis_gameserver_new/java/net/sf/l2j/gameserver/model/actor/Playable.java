@@ -369,8 +369,15 @@ public abstract class Playable extends Creature
 		if (isInArena() && target.isInArena() && !(sameParty || sameCommandChannel))
 			return true;
 		
-		final boolean sameClan = getActingPlayer().getClanId() > 0 && getActingPlayer().getClanId() == targetPlayer.getClanId();
-		final boolean sameAlliance = getActingPlayer().getAllyId() > 0 && getActingPlayer().getAllyId() == targetPlayer.getAllyId();
+		boolean sameClan = getActingPlayer().getClanId() > 0 && getActingPlayer().getClanId() == targetPlayer.getClanId();
+		boolean sameAlliance = getActingPlayer().getAllyId() > 0 && getActingPlayer().getAllyId() == targetPlayer.getAllyId();
+		
+		
+		if (getActingPlayer().isInsidePvPZone() && targetPlayer.isInsidePvPZone()) 
+		{
+			sameClan = false;
+			sameAlliance = false;
+		}
 		
 		boolean sameSiegeSide = false;
 		final Siege siege = CastleManager.getInstance().getActiveSiege(this);
@@ -487,8 +494,14 @@ public abstract class Playable extends Creature
 		if (isInArena() && attacker.isInArena() && !(sameParty || sameCommandChannel))
 			return true;
 		
-		final boolean sameClan = getActingPlayer().getClanId() > 0 && getActingPlayer().getClanId() == attackerPlayer.getClanId();
-		final boolean sameAlliance = getActingPlayer().getAllyId() > 0 && getActingPlayer().getAllyId() == attackerPlayer.getAllyId();
+		boolean sameClan = getActingPlayer().getClanId() > 0 && getActingPlayer().getClanId() == attackerPlayer.getClanId();
+		boolean sameAlliance = getActingPlayer().getAllyId() > 0 && getActingPlayer().getAllyId() == attackerPlayer.getAllyId();
+		
+		if (getActingPlayer().isInsidePvPZone() && attackerPlayer.isInsidePvPZone()) 
+		{
+			sameClan = false;
+			sameAlliance = false;
+		}
 		
 		boolean sameSiegeSide = false;
 		final Siege siege = CastleManager.getInstance().getActiveSiege(this);
