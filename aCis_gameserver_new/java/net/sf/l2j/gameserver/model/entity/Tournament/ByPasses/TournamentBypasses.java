@@ -86,7 +86,8 @@ public class TournamentBypasses implements IBypassHandler
 			{
 				return false;
 			}
-			if (TournamentManager.getInstance().getRegisteredTournamentTeams().containsKey(team))
+			
+			if (TournamentManager.getInstance().getRegisteredTournamentTeams().containsKey(team) || TournamentManager.getInstance().isTeamOnFight(team))
 			{
 				player.sendMessage("Your team is already registered.");
 				return true;

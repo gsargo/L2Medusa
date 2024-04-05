@@ -344,6 +344,19 @@ public class TournamentManager
 		this.currentFights = currentFights;
 	}
 	
+	
+	public boolean isTeamOnFight(TournamentTeam team)
+	{
+		for (int key : currentFights.keySet()) 
+		{
+			var fight = currentFights.get(key);
+			if (fight.getTeamOne() == team || fight.getTeamTwo() == team)
+				return true;
+		}
+		
+		return false;
+	}
+	
 	public void onDisconnect(Player player)
 	{
 		if (player.isInTournamentTeam())
