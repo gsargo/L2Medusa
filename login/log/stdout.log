@@ -1,0 +1,21 @@
+nice: cannot set niceness: Permission denied
+-------------------------------------------------------------------=[ Config ]
+Loading loginserver configuration files.
+------------------------------------------------------------------=[ Poolers ]
+Initializing ConnectionPool.
+----------------------------------------------------------=[ LoginController ]
+Cached 10 KeyPairs for RSA communication.
+Stored 20 keys for Blowfish communication.
+--------------------------------------------------------=[ GameServerManager ]
+Loaded 127 server names.
+Loaded 1 registered gameserver(s).
+Cached 10 RSA keys for gameserver communication.
+-----------------------------------------------------------------=[ Ban List ]
+Loaded 0 banned IP(s).
+-------------------------------------------------=[ IP, Ports & Socket infos ]
+Listening for gameservers on *:9014.
+Loginserver ready on *:2106.
+--------------------------------------------=[ Waiting for gameserver answer ]
+Hooked [1] Bartz gameserver on: 217.182.138.49.
+GameServer [1] Bartz is now set as disconnected.
+Hooked [1] Bartz gameserver on: 217.182.138.49.

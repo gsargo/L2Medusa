@@ -1,0 +1,36 @@
+-------------------------------------------------------------------=[ Config ]
+Loading loginserver configuration files.
+------------------------------------------------------------------=[ Poolers ]
+Initializing ConnectionPool.
+----------------------------------------------------------=[ LoginController ]
+Cached 10 KeyPairs for RSA communication.
+Stored 20 keys for Blowfish communication.
+--------------------------------------------------------=[ GameServerManager ]
+Loaded 127 server names.
+Error loading registered gameservers.
+java.sql.SQLSyntaxErrorException: No connection available within the specified time (option 'connectTimeout': 30,000 ms)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbPoolDataSource.getConnection(MariaDbPoolDataSource.java:239)
+	at net.sf.l2j.commons.pool.ConnectionPool.getConnection(ConnectionPool.java:47)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.loadRegisteredGameServers(GameServerManager.java:89)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.load(GameServerManager.java:50)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.<init>(GameServerManager.java:41)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager$SingletonHolder.<clinit>(GameServerManager.java:183)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.getInstance(GameServerManager.java:178)
+	at net.sf.l2j.loginserver.LoginServer.<init>(LoginServer.java:65)
+	at net.sf.l2j.loginserver.LoginServer.main(LoginServer.java:37)
+Caused by: java.sql.SQLSyntaxErrorException: No connection available within the specified time (option 'connectTimeout': 30,000 ms)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:171)
+	at org.mariadb.jdbc.internal.util.pool.Pool.getConnection(Pool.java:413)
+	at org.mariadb.jdbc.MariaDbPoolDataSource.getConnection(MariaDbPoolDataSource.java:237)
+	... 8 more
+Loaded 0 registered gameserver(s).
+Cached 10 RSA keys for gameserver communication.
+-----------------------------------------------------------------=[ Ban List ]
+Loaded 0 banned IP(s).
+-------------------------------------------------=[ IP, Ports & Socket infos ]
+Listening for gameservers on *:9014.
+Loginserver ready on *:2106.
+--------------------------------------------=[ Waiting for gameserver answer ]

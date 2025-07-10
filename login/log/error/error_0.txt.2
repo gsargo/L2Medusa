@@ -1,0 +1,36 @@
+Mar 15, 2024 3:56:59 PM net.sf.l2j.loginserver.data.manager.GameServerManager loadRegisteredGameServers
+SEVERE: Error loading registered gameservers.
+java.sql.SQLSyntaxErrorException: No connection available within the specified time (option 'connectTimeout': 30,000 ms)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:153)
+	at org.mariadb.jdbc.MariaDbPoolDataSource.getConnection(MariaDbPoolDataSource.java:239)
+	at net.sf.l2j.commons.pool.ConnectionPool.getConnection(ConnectionPool.java:47)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.loadRegisteredGameServers(GameServerManager.java:89)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.load(GameServerManager.java:50)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.<init>(GameServerManager.java:41)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager$SingletonHolder.<clinit>(GameServerManager.java:183)
+	at net.sf.l2j.loginserver.data.manager.GameServerManager.getInstance(GameServerManager.java:178)
+	at net.sf.l2j.loginserver.LoginServer.<init>(LoginServer.java:65)
+	at net.sf.l2j.loginserver.LoginServer.main(LoginServer.java:37)
+Caused by: java.sql.SQLSyntaxErrorException: No connection available within the specified time (option 'connectTimeout': 30,000 ms)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:171)
+	at org.mariadb.jdbc.internal.util.pool.Pool.getConnection(Pool.java:413)
+	at org.mariadb.jdbc.MariaDbPoolDataSource.getConnection(MariaDbPoolDataSource.java:237)
+	... 8 more
+
+Mar 15, 2024 3:56:59 PM net.sf.l2j.loginserver.LoginServer <init>
+SEVERE: Failed to start the gameserver listener.
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:167)
+	at net.sf.l2j.loginserver.FloodProtectedListener.<init>(FloodProtectedListener.java:25)
+	at net.sf.l2j.loginserver.GameServerListener.<init>(GameServerListener.java:16)
+	at net.sf.l2j.loginserver.LoginServer.<init>(LoginServer.java:105)
+	at net.sf.l2j.loginserver.LoginServer.main(LoginServer.java:37)
+
