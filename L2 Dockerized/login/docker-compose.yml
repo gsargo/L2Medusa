@@ -1,0 +1,24 @@
+version: "3.3"
+services:
+  db:
+    image: "mariadb:10.5"
+    restart: unless-stopped
+    ports:
+      - "5000:3306"
+    volumes:
+      - "./db:/var/lib/mysql"
+    environment:
+      MYSQL_DATABASE: l2jls
+      MYSQL_USER: l2j
+      MYSQL_PASSWORD: l2jserver2019
+      MYSQL_ROOT_PASSWORD: root
+  cli:
+    build: ../cli
+    depends_on:
+      - db
+  server:
+    build: .
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - "./config:/usr/loginserver/config"
