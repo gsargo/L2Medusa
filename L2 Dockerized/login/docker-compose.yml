@@ -4,13 +4,13 @@ services:
     image: "mariadb:10.5"
     restart: unless-stopped
     ports:
-      - "5000:3306"
+      - "33306:3306"
     volumes:
       - "./db:/var/lib/mysql"
     environment:
-      MYSQL_DATABASE: l2jls
-      MYSQL_USER: l2j
-      MYSQL_PASSWORD: l2jserver2019
+      MYSQL_DATABASE: l2medusa_db
+      MYSQL_USER: l2medusa
+      MYSQL_PASSWORD: gsargo95!
       MYSQL_ROOT_PASSWORD: root
   cli:
     build: ../cli
